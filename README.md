@@ -164,6 +164,10 @@ Dominios de referencia para buscar fuentes nuevas: `argentina.gob.ar`, `un.org`,
 
 `NEXT_PUBLIC_SITE_URL`: URL pública del sitio (ej. `https://que-se-celebra-hoy.vercel.app`), usada para el sitemap, el `robots.txt` y las URLs canónicas. Sin definirla, se usa `http://localhost:3000`.
 
+## Deploy
+
+Producción en Vercel: https://diadehoy.vercel.app (proyecto `diade`, scope `chakky-cardozos-projects`). Cada push a `main` en GitHub deploya solo. La variable `NEXT_PUBLIC_SITE_URL` de producción vale `https://diadehoy.vercel.app`. Para un deploy manual: `vercel --prod`.
+
 ## Cobertura de datos
 
 - 550 celebraciones: 208 de Argentina, 269 internacionales y 73 de otros países.
