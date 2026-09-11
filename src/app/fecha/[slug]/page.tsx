@@ -15,6 +15,8 @@ import { descripcionDeFecha, tituloDeFecha } from "@/lib/seo";
 
 const ANIO_BISIESTO_REFERENCIA = 2024;
 
+export const revalidate = 3600;
+
 export function generateStaticParams() {
   const params: { slug: string }[] = [];
   for (let mes = 1; mes <= 12; mes++) {
@@ -60,14 +62,12 @@ export default async function PaginaFecha(props: PageProps<"/fecha/[slug]">) {
   const fecha = fechaDeSlug(slug);
   if (!fecha) notFound();
 
-  const hoy = hoyEnArgentina();
-  const anio = anioDeReferencia(fecha, hoy.anio);
-  const esHoy = anio === hoy.anio && fecha.dia === hoy.dia && fecha.mes === hoy.mes;
+  const anio = anioDeReferencia(fecha, hoyEnArgentina().anio);
   const celebraciones = celebracionesDeFecha(fecha, anio);
 
   return (
     <>
-      <DiaHeader fecha={fecha} anio={anio} esHoy={esHoy} />
+      <DiaHeader fecha={fecha} anio={anio} esHoy="auto" />
       <ListaCelebraciones celebraciones={celebraciones} anio={anio} />
     </>
   );

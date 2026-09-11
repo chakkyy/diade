@@ -1,5 +1,6 @@
 import Link from "next/link";
 import CompartirBoton from "@/components/CompartirBoton";
+import EstadoHoy from "@/components/EstadoHoy";
 import SelectorFecha from "@/components/SelectorFecha";
 import {
   fechaAnterior,
@@ -35,7 +36,7 @@ export default function DiaHeader({
 }: {
   fecha: FechaDia;
   anio: number;
-  esHoy: boolean;
+  esHoy: boolean | "auto";
 }) {
   const titulo = formatearFechaLarga(fecha, anio);
   const anterior = slugDeFecha(fechaAnterior(fecha, anio));
@@ -43,23 +44,27 @@ export default function DiaHeader({
 
   return (
     <div className="pt-7">
-      <div className="flex items-baseline justify-between gap-3">
-        <p
-          className={`text-[11px] font-semibold tracking-[0.08em] uppercase ${
-            esHoy ? "text-acento-texto" : "text-texto-secundario"
-          }`}
-        >
-          {esHoy ? "Hoy" : String(anio)}
-        </p>
-        {esHoy ? null : (
-          <Link
-            href="/"
-            className="text-[13px] text-acento-texto underline-offset-2 hover:underline"
+      {esHoy === "auto" ? (
+        <EstadoHoy dia={fecha.dia} mes={fecha.mes} />
+      ) : (
+        <div className="flex items-baseline justify-between gap-3">
+          <p
+            className={`text-[11px] font-semibold tracking-[0.08em] uppercase ${
+              esHoy ? "text-acento-texto" : "text-texto-secundario"
+            }`}
           >
-            Ir a hoy
-          </Link>
-        )}
-      </div>
+            {esHoy ? "Hoy" : String(anio)}
+          </p>
+          {esHoy ? null : (
+            <Link
+              href="/"
+              className="text-[13px] text-acento-texto underline-offset-2 hover:underline"
+            >
+              Ir a hoy
+            </Link>
+          )}
+        </div>
+      )}
       <h1 className="mt-1.5 text-[26px] leading-[1.12] font-semibold tracking-[-0.02em] sm:text-[32px]">
         {titulo}
       </h1>
