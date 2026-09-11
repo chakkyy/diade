@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { archivoMesSchema } from "../src/lib/schema";
 
 const UA =
@@ -53,10 +54,25 @@ async function probar(
   }
 }
 
+function probarConCurl(url: string): number | string {
+  try {
+    const out = execFileSync(
+      "curl",
+      ["-sL", "-A", UA, "-o", "/dev/null", "-w", "%{http_code}", "--max-time", "25", url],
+      { encoding: "utf8" },
+    );
+    return Number(out.trim()) || out.trim();
+  } catch {
+    return "curl-error";
+  }
+}
+
 async function verificar(url: string): Promise<number | string> {
   const head = await probar(url, "HEAD");
   if (head === 200) return head;
-  return probar(url, "GET");
+  const get = await probar(url, "GET");
+  if (typeof get === "number") return get;
+  return probarConCurl(url);
 }
 
 const resultados = new Map<string, number | string>();
