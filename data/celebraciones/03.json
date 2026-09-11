@@ -97,6 +97,27 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-independencia-texas",
+    "nombre": "Texas Independence Day",
+    "fecha": {
+      "dia": 2,
+      "mes": 3
+    },
+    "alcance": "otro-pais",
+    "pais": "Estados Unidos",
+    "categoria": "historia",
+    "descripcion": "Conmemora la firma de la Declaración de Independencia de Texas en Washington-on-the-Brazos en 1836.",
+    "fuentes": [
+      {
+        "nombre": "Governor of Texas - Official Proclamation",
+        "url": "https://gov.texas.gov/news/post/governor-abbott-proclaims-march-2-2020-to-be-texas-independence-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🤠",
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-mundial-de-la-vida-silvestre",
     "nombre": "Día Mundial de la Vida Silvestre",
     "fecha": {
@@ -292,6 +313,27 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-sin-nosotras-mexico",
+    "nombre": "Día Nacional Sin Nosotras",
+    "fecha": {
+      "dia": 9,
+      "mes": 3
+    },
+    "alcance": "otro-pais",
+    "pais": "México",
+    "categoria": "derechos",
+    "descripcion": "Jornada declarada por la Cámara de Diputados de México para visibilizar la violencia contra las mujeres.",
+    "fuentes": [
+      {
+        "nombre": "El Colegio de la Frontera Norte (COLEF)",
+        "url": "https://www.colef.mx/noticia/9-de-marzo-dia-nacional-sin-nosotras/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "✊",
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-internacional-de-las-juezas",
     "nombre": "Día Internacional de las Juezas",
     "fecha": {
@@ -390,6 +432,27 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-no-violencia-ninez-guatemala",
+    "nombre": "Día Nacional de la No Violencia Contra la Niñez",
+    "fecha": {
+      "dia": 13,
+      "mes": 3
+    },
+    "alcance": "otro-pais",
+    "pais": "Guatemala",
+    "categoria": "derechos",
+    "descripcion": "Guatemala recuerda a la niñez víctima de violencia, en memoria de Nahamán Carmona, asesinado en 1990.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de Cultura y Deportes de Guatemala",
+        "url": "https://noticias.mcd.gob.gt/2026/03/13/el-ministerio-de-cultura-y-deportes-se-suma-a-la-conmemoracion-del-dia-nacional-de-la-no-violencia-contra-la-ninez/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🕊️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-de-las-escuelas-de-frontera",
     "nombre": "Día de las Escuelas de Frontera",
     "fecha": {
@@ -459,6 +522,27 @@
       "consumidores",
       "defensa del consumidor"
     ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-libertad-informacion-eeuu",
+    "nombre": "Freedom of Information Day",
+    "fecha": {
+      "dia": 16,
+      "mes": 3
+    },
+    "alcance": "otro-pais",
+    "pais": "Estados Unidos",
+    "categoria": "derechos",
+    "descripcion": "Estados Unidos honra el natalicio de James Madison y el derecho de acceso a la información pública.",
+    "fuentes": [
+      {
+        "nombre": "Ronald Reagan Presidential Library - National Archives",
+        "url": "https://www.reaganlibrary.gov/archives/speech/proclamation-5620-freedom-information-day-1987",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📜",
     "verificadoEn": "2026-09-11"
   },
   {
@@ -1019,6 +1103,48 @@
       "artes escenicas",
       "iti"
     ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-maestro-eslovaquia",
+    "nombre": "Deň učiteľov",
+    "fecha": {
+      "dia": 28,
+      "mes": 3
+    },
+    "alcance": "otro-pais",
+    "pais": "Eslovaquia",
+    "categoria": "educacion",
+    "descripcion": "Eslovaquia homenajea a los docentes en el aniversario del nacimiento del pedagogo Jan Amos Komenský.",
+    "fuentes": [
+      {
+        "nombre": "Ministerstvo školstva SR - Ministerio de Educación de Eslovaquia",
+        "url": "https://www.minedu.sk/den-ucitelov/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🍎",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-veteranos-guerra-vietnam",
+    "nombre": "National Vietnam War Veterans Day",
+    "fecha": {
+      "dia": 29,
+      "mes": 3
+    },
+    "alcance": "otro-pais",
+    "pais": "Estados Unidos",
+    "categoria": "historia",
+    "descripcion": "Estados Unidos recuerda a los veteranos de la guerra de Vietnam, reconocido por ley federal desde 2017.",
+    "fuentes": [
+      {
+        "nombre": "U.S. Government Publishing Office - Public Law 115-15",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-115publ15/html/PLAW-115publ15.htm",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🎖️",
     "verificadoEn": "2026-09-11"
   },
   {

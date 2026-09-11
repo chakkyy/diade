@@ -50,6 +50,27 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-de-san-blas-espana",
+    "nombre": "Festividad de San Blas",
+    "fecha": {
+      "dia": 3,
+      "mes": 2
+    },
+    "alcance": "otro-pais",
+    "pais": "España",
+    "categoria": "religion",
+    "descripcion": "Patrono de numerosos municipios españoles, se celebra con procesión y bendición de gargantas.",
+    "fuentes": [
+      {
+        "nombre": "Ayuntamiento de Los Arcos",
+        "url": "https://www.losarcos.es/eventos/festividad-de-san-blas-martes-dia-3-de-febrero-de-2026/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🕯️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-internacional-fraternidad-humana",
     "nombre": "Día Internacional de la Fraternidad Humana",
     "fecha": {
@@ -147,6 +168,48 @@
       "infancia",
       "ablacion"
     ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-independencia-granada",
+    "nombre": "Independence Day",
+    "fecha": {
+      "dia": 7,
+      "mes": 2
+    },
+    "alcance": "otro-pais",
+    "pais": "Granada",
+    "categoria": "historia",
+    "descripcion": "Conmemora la independencia de Granada del Reino Unido en 1974, con ceremonias y desfiles nacionales.",
+    "fuentes": [
+      {
+        "nombre": "Embassy of Grenada - Ministry of Foreign Affairs",
+        "url": "https://gndembassyprc.mofa.gov.gd/public-holidays-and-events/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇬🇩",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-preseren",
+    "nombre": "Día de Prešeren",
+    "fecha": {
+      "dia": 8,
+      "mes": 2
+    },
+    "alcance": "otro-pais",
+    "pais": "Eslovenia",
+    "categoria": "cultura",
+    "descripcion": "Feriado cultural esloveno en homenaje al poeta France Prešeren, máximo referente de la lengua eslovena.",
+    "fuentes": [
+      {
+        "nombre": "GOV.SI - Gobierno de Eslovenia",
+        "url": "https://www.gov.si/en/news/2024-02-09-preseren-day-the-slovenian-cultural-holiday/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📖",
     "verificadoEn": "2026-09-11"
   },
   {
@@ -398,6 +461,27 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-ejercito-mexicano",
+    "nombre": "Día del Ejército Mexicano",
+    "fecha": {
+      "dia": 19,
+      "mes": 2
+    },
+    "alcance": "otro-pais",
+    "pais": "México",
+    "categoria": "historia",
+    "descripcion": "Instituido por decreto presidencial de 1950 en homenaje a la creación del Ejército Constitucionalista en 1913.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría de la Defensa Nacional - Gobierno de México",
+        "url": "https://www.gob.mx/defensa/documentos/19-de-febrero-dia-del-ejercito-mexicano",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎖️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-mundial-justicia-social",
     "nombre": "Día Mundial de la Justicia Social",
     "fecha": {
@@ -572,6 +656,48 @@
       "talleres",
       "automotor"
     ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-revolucion-edsa-filipinas",
+    "nombre": "EDSA People Power Revolution Anniversary",
+    "fecha": {
+      "dia": 25,
+      "mes": 2
+    },
+    "alcance": "otro-pais",
+    "pais": "Filipinas",
+    "categoria": "historia",
+    "descripcion": "Conmemora la revolución pacífica de 1986 que derrocó la dictadura de Marcos y restauró la democracia.",
+    "fuentes": [
+      {
+        "nombre": "City of San Jose del Monte - Gobierno de Filipinas",
+        "url": "https://csjdm.gov.ph/edsa-people-power-revolution-anniversary-february-25-2025-tuesday-special-working-day/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇵🇭",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-patrimonio-cultural-guatemala",
+    "nombre": "Día del Patrimonio Cultural de Guatemala",
+    "fecha": {
+      "dia": 26,
+      "mes": 2
+    },
+    "alcance": "otro-pais",
+    "pais": "Guatemala",
+    "categoria": "cultura",
+    "descripcion": "Establecido por el Acuerdo Gubernativo 86-98, conmemora la primera visita oficial a la ciudad maya de Tikal en 1848.",
+    "fuentes": [
+      {
+        "nombre": "Gobernación Departamental de Petén - Gobierno de Guatemala",
+        "url": "https://goberpeten.gob.gt/el-26-de-febrero-de-cada-ano-se-conmemora-el-dia-del-patrimonio-cultural-de-guatemala-segun-el-acuerdo-gubernativo-no-86-98/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🏛️",
     "verificadoEn": "2026-09-11"
   },
   {

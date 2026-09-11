@@ -1,5 +1,47 @@
 [
   {
+    "id": "dia-de-la-independencia-haiti",
+    "nombre": "Día de la Independencia de Haití",
+    "fecha": {
+      "dia": 1,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Haití",
+    "categoria": "historia",
+    "descripcion": "Conmemora la proclamación de la independencia de Haití en 1804, primera república negra libre del mundo.",
+    "fuentes": [
+      {
+        "nombre": "Gouvernement de la République d'Haïti",
+        "url": "https://communication.gouv.ht/dates/fete-de-lindependance/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇭🇹",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-los-ancestros-haiti",
+    "nombre": "Día de los Antepasados",
+    "fecha": {
+      "dia": 2,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Haití",
+    "categoria": "historia",
+    "descripcion": "Homenaje oficial de Haití a los padres fundadores y héroes de la independencia de 1804.",
+    "fuentes": [
+      {
+        "nombre": "Primature - Gobierno de Haití",
+        "url": "https://www.primature.gouv.ht/jour-des-aieux-hommage-solennel-aux-peres-de-la-patrie/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🕯️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-mundial-del-braille",
     "nombre": "Día Mundial del Braille",
     "fecha": {
@@ -51,6 +93,27 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "navidad-copta-egipto",
+    "nombre": "Navidad Copta",
+    "fecha": {
+      "dia": 7,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Egipto",
+    "categoria": "religion",
+    "descripcion": "Feriado nacional pago en Egipto por la Navidad de la Iglesia copta ortodoxa, once días después de la occidental.",
+    "fuentes": [
+      {
+        "nombre": "State Information Service - Gobierno de Egipto",
+        "url": "https://sis.gov.eg/en/media-center/news/pm-declares-wednesday-official-paid-holiday-for-christmas/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "✝️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-del-gauchito-gil",
     "nombre": "Día del Gauchito Gil",
     "fecha": {
@@ -77,6 +140,27 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-de-los-martires-panama",
+    "nombre": "Día de los Mártires",
+    "fecha": {
+      "dia": 9,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Panamá",
+    "categoria": "historia",
+    "descripcion": "Recuerda a los panameños caídos el 9 de enero de 1964 reclamando la soberanía sobre la Zona del Canal.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de Salud de Panamá",
+        "url": "https://www.minsa.gob.pa/noticia/9-de-enero-dia-de-los-martires",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇵🇦",
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-del-trabajador-de-transporte-de-pasajeros",
     "nombre": "Día del Trabajador de Transporte de Pasajeros",
     "fecha": {
@@ -98,6 +182,27 @@
       "colectivero",
       "transporte público"
     ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-concientizacion-trata-personas-eeuu",
+    "nombre": "Día Nacional de Concientización sobre la Trata de Personas",
+    "fecha": {
+      "dia": 11,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Estados Unidos",
+    "categoria": "derechos",
+    "descripcion": "Jornada designada por el Congreso de EE.UU. en 2007 para crear conciencia sobre la trata de personas.",
+    "fuentes": [
+      {
+        "nombre": "Department of Homeland Security - Blue Campaign",
+        "url": "https://www.dhs.gov/blue-campaign/publication/january-11-wearblueday",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎗️",
     "verificadoEn": "2026-09-11"
   },
   {
@@ -129,6 +234,48 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-coreano-americano-eeuu",
+    "nombre": "Korean American Day",
+    "fecha": {
+      "dia": 13,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Estados Unidos",
+    "categoria": "cultura",
+    "descripcion": "Recuerda la llegada en 1903 de los primeros inmigrantes coreanos a Hawái, reconocida por el Congreso de EE.UU.",
+    "fuentes": [
+      {
+        "nombre": "Oficina de la Representante Young Kim - Cámara de Representantes de EE.UU.",
+        "url": "https://youngkim.house.gov/2025/01/13/rep-young-kim-leads-bipartisan-resolution-honoring-korean-american-day/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇰🇷",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-maestro-venezuela",
+    "nombre": "Día del Maestro",
+    "fecha": {
+      "dia": 15,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Venezuela",
+    "categoria": "educacion",
+    "descripcion": "Homenaje venezolano a los docentes por la fundación en 1932 de la Sociedad de Maestros de Instrucción Primaria.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio del Poder Popular para la Educación de Venezuela",
+        "url": "https://www.mppe.gob.ve/efemerides-01/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🍎",
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-de-la-libertad-religiosa-estados-unidos",
     "nombre": "Día de la Libertad Religiosa",
     "fecha": {
@@ -152,6 +299,27 @@
       "libertad religiosa",
       "primera enmienda"
     ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-san-anton-espana",
+    "nombre": "San Antón",
+    "fecha": {
+      "dia": 17,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "España",
+    "categoria": "religion",
+    "descripcion": "Fiesta española en honor a San Antonio Abad, patrón de los animales, con bendición de mascotas.",
+    "fuentes": [
+      {
+        "nombre": "Ayuntamiento de Burgos",
+        "url": "https://cultura.aytoburgos.es/las-fiestas-de-burgos/-/asset_publisher/M9PcPaxb1C3W/content/san-ant%C3%B3n.-17-de-enero",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🐾",
     "verificadoEn": "2026-09-11"
   },
   {
@@ -203,6 +371,48 @@
       "yungay",
       "roto chileno"
     ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-altagracia-republica-dominicana",
+    "nombre": "Día de Nuestra Señora de La Altagracia",
+    "fecha": {
+      "dia": 21,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "República Dominicana",
+    "categoria": "religion",
+    "descripcion": "Día festivo dominicano en honor a la Virgen de la Altagracia, patrona del país, fijado por la Ley 139-97.",
+    "fuentes": [
+      {
+        "nombre": "Comisión Presidencial de Apoyo al Desarrollo Barrial - Gobierno de República Dominicana",
+        "url": "https://desarrollobarrial.gob.do/index.php/noticias/item/869-21-de-enero-dia-de-nuestra-senora-de-la-altagracia",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "⛪",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-unidad-ucrania",
+    "nombre": "Día de la Unidad de Ucrania",
+    "fecha": {
+      "dia": 22,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Ucrania",
+    "categoria": "historia",
+    "descripcion": "Recuerda la unificación en 1919 de la República Popular de Ucrania y la República Popular de Ucrania Occidental.",
+    "fuentes": [
+      {
+        "nombre": "Державна служба України з питань праці - Gobierno de Ucrania",
+        "url": "https://dsp.gov.ua/z-dnem-sobornosti-ukrainy-2/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇺🇦",
     "verificadoEn": "2026-09-11"
   },
   {
@@ -429,6 +639,27 @@
       "convivencia",
       "tolerancia"
     ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-trabajador-social-venezuela",
+    "nombre": "Día del Trabajador Social",
+    "fecha": {
+      "dia": 29,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Venezuela",
+    "categoria": "profesion",
+    "descripcion": "Homenaje venezolano a los trabajadores sociales por la graduación de la primera promoción en 1942.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio del Poder Popular para la Salud de Venezuela",
+        "url": "https://mpps.gob.ve/dia-del-trabajador-social/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🤝",
     "verificadoEn": "2026-09-11"
   },
   {
