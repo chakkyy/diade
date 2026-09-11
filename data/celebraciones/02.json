@@ -778,6 +778,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-mundial-enfermedades-poco-frecuentes-bisiesto",
+    "nombre": "Día Mundial de las Enfermedades Poco Frecuentes",
+    "fecha": {
+      "dia": 29,
+      "mes": 2
+    },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Se conmemora el último día de febrero; en los años bisiestos cae el 29, como confirmó el Ministerio de Sanidad de España en 2024.",
+    "fuentes": [
+      {
+        "nombre": "La Moncloa - Gobierno de España, Ministerio de Sanidad",
+        "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/sanidad14/paginas/2024/290224-dia-mundial-enfermedades-raras.aspx",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎗️",
+    "tags": [
+      "enfermedades raras",
+      "año bisiesto",
+      "ultimo dia de febrero"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-internacional-epilepsia",
     "nombre": "Día Internacional de la Epilepsia",
     "fecha": {

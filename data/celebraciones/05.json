@@ -147,6 +147,32 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-valentia-ejercito-bulgaria",
+    "nombre": "Día de la Valentía y del Ejército Búlgaro",
+    "fecha": {
+      "dia": 6,
+      "mes": 5
+    },
+    "alcance": "otro-pais",
+    "pais": "Bulgaria",
+    "categoria": "historia",
+    "descripcion": "Bulgaria honra a sus fuerzas armadas coincidiendo con Gergyovden, la festividad ortodoxa de San Jorge, patrono de los militares.",
+    "fuentes": [
+      {
+        "nombre": "Presidencia de la República de Bulgaria (president.bg)",
+        "url": "https://www.president.bg/speeches-and-statements3715/slovo-na-prezidenta-rumen-radev-po-povod-6-may-den-na-hrabrostta-i-praznik-na-balgarskata-armiya.html",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇧🇬",
+    "tags": [
+      "gergyovden",
+      "san jorge",
+      "ejercito bulgaro"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-de-la-mineria",
     "nombre": "Día de la Minería",
     "fecha": {

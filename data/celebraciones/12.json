@@ -932,6 +932,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "nochebuena",
+    "nombre": "Nochebuena",
+    "fecha": {
+      "dia": 24,
+      "mes": 12
+    },
+    "alcance": "internacional",
+    "categoria": "religion",
+    "descripcion": "Vigilia del nacimiento de Jesús que la Iglesia católica celebra la noche del 24 de diciembre con la Misa de Nochebuena.",
+    "fuentes": [
+      {
+        "nombre": "Vatican.va - Homilías del Papa, Misa de Nochebuena",
+        "url": "https://www.vatican.va/content/leo-xiv/es/homilies/2025/documents/20251224-messa-notte-natale.html",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎄",
+    "tags": [
+      "vispera de navidad",
+      "misa del gallo",
+      "24 de diciembre"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "navidad",
     "nombre": "Navidad",
     "fecha": {
@@ -1074,6 +1099,31 @@
     "tags": [
       "jose rizal",
       "rizal day"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "san-silvestre",
+    "nombre": "San Silvestre",
+    "fecha": {
+      "dia": 31,
+      "mes": 12
+    },
+    "alcance": "internacional",
+    "categoria": "religion",
+    "descripcion": "Memoria del papa Silvestre I, fallecido el 31 de diciembre de 335, que da nombre a las tradicionales carreras de Nochevieja.",
+    "fuentes": [
+      {
+        "nombre": "Vatican State - Santo del día",
+        "url": "https://www.vaticanstate.va/es/estado-y-gobierno/notas-generales/santo-del-dia/3290-31-de-diciembre-san-silvestre-papa.html",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎉",
+    "tags": [
+      "papa silvestre i",
+      "nochevieja",
+      "31 de diciembre"
     ],
     "verificadoEn": "2026-09-11"
   }

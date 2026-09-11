@@ -42,6 +42,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-santisimo-nombre-de-jesus",
+    "nombre": "Día del Santísimo Nombre de Jesús",
+    "fecha": {
+      "dia": 3,
+      "mes": 1
+    },
+    "alcance": "internacional",
+    "categoria": "religion",
+    "descripcion": "Memoria litúrgica católica opcional que honra el nombre de Jesús, restaurada en el Misal Romano de 2002.",
+    "fuentes": [
+      {
+        "nombre": "USCCB - Conferencia Episcopal de Estados Unidos, Liturgia diaria",
+        "url": "https://bible.usccb.org/es/bible/lecturas/0103-memoria.cfm",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "✝️",
+    "tags": [
+      "nombre de jesus",
+      "memoria opcional",
+      "liturgia catolica"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-mundial-del-braille",
     "nombre": "Día Mundial del Braille",
     "fecha": {
@@ -252,6 +277,32 @@
       }
     ],
     "emoji": "🇰🇷",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-defensores-patria-uzbekistan",
+    "nombre": "Día de los Defensores de la Patria",
+    "fecha": {
+      "dia": 14,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Uzbekistán",
+    "categoria": "historia",
+    "descripcion": "Uzbekistán honra a sus fuerzas armadas en la fecha de 1992 en que las unidades militares soviéticas en su territorio pasaron a jurisdicción nacional.",
+    "fuentes": [
+      {
+        "nombre": "Portal del Gobierno de Uzbekistán (gov.uz)",
+        "url": "https://gov.uz/en/innovation/news/view/109148",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎖️",
+    "tags": [
+      "ejercito uzbeko",
+      "fuerzas armadas",
+      "dia del defensor"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
