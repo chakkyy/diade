@@ -1,26 +1,107 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+  --fondo: #fbfbfa;
+  --superficie: #ffffff;
+  --superficie-suave: #f4f4f2;
+  --borde: #e5e4e1;
+  --borde-fuerte: #d3d2ce;
+  --texto: #1a1a18;
+  --texto-secundario: #6b6b66;
+  --acento: #74acdf;
+  --acento-texto: #20639b;
+  --acento-suave: #eaf2fa;
+  --acento-borde: #bcd9f0;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+:root.dark {
+  color-scheme: dark;
+  --fondo: #121211;
+  --superficie: #191918;
+  --superficie-suave: #201f1e;
+  --borde: #2e2e2b;
+  --borde-fuerte: #3d3d39;
+  --texto: #ededea;
+  --texto-secundario: #a3a39c;
+  --acento: #8cc4ee;
+  --acento-texto: #8cc4ee;
+  --acento-suave: #16283a;
+  --acento-borde: #2c4a66;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not(.light):not(.dark) {
+    color-scheme: dark;
+    --fondo: #121211;
+    --superficie: #191918;
+    --superficie-suave: #201f1e;
+    --borde: #2e2e2b;
+    --borde-fuerte: #3d3d39;
+    --texto: #ededea;
+    --texto-secundario: #a3a39c;
+    --acento: #8cc4ee;
+    --acento-texto: #8cc4ee;
+    --acento-suave: #16283a;
+    --acento-borde: #2c4a66;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme inline {
+  --color-fondo: var(--fondo);
+  --color-superficie: var(--superficie);
+  --color-superficie-suave: var(--superficie-suave);
+  --color-borde: var(--borde);
+  --color-borde-fuerte: var(--borde-fuerte);
+  --color-texto: var(--texto);
+  --color-texto-secundario: var(--texto-secundario);
+  --color-acento: var(--acento);
+  --color-acento-texto: var(--acento-texto);
+  --color-acento-suave: var(--acento-suave);
+  --color-acento-borde: var(--acento-borde);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --radius-caja: 12px;
+  --radius-chip: 999px;
+}
+
+@layer base {
+  html {
+    background-color: var(--fondo);
+  }
+
+  body {
+    background-color: var(--fondo);
+    color: var(--texto);
+    font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--acento);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background-color: var(--acento-suave);
+    color: var(--texto);
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
