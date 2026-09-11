@@ -1,0 +1,371 @@
+[
+  {
+    "id": "dia-mundial-humedales",
+    "nombre": "Día Mundial de los Humedales",
+    "fecha": { "dia": 2, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Promueve la conciencia sobre el papel de los humedales en la biodiversidad y el clima.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Observancias", "url": "https://www.un.org/es/observances/world-wetlands-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌿",
+    "tags": ["ramsar", "ecosistemas", "biodiversidad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-fraternidad-humana",
+    "nombre": "Día Internacional de la Fraternidad Humana",
+    "fecha": { "dia": 4, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Promueve el diálogo interreligioso y la convivencia pacífica entre culturas y creencias.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Observancias", "url": "https://www.un.org/es/observances/human-fraternity", "tipo": "institucional" }
+    ],
+    "emoji": "🤝",
+    "tags": ["tolerancia", "interreligioso", "paz"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-lucha-cancer",
+    "nombre": "Día Mundial de Lucha contra el Cáncer",
+    "fecha": { "dia": 4, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Fecha impulsada por la UICC para concientizar sobre prevención, detección y tratamiento del cáncer.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Instituto Nacional del Cáncer", "url": "https://www.argentina.gob.ar/noticias/dia-mundial-del-cancer-concientizar-y-promover-intervenciones-efectivas", "tipo": "institucional" }
+    ],
+    "emoji": "🎗️",
+    "tags": ["oncologia", "prevencion", "uicc"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-tolerancia-cero-mutilacion-genital-femenina",
+    "nombre": "Día Internacional de Tolerancia Cero con la Mutilación Genital Femenina",
+    "fecha": { "dia": 6, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Busca erradicar una práctica que vulnera los derechos de niñas y mujeres en el mundo.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Observancias", "url": "https://www.un.org/es/observances/female-genital-mutilation-day", "tipo": "institucional" }
+    ],
+    "emoji": "✊",
+    "tags": ["derechos de la mujer", "infancia", "ablacion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-legumbres",
+    "nombre": "Día Mundial de las Legumbres",
+    "fecha": { "dia": 10, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "comida",
+    "descripcion": "La FAO destaca el valor nutricional de las legumbres y su aporte a una agricultura sostenible.",
+    "fuentes": [
+      { "nombre": "FAO", "url": "https://www.fao.org/world-pulses-day/es", "tipo": "institucional" }
+    ],
+    "emoji": "🫘",
+    "tags": ["fao", "nutricion", "agricultura"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-leopardo-arabe",
+    "nombre": "Día Internacional del Leopardo Árabe",
+    "fecha": { "dia": 10, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "animales",
+    "descripcion": "Llama a proteger a esta subespecie de leopardo, que se encuentra en peligro crítico de extinción.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Observancias", "url": "https://www.un.org/es/observances/arabian-leopard-day", "tipo": "institucional" }
+    ],
+    "emoji": "🐆",
+    "tags": ["fauna", "conservacion", "especies en peligro"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-mujer-nina-ciencia",
+    "nombre": "Día Internacional de la Mujer y la Niña en la Ciencia",
+    "fecha": { "dia": 11, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "ciencia",
+    "descripcion": "Promueve el acceso pleno y equitativo de mujeres y niñas a la ciencia y la tecnología.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Observancias", "url": "http://www.un.org/es/events/women-and-girls-in-science-day/", "tipo": "institucional" }
+    ],
+    "emoji": "🔬",
+    "tags": ["genero", "investigacion", "stem"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-prevencion-extremismo-violento-terrorismo",
+    "nombre": "Día Internacional para la Prevención del Extremismo Violento cuando Conduzca al Terrorismo",
+    "fecha": { "dia": 12, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "La ONU promueve estrategias de prevención frente al extremismo violento y el terrorismo.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Observancias", "url": "https://www.un.org/es/observances/prevention-extremism-when-conducive-terrorism-day", "tipo": "institucional" }
+    ],
+    "emoji": "🕊️",
+    "tags": ["paz", "seguridad", "prevencion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-radio",
+    "nombre": "Día Mundial de la Radio",
+    "fecha": { "dia": 13, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "La UNESCO celebra a la radio como medio de información, entretenimiento y diálogo social.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Observancias", "url": "https://www.un.org/es/observances/radio-day", "tipo": "institucional" }
+    ],
+    "emoji": "📻",
+    "tags": ["unesco", "medios", "comunicacion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-energia",
+    "nombre": "Día Mundial de la Energía",
+    "fecha": { "dia": 14, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Fecha reconocida desde 1949 para promover el uso racional de la energía y las fuentes renovables.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - ORSEP", "url": "https://www.argentina.gob.ar/noticias/14-de-febrero-dia-mundial-de-la-energia", "tipo": "institucional" }
+    ],
+    "emoji": "⚡",
+    "tags": ["energias renovables", "sustentabilidad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-resiliencia-turismo",
+    "nombre": "Día Mundial de la Resiliencia del Turismo",
+    "fecha": { "dia": 17, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "La ONU destaca la capacidad del sector turístico para recuperarse de crisis y catástrofes.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Observancias", "url": "https://www.un.org/es/observances/tourism-resilience-day", "tipo": "institucional" }
+    ],
+    "emoji": "🧭",
+    "tags": ["turismo", "recuperacion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-justicia-social",
+    "nombre": "Día Mundial de la Justicia Social",
+    "fecha": { "dia": 20, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "La ONU invita a reflexionar sobre la pobreza, la exclusión y la desigualdad en el mundo.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Observancias", "url": "http://www.un.org/es/observances/social-justice-day", "tipo": "institucional" }
+    ],
+    "emoji": "⚖️",
+    "tags": ["igualdad", "pobreza", "inclusion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-lengua-materna",
+    "nombre": "Día Internacional de la Lengua Materna",
+    "fecha": { "dia": 21, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "La UNESCO promueve el multilingüismo y la diversidad cultural y lingüística del mundo.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Observancias", "url": "https://www.un.org/es/observances/mother-language-day", "tipo": "institucional" }
+    ],
+    "emoji": "🗣️",
+    "tags": ["idiomas", "unesco", "diversidad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-epilepsia",
+    "nombre": "Día Internacional de la Epilepsia",
+    "fecha": { "mes": 2, "ordinal": 2, "diaSemana": 1 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Impulsado por la IBE y la ILAE para concientizar sobre la epilepsia y reducir el estigma.",
+    "fuentes": [
+      { "nombre": "CONICET - ENyS", "url": "https://enys.conicet.gov.ar/10-de-febrero-dia-internacional-de-la-epilepsia/", "tipo": "institucional" }
+    ],
+    "emoji": "🧠",
+    "tags": ["neurologia", "estigma", "salud mental"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-enfermedades-poco-frecuentes",
+    "nombre": "Día Mundial de las Enfermedades Poco Frecuentes",
+    "fecha": { "dia": 28, "mes": 2 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Visibiliza a las personas con enfermedades de baja prevalencia y su acceso a la salud integral.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - INADI", "url": "https://www.argentina.gob.ar/noticias/dia-mundial-de-las-enfermedades-poco-frecuentes-0", "tipo": "institucional" }
+    ],
+    "emoji": "🧬",
+    "tags": ["epf", "rara", "discapacidad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-trabajador-vitivinicola",
+    "nombre": "Día del Trabajador Vitivinícola",
+    "fecha": { "dia": 1, "mes": 2 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a quienes trabajan la vid y la bodega, eje de la industria del vino argentino.",
+    "fuentes": [
+      { "nombre": "SOEVA - Sindicato de Obreros y Empleados Vitivinícolas de Rivadavia", "url": "https://soevarivadavia.org.ar/nueva/?p=1280", "tipo": "asociacion" }
+    ],
+    "emoji": "🍇",
+    "tags": ["vino", "bodega", "mendoza"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-trabajador-deportivo",
+    "nombre": "Día del Trabajador Deportivo",
+    "fecha": { "dia": 5, "mes": 2 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Reconoce a quienes trabajan en clubes, gimnasios y entidades deportivas y civiles.",
+    "fuentes": [
+      { "nombre": "Gobierno de la Ciudad de Buenos Aires", "url": "https://buenosaires.gob.ar/gcaba_historico/educacion/agencia-de-habilidades-para-el-futuro/5-de-febrero-dia-del-trabajador-deportivo-formacion", "tipo": "institucional" }
+    ],
+    "emoji": "🏋️",
+    "tags": ["deporte", "clubes", "utedyc"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-guardavidas",
+    "nombre": "Día Nacional del Guardavidas",
+    "fecha": { "dia": 14, "mes": 2 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a quienes cuidan la seguridad de bañistas en playas, ríos y piletas.",
+    "fuentes": [
+      { "nombre": "Municipalidad de Villa Gesell", "url": "https://www.gesell.gob.ar/novedad/46852/villa-gesell-celebra-el-d-a-del-guardavidas.html", "tipo": "institucional" }
+    ],
+    "emoji": "🏖️",
+    "tags": ["playa", "verano", "rescate"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-lucha-cancer-infantil",
+    "nombre": "Día Nacional para la Lucha contra el Cáncer Infantil",
+    "fecha": { "dia": 15, "mes": 2 },
+    "alcance": "argentina",
+    "categoria": "salud",
+    "descripcion": "Instituido por la Ley 26.803 para concientizar sobre la prevención del cáncer infantil.",
+    "fuentes": [
+      { "nombre": "InfoLEG - Ley 26.803", "url": "http://servicios.infoleg.gob.ar/infolegInternet/verNorma.do?id=207260", "tipo": "normativa" }
+    ],
+    "emoji": "🎗️",
+    "tags": ["ninez", "oncologia pediatrica"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-sindrome-asperger",
+    "nombre": "Día Nacional del Síndrome de Asperger",
+    "fecha": { "dia": 18, "mes": 2 },
+    "alcance": "argentina",
+    "categoria": "derechos",
+    "descripcion": "Instituido por la Ley 27.517 para visibilizar el síndrome de Asperger y promover la inclusión.",
+    "fuentes": [
+      { "nombre": "InfoLEG - Ley 27.517", "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/325000-329999/327261/norma.htm", "tipo": "normativa" }
+    ],
+    "emoji": "🧩",
+    "tags": ["discapacidad", "inclusion", "autismo"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-antartida-argentina",
+    "nombre": "Día de la Antártida Argentina",
+    "fecha": { "dia": 22, "mes": 2 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Recuerda la inauguración en 1904 del observatorio de la Base Orcadas, primera presencia argentina permanente.",
+    "fuentes": [
+      { "nombre": "Cancillería Argentina", "url": "https://www.cancilleria.gob.ar/es/destacados/dia-de-la-antartida-argentina", "tipo": "institucional" }
+    ],
+    "emoji": "🧊",
+    "tags": ["antartida", "orcadas", "soberania"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-personal-policia-seguridad-aeroportuaria",
+    "nombre": "Día del Personal de la Policía de Seguridad Aeroportuaria",
+    "fecha": { "dia": 22, "mes": 2 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Conmemora el traspaso de la fuerza en 2005 y reconoce a quienes resguardan los aeropuertos.",
+    "fuentes": [
+      { "nombre": "ATEPSA - Asociación del Personal de la PSA", "url": "https://www.atepsa.org.ar/feliz-dia-del-personal-de-la-policia-de-seguridad-aeroportuaria/", "tipo": "asociacion" }
+    ],
+    "emoji": "✈️",
+    "tags": ["psa", "aeropuertos", "seguridad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mecanico-transporte-automotor",
+    "nombre": "Día del Mecánico y Afines del Transporte Automotor",
+    "fecha": { "dia": 24, "mes": 2 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Instituido por SMATA en 1947 para homenajear a los mecánicos del transporte automotor.",
+    "fuentes": [
+      { "nombre": "SMATA", "url": "https://www.smata.com.ar/dia-del-trabajador-mecanico-2026/", "tipo": "asociacion" }
+    ],
+    "emoji": "🔧",
+    "tags": ["smata", "talleres", "automotor"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-creacion-bandera-nacional-argentina",
+    "nombre": "Día de la Creación de la Bandera Nacional Argentina",
+    "fecha": { "dia": 27, "mes": 2 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Recuerda el primer izamiento de la bandera por Manuel Belgrano en Rosario en 1812.",
+    "fuentes": [
+      { "nombre": "Gobierno de la Provincia de Misiones - Junta Electoral", "url": "https://www.electoralmisiones.gov.ar/27-de-febrero-dia-de-la-creacion-de-la-bandera-nacional-argentina/", "tipo": "institucional" }
+    ],
+    "emoji": "🇦🇷",
+    "tags": ["belgrano", "rosario", "simbolos patrios"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-bandera-mexico",
+    "nombre": "Día de la Bandera",
+    "fecha": { "dia": 24, "mes": 2 },
+    "alcance": "otro-pais",
+    "pais": "México",
+    "categoria": "historia",
+    "descripcion": "Homenajea a la bandera mexicana, adoptada en 1821 al finalizar la guerra de independencia.",
+    "fuentes": [
+      { "nombre": "Gobierno de México - Segob", "url": "https://www.gob.mx/segob/articulos/dia-de-la-bandera-148585?idiom=es", "tipo": "institucional" }
+    ],
+    "emoji": "🇲🇽",
+    "tags": ["mexico", "simbolos patrios"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-andalucia",
+    "nombre": "Día de Andalucía",
+    "fecha": { "dia": 28, "mes": 2 },
+    "alcance": "otro-pais",
+    "pais": "España",
+    "categoria": "historia",
+    "descripcion": "Conmemora el referéndum de autonomía de 1980 que dio origen a la comunidad autónoma de Andalucía.",
+    "fuentes": [
+      { "nombre": "Junta de Andalucía", "url": "https://www.juntadeandalucia.es/presidencia/28f/", "tipo": "institucional" }
+    ],
+    "emoji": "🇪🇸",
+    "tags": ["espana", "autonomia", "andalucia"],
+    "verificadoEn": "2026-09-11"
+  }
+]
