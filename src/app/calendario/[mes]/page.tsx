@@ -4,7 +4,9 @@ import { notFound } from "next/navigation";
 import CalendarioMes from "@/components/CalendarioMes";
 import CategoriaChip from "@/components/CategoriaChip";
 import Chip from "@/components/Chip";
+import EmojiTile, { tonoDeAlcance } from "@/components/EmojiTile";
 import SelectorMes from "@/components/SelectorMes";
+import { IconoFlecha } from "@/components/iconos";
 import { cargarTodas, contarPorDia, fechaResuelta } from "@/lib/celebraciones";
 import { mesAnterior, mesSiguiente } from "@/lib/calendario";
 import { MESES, hoyEnArgentina, mesDeSlug, slugDeMes } from "@/lib/fechas";
@@ -81,16 +83,18 @@ export default async function PaginaCalendarioMes(props: PageProps<"/calendario/
           <Link
             href={`/calendario/${slugDeMes(mesAnterior(mes))}`}
             aria-label="Mes anterior"
-            className="grid size-9 place-items-center rounded-[10px] border border-borde bg-superficie text-texto-secundario transition-colors duration-150 hover:text-texto"
+            title="Mes anterior"
+            className="grid size-9 place-items-center rounded-[10px] border border-borde bg-superficie text-texto-secundario transition-[color,transform] duration-150 hover:text-texto active:scale-[0.94]"
           >
-            ◀
+            <IconoFlecha direccion="anterior" />
           </Link>
           <Link
             href={`/calendario/${slugDeMes(mesSiguiente(mes))}`}
             aria-label="Mes siguiente"
-            className="grid size-9 place-items-center rounded-[10px] border border-borde bg-superficie text-texto-secundario transition-colors duration-150 hover:text-texto"
+            title="Mes siguiente"
+            className="grid size-9 place-items-center rounded-[10px] border border-borde bg-superficie text-texto-secundario transition-[color,transform] duration-150 hover:text-texto active:scale-[0.94]"
           >
-            ▶
+            <IconoFlecha direccion="siguiente" />
           </Link>
           <SelectorMes mes={mes} />
         </div>
@@ -109,14 +113,15 @@ export default async function PaginaCalendarioMes(props: PageProps<"/calendario/
           {celebracionesDelMes.map(({ c, resuelta }) => (
             <li
               key={c.id}
-              className="flex items-center gap-3 border-b border-borde px-0.5 py-2.5"
+              className="flex items-center gap-2.5 border-b border-borde px-0.5 py-2 transition-colors duration-150 active:bg-superficie-suave"
             >
-              <span className="w-7 shrink-0 text-[13px] tabular-nums text-texto-secundario">
+              <span className="w-6 shrink-0 text-[13px] tabular-nums text-texto-secundario">
                 {resuelta.dia}
               </span>
+              <EmojiTile emoji={c.emoji} tono={tonoDeAlcance(c.alcance)} tamanio="sm" />
               <Link
                 href={`/celebracion/${c.id}`}
-                className="min-w-0 flex-1 truncate text-[14px] leading-5 font-medium underline-offset-2 hover:underline hover:decoration-acento"
+                className="min-w-0 flex-1 truncate text-[14px] leading-5 font-medium underline-offset-2 hover:underline hover:decoration-acento active:opacity-70"
               >
                 {c.nombre}
               </Link>

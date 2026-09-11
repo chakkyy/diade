@@ -16,7 +16,7 @@ function ChipToggle({
       type="button"
       aria-pressed={activo}
       onClick={onClick}
-      className={`inline-flex shrink-0 items-center rounded-chip border px-2.5 py-1 text-[12px] leading-[18px] font-medium whitespace-nowrap transition-colors duration-150 ${
+      className={`inline-flex shrink-0 items-center rounded-chip border px-2.5 py-1 text-[12px] leading-[18px] font-medium whitespace-nowrap transition-[color,background-color,border-color,transform] duration-150 active:scale-[0.95] ${
         activo
           ? "border-acento-borde bg-acento-suave text-acento-texto"
           : "border-borde bg-superficie-suave text-texto-secundario hover:text-texto"

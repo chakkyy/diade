@@ -108,9 +108,12 @@ export function resolverFechaMovil(regla: FechaMovil, anio: number): FechaDia {
   return { dia: primeraOcurrencia + 7 * (ordinal - 1), mes };
 }
 
+export function nombreDiaSemana(f: FechaDia, anio: number): string {
+  return DIAS_SEMANA[new Date(Date.UTC(anio, f.mes - 1, f.dia)).getUTCDay()];
+}
+
 export function formatearFechaLarga(f: FechaDia, anio: number): string {
-  const diaSemana = new Date(Date.UTC(anio, f.mes - 1, f.dia)).getUTCDay();
-  return `${DIAS_SEMANA[diaSemana]} ${f.dia} de ${MESES[f.mes - 1]}`;
+  return `${nombreDiaSemana(f, anio)} ${f.dia} de ${MESES[f.mes - 1]}`;
 }
 
 export function formatearFechaCorta(f: FechaDia): string {

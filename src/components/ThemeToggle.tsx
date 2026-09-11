@@ -54,7 +54,7 @@ export default function ThemeToggle() {
       onClick={alternar}
       aria-label="Tema oscuro"
       aria-pressed={oscuro}
-      className="relative grid size-8 shrink-0 place-items-center rounded-[10px] text-texto-secundario transition-colors duration-150 hover:bg-superficie-suave hover:text-texto"
+      className="relative grid size-8 shrink-0 place-items-center rounded-[10px] text-texto-secundario transition-[color,background-color,transform] duration-150 hover:bg-superficie-suave hover:text-texto active:scale-[0.92]"
     >
       <svg
         width="16"

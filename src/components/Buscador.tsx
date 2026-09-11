@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import CategoriaChip from "@/components/CategoriaChip";
 import Chip from "@/components/Chip";
+import EmojiTile, { tonoDeAlcance } from "@/components/EmojiTile";
 import Filtros from "@/components/Filtros";
 import { escribirFiltros, type FiltrosUrl } from "@/lib/buscar-url";
 import { buscar, ETIQUETAS_ALCANCE } from "@/lib/buscar";
@@ -27,24 +28,20 @@ function ResultadoFila({ item, anio }: { item: ItemIndice; anio: number }) {
   const fechaTexto = describirFecha(item.fecha, anio);
 
   return (
-    <li className="border-b border-borde last:border-b-0">
-      <div className="flex items-start gap-3 px-3.5 py-3.5">
-        <span aria-hidden="true" className="w-6 shrink-0 text-center text-[17px] leading-6">
-          {item.emoji ?? (
-            <span className="inline-block size-[5px] translate-y-[-3px] rounded-full bg-borde-fuerte align-middle" />
-          )}
-        </span>
+    <li className="border-b border-borde transition-colors duration-150 last:border-b-0 active:bg-superficie-suave">
+      <div className="flex items-start gap-3 px-3.5 py-3">
+        <EmojiTile emoji={item.emoji} tono={tonoDeAlcance(item.alcance)} />
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-1.5">
             <Link
               href={`/celebracion/${item.id}`}
-              className="text-[15px] leading-6 font-medium tracking-tight underline-offset-2 hover:underline hover:decoration-acento"
+              className="text-[15px] leading-6 font-medium tracking-tight underline-offset-2 hover:underline hover:decoration-acento active:opacity-70"
             >
               {item.nombre}
             </Link>
             <Link
               href={`/fecha/${slug}`}
-              className="shrink-0 text-[12px] leading-6 text-texto-secundario underline-offset-2 hover:text-acento-texto hover:underline"
+              className="shrink-0 text-[12px] leading-6 text-texto-secundario underline-offset-2 transition-colors duration-150 hover:text-acento-texto hover:underline active:opacity-70"
             >
               {fechaTexto}
             </Link>
@@ -168,7 +165,7 @@ export default function Buscador({
             <button
               type="button"
               onClick={alLimpiar}
-              className="absolute top-1/2 right-2.5 -translate-y-1/2 rounded-[8px] px-2 py-1 text-[12px] text-texto-secundario transition-colors duration-150 hover:text-texto"
+              className="absolute top-1/2 right-2.5 -translate-y-1/2 rounded-[8px] px-2 py-1 text-[12px] text-texto-secundario transition-colors duration-150 hover:text-texto active:opacity-70"
             >
               Limpiar
             </button>
@@ -189,7 +186,10 @@ export default function Buscador({
 
       {resultados.length === 0 ? (
         <div className="mt-3 rounded-caja border border-dashed border-borde-fuerte bg-superficie px-4 py-8 text-center">
-          <p className="text-[15px] leading-6">
+          <p aria-hidden="true" className="text-[36px] leading-none">
+            🔎
+          </p>
+          <p className="mt-3 text-[15px] leading-6">
             {q.trim() === ""
               ? "Sin resultados. Probá con otra palabra o sacá un filtro."
               : `Sin resultados para «${q.trim()}». Probá con otra palabra o sacá un filtro.`}
@@ -206,7 +206,7 @@ export default function Buscador({
             <button
               type="button"
               onClick={() => setVisibles((actual) => actual + TAMANIO_PAGINA)}
-              className="mt-3 w-full rounded-caja border border-borde bg-superficie py-2.5 text-[13px] text-texto-secundario transition-colors duration-150 hover:text-texto"
+              className="mt-3 w-full rounded-caja border border-borde bg-superficie py-2.5 text-[13px] text-texto-secundario transition-[color,transform] duration-150 hover:text-texto active:scale-[0.99]"
             >
               Mostrar más
             </button>

@@ -5,6 +5,7 @@ import CategoriaChip from "@/components/CategoriaChip";
 import CelebracionItem from "@/components/CelebracionItem";
 import Chip from "@/components/Chip";
 import CompartirBoton from "@/components/CompartirBoton";
+import EmojiTile, { tonoDeAlcance } from "@/components/EmojiTile";
 import { cargarTodas, celebracionesDeFecha, celebracionPorId } from "@/lib/celebraciones";
 import {
   banderaDePais,
@@ -77,7 +78,7 @@ export default async function PaginaCelebracion(props: PageProps<"/celebracion/[
       <div>
         <Link
           href={`/fecha/${slugFecha}`}
-          className="text-[13px] text-acento-texto underline-offset-2 hover:underline"
+          className="text-[13px] text-acento-texto underline-offset-2 hover:underline active:opacity-70"
         >
           ← {fechaCorta}
         </Link>
@@ -88,10 +89,12 @@ export default async function PaginaCelebracion(props: PageProps<"/celebracion/[
         ) : null}
       </div>
 
-      <h1 className="mt-3 text-[26px] leading-[1.18] font-semibold tracking-[-0.02em] sm:text-[32px]">
-        {celebracion.emoji ? <span aria-hidden="true">{celebracion.emoji} </span> : null}
-        {celebracion.nombre}
-      </h1>
+      <div className="mt-3 flex items-start gap-3">
+        <EmojiTile emoji={celebracion.emoji} tono={tonoDeAlcance(celebracion.alcance)} />
+        <h1 className="text-[26px] leading-[1.18] font-semibold tracking-[-0.02em] sm:text-[32px]">
+          {celebracion.nombre}
+        </h1>
+      </div>
 
       <div className="mt-3 flex flex-wrap items-center gap-2">
         <ChipAlcance celebracion={celebracion} />
@@ -110,7 +113,10 @@ export default async function PaginaCelebracion(props: PageProps<"/celebracion/[
         </h2>
         <ul className="overflow-hidden rounded-caja border border-borde bg-superficie">
           {celebracion.fuentes.map((fuente, i) => (
-            <li key={`${fuente.url}-${i}`} className="border-b border-borde px-3.5 py-3 last:border-b-0">
+            <li
+              key={`${fuente.url}-${i}`}
+              className="border-b border-borde px-3.5 py-3 transition-colors duration-150 last:border-b-0 active:bg-superficie-suave"
+            >
               <a
                 href={fuente.url}
                 target="_blank"
@@ -145,8 +151,8 @@ export default async function PaginaCelebracion(props: PageProps<"/celebracion/[
             Otras celebraciones ese día
           </h2>
           <ul className="overflow-hidden rounded-caja border border-borde bg-superficie">
-            {otrasCelebraciones.map((c) => (
-              <CelebracionItem key={c.id} celebracion={c} />
+            {otrasCelebraciones.map((c, i) => (
+              <CelebracionItem key={c.id} celebracion={c} indice={i} />
             ))}
           </ul>
         </section>

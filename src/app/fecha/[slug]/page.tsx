@@ -2,15 +2,20 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import DiaHeader from "@/components/DiaHeader";
 import ListaCelebraciones from "@/components/ListaCelebraciones";
-import { celebracionesDeFecha } from "@/lib/celebraciones";
+import NavegacionDia from "@/components/NavegacionDia";
+import ProximosDestacados from "@/components/ProximosDestacados";
+import { cargarTodas, celebracionesDeFecha } from "@/lib/celebraciones";
 import {
   diasDelMes,
   esFechaValida,
+  fechaAnterior,
   fechaDeSlug,
+  fechaSiguiente,
   hoyEnArgentina,
   slugDeFecha,
   type FechaDia,
 } from "@/lib/fechas";
+import { proximosDestacados } from "@/lib/proximos";
 import { descripcionDeFecha, tituloDeFecha } from "@/lib/seo";
 
 const ANIO_BISIESTO_REFERENCIA = 2024;
@@ -64,11 +69,16 @@ export default async function PaginaFecha(props: PageProps<"/fecha/[slug]">) {
 
   const anio = anioDeReferencia(fecha, hoyEnArgentina().anio);
   const celebraciones = celebracionesDeFecha(fecha, anio);
+  const proximos = proximosDestacados(fecha, anio, 3, cargarTodas());
 
   return (
-    <>
+    <NavegacionDia
+      hrefAnterior={`/fecha/${slugDeFecha(fechaAnterior(fecha, anio))}`}
+      hrefSiguiente={`/fecha/${slugDeFecha(fechaSiguiente(fecha, anio))}`}
+    >
       <DiaHeader fecha={fecha} anio={anio} esHoy="auto" />
       <ListaCelebraciones celebraciones={celebraciones} anio={anio} />
-    </>
+      <ProximosDestacados proximos={proximos} />
+    </NavegacionDia>
   );
 }

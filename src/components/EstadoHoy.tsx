@@ -1,7 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import Link from "next/link";
+import EtiquetaDia from "@/components/EtiquetaDia";
 import { hoyEnArgentina } from "@/lib/fechas";
 
 function sinSuscripcion(): () => void {
@@ -27,23 +27,5 @@ export default function EstadoHoy({ dia, mes }: { dia: number; mes: number }) {
   );
   const anio = useSyncExternalStore(sinSuscripcion, () => hoyEnArgentina().anio, leerAnioServidor);
 
-  return (
-    <div className="flex items-baseline justify-between gap-3">
-      <p
-        className={`text-[11px] font-semibold tracking-[0.08em] uppercase ${
-          esHoy ? "text-acento-texto" : "text-texto-secundario"
-        }`}
-      >
-        {esHoy ? "Hoy" : String(anio)}
-      </p>
-      {esHoy ? null : (
-        <Link
-          href="/"
-          className="text-[13px] text-acento-texto underline-offset-2 hover:underline"
-        >
-          Ir a hoy
-        </Link>
-      )}
-    </div>
-  );
+  return <EtiquetaDia esHoy={esHoy} anio={anio} />;
 }

@@ -1,33 +1,21 @@
 import Link from "next/link";
 import CompartirBoton from "@/components/CompartirBoton";
 import EstadoHoy from "@/components/EstadoHoy";
+import EtiquetaDia from "@/components/EtiquetaDia";
 import SelectorFecha from "@/components/SelectorFecha";
+import { IconoFlecha } from "@/components/iconos";
 import {
+  MESES,
   fechaAnterior,
   fechaSiguiente,
   formatearFechaLarga,
+  nombreDiaSemana,
   slugDeFecha,
   type FechaDia,
 } from "@/lib/fechas";
 
-function Flecha({ direccion }: { direccion: "anterior" | "siguiente" }) {
-  return (
-    <svg
-      width="16"
-      height="16"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.75"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-      className={direccion === "anterior" ? "-translate-x-px" : "translate-x-px"}
-    >
-      <path d={direccion === "anterior" ? "M14.5 5 7.5 12l7 7" : "M9.5 5l7 7-7 7"} />
-    </svg>
-  );
-}
+const ESTILO_BOTON =
+  "grid size-9 place-items-center rounded-[10px] border border-borde bg-superficie text-texto-secundario transition-[color,transform] duration-150 hover:text-texto active:scale-[0.94]";
 
 export default function DiaHeader({
   fecha,
@@ -43,45 +31,39 @@ export default function DiaHeader({
   const siguiente = slugDeFecha(fechaSiguiente(fecha, anio));
 
   return (
-    <div className="pt-7">
+    <div className="pt-6">
       {esHoy === "auto" ? (
         <EstadoHoy dia={fecha.dia} mes={fecha.mes} />
       ) : (
-        <div className="flex items-baseline justify-between gap-3">
-          <p
-            className={`text-[11px] font-semibold tracking-[0.08em] uppercase ${
-              esHoy ? "text-acento-texto" : "text-texto-secundario"
-            }`}
-          >
-            {esHoy ? "Hoy" : String(anio)}
-          </p>
-          {esHoy ? null : (
-            <Link
-              href="/"
-              className="text-[13px] text-acento-texto underline-offset-2 hover:underline"
-            >
-              Ir a hoy
-            </Link>
-          )}
-        </div>
+        <EtiquetaDia esHoy={esHoy} anio={anio} />
       )}
-      <h1 className="mt-1.5 text-[26px] leading-[1.12] font-semibold tracking-[-0.02em] sm:text-[32px]">
-        {titulo}
+      <p className="mt-3 text-[13px] leading-4 font-medium text-texto-secundario">
+        {nombreDiaSemana(fecha, anio)}
+      </p>
+      <h1 className="mt-1 flex flex-wrap items-baseline gap-x-2.5">
+        <span className="text-[54px] leading-[0.88] font-semibold tracking-[-0.04em] tabular-nums sm:text-[64px]">
+          {fecha.dia}
+        </span>
+        <span className="text-[20px] leading-7 font-medium tracking-[-0.01em] text-texto-secundario sm:text-[23px]">
+          de {MESES[fecha.mes - 1]}
+        </span>
       </h1>
-      <div className="mt-4 flex flex-wrap items-center gap-2">
+      <div className="mt-5 flex flex-wrap items-center gap-2">
         <Link
           href={`/fecha/${anterior}`}
           aria-label="Día anterior"
-          className="grid size-9 place-items-center rounded-[10px] border border-borde bg-superficie text-texto-secundario transition-colors duration-150 hover:text-texto"
+          title="Día anterior (flecha izquierda)"
+          className={ESTILO_BOTON}
         >
-          <Flecha direccion="anterior" />
+          <IconoFlecha direccion="anterior" />
         </Link>
         <Link
           href={`/fecha/${siguiente}`}
           aria-label="Día siguiente"
-          className="grid size-9 place-items-center rounded-[10px] border border-borde bg-superficie text-texto-secundario transition-colors duration-150 hover:text-texto"
+          title="Día siguiente (flecha derecha)"
+          className={ESTILO_BOTON}
         >
-          <Flecha direccion="siguiente" />
+          <IconoFlecha direccion="siguiente" />
         </Link>
         <SelectorFecha dia={fecha.dia} mes={fecha.mes} anio={anio} />
         <div className="ml-auto">

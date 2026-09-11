@@ -13,6 +13,7 @@ import {
   fechaSiguiente,
   resolverFechaMovil,
   formatearFechaLarga,
+  nombreDiaSemana,
   formatearFechaCorta,
   esFechaValida,
 } from "@/lib/fechas";
@@ -161,4 +162,13 @@ it("MESES y DIAS_SEMANA tienen el orden esperado", () => {
   expect(MESES[8]).toBe("septiembre");
   expect(DIAS_SEMANA[0]).toBe("domingo");
   expect(DIAS_SEMANA[5]).toBe("viernes");
+});
+
+describe("nombreDiaSemana", () => {
+  it("el 11 de septiembre de 2026 es viernes", () => {
+    expect(nombreDiaSemana({ dia: 11, mes: 9 }, 2026)).toBe("viernes");
+  });
+  it("el 1 de enero de 2027 es viernes", () => {
+    expect(nombreDiaSemana({ dia: 1, mes: 1 }, 2027)).toBe("viernes");
+  });
 });

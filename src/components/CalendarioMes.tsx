@@ -60,7 +60,7 @@ export default function CalendarioMes({
               <Link
                 href={`/fecha/${slugDeFecha({ dia, mes })}`}
                 aria-label={label}
-                className={`flex aspect-square min-h-11 flex-col items-center justify-center gap-0.5 rounded-[10px] border transition-colors duration-150 ${
+                className={`flex aspect-square min-h-11 flex-col items-center justify-center gap-0.5 rounded-[10px] border transition-[color,background-color,border-color,transform] duration-150 active:scale-[0.94] ${
                   esHoy
                     ? "border-acento bg-acento-suave"
                     : "border-borde bg-superficie hover:border-borde-fuerte"
@@ -80,7 +80,7 @@ export default function CalendarioMes({
                         <span className="size-[5px] rounded-full bg-acento" />
                       ) : null}
                       {conteo.internacional > 0 ? (
-                        <span className="size-[5px] rounded-full bg-borde-fuerte" />
+                        <span className="size-[5px] rounded-full bg-internacional-texto" />
                       ) : null}
                       {conteo.otroPais > 0 ? (
                         <span className="size-[5px] rounded-full border border-borde-fuerte" />
@@ -102,7 +102,7 @@ export default function CalendarioMes({
           Argentina
         </li>
         <li className="flex items-center gap-1.5">
-          <span aria-hidden="true" className="size-[5px] rounded-full bg-borde-fuerte" />
+          <span aria-hidden="true" className="size-[5px] rounded-full bg-internacional-texto" />
           Internacional
         </li>
         <li className="flex items-center gap-1.5">
