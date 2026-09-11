@@ -1,0 +1,513 @@
+[
+  {
+    "id": "dia-mundial-del-sida",
+    "nombre": "Día Mundial del Sida",
+    "fecha": { "dia": 1, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Impulsa la lucha contra el VIH y honra a quienes murieron por la enfermedad.",
+    "fuentes": [
+      { "nombre": "ONU - Día Mundial del Sida", "url": "https://www.un.org/es/observances/world-aids-day", "tipo": "institucional" }
+    ],
+    "emoji": "🎗️",
+    "tags": ["vih", "sida", "salud"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-panamericano-de-la-farmacia",
+    "nombre": "Día Panamericano de la Farmacia",
+    "fecha": { "dia": 1, "mes": 12 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a los farmacéuticos de América en conmemoración del Congreso Panamericano de Farmacia de 1948.",
+    "fuentes": [
+      { "nombre": "COFA - Confederación Farmacéutica Argentina", "url": "https://portal.cofa.org.ar/?p=9949", "tipo": "asociacion" }
+    ],
+    "emoji": "💊",
+    "tags": ["farmaceutico", "farmacia"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-para-la-abolicion-de-la-esclavitud",
+    "nombre": "Día Internacional para la Abolición de la Esclavitud",
+    "fecha": { "dia": 2, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Recuerda la firma en 1949 del convenio de la ONU contra la trata de personas y la explotación.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional para la Abolición de la Esclavitud", "url": "https://www.un.org/es/observances/slavery-abolition-day", "tipo": "institucional" }
+    ],
+    "emoji": "⛓️",
+    "tags": ["esclavitud", "trata de personas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-las-personas-con-discapacidad",
+    "nombre": "Día Internacional de las Personas con Discapacidad",
+    "fecha": { "dia": 3, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Promueve los derechos y el bienestar de las personas con discapacidad en todo el mundo.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional de las Personas con Discapacidad", "url": "https://www.un.org/es/observances/day-of-persons-with-disabilities", "tipo": "institucional" }
+    ],
+    "emoji": "♿",
+    "tags": ["discapacidad", "inclusion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-medico",
+    "nombre": "Día del Médico",
+    "fecha": { "dia": 3, "mes": 12 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a los médicos en el aniversario del nacimiento de Carlos Finlay, pionero contra la fiebre amarilla.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/3-de-diciembre-dia-del-medico", "tipo": "institucional" }
+    ],
+    "emoji": "🩺",
+    "tags": ["medicina", "salud", "doctor"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-contra-medidas-coercitivas-unilaterales",
+    "nombre": "Día Internacional contra las Medidas Coercitivas Unilaterales",
+    "fecha": { "dia": 4, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Rechaza las sanciones unilaterales que vulneran los derechos humanos de las poblaciones afectadas.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional contra las Medidas Coercitivas Unilaterales", "url": "https://www.un.org/es/observances/day-against-unilateral-coercive-measures", "tipo": "institucional" }
+    ],
+    "emoji": "🚫",
+    "tags": ["sanciones", "derechos humanos"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-los-bancos",
+    "nombre": "Día Internacional de los Bancos",
+    "fecha": { "dia": 4, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Reconoce el rol de la banca multilateral en el desarrollo sostenible y el financiamiento global.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional de los Bancos", "url": "https://www.un.org/es/observances/international-day-of-banks", "tipo": "institucional" }
+    ],
+    "emoji": "🏦",
+    "tags": ["bancos", "finanzas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-del-suelo",
+    "nombre": "Día Mundial del Suelo",
+    "fecha": { "dia": 5, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Concientiza sobre la importancia de un suelo sano para la seguridad alimentaria y el ambiente.",
+    "fuentes": [
+      { "nombre": "FAO - Día Mundial del Suelo", "url": "https://www.fao.org/world-soil-day/es", "tipo": "institucional" }
+    ],
+    "emoji": "🌱",
+    "tags": ["suelo", "agricultura", "ambiente"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-los-voluntarios",
+    "nombre": "Día Internacional de los Voluntarios",
+    "fecha": { "dia": 5, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Reconoce el aporte de las personas voluntarias al desarrollo económico y social.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional de los Voluntarios", "url": "https://www.un.org/es/observances/volunteer-day", "tipo": "institucional" }
+    ],
+    "emoji": "🤝",
+    "tags": ["voluntariado", "solidaridad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-constitucion-espanola",
+    "nombre": "Día de la Constitución Española",
+    "fecha": { "dia": 6, "mes": 12 },
+    "alcance": "otro-pais",
+    "pais": "España",
+    "categoria": "historia",
+    "descripcion": "Conmemora el referéndum de 1978 que aprobó la Constitución vigente en España.",
+    "fuentes": [
+      { "nombre": "La Moncloa - Gobierno de España", "url": "https://www.lamoncloa.gob.es/multimedia/videos/presidente/Paginas/2023/231206-declaracion-pedro-sanchez-dia-constitucion.aspx", "tipo": "institucional" }
+    ],
+    "emoji": "🇪🇸",
+    "tags": ["constitucion", "espana"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-aviacion-civil-internacional",
+    "nombre": "Día de la Aviación Civil Internacional",
+    "fecha": { "dia": 7, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "tecnologia",
+    "descripcion": "Conmemora la firma en 1944 del Convenio de Chicago, que ordenó la aviación civil mundial.",
+    "fuentes": [
+      { "nombre": "ONU - Día de la Aviación Civil Internacional", "url": "https://www.un.org/es/observances/civil-aviation-day", "tipo": "institucional" }
+    ],
+    "emoji": "✈️",
+    "tags": ["aviacion", "vuelo"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-pearl-harbor-eeuu",
+    "nombre": "Día Nacional de Conmemoración de Pearl Harbor",
+    "fecha": { "dia": 7, "mes": 12 },
+    "alcance": "otro-pais",
+    "pais": "Estados Unidos",
+    "categoria": "historia",
+    "descripcion": "Recuerda a las víctimas del ataque japonés a la base naval de Pearl Harbor en 1941.",
+    "fuentes": [
+      { "nombre": "The White House", "url": "https://www.whitehouse.gov/presidential-actions/2025/12/national-pearl-harbor-remembrance-day-2025-17fc/", "tipo": "institucional" }
+    ],
+    "emoji": "🎖️",
+    "tags": ["pearl harbor", "estados unidos"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-inmaculada-concepcion-de-maria",
+    "nombre": "Día de la Inmaculada Concepción de la Virgen María",
+    "fecha": { "dia": 8, "mes": 12 },
+    "alcance": "argentina",
+    "categoria": "religion",
+    "descripcion": "Feriado nacional que conmemora la concepción sin pecado original de la Virgen María.",
+    "fuentes": [
+      { "nombre": "Casa Rosada - Presidencia de la Nación", "url": "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/50814-dia-de-la-inmaculada-concepcion-de-la-virgen-maria", "tipo": "institucional" }
+    ],
+    "emoji": "🙏",
+    "tags": ["virgen maria", "religion", "feriado"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-conmemoracion-victimas-genocidio",
+    "nombre": "Día para la Conmemoración y Dignificación de las Víctimas del Crimen de Genocidio y su Prevención",
+    "fecha": { "dia": 9, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Honra a las víctimas del genocidio y promueve la prevención de este crimen internacional.",
+    "fuentes": [
+      { "nombre": "ONU - Día de Conmemoración de las Víctimas del Genocidio", "url": "https://www.un.org/es/observances/genocide-prevention-day", "tipo": "institucional" }
+    ],
+    "emoji": "🕊️",
+    "tags": ["genocidio", "prevencion", "memoria"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-contra-la-corrupcion",
+    "nombre": "Día Internacional contra la Corrupción",
+    "fecha": { "dia": 9, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Promueve la transparencia y la lucha contra la corrupción en instituciones públicas y privadas.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional contra la Corrupción", "url": "https://www.un.org/es/observances/anti-corruption-day", "tipo": "institucional" }
+    ],
+    "emoji": "🚨",
+    "tags": ["corrupcion", "transparencia"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-los-derechos-humanos",
+    "nombre": "Día de los Derechos Humanos",
+    "fecha": { "dia": 10, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Conmemora la adopción en 1948 de la Declaración Universal de los Derechos Humanos.",
+    "fuentes": [
+      { "nombre": "ONU - Día de los Derechos Humanos", "url": "https://www.un.org/es/observances/human-rights-day", "tipo": "institucional" }
+    ],
+    "emoji": "⚖️",
+    "tags": ["derechos humanos", "onu"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-restauracion-de-la-democracia",
+    "nombre": "Día de la Restauración de la Democracia",
+    "fecha": { "dia": 10, "mes": 12 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Recuerda el retorno de la democracia en 1983, cuando asumió la presidencia Raúl Alfonsín.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/10-de-diciembre-dia-de-la-restauracion-de-la-democracia-1", "tipo": "institucional" }
+    ],
+    "emoji": "🗳️",
+    "tags": ["democracia", "alfonsin", "1983"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-trabajador-social-argentina",
+    "nombre": "Día del Trabajador Social",
+    "fecha": { "dia": 10, "mes": 12 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Reconoce a los trabajadores sociales, en coincidencia con el Día de los Derechos Humanos.",
+    "fuentes": [
+      { "nombre": "UBA - Facultad de Ciencias Sociales", "url": "https://www.sociales.uba.ar/2014/12/10/dia-del-trabajador-social/", "tipo": "institucional" }
+    ],
+    "emoji": "🤲",
+    "tags": ["trabajo social", "servicio social"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-las-montanas",
+    "nombre": "Día Internacional de las Montañas",
+    "fecha": { "dia": 11, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Destaca el rol de las montañas en el agua, la biodiversidad y el sustento de millones de personas.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional de las Montañas", "url": "https://www.un.org/es/observances/mountain-day", "tipo": "institucional" }
+    ],
+    "emoji": "⛰️",
+    "tags": ["montanas", "biodiversidad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-tango",
+    "nombre": "Día Nacional del Tango",
+    "fecha": { "dia": 11, "mes": 12 },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Conmemora los nacimientos de Carlos Gardel y Julio De Caro, referentes del tango argentino.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/11-de-diciembre-dia-nacional-del-tango", "tipo": "institucional" }
+    ],
+    "emoji": "🎻",
+    "tags": ["tango", "gardel", "musica"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-profesional-informatico",
+    "nombre": "Día Nacional del Profesional Informático",
+    "fecha": { "dia": 11, "mes": 12 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la obtención de la personería jurídica de la Federación de Consejos de Ciencias Informáticas.",
+    "fuentes": [
+      { "nombre": "CPCI - Colegio de Profesionales en Ciencias Informáticas", "url": "https://cpcipc.org.ar/11-de-diciembre-dia-del-profesional-informatico-25/", "tipo": "asociacion" }
+    ],
+    "emoji": "💻",
+    "tags": ["informatica", "programador", "sistemas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-la-neutralidad",
+    "nombre": "Día Internacional de la Neutralidad",
+    "fecha": { "dia": 12, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Reconoce el valor de la neutralidad en las relaciones internacionales y la prevención de conflictos.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional de la Neutralidad", "url": "https://www.un.org/es/observances/neutrality-day", "tipo": "institucional" }
+    ],
+    "emoji": "🕊️",
+    "tags": ["neutralidad", "paz"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-cobertura-sanitaria-universal",
+    "nombre": "Día Internacional de la Cobertura Sanitaria Universal",
+    "fecha": { "dia": 12, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Reclama el acceso de todas las personas a servicios de salud de calidad sin costos que empobrezcan.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional de la Cobertura Sanitaria Universal", "url": "https://www.un.org/es/observances/universal-health-coverage-day", "tipo": "institucional" }
+    ],
+    "emoji": "🏥",
+    "tags": ["salud", "cobertura sanitaria"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-virgen-de-guadalupe-mexico",
+    "nombre": "Día de la Guadalupana",
+    "fecha": { "dia": 12, "mes": 12 },
+    "alcance": "otro-pais",
+    "pais": "México",
+    "categoria": "religion",
+    "descripcion": "Celebra las apariciones marianas de 1531 en el cerro del Tepeyac, centrales en la fe mexicana.",
+    "fuentes": [
+      { "nombre": "Gob.mx - Secretaría de Cultura", "url": "https://www.gob.mx/cultura/articulos/dia-de-la-guadalupana", "tipo": "institucional" }
+    ],
+    "emoji": "🕯️",
+    "tags": ["virgen de guadalupe", "mexico"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-petroleo",
+    "nombre": "Día Nacional del Petróleo",
+    "fecha": { "dia": 13, "mes": 12 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Recuerda el hallazgo de petróleo en Comodoro Rivadavia en 1907, inicio de la industria energética del país.",
+    "fuentes": [
+      { "nombre": "Casa Rosada - Presidencia de la Nación", "url": "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/51130-dia-nacional-del-petroleo", "tipo": "institucional" }
+    ],
+    "emoji": "🛢️",
+    "tags": ["petroleo", "comodoro rivadavia", "energia"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-oftalmologo-argentina",
+    "nombre": "Día del Oftalmólogo",
+    "fecha": { "dia": 13, "mes": 12 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a los médicos oftalmólogos, en la festividad de Santa Lucía, patrona de la vista.",
+    "fuentes": [
+      { "nombre": "Gobierno de la Ciudad de Buenos Aires", "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/dia-del-oftalmologo-en-el-hospital-santa-lucia", "tipo": "institucional" }
+    ],
+    "emoji": "👁️",
+    "tags": ["oftalmologia", "vista", "santa lucia"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-contra-el-colonialismo",
+    "nombre": "Día Internacional contra el Colonialismo en Todas sus Formas y Manifestaciones",
+    "fecha": { "dia": 14, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Impulsa la eliminación total del colonialismo y de sus formas de dominación remanentes.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional contra el Colonialismo", "url": "https://www.un.org/es/observances/anti-colonialism-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌍",
+    "tags": ["colonialismo", "descolonizacion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-trabajador-camionero",
+    "nombre": "Día del Trabajador Camionero",
+    "fecha": { "dia": 15, "mes": 12 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la firma en 1967 del primer convenio colectivo del sector del transporte de cargas.",
+    "fuentes": [
+      { "nombre": "Federación de Camioneros de la República Argentina", "url": "https://www.fedcam.org.ar/index.php/secretarias/secretaria-gremial/item/1390-15-de-diciembre-dia-del-trabajador-camionero", "tipo": "asociacion" }
+    ],
+    "emoji": "🚛",
+    "tags": ["camionero", "transporte de cargas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-contador-publico",
+    "nombre": "Día del Contador Público",
+    "fecha": { "dia": 17, "mes": 12 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Conmemora la publicación en 1494 del libro de Luca Pacioli que describió la partida doble contable.",
+    "fuentes": [
+      { "nombre": "FACPCE - Federación Argentina de Consejos Profesionales de Ciencias Económicas", "url": "https://www.facpce.org.ar/feliz-dia-del-contador-publico-2/", "tipo": "asociacion" }
+    ],
+    "emoji": "📊",
+    "tags": ["contador", "ciencias economicas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-del-migrante",
+    "nombre": "Día Internacional del Migrante",
+    "fecha": { "dia": 18, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Visibiliza los derechos y los aportes de las personas migrantes en todo el mundo.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional del Migrante", "url": "https://www.un.org/es/observances/migrants-day", "tipo": "institucional" }
+    ],
+    "emoji": "🧳",
+    "tags": ["migrantes", "migracion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-lengua-arabe",
+    "nombre": "Día de la Lengua Árabe",
+    "fecha": { "dia": 18, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Celebra el árabe, uno de los seis idiomas oficiales de la ONU, y su patrimonio cultural.",
+    "fuentes": [
+      { "nombre": "ONU - Arabic Language Day", "url": "https://www.un.org/en/observances/arabic-language-day", "tipo": "institucional" }
+    ],
+    "emoji": "📜",
+    "tags": ["idioma arabe", "lenguas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-la-solidaridad-humana",
+    "nombre": "Día Internacional de la Solidaridad Humana",
+    "fecha": { "dia": 20, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Promueve la solidaridad como valor central para enfrentar la pobreza y la desigualdad global.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional de la Solidaridad Humana", "url": "https://www.un.org/es/observances/human-solidarity-day", "tipo": "institucional" }
+    ],
+    "emoji": "🤲",
+    "tags": ["solidaridad", "pobreza"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-del-baloncesto",
+    "nombre": "Día Mundial del Baloncesto",
+    "fecha": { "dia": 21, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "deporte",
+    "descripcion": "Conmemora el primer partido de baloncesto, jugado en 1891 en Springfield, Estados Unidos.",
+    "fuentes": [
+      { "nombre": "ONU - Día Mundial del Baloncesto", "url": "https://www.un.org/es/observances/world-basketball-day", "tipo": "institucional" }
+    ],
+    "emoji": "🏀",
+    "tags": ["baloncesto", "basquet"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-de-la-meditacion",
+    "nombre": "Día Mundial de la Meditación",
+    "fecha": { "dia": 21, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Promueve la meditación como práctica para el bienestar físico y mental de las personas.",
+    "fuentes": [
+      { "nombre": "ONU - Día Mundial de la Meditación", "url": "https://www.un.org/es/observances/world-meditation-day", "tipo": "institucional" }
+    ],
+    "emoji": "🧘",
+    "tags": ["meditacion", "bienestar"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-trabajador-de-farmacia",
+    "nombre": "Día del Trabajador y la Trabajadora de Farmacia",
+    "fecha": { "dia": 22, "mes": 12 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la fundación en 1946 de la federación que agrupa a los trabajadores de farmacias.",
+    "fuentes": [
+      { "nombre": "FATFA - Federación Argentina de Trabajadores de Farmacia", "url": "https://fatfa.org.ar/2022/12/22/dia-del-trabajador-y-la-trabajadora-de-farmacia/", "tipo": "asociacion" }
+    ],
+    "emoji": "💊",
+    "tags": ["farmacia", "empleados"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-preparacion-epidemias",
+    "nombre": "Día Internacional de la Preparación ante las Epidemias",
+    "fecha": { "dia": 27, "mes": 12 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Impulsa la prevención, la detección temprana y la respuesta ante epidemias a nivel mundial.",
+    "fuentes": [
+      { "nombre": "ONU - Día Internacional de la Preparación ante las Epidemias", "url": "https://www.un.org/es/observances/epidemic-preparedness-day", "tipo": "institucional" }
+    ],
+    "emoji": "🦠",
+    "tags": ["epidemias", "salud publica"],
+    "verificadoEn": "2026-09-11"
+  }
+]

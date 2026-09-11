@@ -1,0 +1,498 @@
+[
+  {
+    "id": "dia-del-trabajador",
+    "nombre": "Día del Trabajador",
+    "fecha": { "dia": 1, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "derechos",
+    "descripcion": "Recuerda la lucha histórica de los trabajadores y los derechos laborales conquistados desde 1890.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/dia-del-trabajador", "tipo": "institucional" }
+    ],
+    "emoji": "🛠️",
+    "tags": ["1 de mayo", "obreros", "sindicatos"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-del-atun",
+    "nombre": "Día Mundial del Atún",
+    "fecha": { "dia": 2, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Destaca la importancia del atún para la seguridad alimentaria y promueve su pesca sostenible.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/tuna-day", "tipo": "institucional" }
+    ],
+    "emoji": "🐟",
+    "tags": ["pesca", "océanos"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-libertad-prensa",
+    "nombre": "Día Mundial de la Libertad de Prensa",
+    "fecha": { "dia": 3, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Recuerda la Declaración de Windhoek de 1993 y defiende la libertad de expresión y de prensa.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/press-freedom-day", "tipo": "institucional" }
+    ],
+    "emoji": "📰",
+    "tags": ["periodismo", "libertad de expresión"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-lengua-portuguesa",
+    "nombre": "Día Mundial de la Lengua Portuguesa",
+    "fecha": { "dia": 5, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Reconoce al portugués como lengua de comunicación internacional y patrimonio cultural compartido.",
+    "fuentes": [
+      { "nombre": "UNESCO - Días Internacionales", "url": "https://www.unesco.org/es/days/portuguese-language", "tipo": "institucional" }
+    ],
+    "emoji": "🇵🇹",
+    "tags": ["idioma", "lusofonía"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-higiene-manos",
+    "nombre": "Día Mundial de la Higiene de Manos",
+    "fecha": { "dia": 5, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Campaña de la OMS para promover el lavado de manos y prevenir infecciones en centros de salud.",
+    "fuentes": [
+      { "nombre": "Organización Mundial de la Salud", "url": "https://www.who.int/campaigns/world-hand-hygiene-day", "tipo": "institucional" }
+    ],
+    "emoji": "🧼",
+    "tags": ["lavado de manos", "infecciones"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-mineria",
+    "nombre": "Día de la Minería",
+    "fecha": { "dia": 7, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Homenajea la primera Ley de Fomento Minero, sancionada por la Asamblea Constituyente el 7 de mayo de 1813.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/7-de-mayo-dia-de-la-mineria", "tipo": "institucional" }
+    ],
+    "emoji": "⛏️",
+    "tags": ["minero", "yacimientos"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-argan",
+    "nombre": "Día Internacional de los Arganes",
+    "fecha": { "dia": 10, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Promueve la conservación del árbol de argán y de los ecosistemas y comunidades que dependen de él.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/argania-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌳",
+    "tags": ["argán", "biodiversidad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-las-madres-mexico",
+    "nombre": "Día de las Madres",
+    "fecha": { "dia": 10, "mes": 5 },
+    "alcance": "otro-pais",
+    "pais": "México",
+    "categoria": "familia",
+    "descripcion": "Celebra a las madres mexicanas desde 1922, por iniciativa del periodista Rafael Alducín.",
+    "fuentes": [
+      { "nombre": "Gobierno de México - Profedet", "url": "https://www.gob.mx/profedet/articulos/10-de-mayo-dia-de-las-madres-106462?idiom=es", "tipo": "institucional" }
+    ],
+    "emoji": "💐",
+    "tags": ["madres", "méxico"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-himno-nacional-argentino",
+    "nombre": "Día del Himno Nacional Argentino",
+    "fecha": { "dia": 11, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Recuerda la sanción de la marcha patriótica como Himno Nacional por la Asamblea del Año XIII en 1813.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/dia-del-himno-nacional-argentino-2", "tipo": "institucional" }
+    ],
+    "emoji": "🎵",
+    "tags": ["himno", "vicente lópez y planes"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-sanidad-vegetal",
+    "nombre": "Día Internacional de la Sanidad Vegetal",
+    "fecha": { "dia": 12, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Concientiza sobre proteger los cultivos de plagas y enfermedades para garantizar la alimentación mundial.",
+    "fuentes": [
+      { "nombre": "FAO - Naciones Unidas", "url": "https://www.fao.org/plant-health-day/es", "tipo": "institucional" }
+    ],
+    "emoji": "🌱",
+    "tags": ["plagas", "cultivos"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-docente-universitario",
+    "nombre": "Día del Docente Universitario",
+    "fecha": { "dia": 15, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "educacion",
+    "descripcion": "Honra a quienes enseñan, investigan y transfieren conocimiento en las universidades argentinas.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/dia-del-docente-universitario", "tipo": "institucional" }
+    ],
+    "emoji": "🎓",
+    "tags": ["profesor universitario", "cátedra"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-familias",
+    "nombre": "Día Internacional de las Familias",
+    "fecha": { "dia": 15, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "familia",
+    "descripcion": "Reconoce el rol de la familia como base de la sociedad y promueve políticas que la fortalezcan.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/international-day-of-families", "tipo": "institucional" }
+    ],
+    "emoji": "👨‍👩‍👧‍👦",
+    "tags": ["familia"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-luz",
+    "nombre": "Día Internacional de la Luz",
+    "fecha": { "dia": 16, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "ciencia",
+    "descripcion": "Conmemora el primer láser funcional de 1960 y el rol de la luz en la ciencia y la cultura.",
+    "fuentes": [
+      { "nombre": "UNESCO - Días Internacionales", "url": "https://www.unesco.org/es/days/light", "tipo": "institucional" }
+    ],
+    "emoji": "💡",
+    "tags": ["láser", "óptica"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-convivencia-paz",
+    "nombre": "Día Internacional de la Convivencia en Paz",
+    "fecha": { "dia": 16, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Promueve la reconciliación, la solidaridad y la coexistencia pacífica entre pueblos y culturas.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/living-in-peace-day", "tipo": "institucional" }
+    ],
+    "emoji": "🕊️",
+    "tags": ["paz", "tolerancia"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-telecomunicaciones",
+    "nombre": "Día Mundial de las Telecomunicaciones y la Sociedad de la Información",
+    "fecha": { "dia": 17, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "tecnologia",
+    "descripcion": "Destaca el papel de internet y las tecnologías digitales en el desarrollo de las sociedades.",
+    "fuentes": [
+      { "nombre": "Unión Internacional de Telecomunicaciones (vía ONU)", "url": "https://www.un.org/es/observances/telecommunication-day", "tipo": "institucional" }
+    ],
+    "emoji": "📡",
+    "tags": ["internet", "tic"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-armada-argentina",
+    "nombre": "Día de la Armada Argentina",
+    "fecha": { "dia": 17, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Conmemora el Combate Naval de Montevideo de 1814, victoria que consolidó la Revolución de Mayo.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/dia-de-la-armada-argentina", "tipo": "institucional" }
+    ],
+    "emoji": "⚓",
+    "tags": ["armada", "guillermo brown"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-escarapela",
+    "nombre": "Día de la Escarapela",
+    "fecha": { "dia": 18, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Recuerda la institución en 1935 de este emblema patrio, creado en 1812 a pedido de Manuel Belgrano.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/18-de-mayo-dia-de-la-escarapela-0", "tipo": "institucional" }
+    ],
+    "emoji": "🎗️",
+    "tags": ["celeste y blanco", "símbolos patrios"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-juego-limpio",
+    "nombre": "Día Mundial del Juego Limpio",
+    "fecha": { "dia": 19, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "deporte",
+    "descripcion": "Promueve el deporte practicado con espíritu de amistad, solidaridad, tolerancia e inclusión.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/fair-play-day", "tipo": "institucional" }
+    ],
+    "emoji": "🤝",
+    "tags": ["deportividad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-abejas",
+    "nombre": "Día Mundial de las Abejas",
+    "fecha": { "dia": 20, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "animales",
+    "descripcion": "Sensibiliza sobre el rol esencial de las abejas y otros polinizadores en los ecosistemas.",
+    "fuentes": [
+      { "nombre": "FAO - Naciones Unidas", "url": "https://www.fao.org/world-bee-day/es", "tipo": "institucional" }
+    ],
+    "emoji": "🐝",
+    "tags": ["polinizadores", "apicultura"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-te",
+    "nombre": "Día Internacional del Té",
+    "fecha": { "dia": 21, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "comida",
+    "descripcion": "Reconoce al té como bebida milenaria y promueve su producción sostenible y comercio justo.",
+    "fuentes": [
+      { "nombre": "FAO - Naciones Unidas", "url": "https://www.fao.org/international-tea-day/es", "tipo": "institucional" }
+    ],
+    "emoji": "🍵",
+    "tags": ["té", "infusión"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-diversidad-cultural",
+    "nombre": "Día Mundial de la Diversidad Cultural para el Diálogo y el Desarrollo",
+    "fecha": { "dia": 21, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Destaca la riqueza de las culturas del mundo y su rol en el diálogo y el desarrollo sostenible.",
+    "fuentes": [
+      { "nombre": "UNESCO (vía ONU) - Días Internacionales", "url": "https://www.un.org/es/observances/cultural-diversity-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌍",
+    "tags": ["diversidad", "interculturalidad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-las-glorias-navales-chile",
+    "nombre": "Día de las Glorias Navales",
+    "fecha": { "dia": 21, "mes": 5 },
+    "alcance": "otro-pais",
+    "pais": "Chile",
+    "categoria": "historia",
+    "descripcion": "Conmemora el Combate Naval de Iquique de 1879 y honra a Arturo Prat y la Armada de Chile.",
+    "fuentes": [
+      { "nombre": "Armada de Chile", "url": "https://www.armada.cl/armada-de-chile-conmemora-el-dia-de-las-glorias-navales-en-la-capital-de", "tipo": "institucional" }
+    ],
+    "emoji": "⚓",
+    "tags": ["arturo prat", "iquique", "chile"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-diversidad-biologica",
+    "nombre": "Día Internacional de la Diversidad Biológica",
+    "fecha": { "dia": 22, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Promueve la conservación de especies y ecosistemas frente a la crisis de biodiversidad global.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/biological-diversity-day", "tipo": "institucional" }
+    ],
+    "emoji": "🦋",
+    "tags": ["biodiversidad", "especies"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-erradicacion-fistula-obstetrica",
+    "nombre": "Día Internacional para la Erradicación de la Fístula Obstétrica",
+    "fecha": { "dia": 23, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Busca eliminar esta lesión del parto que afecta a millones de mujeres sin acceso a salud materna.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/end-fistula-day", "tipo": "institucional" }
+    ],
+    "emoji": "🎗️",
+    "tags": ["salud materna", "parto"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-cine-nacional",
+    "nombre": "Día del Cine Nacional",
+    "fecha": { "dia": 23, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Homenajea el estreno de La Revolución de Mayo, primera película argumental argentina, en 1909.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/23-de-mayo-dia-del-cine-nacional", "tipo": "institucional" }
+    ],
+    "emoji": "🎬",
+    "tags": ["cine argentino"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-revolucion-de-mayo",
+    "nombre": "Día de la Revolución de Mayo y Primer Gobierno Patrio",
+    "fecha": { "dia": 25, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Recuerda la formación de la Primera Junta de Gobierno en Buenos Aires el 25 de mayo de 1810.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/25-de-mayo-de-1810-dia-de-la-revolucion-de-mayo-y-primer-gobierno-patrio", "tipo": "institucional" }
+    ],
+    "emoji": "🇦🇷",
+    "tags": ["revolución de mayo", "cornelio saavedra"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-ingeniero-electricista",
+    "nombre": "Día del Ingeniero Electricista",
+    "fecha": { "dia": 27, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea el natalicio de Jorge Newbery, primer argentino graduado como ingeniero electricista.",
+    "fuentes": [
+      { "nombre": "COPAIPA - Consejo Profesional de Agrimensores, Ingenieros y Profesiones Afines", "url": "https://copaipa.org.ar/27-de-mayo-dia-del-ingeniero-electricista/", "tipo": "asociacion" }
+    ],
+    "emoji": "⚡",
+    "tags": ["jorge newbery", "ingeniería eléctrica"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-maestra-jardinera",
+    "nombre": "Día de la Maestra Jardinera y los Jardines de Infantes",
+    "fecha": { "dia": 28, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "educacion",
+    "descripcion": "Honra a Rosario Vera Peñaloza, fundadora del primer jardín de infantes argentino, fallecida en 1950.",
+    "fuentes": [
+      { "nombre": "Gobierno de la Provincia de Salta", "url": "https://www.salta.gob.ar/prensa/noticias/se-recordo-el-dia-del-jardin-de-infantes-y-de-la-maestra-jardinera-11105", "tipo": "institucional" }
+    ],
+    "emoji": "🧸",
+    "tags": ["jardín de infantes", "rosario vera peñaloza"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-ejercito-argentino",
+    "nombre": "Día del Ejército Argentino",
+    "fecha": { "dia": 29, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Recuerda el nacimiento formal del Ejército por decisión de la Primera Junta de Gobierno en 1810.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/29-de-mayo-dia-del-ejercito-argentino", "tipo": "institucional" }
+    ],
+    "emoji": "🎖️",
+    "tags": ["fuerzas armadas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-personal-paz-onu",
+    "nombre": "Día Internacional del Personal de Paz de las Naciones Unidas",
+    "fecha": { "dia": 29, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Homenajea a quienes sirven en misiones de paz de la ONU y recuerda a quienes perdieron la vida.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/peacekeepers-day", "tipo": "institucional" }
+    ],
+    "emoji": "🕊️",
+    "tags": ["cascos azules"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-donacion-organos",
+    "nombre": "Día Nacional de la Donación de Órganos",
+    "fecha": { "dia": 30, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "salud",
+    "descripcion": "Promueve la donación de órganos y tejidos bajo la Ley Justina, que presume el consentimiento desde los 18 años.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - INCUCAI", "url": "https://www.argentina.gob.ar/noticias/30-de-mayo-dia-nacional-de-la-donacion-de-organos-6", "tipo": "institucional" }
+    ],
+    "emoji": "❤️",
+    "tags": ["trasplantes", "incucai"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-papa",
+    "nombre": "Día Internacional de la Papa",
+    "fecha": { "dia": 30, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "comida",
+    "descripcion": "Reconoce a la papa como cultivo clave para la seguridad alimentaria mundial.",
+    "fuentes": [
+      { "nombre": "FAO - Naciones Unidas", "url": "https://www.fao.org/international-potato-day/es", "tipo": "institucional" }
+    ],
+    "emoji": "🥔",
+    "tags": ["papa", "cultivos andinos"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-energia-atomica",
+    "nombre": "Día Nacional de la Energía Atómica",
+    "fecha": { "dia": 31, "mes": 5 },
+    "alcance": "argentina",
+    "categoria": "ciencia",
+    "descripcion": "Recuerda la creación de la Comisión Nacional de Energía Atómica por el Decreto 10.936 de 1950.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Normativa (Decreto 10936/1950)", "url": "https://www.argentina.gob.ar/normativa/nacional/norma-198653/texto", "tipo": "normativa" }
+    ],
+    "emoji": "⚛️",
+    "tags": ["cnea", "energía nuclear"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-sin-tabaco",
+    "nombre": "Día Mundial Sin Tabaco",
+    "fecha": { "dia": 31, "mes": 5 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Alerta sobre los riesgos del tabaco para la salud y promueve políticas de control del tabaquismo.",
+    "fuentes": [
+      { "nombre": "Organización Mundial de la Salud", "url": "https://www.who.int/es/news-room/campaigns/world-no-tobacco-day", "tipo": "institucional" }
+    ],
+    "emoji": "🚭",
+    "tags": ["tabaquismo"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-aves-migratorias",
+    "nombre": "Día Mundial de las Aves Migratorias",
+    "fecha": { "mes": 5, "ordinal": 2, "diaSemana": 6 },
+    "alcance": "internacional",
+    "categoria": "animales",
+    "descripcion": "Sensibiliza sobre la conservación de las aves migratorias y los hábitats que necesitan para sobrevivir.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/world-migratory-bird-day", "tipo": "institucional" }
+    ],
+    "emoji": "🐦",
+    "tags": ["migración", "aves"],
+    "verificadoEn": "2026-09-11"
+  }
+]

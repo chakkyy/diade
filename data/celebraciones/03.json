@@ -1,0 +1,522 @@
+[
+  {
+    "id": "dia-mundial-de-los-pastos-marinos",
+    "nombre": "Día Mundial de los Pastos Marinos",
+    "fecha": { "dia": 1, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Reconoce el rol de las praderas marinas en la biodiversidad y la captura de carbono oceánico.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial de los Pastos Marinos", "url": "https://www.un.org/es/observances/seagrass-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌊",
+    "tags": ["pastos marinos", "ecosistemas marinos"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-cero-discriminacion",
+    "nombre": "Día de la Cero Discriminación",
+    "fecha": { "dia": 1, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "ONUSIDA promueve la igualdad y el fin del estigma hacia personas con VIH y otras formas de discriminación.",
+    "fuentes": [
+      { "nombre": "ONUSIDA - Día de la Cero Discriminación", "url": "https://www.unaids.org/es/zero-discrimination-day", "tipo": "institucional" }
+    ],
+    "emoji": "🤝",
+    "tags": ["discriminacion", "onusida", "igualdad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-transporte-argentina",
+    "nombre": "Día Nacional del Transporte",
+    "fecha": { "dia": 1, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Rinde homenaje a Jorge Newbery, pionero de la aviación argentina, fallecido un 1 de marzo de 1914.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día Nacional del Transporte", "url": "https://www.argentina.gob.ar/noticias/1-de-marzo-dia-nacional-del-transporte", "tipo": "institucional" }
+    ],
+    "emoji": "🚆",
+    "tags": ["transporte", "newbery"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-trabajador-ferroviario",
+    "nombre": "Día del Trabajador Ferroviario",
+    "fecha": { "dia": 1, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda el traspaso de los ferrocarriles ingleses al Estado argentino, concretado el 1 de marzo de 1948.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día del Trabajador Ferroviario", "url": "https://www.argentina.gob.ar/noticias/1-de-marzo-dia-del-trabajador-ferroviario", "tipo": "institucional" }
+    ],
+    "emoji": "🚂",
+    "tags": ["ferrocarril", "trabajadores"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-de-la-vida-silvestre",
+    "nombre": "Día Mundial de la Vida Silvestre",
+    "fecha": { "dia": 3, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "animales",
+    "descripcion": "Celebra la fauna y flora silvestres del planeta y llama a frenar su tráfico ilegal.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial de la Vida Silvestre", "url": "https://www.un.org/es/observances/world-wildlife-day", "tipo": "institucional" }
+    ],
+    "emoji": "🦁",
+    "tags": ["fauna", "flora", "trafico ilegal"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-desarme-no-proliferacion",
+    "nombre": "Día Internacional para Concienciar sobre el Desarme y la No Proliferación",
+    "fecha": { "dia": 5, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Promueve la educación pública, sobre todo entre jóvenes, sobre desarme y no proliferación de armas.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional para Concienciar sobre el Desarme y la No Proliferación", "url": "https://www.un.org/es/observances/disarmament-non-proliferation-awareness-day", "tipo": "institucional" }
+    ],
+    "emoji": "☮️",
+    "tags": ["desarme", "paz"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-gas-argentina",
+    "nombre": "Día Nacional del Gas",
+    "fecha": { "dia": 5, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "tecnologia",
+    "descripcion": "Recuerda la creación de la Dirección Nacional del Gas, el 5 de marzo de 1945, antecesora de Gas del Estado.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día Nacional del Gas", "url": "https://www.argentina.gob.ar/noticias/5-de-marzo-dia-nacional-del-gas", "tipo": "institucional" }
+    ],
+    "emoji": "🔥",
+    "tags": ["gas", "energia"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-medico-legista",
+    "nombre": "Día Nacional del Médico Legista",
+    "fecha": { "dia": 7, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Conmemora el natalicio del doctor Nerio Rojas, instituido por la Ley 25.958 en homenaje a la medicina legal.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Ley 25.958", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-25958-101673/texto", "tipo": "normativa" }
+    ],
+    "emoji": "⚖️",
+    "tags": ["medicina legal", "nerio rojas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-trabajador-ferroportuario",
+    "nombre": "Día de las y los Trabajadores Ferroportuarios",
+    "fecha": { "dia": 7, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea al personal ferroportuario en la fecha de creación de la Administración General de Puertos.",
+    "fuentes": [
+      { "nombre": "Unión Ferroviaria - Día de las y los Trabajadores Ferroportuarios", "url": "https://unionferroviaria.org.ar/n-2-dia-de-la-trabajadora-y-trabajador-ferroportuario/", "tipo": "asociacion" }
+    ],
+    "emoji": "🚢",
+    "tags": ["puertos", "trabajadores"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-la-mujer",
+    "nombre": "Día Internacional de la Mujer",
+    "fecha": { "dia": 8, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Reclama la igualdad de derechos y oportunidades para mujeres y niñas en todo el mundo.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de la Mujer", "url": "https://www.un.org/es/observances/womens-day", "tipo": "institucional" }
+    ],
+    "emoji": "♀️",
+    "tags": ["mujer", "igualdad de genero"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-las-juezas",
+    "nombre": "Día Internacional de las Juezas",
+    "fecha": { "dia": 10, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Promueve la participación plena y equitativa de las mujeres en el Poder Judicial a todos los niveles.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de las Juezas", "url": "https://www.un.org/es/observances/women-judges-day", "tipo": "institucional" }
+    ],
+    "emoji": "👩‍⚖️",
+    "tags": ["juezas", "justicia", "genero"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-trabajador-de-la-alimentacion",
+    "nombre": "Día del Trabajador y la Trabajadora de la Alimentación",
+    "fecha": { "dia": 10, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Reconoce a quienes trabajan en la industria alimenticia, en la fecha fijada por su federación sindical.",
+    "fuentes": [
+      { "nombre": "FTIA - Federación de Trabajadores de la Industria de la Alimentación", "url": "https://www.ftia.org.ar/noticias/dia-del-trabajador-a-de-la-alimentacion/", "tipo": "asociacion" }
+    ],
+    "emoji": "🍞",
+    "tags": ["alimentacion", "industria"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-escudo-nacional",
+    "nombre": "Día del Escudo Nacional",
+    "fecha": { "dia": 12, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Recuerda la aceptación oficial del escudo nacional por la Asamblea General Constituyente el 12 de marzo de 1813.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día del Escudo Nacional", "url": "https://www.argentina.gob.ar/noticias/12-de-marzo-dia-del-escudo-nacional-0", "tipo": "institucional" }
+    ],
+    "emoji": "🛡️",
+    "tags": ["simbolos patrios"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-del-rinon",
+    "nombre": "Día Mundial del Riñón",
+    "fecha": { "mes": 3, "ordinal": 2, "diaSemana": 4 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Impulsa la detección temprana de la enfermedad renal crónica, con apoyo de la OPS/OMS en las Américas.",
+    "fuentes": [
+      { "nombre": "OPS/OMS - Día Mundial del Riñón", "url": "https://www.paho.org/es/noticias/13-3-2023-conmemoran-dia-mundial-rinon-exhortando-deteccion-temprana-enfermedades-cronicas", "tipo": "institucional" }
+    ],
+    "emoji": "🫘",
+    "tags": ["salud renal", "prevencion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-de-los-derechos-del-consumidor-argentina",
+    "nombre": "Día Mundial de los Derechos del Consumidor",
+    "fecha": { "dia": 15, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "derechos",
+    "descripcion": "Argentina se suma a la jornada que impulsa la protección de quienes compran bienes y servicios.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día Mundial de los Derechos del Consumidor", "url": "https://www.argentina.gob.ar/noticias/15-de-marzo-dia-mundial-de-los-derechos-del-consumidor", "tipo": "institucional" }
+    ],
+    "emoji": "🛒",
+    "tags": ["consumidores", "defensa del consumidor"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-lucha-contra-islamofobia",
+    "nombre": "Día Internacional de la Lucha contra la Islamofobia",
+    "fecha": { "dia": 15, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Rechaza la discriminación y los discursos de odio dirigidos contra personas musulmanas.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de la Lucha contra la Islamofobia", "url": "https://www.un.org/es/observances/anti-islamophobia-day", "tipo": "institucional" }
+    ],
+    "emoji": "🕌",
+    "tags": ["islamofobia", "discriminacion religiosa"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-las-escuelas-de-frontera",
+    "nombre": "Día de las Escuelas de Frontera",
+    "fecha": { "dia": 14, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "educacion",
+    "descripcion": "Homenajea a los docentes de escuelas rurales y de frontera, en la fecha de sanción de la Ley 19.524 de 1972.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día de las Escuelas de Frontera", "url": "https://www.argentina.gob.ar/noticias/dia-de-las-escuelas-de-frontera", "tipo": "institucional" }
+    ],
+    "emoji": "🏫",
+    "tags": ["escuelas rurales", "docentes"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-artesano-y-el-carpintero",
+    "nombre": "Día del Artesano y el Carpintero",
+    "fecha": { "dia": 19, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Argentina.gob.ar recuerda a artesanos y carpinteros en el día de San José, patrono de ambos oficios.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Artesanos y carpinteros festejan su día", "url": "https://www.argentina.gob.ar/noticias/19-de-marzo-artesanos-y-carpinteros-festejan-su-dia", "tipo": "institucional" }
+    ],
+    "emoji": "🪚",
+    "tags": ["artesanos", "carpinteros", "oficios"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-la-felicidad",
+    "nombre": "Día Internacional de la Felicidad",
+    "fecha": { "dia": 20, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "La ONU invita a poner el bienestar de las personas en el centro de las políticas públicas.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de la Felicidad", "url": "https://www.un.org/es/observances/happiness-day", "tipo": "institucional" }
+    ],
+    "emoji": "😊",
+    "tags": ["felicidad", "bienestar"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-lengua-francesa",
+    "nombre": "Día de la Lengua Francesa",
+    "fecha": { "dia": 20, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Una de las seis jornadas de idiomas de la ONU, que celebra el francés y la diversidad de la francofonía.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Journée de la langue française", "url": "https://www.un.org/fr/observances/french-language-day/", "tipo": "institucional" }
+    ],
+    "emoji": "🇫🇷",
+    "tags": ["idiomas", "francofonia"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-los-bosques",
+    "nombre": "Día Internacional de los Bosques",
+    "fecha": { "dia": 21, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "La FAO destaca el rol de los bosques para la vida, el clima y la biodiversidad del planeta.",
+    "fuentes": [
+      { "nombre": "FAO - Día Internacional de los Bosques", "url": "https://www.fao.org/international-day-of-forests/es", "tipo": "institucional" }
+    ],
+    "emoji": "🌳",
+    "tags": ["bosques", "biodiversidad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-de-los-glaciares",
+    "nombre": "Día Mundial de los Glaciares",
+    "fecha": { "dia": 21, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Llama a proteger los glaciares del planeta frente al derretimiento acelerado por el cambio climático.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial de los Glaciares", "url": "https://www.un.org/es/observances/world-day-glaciers", "tipo": "institucional" }
+    ],
+    "emoji": "🧊",
+    "tags": ["glaciares", "cambio climatico"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-eliminacion-discriminacion-racial",
+    "nombre": "Día Internacional de la Eliminación de la Discriminación Racial",
+    "fecha": { "dia": 21, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Recuerda la masacre de Sharpeville de 1960 y renueva el compromiso contra el racismo.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de la Eliminación de la Discriminación Racial", "url": "https://www.un.org/es/observances/end-racism-day", "tipo": "institucional" }
+    ],
+    "emoji": "✊",
+    "tags": ["racismo", "discriminacion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-de-la-poesia",
+    "nombre": "Día Mundial de la Poesía",
+    "fecha": { "dia": 21, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "La UNESCO celebra la poesía como una de las expresiones más preciadas de la identidad lingüística humana.",
+    "fuentes": [
+      { "nombre": "UNESCO - Día Mundial de la Poesía", "url": "https://www.unesco.org/es/days/poetry", "tipo": "institucional" }
+    ],
+    "emoji": "📜",
+    "tags": ["poesia", "literatura"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-del-novruz",
+    "nombre": "Día Internacional del Novruz",
+    "fecha": { "dia": 21, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Celebra el año nuevo persa y las tradiciones de los pueblos que festejan la llegada de la primavera.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional del Novruz", "url": "https://www.un.org/es/observances/international-nowruz-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌸",
+    "tags": ["novruz", "ano nuevo persa"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-del-sindrome-de-down",
+    "nombre": "Día Mundial del Síndrome de Down",
+    "fecha": { "dia": 21, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Promueve los derechos, la inclusión y el bienestar de las personas con síndrome de Down.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial del Síndrome de Down", "url": "https://www.un.org/es/observances/down-syndrome-day", "tipo": "institucional" }
+    ],
+    "emoji": "💙",
+    "tags": ["sindrome de down", "inclusion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-del-agua",
+    "nombre": "Día Mundial del Agua",
+    "fecha": { "dia": 22, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "La ONU pone el foco en la importancia del agua dulce y su gestión sostenible para todas las personas.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial del Agua", "url": "https://www.un.org/es/observances/water-day", "tipo": "institucional" }
+    ],
+    "emoji": "💧",
+    "tags": ["agua", "recursos hidricos"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-meteorologico-mundial",
+    "nombre": "Día Meteorológico Mundial",
+    "fecha": { "dia": 23, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "ciencia",
+    "descripcion": "Conmemora la entrada en vigor, en 1950, del convenio que creó la Organización Meteorológica Mundial.",
+    "fuentes": [
+      { "nombre": "OMM - Día Meteorológico Mundial", "url": "https://wmo.int/es/dia-meteorologico-mundial", "tipo": "institucional" }
+    ],
+    "emoji": "🌦️",
+    "tags": ["meteorologia", "clima"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-memoria-por-la-verdad-y-la-justicia",
+    "nombre": "Día Nacional de la Memoria por la Verdad y la Justicia",
+    "fecha": { "dia": 24, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Honra a las víctimas del terrorismo de Estado del golpe de 1976, instituido por la Ley 25.633.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Ley 25.633", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-25633-77081/texto", "tipo": "normativa" }
+    ],
+    "emoji": "🕯️",
+    "tags": ["memoria", "derechos humanos", "dictadura"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-derecho-a-la-verdad",
+    "nombre": "Día Internacional del Derecho a la Verdad en relación con Violaciones Graves de los Derechos Humanos y la Dignidad de las Víctimas",
+    "fecha": { "dia": 24, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Reivindica el derecho de las víctimas y las sociedades a conocer la verdad sobre violaciones graves a los DDHH.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional del Derecho a la Verdad", "url": "https://www.un.org/es/observances/right-to-truth-day", "tipo": "institucional" }
+    ],
+    "emoji": "🔍",
+    "tags": ["derechos humanos", "verdad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-de-la-tuberculosis",
+    "nombre": "Día Mundial de la Tuberculosis",
+    "fecha": { "dia": 24, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "La OMS impulsa la detección y el tratamiento de una enfermedad que aún cobra miles de vidas cada año.",
+    "fuentes": [
+      { "nombre": "OMS - Día Mundial de la Tuberculosis", "url": "https://www.who.int/es/campaigns/world-tb-day", "tipo": "institucional" }
+    ],
+    "emoji": "🫁",
+    "tags": ["tuberculosis", "salud publica"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-trabajador-de-prensa",
+    "nombre": "Día del Trabajador de Prensa",
+    "fecha": { "dia": 25, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la sanción del Estatuto del Periodista Profesional de 1944, luego consolidado en la Ley 12.908.",
+    "fuentes": [
+      { "nombre": "Dirección Electoral de Misiones - Día del Trabajador de Prensa", "url": "https://www.electoralmisiones.gov.ar/25-de-marzo-dia-del-trabajador-de-prensa/", "tipo": "institucional" }
+    ],
+    "emoji": "📰",
+    "tags": ["periodismo", "prensa"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-nino-por-nacer",
+    "nombre": "Día del Niño por Nacer",
+    "fecha": { "dia": 25, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "familia",
+    "descripcion": "Establecido por el Decreto 1406/98 para promover y proteger la vida humana desde la concepción.",
+    "fuentes": [
+      { "nombre": "Casa Rosada - Día del Niño por Nacer", "url": "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/50917-25-de-marzo-dia-del-nino-por-nacer", "tipo": "institucional" }
+    ],
+    "emoji": "👶",
+    "tags": ["vida", "decreto 1406"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-solidaridad-personal-detenido-desaparecido",
+    "nombre": "Día Internacional de Solidaridad con los Miembros del Personal Detenidos o Desaparecidos",
+    "fecha": { "dia": 25, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Recuerda al personal humanitario y de Naciones Unidas detenido, secuestrado o desaparecido en su labor.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de Solidaridad con los Miembros del Personal Detenidos o Desaparecidos", "url": "https://www.un.org/es/observances/detained-staff-day", "tipo": "institucional" }
+    ],
+    "emoji": "🎗️",
+    "tags": ["personal humanitario", "solidaridad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-recuerdo-victimas-esclavitud",
+    "nombre": "Día Internacional de Recuerdo de las Víctimas de la Esclavitud y la Trata Transatlántica de Esclavos",
+    "fecha": { "dia": 25, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "historia",
+    "descripcion": "Honra la memoria de millones de personas esclavizadas y reflexiona sobre las consecuencias de la trata transatlántica.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de Recuerdo de las Víctimas de la Esclavitud", "url": "https://www.un.org/es/rememberslavery/observance", "tipo": "institucional" }
+    ],
+    "emoji": "⛓️",
+    "tags": ["esclavitud", "memoria"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-cero-desechos",
+    "nombre": "Día Internacional de Cero Desechos",
+    "fecha": { "dia": 30, "mes": 3 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Impulsa prácticas de gestión de residuos sostenibles y modelos de consumo y producción responsables.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de Cero Desechos", "url": "https://www.un.org/es/observances/zero-waste-day", "tipo": "institucional" }
+    ],
+    "emoji": "♻️",
+    "tags": ["residuos", "reciclaje"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-agua-argentina",
+    "nombre": "Día Nacional del Agua",
+    "fecha": { "dia": 31, "mes": 3 },
+    "alcance": "argentina",
+    "categoria": "ambiente",
+    "descripcion": "Celebrado desde 1972 para concientizar sobre el cuidado y el uso responsable de los recursos hídricos.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día Nacional del Agua", "url": "https://www.argentina.gob.ar/noticias/31-de-marzo-dia-nacional-del-agua", "tipo": "institucional" }
+    ],
+    "emoji": "💦",
+    "tags": ["agua", "recursos hidricos"],
+    "verificadoEn": "2026-09-11"
+  }
+]

@@ -1,0 +1,527 @@
+[
+  {
+    "id": "dia-internacional-del-cafe",
+    "nombre": "Día Internacional del Café",
+    "fecha": { "dia": 1, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "comida",
+    "descripcion": "Reconoce el papel económico, social y ambiental del café en el mundo.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional del Café", "url": "https://www.un.org/es/d%C3%ADas-internacionales/d%C3%ADa-internacional-del-caf%C3%A9", "tipo": "institucional" }
+    ],
+    "emoji": "☕",
+    "tags": ["cafe", "cafetaleros"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-personas-de-edad",
+    "nombre": "Día Internacional de las Personas de Edad",
+    "fecha": { "dia": 1, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Promueve la dignidad, los cuidados y la inclusión de las personas mayores en la sociedad.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de las Personas de Edad", "url": "https://www.un.org/es/observances/older-persons-day", "tipo": "institucional" }
+    ],
+    "emoji": "👵",
+    "tags": ["adultos mayores", "tercera edad", "ancianos"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-no-violencia",
+    "nombre": "Día Internacional de la No Violencia",
+    "fecha": { "dia": 2, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Difunde el mensaje de la no violencia en el aniversario del nacimiento de Mahatma Gandhi.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de la No Violencia", "url": "https://www.un.org/es/observances/non-violence-day", "tipo": "institucional" }
+    ],
+    "emoji": "🕊️",
+    "tags": ["gandhi", "paz", "noviolencia"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-docentes",
+    "nombre": "Día Mundial de las y los Docentes",
+    "fecha": { "dia": 5, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "educacion",
+    "descripcion": "Reconoce el aporte de las y los docentes desde la recomendación OIT-UNESCO de 1966.",
+    "fuentes": [
+      { "nombre": "UNESCO - Día Mundial de las y los Docentes", "url": "https://www.unesco.org/es/days/teachers", "tipo": "institucional" }
+    ],
+    "emoji": "📚",
+    "tags": ["profesores", "maestros", "unesco"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-algodon",
+    "nombre": "Día Mundial del Algodón",
+    "fecha": { "dia": 7, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Visibiliza el rol del algodón en el desarrollo económico, el comercio y la reducción de la pobreza.",
+    "fuentes": [
+      { "nombre": "FAO - Día Mundial del Algodón", "url": "https://www.fao.org/world-cotton-day/es", "tipo": "institucional" }
+    ],
+    "emoji": "🧵",
+    "tags": ["algodon", "fao", "agricultura"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-correo",
+    "nombre": "Día Mundial del Correo",
+    "fecha": { "dia": 9, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Conmemora la fundación de la Unión Postal Universal en 1874, en Berna.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial del Correo", "url": "https://www.un.org/es/observances/world-post-day", "tipo": "institucional" }
+    ],
+    "emoji": "📮",
+    "tags": ["correo", "upu", "cartas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-salud-mental",
+    "nombre": "Día Mundial de la Salud Mental",
+    "fecha": { "dia": 10, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Impulsa la concientización global sobre los problemas de salud mental y su prevención.",
+    "fuentes": [
+      { "nombre": "OMS - Día Mundial de la Salud Mental", "url": "https://www.who.int/es/campaigns/world-mental-health-day", "tipo": "institucional" }
+    ],
+    "emoji": "🧠",
+    "tags": ["salud mental", "oms", "bienestar"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-nina",
+    "nombre": "Día Internacional de la Niña",
+    "fecha": { "dia": 11, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Visibiliza los derechos y los desafíos que enfrentan las niñas en todo el mundo.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de la Niña", "url": "https://www.un.org/es/observances/girl-child-day", "tipo": "institucional" }
+    ],
+    "emoji": "👧",
+    "tags": ["ninas", "genero", "infancia"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-reduccion-riesgo-desastres",
+    "nombre": "Día Internacional para la Reducción del Riesgo de Desastres",
+    "fecha": { "dia": 13, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Promueve la reducción del riesgo de desastres y el fortalecimiento de la resiliencia comunitaria.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional para la Reducción del Riesgo de Desastres", "url": "https://www.un.org/es/observances/disaster-reduction-day", "tipo": "institucional" }
+    ],
+    "emoji": "⚠️",
+    "tags": ["desastres", "prevencion", "resiliencia"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-mujeres-rurales",
+    "nombre": "Día Internacional de las Mujeres Rurales",
+    "fecha": { "dia": 15, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Reconoce el papel de las mujeres rurales en la seguridad alimentaria y el desarrollo.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de las Mujeres Rurales", "url": "https://www.un.org/es/observances/rural-women-day", "tipo": "institucional" }
+    ],
+    "emoji": "👩‍🌾",
+    "tags": ["mujeres", "ruralidad", "genero"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-alimentacion",
+    "nombre": "Día Mundial de la Alimentación",
+    "fecha": { "dia": 16, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "comida",
+    "descripcion": "Promueve la acción global contra el hambre y por sistemas alimentarios sostenibles.",
+    "fuentes": [
+      { "nombre": "FAO - Día Mundial de la Alimentación", "url": "http://www.fao.org/world-food-day/home/es/", "tipo": "institucional" }
+    ],
+    "emoji": "🌾",
+    "tags": ["fao", "hambre", "alimentacion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-erradicacion-pobreza",
+    "nombre": "Día Internacional para la Erradicación de la Pobreza",
+    "fecha": { "dia": 17, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Recuerda que erradicar la pobreza es una cuestión de dignidad, justicia y pertenencia.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional para la Erradicación de la Pobreza", "url": "https://www.un.org/es/observances/day-for-eradicating-poverty", "tipo": "institucional" }
+    ],
+    "emoji": "🤝",
+    "tags": ["pobreza", "dignidad", "desarrollo"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-estadistica",
+    "nombre": "Día Mundial de la Estadística",
+    "fecha": { "dia": 20, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "ciencia",
+    "descripcion": "Celebra el papel de la estadística oficial en la toma de decisiones informadas.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial de la Estadística", "url": "https://www.un.org/es/observances/statistics-day", "tipo": "institucional" }
+    ],
+    "emoji": "📊",
+    "tags": ["estadistica", "datos", "censo"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-leopardo-nieves",
+    "nombre": "Día Internacional del Leopardo de las Nieves",
+    "fecha": { "dia": 23, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "animales",
+    "descripcion": "Fortalece la cooperación global para conservar al leopardo de las nieves y su ecosistema.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional del Leopardo de las Nieves", "url": "https://www.un.org/es/observances/snow-leopard-day", "tipo": "institucional" }
+    ],
+    "emoji": "🐆",
+    "tags": ["leopardo de las nieves", "conservacion", "montanas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-naciones-unidas",
+    "nombre": "Día de las Naciones Unidas",
+    "fecha": { "dia": 24, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "historia",
+    "descripcion": "Recuerda la entrada en vigor de la Carta de las Naciones Unidas en 1945.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día de las Naciones Unidas", "url": "https://www.un.org/es/observances/un-day", "tipo": "institucional" }
+    ],
+    "emoji": "🇺🇳",
+    "tags": ["onu", "carta de la onu"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-informacion-desarrollo",
+    "nombre": "Día Mundial de Información sobre el Desarrollo",
+    "fecha": { "dia": 24, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Llama la atención sobre los problemas del desarrollo y la necesidad de cooperación internacional.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial de Información sobre el Desarrollo", "url": "https://www.un.org/es/observances/development-information-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌍",
+    "tags": ["desarrollo", "cooperacion internacional"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-patrimonio-audiovisual",
+    "nombre": "Día Mundial del Patrimonio Audiovisual",
+    "fecha": { "dia": 27, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Promueve la preservación de los documentos audiovisuales como patrimonio de la humanidad.",
+    "fuentes": [
+      { "nombre": "UNESCO - Día Mundial del Patrimonio Audiovisual", "url": "https://www.unesco.org/es/days/audiovisual-heritage", "tipo": "institucional" }
+    ],
+    "emoji": "🎞️",
+    "tags": ["unesco", "archivos", "cine"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-ciudades",
+    "nombre": "Día Mundial de las Ciudades",
+    "fecha": { "dia": 31, "mes": 10 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Promueve el interés global por la urbanización sostenible y el futuro de las ciudades.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial de las Ciudades", "url": "https://www.un.org/es/observances/cities-day", "tipo": "institucional" }
+    ],
+    "emoji": "🏙️",
+    "tags": ["urbanizacion", "ciudades"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-habitat",
+    "nombre": "Día Mundial del Hábitat",
+    "fecha": { "mes": 10, "ordinal": 1, "diaSemana": 1 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Reflexiona sobre el estado de las ciudades y el derecho de todas las personas a una vivienda digna.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial del Hábitat", "url": "https://www.un.org/es/observances/habitat-day", "tipo": "institucional" }
+    ],
+    "emoji": "🏠",
+    "tags": ["vivienda", "onu-habitat", "urbanismo"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-vision",
+    "nombre": "Día Mundial de la Visión",
+    "fecha": { "mes": 10, "ordinal": 2, "diaSemana": 4 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Impulsa la prevención de la ceguera y el acceso universal a la salud visual.",
+    "fuentes": [
+      { "nombre": "OPS/OMS - Día Mundial de la Visión", "url": "https://www.paho.org/en/news/9-10-2025-paho-commemorates-world-sight-day-and-urges-greater-investment-eye-health-through", "tipo": "institucional" },
+      { "nombre": "OMS - World Sight Day (South-East Asia)", "url": "https://www.who.int/southeastasia/news/speeches/detail/world-sight-day", "tipo": "institucional" }
+    ],
+    "emoji": "👁️",
+    "tags": ["ceguera", "salud visual", "oms"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-mar-riqueza-pesquera",
+    "nombre": "Día del Mar y la Riqueza Pesquera",
+    "fecha": { "dia": 1, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "ambiente",
+    "descripcion": "Destaca la importancia económica y ambiental del mar argentino y sus recursos pesqueros.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día del Mar y la Riqueza Pesquera", "url": "https://www.argentina.gob.ar/noticias/1o-de-octubre-dia-del-mar-y-la-riqueza-pesquera", "tipo": "institucional" }
+    ],
+    "emoji": "🌊",
+    "tags": ["mar argentino", "pesca"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-camino-argentina",
+    "nombre": "Día del Camino y la Seguridad Vial",
+    "fecha": { "dia": 5, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Promueve la educación vial y el respeto por las normas de tránsito en las rutas argentinas.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día del Camino y la Seguridad Vial", "url": "https://www.argentina.gob.ar/seguridadvial/formacion-vial/5-de-octubre-dia-del-camino-y-la-seguridad-vial", "tipo": "institucional" }
+    ],
+    "emoji": "🛣️",
+    "tags": ["seguridad vial", "rutas", "transito"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-ave",
+    "nombre": "Día Nacional del Ave",
+    "fecha": { "dia": 5, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "animales",
+    "descripcion": "Impulsa la reflexión y la acción para proteger a las especies de aves de Argentina.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día Nacional del Ave", "url": "https://www.argentina.gob.ar/noticias/5-de-octubre-dia-nacional-del-ave", "tipo": "institucional" }
+    ],
+    "emoji": "🐦",
+    "tags": ["aves", "hornero", "conservacion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-patrimonio-natural-cultural",
+    "nombre": "Día Nacional del Patrimonio Natural y Cultural Argentino",
+    "fecha": { "dia": 8, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Promueve la reflexión sobre la preservación del patrimonio natural y cultural de valor excepcional.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día Nacional del Patrimonio Natural y Cultural Argentino", "url": "https://www.argentina.gob.ar/noticias/8-de-octubre-dia-nacional-del-patrimonio-natural-y-cultural-argentino", "tipo": "institucional" }
+    ],
+    "emoji": "🏞️",
+    "tags": ["patrimonio", "conservacion"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-trabajador-rural",
+    "nombre": "Día del Trabajador Rural",
+    "fecha": { "dia": 8, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Conmemora la sanción del Estatuto del Peón Rural en 1944, que reguló el trabajo agrario.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Resolución 7/2004, Día del Trabajador Rural", "url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-7-2004-95035", "tipo": "normativa" }
+    ],
+    "emoji": "🌾",
+    "tags": ["peon rural", "campo", "trabajadores"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-estudiante-solidario",
+    "nombre": "Día del Estudiante Solidario",
+    "fecha": { "dia": 8, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Homenajea a estudiantes y docentes que promueven la solidaridad desde las escuelas.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día del Estudiante Solidario", "url": "https://www.argentina.gob.ar/seguridadvial/educacionvial/8-de-octubre-dia-del-estudiante-solidario", "tipo": "institucional" }
+    ],
+    "emoji": "🤲",
+    "tags": ["solidaridad", "escuela", "aprendizaje servicio"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-martillero-corredor-publico",
+    "nombre": "Día del Martillero y Corredor Público",
+    "fecha": { "dia": 11, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Conmemora la asamblea fundacional de la profesión realizada en Tandil en 1943.",
+    "fuentes": [
+      { "nombre": "Universidad Nacional de San Luis - Día del Martillero y Corredor Público", "url": "https://www.fcejs.unsl.edu.ar/index.php/11-de-octubre-dia-del-martillero-y-corredor-publico/", "tipo": "institucional" }
+    ],
+    "emoji": "🔨",
+    "tags": ["martillero", "rematador", "corredor inmobiliario"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-patagonia",
+    "nombre": "Día Nacional de la Patagonia",
+    "fecha": { "dia": 11, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Recuerda la ley de 1878 que creó el Territorio Nacional de la Patagonia.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día Nacional de la Patagonia", "url": "https://www.argentina.gob.ar/noticias/11-de-octubre-dia-nacional-de-la-patagonia", "tipo": "institucional" }
+    ],
+    "emoji": "🏔️",
+    "tags": ["patagonia", "territorio"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-respeto-diversidad-cultural",
+    "nombre": "Día del Respeto a la Diversidad Cultural",
+    "fecha": { "dia": 12, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "derechos",
+    "descripcion": "Promueve la reflexión histórica, el diálogo intercultural y el respeto a los pueblos originarios.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día del Respeto a la Diversidad Cultural", "url": "https://www.argentina.gob.ar/noticias/12-de-octubre-dia-del-respeto-la-diversidad-cultural-1", "tipo": "institucional" }
+    ],
+    "emoji": "🌎",
+    "tags": ["pueblos originarios", "interculturalidad"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-cooperacion-escolar",
+    "nombre": "Día de la Cooperación Escolar",
+    "fecha": { "dia": 15, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "educacion",
+    "descripcion": "Homenajea a las cooperadoras escolares en el aniversario de la primera junta vecinal de 1816.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día de la Cooperación Escolar", "url": "https://www.argentina.gob.ar/noticias/educacion-celebra-el-aniversario-de-las-cooperadoras-escolares-nexos-principales-entre", "tipo": "institucional" }
+    ],
+    "emoji": "🏫",
+    "tags": ["cooperadoras", "escuela", "familias"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-madre-argentina",
+    "nombre": "Día de la Madre",
+    "fecha": { "mes": 10, "ordinal": 3, "diaSemana": 0 },
+    "alcance": "argentina",
+    "categoria": "familia",
+    "descripcion": "Homenajea a las madres el tercer domingo de octubre, fecha propia de la tradición argentina.",
+    "fuentes": [
+      { "nombre": "Municipalidad de Valle María - Día de la Madre", "url": "https://www.vallemaria.gob.ar/?q=content/dia-la-madre", "tipo": "institucional" }
+    ],
+    "emoji": "💐",
+    "tags": ["mamas", "familia"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-lealtad",
+    "nombre": "Día de la Lealtad",
+    "fecha": { "dia": 17, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Recuerda la movilización obrera del 17 de octubre de 1945 que exigió la liberación de Perón.",
+    "fuentes": [
+      { "nombre": "Casa Rosada - Día de la Lealtad", "url": "https://www.casarosada.gob.ar/informacion/archivo/21477-blank-86220688", "tipo": "institucional" }
+    ],
+    "emoji": "🎉",
+    "tags": ["peronismo", "17 de octubre", "historia argentina"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-seguro",
+    "nombre": "Día del Seguro",
+    "fecha": { "dia": 21, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Conmemora el decreto de 1944 que estableció esta fecha para la actividad aseguradora argentina.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Aniversario del Día del Seguro", "url": "https://www.argentina.gob.ar/noticias/76deg-aniversario-del-dia-del-seguro", "tipo": "institucional" }
+    ],
+    "emoji": "🛡️",
+    "tags": ["seguros", "aseguradoras"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-derecho-identidad",
+    "nombre": "Día Nacional del Derecho a la Identidad",
+    "fecha": { "dia": 22, "mes": 10 },
+    "alcance": "argentina",
+    "categoria": "derechos",
+    "descripcion": "Conmemora la fundación de Abuelas de Plaza de Mayo y el derecho de todas las personas a su identidad.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día Nacional del Derecho a la Identidad", "url": "https://www.argentina.gob.ar/noticias/22-de-octubre-dia-nacional-del-derecho-la-identidad", "tipo": "institucional" }
+    ],
+    "emoji": "🆔",
+    "tags": ["identidad", "abuelas de plaza de mayo", "derechos humanos"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-profesor-brasil",
+    "nombre": "Día del Profesor",
+    "fecha": { "dia": 15, "mes": 10 },
+    "alcance": "otro-pais",
+    "pais": "Brasil",
+    "categoria": "educacion",
+    "descripcion": "Celebra a los docentes brasileños en la fecha establecida por decreto en 1963.",
+    "fuentes": [
+      { "nombre": "Presidência da República (Brasil) - Decreto 52.682/1963", "url": "https://www.planalto.gov.br/ccivil_03/decreto/1950-1969/d52682.htm", "tipo": "normativa" }
+    ],
+    "emoji": "🍎",
+    "tags": ["brasil", "docentes", "profesores"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-medico-mexico",
+    "nombre": "Día del Médico",
+    "fecha": { "dia": 23, "mes": 10 },
+    "alcance": "otro-pais",
+    "pais": "México",
+    "categoria": "profesion",
+    "descripcion": "Reconoce a las médicas y los médicos mexicanos en la fecha oficializada por decreto en 2020.",
+    "fuentes": [
+      { "nombre": "Gobierno de México - Secretaría de Salud - Día del Médico", "url": "https://www.gob.mx/salud/es/articulos/23-de-octubre-dia-del-medico", "tipo": "institucional" }
+    ],
+    "emoji": "⚕️",
+    "tags": ["mexico", "medicos", "salud"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-ninos-brasil",
+    "nombre": "Día del Niño",
+    "fecha": { "dia": 12, "mes": 10 },
+    "alcance": "otro-pais",
+    "pais": "Brasil",
+    "categoria": "familia",
+    "descripcion": "Homenajea a la niñez brasileña en la fecha establecida por decreto en 1924.",
+    "fuentes": [
+      { "nombre": "Prefeitura de Bariri - Dia das Crianças", "url": "https://www.bariri.sp.gov.br/portal/noticias/0/3/6205/12-de-outubro-dia-das-criancas", "tipo": "institucional" }
+    ],
+    "emoji": "🎈",
+    "tags": ["brasil", "ninos", "infancia"],
+    "verificadoEn": "2026-09-11"
+  }
+]

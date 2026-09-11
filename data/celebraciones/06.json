@@ -1,0 +1,1015 @@
+[
+  {
+    "id": "dia-mundial-de-las-madres-y-los-padres",
+    "nombre": "Día Mundial de las Madres y los Padres",
+    "fecha": {
+      "dia": 1,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "familia",
+    "descripcion": "Reconoce el rol de madres y padres en la crianza y el bienestar de sus hijos en todo el mundo.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/parents-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "👨‍👩‍👧"
+  },
+  {
+    "id": "dia-mundial-de-la-bicicleta",
+    "nombre": "Día Mundial de la Bicicleta",
+    "fecha": {
+      "dia": 3,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "deporte",
+    "descripcion": "Promueve el uso de la bicicleta como medio de transporte simple, económico y saludable.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/bicycle-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🚲"
+  },
+  {
+    "id": "dia-internacional-de-los-ninos-victimas-inocentes-de-agresion",
+    "nombre": "Día Internacional de los Niños Víctimas Inocentes de Agresión",
+    "fecha": {
+      "dia": 4,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Reafirma el compromiso de proteger a la infancia del abuso físico, mental y emocional en conflictos.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/child-victim-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🕊️"
+  },
+  {
+    "id": "dia-mundial-del-medio-ambiente",
+    "nombre": "Día Mundial del Medio Ambiente",
+    "fecha": {
+      "dia": 5,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Impulsa la acción global para proteger los ecosistemas del planeta, establecido por la ONU en 1972.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/environment-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🌎"
+  },
+  {
+    "id": "dia-internacional-contra-la-pesca-ilegal",
+    "nombre": "Día Internacional de la Lucha contra la Pesca Ilegal, No Declarada y No Reglamentada",
+    "fecha": {
+      "dia": 5,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Visibiliza el impacto de la pesca ilegal sobre los recursos marinos y la seguridad alimentaria.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/end-illegal-fishing-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🎣"
+  },
+  {
+    "id": "dia-de-la-lengua-rusa",
+    "nombre": "Día de la Lengua Rusa",
+    "fecha": {
+      "dia": 6,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Celebra el idioma ruso en la ONU, en el aniversario del nacimiento del poeta Alexander Pushkin.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observances (ruso)",
+        "url": "https://www.un.org/ru/observances/russian-language-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "dia-mundial-de-la-inocuidad-de-los-alimentos",
+    "nombre": "Día Mundial de la Inocuidad de los Alimentos",
+    "fecha": {
+      "dia": 7,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Promueve acciones para prevenir riesgos alimentarios y detectar y gestionar enfermedades transmitidas por alimentos.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/food-safety-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🍽️"
+  },
+  {
+    "id": "dia-mundial-de-los-oceanos",
+    "nombre": "Día Mundial de los Océanos",
+    "fecha": {
+      "dia": 8,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Recuerda el papel central de los océanos en la vida del planeta y la necesidad de protegerlos.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/oceans-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🌊"
+  },
+  {
+    "id": "dia-internacional-para-el-dialogo-entre-civilizaciones",
+    "nombre": "Día Internacional para el Diálogo entre Civilizaciones",
+    "fecha": {
+      "dia": 10,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Promueve el entendimiento entre culturas y religiones como camino hacia la paz.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/international-day-for-dialogue-among-civilizations",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🤝"
+  },
+  {
+    "id": "dia-internacional-del-juego",
+    "nombre": "Día Internacional del Juego",
+    "fecha": {
+      "dia": 11,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Reconoce el derecho de niñas y niños a jugar como parte esencial de su desarrollo.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/international-day-of-play",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🧸"
+  },
+  {
+    "id": "dia-mundial-contra-el-trabajo-infantil",
+    "nombre": "Día Mundial contra el Trabajo Infantil",
+    "fecha": {
+      "dia": 12,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Impulsado por la OIT, busca erradicar el trabajo infantil y proteger a la niñez en todo el mundo.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/World-Day-Against-Child-Labour",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "✊"
+  },
+  {
+    "id": "dia-internacional-de-sensibilizacion-sobre-el-albinismo",
+    "nombre": "Día Internacional de Sensibilización sobre el Albinismo",
+    "fecha": {
+      "dia": 13,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Busca combatir la discriminación y visibilizar los derechos de las personas con albinismo.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/albinism-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🎗️"
+  },
+  {
+    "id": "dia-mundial-del-donante-de-sangre",
+    "nombre": "Día Mundial del Donante de Sangre",
+    "fecha": {
+      "dia": 14,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Agradece a quienes donan sangre de forma voluntaria y promueve la donación regular y segura.",
+    "fuentes": [
+      {
+        "nombre": "OMS - Campañas",
+        "url": "https://www.who.int/es/campaigns/world-blood-donor-day/2026",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🩸"
+  },
+  {
+    "id": "dia-mundial-de-toma-de-conciencia-del-abuso-y-maltrato-en-la-vejez",
+    "nombre": "Día Mundial de Toma de Conciencia del Abuso y Maltrato en la Vejez",
+    "fecha": {
+      "dia": 15,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Llama a prevenir el maltrato hacia las personas mayores y a proteger sus derechos.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/elder-abuse-awareness-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🧓"
+  },
+  {
+    "id": "dia-internacional-de-las-remesas-familiares",
+    "nombre": "Día Internacional de las Remesas Familiares",
+    "fecha": {
+      "dia": 16,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "familia",
+    "descripcion": "Reconoce el aporte de las personas migrantes que envían dinero a sus familias en sus países de origen.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/remittances-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "💸"
+  },
+  {
+    "id": "dia-mundial-de-lucha-contra-la-desertificacion-y-la-sequia",
+    "nombre": "Día Mundial de Lucha contra la Desertificación y la Sequía",
+    "fecha": {
+      "dia": 17,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Promueve la conciencia sobre la degradación de tierras y las soluciones para revertirla.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/desertification-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🏜️"
+  },
+  {
+    "id": "dia-internacional-para-contrarrestar-el-discurso-de-odio",
+    "nombre": "Día Internacional para Contrarrestar el Discurso de Odio",
+    "fecha": {
+      "dia": 18,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Impulsa acciones contra el discurso de odio como amenaza a los valores democráticos y los derechos humanos.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/countering-hate-speech",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🚫"
+  },
+  {
+    "id": "dia-de-la-gastronomia-sostenible",
+    "nombre": "Día de la Gastronomía Sostenible",
+    "fecha": {
+      "dia": 18,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "comida",
+    "descripcion": "Destaca el papel de la gastronomía sostenible en el desarrollo y la preservación cultural.",
+    "fuentes": [
+      {
+        "nombre": "FAO",
+        "url": "https://www.fao.org/sustainable-gastronomy-day/es",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🍲"
+  },
+  {
+    "id": "dia-internacional-para-la-eliminacion-de-la-violencia-sexual-en-los-conflictos",
+    "nombre": "Día Internacional para la Eliminación de la Violencia Sexual en los Conflictos",
+    "fecha": {
+      "dia": 19,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Honra a las víctimas de violencia sexual en conflictos armados y exige justicia y reparación.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/end-sexual-violence-in-conflict-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🎗️"
+  },
+  {
+    "id": "dia-mundial-de-los-refugiados",
+    "nombre": "Día Mundial de los Refugiados",
+    "fecha": {
+      "dia": 20,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Rinde homenaje a la fortaleza de las personas que se ven forzadas a huir de sus hogares.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/refugee-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🏳️"
+  },
+  {
+    "id": "dia-internacional-de-la-celebracion-del-solsticio",
+    "nombre": "Día Internacional de la Celebración del Solsticio",
+    "fecha": {
+      "dia": 21,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Reconoce el valor cultural del solsticio, celebrado por distintos pueblos y civilizaciones.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/solstice-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "☀️"
+  },
+  {
+    "id": "dia-internacional-del-yoga",
+    "nombre": "Día Internacional del Yoga",
+    "fecha": {
+      "dia": 21,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Difunde los beneficios del yoga para la salud física y mental en todo el mundo.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/yoga-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🧘"
+  },
+  {
+    "id": "dia-de-las-naciones-unidas-para-la-administracion-publica",
+    "nombre": "Día de las Naciones Unidas para la Administración Pública",
+    "fecha": {
+      "dia": 23,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Reconoce el valor del servicio público en la construcción de sociedades más justas y eficientes.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/public-service-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🏛️"
+  },
+  {
+    "id": "dia-internacional-de-las-viudas",
+    "nombre": "Día Internacional de las Viudas",
+    "fecha": {
+      "dia": 23,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Visibiliza la situación de las mujeres viudas y promueve su acceso a derechos y apoyo social.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/widows-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🖤"
+  },
+  {
+    "id": "dia-internacional-de-las-mujeres-en-la-diplomacia",
+    "nombre": "Día Internacional de las Mujeres en la Diplomacia",
+    "fecha": {
+      "dia": 24,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Impulsa la participación plena e igualitaria de las mujeres en la diplomacia y las relaciones internacionales.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/women-in-diplomacy-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🕊️"
+  },
+  {
+    "id": "dia-del-marino",
+    "nombre": "Día del Marino",
+    "fecha": {
+      "dia": 25,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "profesion",
+    "descripcion": "Reconoce la contribución de la gente de mar al comercio marítimo y la economía mundial.",
+    "fuentes": [
+      {
+        "nombre": "OMI - Day of the Seafarer",
+        "url": "https://www.imo.org/es/About/Events/Pages/Day-of-the-Seafarer-2025.aspx",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "⚓"
+  },
+  {
+    "id": "dia-internacional-en-apoyo-de-las-victimas-de-la-tortura",
+    "nombre": "Día Internacional en Apoyo de las Víctimas de la Tortura",
+    "fecha": {
+      "dia": 26,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Honra a las víctimas de la tortura y reafirma el compromiso de erradicar esta práctica.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/torture-victims-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🕯️"
+  },
+  {
+    "id": "dia-internacional-de-la-lucha-contra-el-uso-indebido-y-el-trafico-ilicito-de-drogas",
+    "nombre": "Día Internacional de la Lucha contra el Uso Indebido y el Tráfico Ilícito de Drogas",
+    "fecha": {
+      "dia": 26,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Promueve una sociedad libre del uso indebido de drogas y refuerza la cooperación contra el narcotráfico.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/end-drug-abuse-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🚫"
+  },
+  {
+    "id": "dia-internacional-de-la-sordoceguera",
+    "nombre": "Día Internacional de la Sordoceguera",
+    "fecha": {
+      "dia": 27,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Conmemora el nacimiento de Helen Keller y visibiliza los derechos de las personas sordociegas.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/deafblindness-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🤟"
+  },
+  {
+    "id": "dia-de-las-microempresas-y-las-pymes",
+    "nombre": "Día de las Microempresas y las Pequeñas y Medianas Empresas",
+    "fecha": {
+      "dia": 27,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Reconoce el aporte de las micro, pequeñas y medianas empresas al desarrollo sostenible y al empleo.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/micro-small-medium-businesses-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🏪"
+  },
+  {
+    "id": "dia-internacional-de-los-tropicos",
+    "nombre": "Día Internacional de los Trópicos",
+    "fecha": {
+      "dia": 29,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Destaca los desafíos y oportunidades únicos de las regiones tropicales del planeta.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/tropics-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🌴"
+  },
+  {
+    "id": "dia-internacional-de-los-asteroides",
+    "nombre": "Día Internacional de los Asteroides",
+    "fecha": {
+      "dia": 30,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "ciencia",
+    "descripcion": "Conmemora el aniversario del impacto de Tunguska y promueve la conciencia sobre el riesgo de asteroides.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/asteroid-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "☄️"
+  },
+  {
+    "id": "dia-internacional-del-parlamentarismo",
+    "nombre": "Día Internacional del Parlamentarismo",
+    "fecha": {
+      "dia": 30,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Celebra el rol de los parlamentos en la democracia, en el aniversario de la Unión Interparlamentaria.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/parliamentarism-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🏛️"
+  },
+  {
+    "id": "dia-del-bombero-voluntario-argentino",
+    "nombre": "Día del Bombero Voluntario",
+    "fecha": {
+      "dia": 2,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a los bomberos voluntarios argentinos, en el aniversario del primer cuerpo fundado en La Boca en 1884.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/g2-de-junio-d%C3%ADa-del-bombero-voluntario",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🚒",
+    "tags": [
+      "bomberos"
+    ]
+  },
+  {
+    "id": "dia-del-profesional-de-ciencias-economicas",
+    "nombre": "Día del Profesional de Ciencias Económicas",
+    "fecha": {
+      "dia": 2,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda el nombramiento de Manuel Belgrano como primer Secretario del Consulado de Comercio en 1794.",
+    "fuentes": [
+      {
+        "nombre": "FACPCE",
+        "url": "https://www.facpce.org.ar/dia-del-profesional-de-ciencias-economicas/",
+        "tipo": "asociacion"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "📊",
+    "tags": [
+      "contador",
+      "economista"
+    ]
+  },
+  {
+    "id": "dia-nacional-del-perro",
+    "nombre": "Día Nacional del Perro",
+    "fecha": {
+      "dia": 2,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "animales",
+    "descripcion": "Homenajea a Chonino, el perro policía que murió protegiendo a su guía en 1983, y a los perros en general.",
+    "fuentes": [
+      {
+        "nombre": "Casa Rosada",
+        "url": "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/51271-dia-nacional-del-perro-2",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🐕",
+    "destacado": true
+  },
+  {
+    "id": "dia-de-la-ingenieria-argentina",
+    "nombre": "Día de la Ingeniería Argentina",
+    "fecha": {
+      "dia": 6,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Conmemora la graduación de Luis Augusto Huergo, el primer ingeniero civil del país, en 1870.",
+    "fuentes": [
+      {
+        "nombre": "Colegio de Ingenieros Especialistas de Santa Fe",
+        "url": "https://cie.gov.ar/web/noticias/639-dia-de-la-ingenieria-argentina",
+        "tipo": "asociacion"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "⚙️"
+  },
+  {
+    "id": "dia-del-periodista",
+    "nombre": "Día del Periodista",
+    "fecha": {
+      "dia": 7,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la aparición de la Gazeta de Buenos Ayres, el primer periódico patrio, en 1810.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/por-que-se-conmemora-hoy-el-dia-del-periodista-y-de-la-periodista",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "📰"
+  },
+  {
+    "id": "dia-de-la-afirmacion-de-los-derechos-argentinos-sobre-las-malvinas",
+    "nombre": "Día de la Afirmación de los Derechos Argentinos sobre las Islas Malvinas, Islas del Atlántico Sur y Sector Antártico",
+    "fecha": {
+      "dia": 10,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Fijado por la Ley 20.561 para reafirmar la soberanía argentina sobre las Islas Malvinas y el Atlántico Sur.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - Normativa (Ley 20.561)",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-20561-231251",
+        "tipo": "normativa"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🇦🇷"
+  },
+  {
+    "id": "dia-de-la-cruz-roja-argentina",
+    "nombre": "Día de la Cruz Roja Argentina",
+    "fecha": {
+      "dia": 10,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "salud",
+    "descripcion": "Recuerda la fundación de la Cruz Roja Argentina en 1880, impulsada por los médicos Rawson y Ayerza.",
+    "fuentes": [
+      {
+        "nombre": "Cruz Roja Argentina",
+        "url": "https://cruzroja.org.ar/blog/aniversario-cruz-roja-argentina/",
+        "tipo": "asociacion"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🏥"
+  },
+  {
+    "id": "dia-nacional-de-la-seguridad-vial",
+    "nombre": "Día Nacional de la Seguridad Vial",
+    "fecha": {
+      "dia": 10,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Recuerda el cambio del sentido de circulación vehicular en 1945 y promueve la conducta responsable en el tránsito.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - ANSV",
+        "url": "https://www.argentina.gob.ar/seguridadvial/educacionvial/10-de-junio-dia-mundial-de-la-seguridad-vial",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🚦"
+  },
+  {
+    "id": "dia-del-vecino",
+    "nombre": "Día del Vecino",
+    "fecha": {
+      "dia": 11,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Celebra el rol de los vecinos en la vida comunitaria, en el aniversario de la segunda fundación de Buenos Aires.",
+    "fuentes": [
+      {
+        "nombre": "Gobierno de la Ciudad de Buenos Aires",
+        "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/dia-del-vecino-participativo",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🏘️"
+  },
+  {
+    "id": "dia-del-escritor",
+    "nombre": "Día del Escritor",
+    "fecha": {
+      "dia": 13,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Homenajea a los escritores argentinos en el aniversario del nacimiento de Leopoldo Lugones.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/13-de-junio-dia-del-escritor-0",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "✍️",
+    "destacado": true
+  },
+  {
+    "id": "dia-nacional-del-libro",
+    "nombre": "Día Nacional del Libro",
+    "fecha": {
+      "dia": 15,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Destaca la importancia de la lectura y los libros en la cultura y la educación argentinas.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/15-de-junio-dia-del-libro-en-la-argentina",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "📚"
+  },
+  {
+    "id": "dia-del-editor",
+    "nombre": "Día del Editor",
+    "fecha": {
+      "dia": 17,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a editoras y editores, en el aniversario del nacimiento de Boris Spivacow, fundador de Eudeba.",
+    "fuentes": [
+      {
+        "nombre": "Facultad de Ciencias de la Educación, UNER",
+        "url": "https://www.fcedu.uner.edu.ar/17-de-junio-dia-de-las-y-los-editores/",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "📖"
+  },
+  {
+    "id": "dia-nacional-de-la-libertad-latinoamericana",
+    "nombre": "Día Nacional de la Libertad Latinoamericana",
+    "fecha": {
+      "dia": 17,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Conmemora el fallecimiento del general Martín Miguel de Güemes, defensor de la frontera norte en 1821.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/17-de-junio-dia-nacional-de-la-libertad-latinoamericana-0",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🇦🇷"
+  },
+  {
+    "id": "dia-de-la-bandera-nacional",
+    "nombre": "Día de la Bandera Nacional",
+    "fecha": {
+      "dia": 20,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Homenajea a Manuel Belgrano, creador de la bandera argentina, en el aniversario de su fallecimiento en 1820.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/20-de-junio-dia-de-la-bandera-nacional",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🇦🇷",
+    "destacado": true
+  },
+  {
+    "id": "dia-de-la-prefectura-naval-argentina",
+    "nombre": "Día de la Prefectura Naval Argentina",
+    "fecha": {
+      "dia": 30,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Conmemora la creación de la fuerza en 1810, cuando Mariano Moreno designó al primer Capitán de Puertos.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/30-de-junio-dia-de-la-prefectura-el-prefecto-nacional-naval-recibio-autoridades-extranjeras",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "⚓"
+  },
+  {
+    "id": "dia-del-padre-argentina",
+    "nombre": "Día del Padre",
+    "fecha": {
+      "mes": 6,
+      "ordinal": 3,
+      "diaSemana": 0
+    },
+    "alcance": "argentina",
+    "categoria": "familia",
+    "descripcion": "Homenajea a los padres; en Argentina se adoptó el tercer domingo de junio desde los años sesenta.",
+    "fuentes": [
+      {
+        "nombre": "Tribunal Electoral de la Provincia de Misiones",
+        "url": "https://www.electoralmisiones.gov.ar/18-de-junio-dia-del-padre-argentino/",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "👨‍👧",
+    "destacado": true
+  },
+  {
+    "id": "juneteenth-estados-unidos",
+    "nombre": "Juneteenth",
+    "fecha": {
+      "dia": 19,
+      "mes": 6
+    },
+    "alcance": "otro-pais",
+    "categoria": "derechos",
+    "descripcion": "Feriado federal de Estados Unidos que conmemora el fin de la esclavitud, declarado en 1865 en Texas.",
+    "fuentes": [
+      {
+        "nombre": "Govinfo.gov (Gobierno de EE.UU.)",
+        "url": "https://www.govinfo.gov/features/juneteenth",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "pais": "Estados Unidos",
+    "emoji": "✊🏾"
+  }
+]

@@ -1,0 +1,470 @@
+[
+  {
+    "id": "dia-internacional-de-las-cooperativas",
+    "nombre": "Día Internacional de las Cooperativas",
+    "fecha": { "mes": 7, "ordinal": 1, "diaSemana": 6 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Promueve el modelo cooperativo y conmemora el centenario de la Alianza Cooperativa Internacional.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de las Cooperativas", "url": "https://www.un.org/es/observances/cooperatives-day", "tipo": "institucional" }
+    ],
+    "emoji": "🤝",
+    "tags": ["cooperativismo", "economía social"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-del-desarrollo-rural",
+    "nombre": "Día Mundial del Desarrollo Rural",
+    "fecha": { "dia": 6, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Reconoce el aporte de las comunidades rurales al desarrollo sostenible y a la seguridad alimentaria mundial.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial del Desarrollo Rural", "url": "https://www.un.org/es/observances/rural-development-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌾",
+    "tags": ["ruralidad", "desarrollo"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-de-la-lengua-kiswahili",
+    "nombre": "Día Mundial de la Lengua Kiswahili",
+    "fecha": { "dia": 7, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Celebra el kiswahili como lengua de unidad panafricana, la primera lengua africana honrada con un día mundial.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial de la Lengua Kiswahili", "url": "https://www.un.org/es/observances/kiswahili-day", "tipo": "institucional" }
+    ],
+    "emoji": "🗣️",
+    "tags": ["idiomas", "áfrica"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-genocidio-srebrenica",
+    "nombre": "Día Internacional de Reflexión y Conmemoración del Genocidio de Srebrenica de 1995",
+    "fecha": { "dia": 11, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Recuerda a las víctimas del genocidio de Srebrenica de julio de 1995 y honra la memoria de los sobrevivientes.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día del Genocidio de Srebrenica", "url": "https://www.un.org/es/observances/srebrenica-genocide-commemoration-day", "tipo": "institucional" }
+    ],
+    "emoji": "🕯️",
+    "tags": ["memoria", "genocidio"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-del-caballo",
+    "nombre": "Día Mundial del Caballo",
+    "fecha": { "dia": 11, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "animales",
+    "descripcion": "Reconoce el vínculo histórico entre los caballos y la humanidad, proclamado por la Asamblea General de la ONU en 2025.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial del Caballo", "url": "https://www.un.org/es/observances/horse-day", "tipo": "institucional" }
+    ],
+    "emoji": "🐴",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-de-la-poblacion",
+    "nombre": "Día Mundial de la Población",
+    "fecha": { "dia": 11, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Llama la atención sobre la natalidad, la migración y otros fenómenos demográficos que afectan al desarrollo mundial.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial de la Población", "url": "https://www.un.org/es/observances/world-population-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌍",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-tormentas-arena-polvo",
+    "nombre": "Día Internacional de la Lucha contra las Tormentas de Arena y Polvo",
+    "fecha": { "dia": 12, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Visibiliza los efectos negativos de las tormentas de arena y polvo sobre la salud, la economía y el ambiente.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Lucha contra las Tormentas de Arena y Polvo", "url": "https://www.un.org/es/observances/day-of-combating-sand-and-dust-storms", "tipo": "institucional" }
+    ],
+    "emoji": "🌪️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-la-esperanza",
+    "nombre": "Día Internacional de la Esperanza",
+    "fecha": { "dia": 12, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Promueve la esperanza como principio orientador para las personas, las comunidades y las naciones.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de la Esperanza", "url": "https://www.un.org/es/observances/hope-day", "tipo": "institucional" }
+    ],
+    "emoji": "✨",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-habilidades-juventud",
+    "nombre": "Día Mundial de las Habilidades de la Juventud",
+    "fecha": { "dia": 15, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "educacion",
+    "descripcion": "Destaca la importancia de dotar a los jóvenes de competencias para el empleo, el trabajo decente y el emprendimiento.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial de las Habilidades de la Juventud", "url": "https://www.un.org/es/observances/world-youth-skills-day", "tipo": "institucional" }
+    ],
+    "emoji": "🎓",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-nelson-mandela",
+    "nombre": "Día Internacional Nelson Mandela",
+    "fecha": { "dia": 18, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Homenajea el cumpleaños de Nelson Mandela y su legado de servicio a la humanidad y a los derechos humanos.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional Nelson Mandela", "url": "https://www.un.org/es/mandeladay", "tipo": "institucional" }
+    ],
+    "emoji": "✊",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-la-luna",
+    "nombre": "Día Internacional de la Luna",
+    "fecha": { "dia": 20, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "ciencia",
+    "descripcion": "Conmemora el aniversario del alunizaje del Apolo 11 en 1969 y celebra la exploración lunar sostenible.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de la Luna", "url": "https://www.un.org/es/observances/moon-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌕",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-del-ajedrez",
+    "nombre": "Día Mundial del Ajedrez",
+    "fecha": { "dia": 20, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "deporte",
+    "descripcion": "Conmemora la fundación de la Federación Internacional de Ajedrez (FIDE) en París en 1924.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial del Ajedrez", "url": "https://www.un.org/es/observances/world-chess-day", "tipo": "institucional" }
+    ],
+    "emoji": "♟️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-bienestar-judicial",
+    "nombre": "Día Internacional para el Bienestar Judicial",
+    "fecha": { "dia": 25, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Promueve la salud y el bienestar de juezas, jueces y magistrados como base de una justicia íntegra y eficaz.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional para el Bienestar Judicial", "url": "https://www.un.org/es/observances/judicial-well-being-day", "tipo": "institucional" }
+    ],
+    "emoji": "⚖️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-mujeres-ninas-afrodescendientes",
+    "nombre": "Día Internacional de las Mujeres y las Niñas Afrodescendientes",
+    "fecha": { "dia": 25, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Visibiliza el racismo, la discriminación y la intolerancia que afectan a las mujeres y niñas afrodescendientes.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de las Mujeres y las Niñas Afrodescendientes", "url": "https://www.un.org/es/observances/women-girls-african-descent", "tipo": "institucional" }
+    ],
+    "emoji": "📢",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-prevencion-ahogamientos",
+    "nombre": "Día Mundial para la Prevención de los Ahogamientos",
+    "fecha": { "dia": 25, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Busca concientizar sobre el impacto de los ahogamientos en todo el mundo y promover medidas de prevención.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial para la Prevención de los Ahogamientos", "url": "https://www.un.org/es/observances/drowning-prevention-day", "tipo": "institucional" }
+    ],
+    "emoji": "🏊",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-contra-la-hepatitis",
+    "nombre": "Día Mundial contra la Hepatitis",
+    "fecha": { "dia": 28, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Recuerda el nacimiento del Dr. Baruch Blumberg, descubridor del virus de la hepatitis B, y promueve su prevención.",
+    "fuentes": [
+      { "nombre": "OMS - Día Mundial contra la Hepatitis", "url": "https://www.who.int/es/campaigns/world-hepatitis-day", "tipo": "institucional" }
+    ],
+    "emoji": "🩺",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-la-amistad",
+    "nombre": "Día Internacional de la Amistad",
+    "fecha": { "dia": 30, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "familia",
+    "descripcion": "Promueve la amistad entre pueblos, países y culturas como puente hacia la paz, designado por la ONU en 2011.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Internacional de la Amistad", "url": "https://www.un.org/es/observances/friendship-day", "tipo": "institucional" }
+    ],
+    "emoji": "🤗",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-contra-la-trata",
+    "nombre": "Día Mundial contra la Trata",
+    "fecha": { "dia": 30, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Concientiza sobre la situación de las víctimas de la trata de personas y promueve la defensa de sus derechos.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Día Mundial contra la Trata", "url": "https://www.un.org/es/observances/end-human-trafficking-day", "tipo": "institucional" }
+    ],
+    "emoji": "🚫",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-del-trabajo-domestico",
+    "nombre": "Día Internacional del Trabajo Doméstico",
+    "fecha": { "dia": 22, "mes": 7 },
+    "alcance": "internacional",
+    "categoria": "profesion",
+    "descripcion": "Reconoce y visibiliza el trabajo de millones de mujeres que se desempeñan en el ámbito doméstico, declarado en 1983.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día Internacional del Trabajo Doméstico", "url": "https://www.argentina.gob.ar/noticias/22-de-julio-dia-internacional-del-trabajo-domestico", "tipo": "institucional" }
+    ],
+    "emoji": "🧹",
+    "tags": ["trabajadoras de casas particulares"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-historiador",
+    "nombre": "Día del Historiador",
+    "fecha": { "dia": 1, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a quienes investigan, estudian y difunden los hechos que marcaron la historia nacional.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día del Historiador en Argentina", "url": "https://www.argentina.gob.ar/noticias/1-de-julio-dia-del-historiador-en-argentina", "tipo": "institucional" }
+    ],
+    "emoji": "📚",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-ingeniero-quimico",
+    "nombre": "Día del Ingeniero Químico",
+    "fecha": { "dia": 1, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la primera clase dictada en 1920 en la Facultad de Ingeniería Química de la UNL, pionera en el país.",
+    "fuentes": [
+      { "nombre": "UNL - La Universidad celebró el Día del Ingeniero Químico", "url": "https://www.unl.edu.ar/noticias/leer/13962/La_Universidad_celebro_el_Dia_del_Ingeniero_Quimico.html?diario=2", "tipo": "institucional" }
+    ],
+    "emoji": "🧪",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-agricultura-nacional",
+    "nombre": "Día de la Agricultura Nacional",
+    "fecha": { "dia": 2, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Recuerda la sanción en 1948 de la Ley de Arrendamientos y Aparcerías Rurales, que dio acceso a la tierra a pequeños productores.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día de la Agricultura Nacional", "url": "https://www.argentina.gob.ar/noticias/2-de-julio-de-1948-dia-de-la-agricultura-nacional", "tipo": "institucional" }
+    ],
+    "emoji": "🌱",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-abogado-laboralista",
+    "nombre": "Día del Abogado Laboralista",
+    "fecha": { "dia": 7, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a los abogados asesinados en la 'Noche de las Corbatas' y a quienes defienden los derechos laborales.",
+    "fuentes": [
+      { "nombre": "Ley 27.115 - Día del Abogado Laboralista", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-27115-241354/texto", "tipo": "normativa" }
+    ],
+    "emoji": "⚖️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-conservacion-del-suelo",
+    "nombre": "Día Nacional de la Conservación del Suelo",
+    "fecha": { "dia": 7, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "ambiente",
+    "descripcion": "Celebra desde 1963 el cuidado del suelo, en memoria del investigador estadounidense Hugh Hammond Bennett.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día Nacional de la Conservación del Suelo", "url": "https://www.argentina.gob.ar/noticias/7-de-julio-de-1963-dia-de-la-conservacion-del-suelo", "tipo": "institucional" }
+    ],
+    "emoji": "🟫",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-independencia",
+    "nombre": "Día de la Independencia",
+    "fecha": { "dia": 9, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Conmemora la firma del Acta de la Independencia en 1816 por el Congreso General Constituyente de Tucumán.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - 9 de julio: Día de la Independencia", "url": "https://www.argentina.gob.ar/noticias/9-de-julio-dia-de-la-independencia-4", "tipo": "institucional" }
+    ],
+    "emoji": "🇦🇷",
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-las-heroinas-y-martires-independencia-america",
+    "nombre": "Día de las Heroínas y Mártires de la Independencia de América",
+    "fecha": { "dia": 12, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Conmemora el nacimiento de la teniente coronela Juana Azurduy de Padilla, símbolo de las luchas independentistas americanas.",
+    "fuentes": [
+      { "nombre": "Ley 26.277 - Día de las Heroínas y Mártires de la Independencia de América", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-26277-131043/texto", "tipo": "normativa" }
+    ],
+    "emoji": "🎖️",
+    "tags": ["juana azurduy"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-nuestra-senora-del-carmen",
+    "nombre": "Día de Nuestra Señora del Carmen",
+    "fecha": { "dia": 16, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "religion",
+    "descripcion": "La Iglesia Católica celebra a la Virgen del Carmen, patrona y generala del Ejército Argentino desde 1949.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día de Nuestra Señora del Carmen", "url": "https://www.argentina.gob.ar/noticias/dia-de-nuestra-senora-del-carmen", "tipo": "institucional" }
+    ],
+    "emoji": "🙏",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-duelo-nacional",
+    "nombre": "Día de Duelo Nacional",
+    "fecha": { "dia": 18, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Rinde homenaje a las víctimas del atentado terrorista contra la sede de la AMIA del 18 de julio de 1994.",
+    "fuentes": [
+      { "nombre": "Ley 27.744 - Día de Duelo Nacional", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-27744-401682", "tipo": "normativa" }
+    ],
+    "emoji": "🕯️",
+    "tags": ["amia"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-amigo",
+    "nombre": "Día del Amigo",
+    "fecha": { "dia": 20, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "familia",
+    "descripcion": "Celebra la amistad en homenaje a la llegada del hombre a la Luna, por iniciativa del odontólogo argentino Enrique Febbraro.",
+    "fuentes": [
+      { "nombre": "Decreto 235/1979 - Día Internacional del Amigo", "url": "https://normas.gba.gob.ar/documentos/B17aymF4.html", "tipo": "normativa" }
+    ],
+    "emoji": "🤝",
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-payador",
+    "nombre": "Día del Payador",
+    "fecha": { "dia": 23, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Recuerda la histórica payada de 1884 entre Gabino Ezeiza y Juan Nava, hito de la improvisación cantada rioplatense.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día del Payador en la Argentina", "url": "https://www.argentina.gob.ar/noticias/23-de-julio-dia-del-payador", "tipo": "institucional" }
+    ],
+    "emoji": "🎸",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-cultura-nacional",
+    "nombre": "Día de la Cultura Nacional",
+    "fecha": { "dia": 29, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Homenajea a Ricardo Rojas, escritor e historiador, en el aniversario de su fallecimiento.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Día de la Cultura Nacional", "url": "https://www.argentina.gob.ar/noticias/29-de-julio-dia-de-la-cultura-nacional-0", "tipo": "institucional" }
+    ],
+    "emoji": "🎭",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-los-valores-humanos",
+    "nombre": "Día de los Valores Humanos",
+    "fecha": { "dia": 29, "mes": 7 },
+    "alcance": "argentina",
+    "categoria": "derechos",
+    "descripcion": "Promueve la formación en valores y la dignidad humana en las escuelas de todo el país, instituido por ley en 2003.",
+    "fuentes": [
+      { "nombre": "Ley 25.787 - Día de los Valores Humanos", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-25787-89710/texto", "tipo": "normativa" }
+    ],
+    "emoji": "🕊️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-independencia-estados-unidos",
+    "nombre": "Día de la Independencia de Estados Unidos",
+    "fecha": { "dia": 4, "mes": 7 },
+    "alcance": "otro-pais",
+    "pais": "Estados Unidos",
+    "categoria": "historia",
+    "descripcion": "Conmemora la adopción de la Declaración de Independencia por el Congreso Continental en 1776.",
+    "fuentes": [
+      { "nombre": "The White House - 250th Anniversary of the Declaration of Independence", "url": "https://www.whitehouse.gov/presidential-actions/2026/07/250th-anniversary-of-the-adoption-of-the-declaration-of-independence/", "tipo": "institucional" }
+    ],
+    "emoji": "🎆",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-virgen-del-carmen-chile",
+    "nombre": "Día de la Virgen del Carmen",
+    "fecha": { "dia": 16, "mes": 7 },
+    "alcance": "otro-pais",
+    "pais": "Chile",
+    "categoria": "religion",
+    "descripcion": "Feriado religioso que honra a la Virgen del Carmen, reina y patrona de Chile, de sus Fuerzas Armadas y Carabineros.",
+    "fuentes": [
+      { "nombre": "Servicio Nacional del Patrimonio Cultural de Chile - Día de la Virgen del Carmen", "url": "https://www.patrimoniocultural.gob.cl/noticias/16-de-julio-dia-de-la-virgen-del-carmen", "tipo": "institucional" }
+    ],
+    "emoji": "⛪",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-jura-de-la-constitucion-uruguay",
+    "nombre": "Jura de la Constitución",
+    "fecha": { "dia": 18, "mes": 7 },
+    "alcance": "otro-pais",
+    "pais": "Uruguay",
+    "categoria": "historia",
+    "descripcion": "Feriado no laborable que recuerda la jura de la primera Constitución uruguaya en 1830.",
+    "fuentes": [
+      { "nombre": "Presidencia de la República Oriental del Uruguay - Aniversario de la Jura de la Constitución", "url": "https://www.gub.uy/presidencia/comunicacion/noticias/195-aniversario-jura-constitucion", "tipo": "institucional" }
+    ],
+    "emoji": "📜",
+    "verificadoEn": "2026-09-11"
+  }
+]

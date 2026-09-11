@@ -1,0 +1,202 @@
+[
+  {
+    "id": "dia-mundial-del-braille",
+    "nombre": "Día Mundial del Braille",
+    "fecha": { "dia": 4, "mes": 1 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Promueve el braille como medio de comunicación para garantizar los derechos humanos de las personas ciegas o con baja visión.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/braille-day", "tipo": "institucional" }
+    ],
+    "emoji": "👆",
+    "tags": ["braille", "ciegos", "discapacidad visual"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-trabajador-de-transporte-de-pasajeros",
+    "nombre": "Día del Trabajador de Transporte de Pasajeros",
+    "fecha": { "dia": 10, "mes": 1 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la fundación de la Unión Tranviarios, el primer sindicato nacional del sector, en 1919.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/10-de-enero-dia-del-trabajador-de-transporte-de-pasajeros", "tipo": "institucional" }
+    ],
+    "emoji": "🚌",
+    "tags": ["colectivero", "transporte público"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-musico",
+    "nombre": "Día Nacional del Músico",
+    "fecha": { "dia": 23, "mes": 1 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a los músicos argentinos en el aniversario del nacimiento de Luis Alberto Spinetta.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/23-de-enero-dia-nacional-del-musico", "tipo": "institucional" }
+    ],
+    "emoji": "🎸",
+    "tags": ["spinetta", "música"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-la-educacion",
+    "nombre": "Día Internacional de la Educación",
+    "fecha": { "dia": 24, "mes": 1 },
+    "alcance": "internacional",
+    "categoria": "educacion",
+    "descripcion": "Reconoce el papel de la educación en la construcción de la paz y el desarrollo sostenible.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/education-day", "tipo": "institucional" }
+    ],
+    "emoji": "📚",
+    "tags": ["escuela", "aprendizaje"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-cultura-africana-y-afrodescendientes",
+    "nombre": "Día Mundial de la Cultura Africana y de los Afrodescendientes",
+    "fecha": { "dia": 24, "mes": 1 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Honra las culturas del continente africano y de sus diásporas en todo el mundo.",
+    "fuentes": [
+      { "nombre": "UNESCO", "url": "https://www.unesco.org/es/days/african-culture", "tipo": "institucional" }
+    ],
+    "emoji": "🥁",
+    "tags": ["áfrica", "afrodescendientes", "diversidad cultural"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-reportero-grafico",
+    "nombre": "Día Nacional del Reportero Gráfico",
+    "fecha": { "dia": 25, "mes": 1 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda el asesinato del fotoperiodista José Luis Cabezas en 1997 y honra la libertad de prensa.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/dia-nacional-del-reportero-grafico", "tipo": "institucional" }
+    ],
+    "emoji": "📷",
+    "tags": ["josé luis cabezas", "fotoperiodismo", "libertad de prensa"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-la-energia-limpia",
+    "nombre": "Día Internacional de la Energía Limpia",
+    "fecha": { "dia": 26, "mes": 1 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Impulsa la transición hacia fuentes de energía limpia y el acceso universal a electricidad sostenible.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/clean-energy-day", "tipo": "institucional" }
+    ],
+    "emoji": "⚡",
+    "tags": ["energía renovable", "clima"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-de-la-educacion-ambiental",
+    "nombre": "Día Mundial de la Educación Ambiental",
+    "fecha": { "dia": 26, "mes": 1 },
+    "alcance": "argentina",
+    "categoria": "ambiente",
+    "descripcion": "Impulsa la educación ambiental como herramienta de conciencia ecológica, a partir de la Declaración de Estocolmo de 1972.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/26-de-enero-dia-mundial-de-la-educacion-ambiental", "tipo": "institucional" }
+    ],
+    "emoji": "🌱",
+    "tags": ["medio ambiente", "ecología"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-conmemoracion-victimas-holocausto",
+    "nombre": "Día Internacional de Conmemoración anual en memoria de las víctimas del Holocausto",
+    "fecha": { "dia": 27, "mes": 1 },
+    "alcance": "internacional",
+    "categoria": "historia",
+    "descripcion": "Moviliza a la sociedad civil para el recuerdo del Holocausto y la prevención de futuros genocidios.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Listado de días y semanas internacionales", "url": "https://www.un.org/es/observances/list-days-weeks", "tipo": "institucional" },
+      { "nombre": "Naciones Unidas - Holocaust Remembrance", "url": "https://www.un.org/es/holocaustremembrance/", "tipo": "institucional" }
+    ],
+    "emoji": "🕯️",
+    "tags": ["memoria", "genocidio"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-conservador-restaurador",
+    "nombre": "Día del Conservador Restaurador",
+    "fecha": { "dia": 27, "mes": 1 },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Reconoce a los profesionales que preservan y restauran el patrimonio cultural e histórico.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/27-de-enero-dia-del-conservador-restaurador", "tipo": "institucional" }
+    ],
+    "emoji": "🖼️",
+    "tags": ["patrimonio", "restauración"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-la-coexistencia-pacifica",
+    "nombre": "Día Internacional de la Coexistencia Pacífica",
+    "fecha": { "dia": 28, "mes": 1 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Promueve la convivencia pacífica más allá de diferencias de género, raza, idioma, religión o cultura.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/peaceful-coexistence-day", "tipo": "institucional" }
+    ],
+    "emoji": "🕊️",
+    "tags": ["paz", "convivencia", "tolerancia"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-enfermedades-tropicales-desatendidas",
+    "nombre": "Día Mundial de las Enfermedades Tropicales Desatendidas",
+    "fecha": { "dia": 30, "mes": 1 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Visibiliza el impacto de las enfermedades tropicales desatendidas en las poblaciones más pobres del mundo.",
+    "fuentes": [
+      { "nombre": "Organización Mundial de la Salud", "url": "https://www.who.int/es/campaigns/world-ntd-day", "tipo": "institucional" }
+    ],
+    "emoji": "🦟",
+    "tags": ["salud global", "enfermedades desatendidas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-contra-la-lepra",
+    "nombre": "Día Mundial contra la Lepra (enfermedad de Hansen)",
+    "fecha": { "mes": 1, "ordinal": -1, "diaSemana": 0 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Busca terminar con el estigma hacia las personas afectadas por la lepra y concientizar sobre su cura.",
+    "fuentes": [
+      { "nombre": "OPS/OMS - Organización Panamericana de la Salud", "url": "https://www.paho.org/es/campanas/dia-mundial-contra-lepra-enfermedad-hansen", "tipo": "institucional" }
+    ],
+    "emoji": "🎗️",
+    "tags": ["lepra", "estigma", "enfermedad de hansen"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-martin-luther-king-jr",
+    "nombre": "Día de Martin Luther King, Jr.",
+    "fecha": { "mes": 1, "ordinal": 3, "diaSemana": 1 },
+    "alcance": "otro-pais",
+    "pais": "Estados Unidos",
+    "categoria": "derechos",
+    "descripcion": "Feriado federal que honra el legado de Martin Luther King Jr. en la lucha por los derechos civiles.",
+    "fuentes": [
+      { "nombre": "USAGov en español", "url": "https://www.usa.gov/es/dia-martin-luther-king", "tipo": "institucional" }
+    ],
+    "emoji": "✊",
+    "tags": ["derechos civiles", "estados unidos"],
+    "verificadoEn": "2026-09-11"
+  }
+]

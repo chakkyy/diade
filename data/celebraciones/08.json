@@ -1,0 +1,377 @@
+[
+  {
+    "id": "semana-mundial-lactancia-materna",
+    "nombre": "Semana Mundial de la Lactancia Materna",
+    "fecha": { "dia": 1, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "La OMS y UNICEF promueven la lactancia materna como base de la salud y la nutrición infantil.",
+    "fuentes": [
+      { "nombre": "OMS - World Breastfeeding Week", "url": "https://www.who.int/es/campaigns/world-breastfeeding-week", "tipo": "institucional" }
+    ],
+    "emoji": "🤱",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-paises-en-desarrollo-sin-litoral",
+    "nombre": "Día Internacional de Concienciación sobre las Necesidades y los Desafíos Especiales de Desarrollo de los Países en Desarrollo sin Litoral",
+    "fecha": { "dia": 6, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "La ONU visibiliza los desafíos de desarrollo de los países sin acceso directo al mar.",
+    "fuentes": [
+      { "nombre": "ONU - Observances", "url": "https://www.un.org/es/observances/landlocked-developing-countries-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌍",
+    "tags": ["países sin litoral"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-pueblos-indigenas",
+    "nombre": "Día Internacional de los Pueblos Indígenas",
+    "fecha": { "dia": 9, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "La ONU reconoce los derechos y la diversidad cultural de los pueblos originarios del mundo.",
+    "fuentes": [
+      { "nombre": "ONU - Observances", "url": "https://www.un.org/es/observances/indigenous-day", "tipo": "institucional" }
+    ],
+    "emoji": "🪶",
+    "tags": ["pueblos originarios"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-tambores-metalicos",
+    "nombre": "Día Mundial de los Tambores Metálicos",
+    "fecha": { "dia": 11, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "La ONU celebra el steelpan, instrumento musical caribeño nacido en Trinidad y Tobago.",
+    "fuentes": [
+      { "nombre": "ONU - Observances", "url": "https://www.un.org/es/observances/steelpan-day", "tipo": "institucional" }
+    ],
+    "emoji": "🥁",
+    "tags": ["steelpan"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-juventud",
+    "nombre": "Día Internacional de la Juventud",
+    "fecha": { "dia": 12, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "La ONU pone el foco en el rol de los jóvenes como agentes de cambio en sus comunidades.",
+    "fuentes": [
+      { "nombre": "ONU - Observances", "url": "https://www.un.org/es/observances/youth-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌱",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-asistencia-humanitaria",
+    "nombre": "Día Mundial de la Asistencia Humanitaria",
+    "fecha": { "dia": 19, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Recuerda a los trabajadores humanitarios caídos en el atentado a la sede de la ONU en Bagdad en 2003.",
+    "fuentes": [
+      { "nombre": "ONU - Observances", "url": "https://www.un.org/es/observances/humanitarian-day", "tipo": "institucional" }
+    ],
+    "emoji": "🤝",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-victimas-terrorismo",
+    "nombre": "Día Internacional de Conmemoración y Homenaje a las Víctimas del Terrorismo",
+    "fecha": { "dia": 21, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "La ONU rinde homenaje a las víctimas del terrorismo y a sus familias en todo el mundo.",
+    "fuentes": [
+      { "nombre": "ONU - Observances", "url": "https://www.un.org/es/observances/terrorism-victims-day", "tipo": "institucional" }
+    ],
+    "emoji": "🕯️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-victimas-violencia-religion-creencias",
+    "nombre": "Día de Conmemoración de las Víctimas de Actos de Violencia basados en la Religión o las Creencias",
+    "fecha": { "dia": 22, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "La ONU conmemora a las víctimas de violencia motivada por su religión o sus creencias.",
+    "fuentes": [
+      { "nombre": "ONU - Observances", "url": "https://www.un.org/es/observances/religious-based-violence-victims-day/", "tipo": "institucional" }
+    ],
+    "emoji": "🕊️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-recuerdo-trata-esclavos",
+    "nombre": "Día Internacional del Recuerdo de la Trata de Esclavos y de su Abolición",
+    "fecha": { "dia": 23, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "historia",
+    "descripcion": "La UNESCO recuerda la insurrección de 1791 en Saint-Domingue que impulsó la abolición de la trata de esclavos.",
+    "fuentes": [
+      { "nombre": "UNESCO - Days", "url": "https://www.unesco.org/es/days/slave-trade-remembrance", "tipo": "institucional" }
+    ],
+    "emoji": "⛓️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-lagos",
+    "nombre": "Día Mundial de los Lagos",
+    "fecha": { "dia": 27, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "La ONU destaca el rol de los lagos como reserva de agua dulce y biodiversidad.",
+    "fuentes": [
+      { "nombre": "ONU - Observances", "url": "https://www.un.org/es/observances/world-lake-day", "tipo": "institucional" }
+    ],
+    "emoji": "🏞️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-contra-ensayos-nucleares",
+    "nombre": "Día Internacional contra los Ensayos Nucleares",
+    "fecha": { "dia": 29, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Conmemora el cierre en 1991 del polígono nuclear de Semipalátinsk, en Kazajistán.",
+    "fuentes": [
+      { "nombre": "ONU - Observances", "url": "https://www.un.org/es/observances/end-nuclear-tests-day", "tipo": "institucional" }
+    ],
+    "emoji": "☢️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-victimas-desapariciones-forzadas",
+    "nombre": "Día Internacional de las Víctimas de Desapariciones Forzadas",
+    "fecha": { "dia": 30, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "La ONU honra a las víctimas de desaparición forzada y exige verdad y justicia para sus familias.",
+    "fuentes": [
+      { "nombre": "ONU - Observances", "url": "https://www.un.org/es/observances/victims-enforced-disappearance", "tipo": "institucional" }
+    ],
+    "emoji": "🕯️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-afrodescendientes",
+    "nombre": "Día Internacional de los Afrodescendientes",
+    "fecha": { "dia": 31, "mes": 8 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "La ONU reconoce la contribución histórica y cultural de las personas afrodescendientes.",
+    "fuentes": [
+      { "nombre": "ONU - Observances", "url": "https://www.un.org/es/observances/african-descent-day", "tipo": "institucional" }
+    ],
+    "emoji": "✊",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-pachamama",
+    "nombre": "Día de la Pachamama",
+    "fecha": { "dia": 1, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Los pueblos originarios del NOA agradecen a la Madre Tierra por la fertilidad y las cosechas.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Noticias", "url": "https://www.argentina.gob.ar/noticias/dia-de-la-pachamama-o-dia-de-la-madre-tierra", "tipo": "institucional" }
+    ],
+    "emoji": "🌾",
+    "tags": ["madre tierra", "corpachada"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-ingeniero-agronomo-argentina",
+    "nombre": "Día del Ingeniero Agrónomo",
+    "fecha": { "dia": 6, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda el inicio en 1883 de las clases de agronomía en el Instituto Santa Catalina.",
+    "fuentes": [
+      { "nombre": "CONICET - ICiAgro Litoral", "url": "https://iciagro.conicet.gov.ar/6-de-agosto-dia-del-ingeniero-agronomo-2/", "tipo": "institucional" }
+    ],
+    "emoji": "🚜",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-panadero",
+    "nombre": "Día del Panadero",
+    "fecha": { "dia": 4, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la fundación en 1887 del primer sindicato de panaderos del país, reconocida por el Congreso en 1957.",
+    "fuentes": [
+      { "nombre": "Gobierno de Santiago del Estero", "url": "https://sde.gob.ar/2024/08/04/argentina-celebra-el-dia-del-panadero/", "tipo": "institucional" }
+    ],
+    "emoji": "🥖",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-veterinario-argentina",
+    "nombre": "Día del Veterinario",
+    "fecha": { "dia": 6, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Conmemora el inicio en 1883 de los estudios de veterinaria en el Instituto Santa Catalina.",
+    "fuentes": [
+      { "nombre": "Colegio de Veterinarios de la Provincia de Buenos Aires", "url": "https://cvpba.org/6-de-agosto-dia-del-veterinario-a/", "tipo": "asociacion" }
+    ],
+    "emoji": "🐾",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-san-cayetano",
+    "nombre": "Día de San Cayetano",
+    "fecha": { "dia": 7, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "religion",
+    "descripcion": "Miles de fieles piden pan, paz y trabajo al patrono ante su santuario de Liniers.",
+    "fuentes": [
+      { "nombre": "Gobierno de Santiago del Estero", "url": "https://sde.gob.ar/2025/08/07/7-de-agosto-dia-de-san-cayetano-2/", "tipo": "institucional" }
+    ],
+    "emoji": "🍞",
+    "tags": ["pan y trabajo"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-fuerza-aerea-argentina",
+    "nombre": "Día de la Fuerza Aérea Argentina",
+    "fecha": { "dia": 10, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "La Fuerza Aérea Argentina conmemora su aniversario con una ceremonia en la Base Aérea de Morón.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Noticias", "url": "https://www.argentina.gob.ar/noticias/10-de-agosto-dia-de-la-fuerza-aerea-argentina-una-fuerza-del-siglo-xxi", "tipo": "institucional" }
+    ],
+    "emoji": "✈️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-reconquista",
+    "nombre": "Día de la Reconquista",
+    "fecha": { "dia": 12, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Conmemora las jornadas de la Reconquista y Defensa de Buenos Aires, establecidas por la Ley 12.831.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Normativa (Ley 12.831)", "url": "https://www.argentina.gob.ar/normativa/nacional/norma-43158/texto", "tipo": "normativa" }
+    ],
+    "emoji": "⚔️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-nino",
+    "nombre": "Día del Niño",
+    "fecha": { "mes": 8, "ordinal": 3, "diaSemana": 0 },
+    "alcance": "argentina",
+    "categoria": "familia",
+    "descripcion": "El tercer domingo de agosto homenajea a los niños y promueve la conciencia sobre sus derechos.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Normativa (Decreto 562/2025)", "url": "https://www.argentina.gob.ar/normativa/nacional/norma-416054", "tipo": "normativa" }
+    ],
+    "emoji": "🎈",
+    "tags": ["infancias", "niñez"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-folclore-argentino",
+    "nombre": "Día del Folclore Argentino",
+    "fecha": { "dia": 22, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Recuerda el Primer Congreso Internacional de Folclore de 1960 y el natalicio de Juan B. Ambrosetti.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Noticias", "url": "https://www.argentina.gob.ar/noticias/dia-mundial-del-folclore-y-dia-del-folclore-argentino", "tipo": "institucional" }
+    ],
+    "emoji": "💃",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-lector",
+    "nombre": "Día del Lector",
+    "fecha": { "dia": 24, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Rinde homenaje a Jorge Luis Borges en el aniversario de su nacimiento y promueve la lectura.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Normativa (Ley 26.754)", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-26754-200352/texto", "tipo": "normativa" }
+    ],
+    "emoji": "📚",
+    "tags": ["borges"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-solidaridad",
+    "nombre": "Día Nacional de la Solidaridad",
+    "fecha": { "dia": 26, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Fue instituido en 1998, en la fecha del natalicio de la Madre Teresa de Calcuta, para fomentar la ayuda al prójimo.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Normativa (Decreto 982/1998)", "url": "https://www.argentina.gob.ar/normativa/nacional/decreto-982-1998-52618", "tipo": "normativa" }
+    ],
+    "emoji": "🤲",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-archivista",
+    "nombre": "Día del Archivista",
+    "fecha": { "dia": 28, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la creación en 1821 del Archivo General, impulsada por Bernardino Rivadavia.",
+    "fuentes": [
+      { "nombre": "Ministerio de Cultura de la Nación", "url": "https://www.cultura.gob.ar/dia-nacional-del-archivero-9421/", "tipo": "institucional" }
+    ],
+    "emoji": "🗄️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-abogado",
+    "nombre": "Día del Abogado",
+    "fecha": { "dia": 29, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a los abogados en el aniversario del nacimiento de Juan Bautista Alberdi.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Noticias", "url": "https://www.argentina.gob.ar/noticias/29-de-agosto-de-1810-dia-del-abogado", "tipo": "institucional" }
+    ],
+    "emoji": "⚖️",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-los-ferrocarriles",
+    "nombre": "Día de los Ferrocarriles",
+    "fecha": { "dia": 30, "mes": 8 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Recuerda la inauguración en 1857 de la primera línea de ferrocarril del país.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Noticias", "url": "https://www.argentina.gob.ar/noticias/30-de-agosto-de-1857-dia-de-los-ferrocarriles", "tipo": "institucional" }
+    ],
+    "emoji": "🚂",
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-independencia-bolivia",
+    "nombre": "Día de la Independencia de Bolivia",
+    "fecha": { "dia": 6, "mes": 8 },
+    "alcance": "otro-pais",
+    "pais": "Bolivia",
+    "categoria": "historia",
+    "descripcion": "Bolivia conmemora su independencia de España, declarada el 6 de agosto de 1825.",
+    "fuentes": [
+      { "nombre": "Defensoría del Pueblo de Bolivia", "url": "https://www.defensoria.gob.bo/noticias/6-de-agosto,-199-anyos-de-independencia-de-bolivia", "tipo": "institucional" }
+    ],
+    "emoji": "🇧🇴",
+    "verificadoEn": "2026-09-11"
+  }
+]
