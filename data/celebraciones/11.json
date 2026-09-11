@@ -1,0 +1,598 @@
+[
+  {
+    "id": "dia-internacional-fin-impunidad-crimenes-periodistas",
+    "nombre": "Día Internacional para Poner Fin a la Impunidad de los Crímenes contra Periodistas",
+    "fecha": { "dia": 2, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "La ONU llama a investigar los crímenes contra periodistas y combatir la impunidad de sus autores.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/end-impunity-crimes-against-journalists", "tipo": "institucional" }
+    ],
+    "emoji": "📰",
+    "tags": ["periodistas", "libertad de prensa", "impunidad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-concienciacion-tsunamis",
+    "nombre": "Día Mundial de Concienciación sobre los Tsunamis",
+    "fecha": { "dia": 5, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "La ONU promueve la reducción del riesgo de tsunamis y la preparación de las comunidades costeras.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/tsunami-awareness-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌊",
+    "tags": ["desastres naturales", "prevención", "costas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-prevencion-explotacion-ambiental-guerra",
+    "nombre": "Día Internacional para la Prevención de la Explotación del Medio Ambiente en la Guerra y los Conflictos Armados",
+    "fecha": { "dia": 6, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Recuerda el daño ambiental que provocan los conflictos armados y promueve su prevención.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/environment-in-war-protection-day", "tipo": "institucional" }
+    ],
+    "emoji": "🌍",
+    "tags": ["conflictos armados", "medio ambiente", "guerra"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-ciencia-paz-desarrollo",
+    "nombre": "Día Mundial de la Ciencia para la Paz y el Desarrollo",
+    "fecha": { "dia": 10, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "ciencia",
+    "descripcion": "La UNESCO destaca el rol de la ciencia en la construcción de sociedades pacíficas y sostenibles.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/world-science-day", "tipo": "institucional" }
+    ],
+    "emoji": "🔬",
+    "tags": ["ciencia", "unesco", "desarrollo"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-diabetes",
+    "nombre": "Día Mundial de la Diabetes",
+    "fecha": { "dia": 14, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Conmemora el nacimiento de Frederick Banting, codescubridor de la insulina en 1922.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/diabetes-day", "tipo": "institucional" }
+    ],
+    "emoji": "🩺",
+    "tags": ["diabetes", "insulina", "salud"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-prematuridad",
+    "nombre": "Día Mundial de la Prematuridad",
+    "fecha": { "dia": 15, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "La OMS impulsa cuidados neonatales de calidad para los bebés que nacen antes de término.",
+    "fuentes": [
+      { "nombre": "Organización Mundial de la Salud - Campañas", "url": "https://www.who.int/campaigns/world-prematurity-day", "tipo": "institucional" }
+    ],
+    "emoji": "👶",
+    "tags": ["bebés prematuros", "neonatología", "oms"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-dieta-mediterranea",
+    "nombre": "Día Internacional de la Dieta Mediterránea",
+    "fecha": { "dia": 16, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "comida",
+    "descripcion": "La ONU reconoce el valor cultural y saludable de la dieta mediterránea, con la FAO como referente.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Listado de Días y Semanas Internacionales", "url": "https://www.un.org/es/observances/list-days-weeks", "tipo": "institucional" }
+    ],
+    "emoji": "🫒",
+    "tags": ["dieta mediterránea", "fao", "alimentación"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-tolerancia",
+    "nombre": "Día Internacional de la Tolerancia",
+    "fecha": { "dia": 16, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "La Asamblea General de la ONU proclamó este día en 1996 para promover el respeto entre culturas.",
+    "fuentes": [
+      { "nombre": "UNESCO", "url": "https://www.unesco.org/es/days/tolerance", "tipo": "institucional" }
+    ],
+    "emoji": "🤝",
+    "tags": ["tolerancia", "unesco", "respeto"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-victimas-accidentes-trafico",
+    "nombre": "Día Mundial en Recuerdo de las Víctimas de Accidentes de Tráfico",
+    "fecha": { "mes": 11, "ordinal": 3, "diaSemana": 0 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Recuerda a las víctimas de siniestros viales y reconoce la labor de los servicios de emergencia.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/road-traffic-victims-day", "tipo": "institucional" },
+      { "nombre": "Dirección General de Tráfico (España)", "url": "https://www.dgt.es/comunicacion/notas-de-prensa/dia-mundial-en-recuerdo-a-las-victimas-de-siniestros-de-trafico/", "tipo": "institucional" }
+    ],
+    "emoji": "🚦",
+    "tags": ["accidentes de tránsito", "seguridad vial", "víctimas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-accion-eliminacion-cancer-cervicouterino",
+    "nombre": "Día de Acción para la Eliminación del Cáncer Cervicouterino",
+    "fecha": { "dia": 17, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "La OMS y la OPS impulsan la eliminación del cáncer cervicouterino mediante vacunación y controles.",
+    "fuentes": [
+      { "nombre": "Organización Panamericana de la Salud (OPS/OMS)", "url": "https://www.paho.org/en/events/cervical-cancer-elimination-day-action", "tipo": "institucional" }
+    ],
+    "emoji": "🎗️",
+    "tags": ["cáncer cervicouterino", "vph", "oms"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-prevencion-explotacion-abuso-violencia-sexual-ninos",
+    "nombre": "Día Mundial para Prevenir la Explotación, los Abusos y la Violencia Sexuales contra los Niños",
+    "fecha": { "dia": 18, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "La ONU promueve la prevención del abuso sexual infantil y la sanación de sus víctimas.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/child-sexual-exploitation-prevention-and-healing-day", "tipo": "institucional" }
+    ],
+    "emoji": "🛡️",
+    "tags": ["infancia", "abuso sexual", "protección"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-del-retrete",
+    "nombre": "Día Mundial del Retrete",
+    "fecha": { "dia": 19, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "La ONU visibiliza la falta de acceso a saneamiento seguro que afecta a millones de personas.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/toilet-day", "tipo": "institucional" }
+    ],
+    "emoji": "🚽",
+    "tags": ["saneamiento", "agua", "higiene"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-industrializacion-africa",
+    "nombre": "Día de la Industrialización de África",
+    "fecha": { "dia": 20, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "La ONU proclamó este día para impulsar el desarrollo industrial de los países africanos.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/africa-industrialization-day", "tipo": "institucional" }
+    ],
+    "emoji": "🏭",
+    "tags": ["áfrica", "industria", "desarrollo"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-infancia",
+    "nombre": "Día Mundial de la Infancia",
+    "fecha": { "dia": 20, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Conmemora la adopción de la Convención sobre los Derechos del Niño por la ONU en 1989.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/world-childrens-day", "tipo": "institucional" }
+    ],
+    "emoji": "🧒",
+    "tags": ["niños", "unicef", "derechos del niño"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-television",
+    "nombre": "Día Mundial de la Televisión",
+    "fecha": { "dia": 21, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "La ONU reconoce el papel de la televisión como medio de información y cambio social.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/world-television-day", "tipo": "institucional" }
+    ],
+    "emoji": "📺",
+    "tags": ["televisión", "medios", "comunicación"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-filosofia",
+    "nombre": "Día Mundial de la Filosofía",
+    "fecha": { "mes": 11, "ordinal": 3, "diaSemana": 4 },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "La UNESCO celebra el pensamiento filosófico como herramienta para comprender el mundo.",
+    "fuentes": [
+      { "nombre": "UNESCO", "url": "https://www.unesco.org/es/days/philosophy-day", "tipo": "institucional" }
+    ],
+    "emoji": "🤔",
+    "tags": ["filosofía", "unesco", "pensamiento"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-gemelos-unidos",
+    "nombre": "Día Mundial de los Gemelos Unidos",
+    "fecha": { "dia": 24, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Visibiliza la realidad médica y social de los hermanos gemelos unidos al nacer.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/conjoined-twins-day", "tipo": "institucional" }
+    ],
+    "emoji": "👯",
+    "tags": ["gemelos unidos", "salud", "medicina"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-eliminacion-violencia-mujer",
+    "nombre": "Día Internacional de la Eliminación de la Violencia contra la Mujer",
+    "fecha": { "dia": 25, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "La ONU llama a erradicar todas las formas de violencia hacia las mujeres y niñas.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/ending-violence-against-women-day", "tipo": "institucional" }
+    ],
+    "emoji": "🎗️",
+    "tags": ["violencia de género", "mujeres", "derechos"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-transporte-sostenible",
+    "nombre": "Día Mundial del Transporte Sostenible",
+    "fecha": { "dia": 26, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "La Asamblea General de la ONU promueve sistemas de transporte accesibles y de bajas emisiones.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/sustainable-transport-day", "tipo": "institucional" }
+    ],
+    "emoji": "🚆",
+    "tags": ["transporte", "sostenibilidad", "movilidad"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-eliminacion-matrimonio-infantil",
+    "nombre": "Día Internacional para la Eliminación del Matrimonio Infantil, Precoz y Forzado",
+    "fecha": { "dia": 27, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "La ONU estableció este día para acelerar la erradicación del matrimonio infantil y forzado.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Listado de Días y Semanas Internacionales", "url": "https://www.un.org/es/observances/list-days-weeks", "tipo": "institucional" }
+    ],
+    "emoji": "💍",
+    "tags": ["matrimonio infantil", "niñas", "derechos"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-solidaridad-pueblo-palestino",
+    "nombre": "Día Internacional de Solidaridad con el Pueblo Palestino",
+    "fecha": { "dia": 29, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "La ONU conmemora este día desde 1977 en apoyo a los derechos del pueblo palestino.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/International-day-of-solidarity-with-the-palestinian-people", "tipo": "institucional" }
+    ],
+    "emoji": "🕊️",
+    "tags": ["palestina", "solidaridad", "onu"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-conmemoracion-victimas-guerra-quimica",
+    "nombre": "Día de Conmemoración de Todas las Víctimas de la Guerra Química",
+    "fecha": { "dia": 30, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "historia",
+    "descripcion": "Recuerda a las víctimas de armas químicas y promueve su eliminación a nivel mundial.",
+    "fuentes": [
+      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/chemical-warfare-victims-day", "tipo": "institucional" }
+    ],
+    "emoji": "🕯️",
+    "tags": ["armas químicas", "víctimas", "desarme"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-urbanismo",
+    "nombre": "Día Mundial del Urbanismo",
+    "fecha": { "dia": 8, "mes": 11 },
+    "alcance": "internacional",
+    "categoria": "profesion",
+    "descripcion": "Reconoce el aporte de la planificación urbana, iniciativa nacida en 1949 por el urbanista argentino Della Paolera.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/8-de-noviembre-dia-mundial-del-urbanismo", "tipo": "institucional" }
+    ],
+    "emoji": "🏙️",
+    "tags": ["urbanismo", "planificación urbana", "ciudades"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-muertos-por-la-patria",
+    "nombre": "Día de los Muertos por la Patria",
+    "fecha": { "dia": 2, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Homenaje a los soldados argentinos caídos en cumplimiento del deber militar.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/2-de-noviembre-dia-de-los-muertos-por-la-patria", "tipo": "institucional" }
+    ],
+    "emoji": "🎖️",
+    "tags": ["fuerzas armadas", "caídos", "homenaje"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-parques-nacionales-argentinos",
+    "nombre": "Día de los Parques Nacionales Argentinos",
+    "fecha": { "dia": 6, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "ambiente",
+    "descripcion": "Recuerda la donación de tierras de Francisco Moreno en 1903, origen del primer parque nacional.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/6-de-noviembre-dia-de-los-parques-nacionales-argentinos", "tipo": "institucional" }
+    ],
+    "emoji": "🏞️",
+    "tags": ["parques nacionales", "francisco moreno", "naturaleza"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-canillita",
+    "nombre": "Día del Canillita",
+    "fecha": { "dia": 7, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a los vendedores de diarios, en la fecha de fallecimiento de Florencio Sánchez.",
+    "fuentes": [
+      { "nombre": "Legislatura de la Ciudad de Buenos Aires - Asuntos Culturales", "url": "https://cultura.legislatura.gob.ar/cultura_posts/7-de-noviembre-1947-dia-del-canillita967.html", "tipo": "institucional" }
+    ],
+    "emoji": "📰",
+    "tags": ["canillita", "diarios", "vendedores"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-buzo-naval",
+    "nombre": "Día del Buzo Naval",
+    "fecha": { "dia": 8, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Conmemora la creación del curso de buceo complementario de la Armada Argentina en 1921.",
+    "fuentes": [
+      { "nombre": "Armada Argentina - Efemérides Navales", "url": "https://www.argentina.gob.ar/armada/efemerides-navales/noviembre", "tipo": "institucional" }
+    ],
+    "emoji": "🤿",
+    "tags": ["armada", "buceo", "marina"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-afroargentinos-cultura-afro",
+    "nombre": "Día Nacional de los/las Afroargentinos/as y de la Cultura Afro",
+    "fecha": { "dia": 8, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Ley 26.852: homenajea a María Remedios del Valle y la cultura afroargentina.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/la-celebracion-del-dia-de-los-afroargentinos-y-de-la-cultura-afro", "tipo": "institucional" }
+    ],
+    "emoji": "✊🏾",
+    "tags": ["afroargentinos", "maría remedios del valle", "cultura afro"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-donante-sangre",
+    "nombre": "Día Nacional del Donante Voluntario de Sangre",
+    "fecha": { "dia": 9, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "salud",
+    "descripcion": "Recuerda la primera transfusión de sangre segura realizada por Luis Agote en 1914.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/dia-nacional-del-donante-voluntario-de-sangre", "tipo": "institucional" }
+    ],
+    "emoji": "🩸",
+    "tags": ["donación de sangre", "luis agote", "salud"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-tradicion",
+    "nombre": "Día de la Tradición",
+    "fecha": { "dia": 10, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Homenajea a José Hernández, autor de Martín Fierro, y la cultura gauchesca argentina.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/10-de-noviembre-dia-de-la-tradicion-3", "tipo": "institucional" }
+    ],
+    "emoji": "🐎",
+    "tags": ["gauchos", "martín fierro", "josé hernández"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-pensamiento-nacional",
+    "nombre": "Día del Pensamiento Nacional",
+    "fecha": { "dia": 13, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Ley 25.844: homenajea el nacimiento del escritor y pensador Arturo Jauretche.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Normativa (Ley 25.844)", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-25844-91503", "tipo": "normativa" }
+    ],
+    "emoji": "📖",
+    "tags": ["arturo jauretche", "pensamiento nacional"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-lucha-grooming",
+    "nombre": "Día Nacional de Lucha contra el Grooming",
+    "fecha": { "dia": 13, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "derechos",
+    "descripcion": "Ley 27.458: promueve la prevención del acoso sexual a menores a través de internet.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Normativa (Ley 27.458)", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-27458-316381", "tipo": "normativa" }
+    ],
+    "emoji": "💻",
+    "tags": ["grooming", "internet", "protección infantil"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-soberania-nacional",
+    "nombre": "Día de la Soberanía Nacional",
+    "fecha": { "dia": 20, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Conmemora la Batalla de la Vuelta de Obligado de 1845, símbolo de la defensa de la soberanía.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/20-de-noviembre-dia-de-la-soberania-nacional-4", "tipo": "institucional" }
+    ],
+    "emoji": "🇦🇷",
+    "tags": ["vuelta de obligado", "soberanía", "feriado"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-enfermeria-argentina",
+    "nombre": "Día de la Enfermería",
+    "fecha": { "dia": 21, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Conmemora la fundación de la Federación de Asociaciones de Profesionales Católicas de Enfermería en 1935.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/21-de-noviembre-dia-de-la-enfermeria", "tipo": "institucional" }
+    ],
+    "emoji": "👩‍⚕️",
+    "tags": ["enfermeros", "enfermería", "salud"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-kimchi-argentina",
+    "nombre": "Día Nacional del Kimchi en la Argentina",
+    "fecha": { "dia": 22, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "comida",
+    "descripcion": "Ley 27.720: valora el aporte cultural de la comunidad coreana y su plato tradicional.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Normativa (Ley 27.720)", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-27720-387132", "tipo": "normativa" }
+    ],
+    "emoji": "🥬",
+    "tags": ["kimchi", "comunidad coreana", "gastronomía"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-flor-nacional",
+    "nombre": "Día de la Flor Nacional",
+    "fecha": { "dia": 22, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Homenajea a la flor del ceibo, declarada símbolo floral nacional en 1942.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/22-de-noviembre-dia-de-la-flor-nacional", "tipo": "institucional" }
+    ],
+    "emoji": "🌺",
+    "tags": ["ceibo", "flor nacional", "símbolos patrios"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-musica",
+    "nombre": "Día de la Música",
+    "fecha": { "dia": 22, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Celebra a los músicos en honor a Santa Cecilia, patrona de la música desde 1594.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/por-que-se-festeja-el-dia-de-la-musica", "tipo": "institucional" }
+    ],
+    "emoji": "🎵",
+    "tags": ["música", "santa cecilia", "artistas"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-defensa-civil",
+    "nombre": "Día Nacional de la Defensa Civil",
+    "fecha": { "dia": 23, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Reconoce la labor de los equipos de defensa civil tras el terremoto de Caucete de 1977.",
+    "fuentes": [
+      { "nombre": "Casa Rosada - Presidencia de la Nación", "url": "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/50789-dia-nacional-de-la-defensa-civil", "tipo": "institucional" }
+    ],
+    "emoji": "🚨",
+    "tags": ["defensa civil", "emergencias", "protección"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-mate",
+    "nombre": "Día Nacional del Mate",
+    "fecha": { "dia": 30, "mes": 11 },
+    "alcance": "argentina",
+    "categoria": "comida",
+    "descripcion": "Ley 27.117: homenajea el nacimiento de Andrés Guacurarí y la tradición de tomar mate.",
+    "fuentes": [
+      { "nombre": "Argentina.gob.ar - Normativa (Ley 27.117)", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-27117-241355/texto", "tipo": "normativa" }
+    ],
+    "emoji": "🧉",
+    "tags": ["mate", "yerba mate", "tradición"],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-muertos-mexico",
+    "nombre": "Día de Muertos",
+    "fecha": { "dia": 2, "mes": 11 },
+    "alcance": "otro-pais",
+    "pais": "México",
+    "categoria": "cultura",
+    "descripcion": "Tradición mexicana que honra a los difuntos, declarada Patrimonio Cultural Inmaterial por la UNESCO.",
+    "fuentes": [
+      { "nombre": "Gob.mx - Secretaría de Agricultura y Desarrollo Rural", "url": "https://www.gob.mx/agricultura/articulos/dia-de-muertos-una-celebracion-de-vida", "tipo": "institucional" }
+    ],
+    "emoji": "💀",
+    "tags": ["méxico", "día de muertos", "ofrendas"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-conciencia-negra-brasil",
+    "nombre": "Día Nacional de Zumbi y de la Conciencia Negra",
+    "fecha": { "dia": 20, "mes": 11 },
+    "alcance": "otro-pais",
+    "pais": "Brasil",
+    "categoria": "historia",
+    "descripcion": "Feriado nacional brasileño en homenaje a Zumbi dos Palmares y la lucha contra el racismo.",
+    "fuentes": [
+      { "nombre": "Câmara dos Deputados (Brasil)", "url": "https://www.camara.leg.br/noticias/1029291-lei-torna-feriado-nacional-o-dia-20-de-novembro-dia-nacional-de-zumbi-e-da-consciencia-negra/", "tipo": "institucional" }
+    ],
+    "emoji": "✊🏿",
+    "tags": ["brasil", "zumbi", "conciencia negra"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-veteranos-estados-unidos",
+    "nombre": "Día de los Veteranos",
+    "fecha": { "dia": 11, "mes": 11 },
+    "alcance": "otro-pais",
+    "pais": "Estados Unidos",
+    "categoria": "historia",
+    "descripcion": "Feriado federal que honra a quienes sirvieron en las Fuerzas Armadas de Estados Unidos.",
+    "fuentes": [
+      { "nombre": "The White House - Presidential Actions", "url": "https://www.whitehouse.gov/presidential-actions/2025/11/veterans-day-2025/", "tipo": "institucional" }
+    ],
+    "emoji": "🎖️",
+    "tags": ["estados unidos", "veteranos", "fuerzas armadas"],
+    "verificadoEn": "2026-09-11"
+  }
+]
