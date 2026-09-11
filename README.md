@@ -1,36 +1,170 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ¿Qué se celebra hoy?
 
-## Getting Started
+Calendario de "Días de X" para Argentina: efemérides nacionales, días profesionales, conmemoraciones internacionales (ONU, UNESCO, OMS, FAO, OIT) y fechas populares como el Día de la Madre o el Día del Estudiante. Cada celebración lleva al menos una fuente verificable.
 
-First, run the development server:
+No es una página de feriados (salvo que se llamen "Día de/del X", como el Día de la Bandera) ni un almanaque de acontecimientos históricos.
+
+## Cómo correr
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrí `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para probar una build de producción:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+pnpm build
+pnpm start
+```
 
-## Learn More
+## Scripts
 
-To learn more about Next.js, take a look at the following resources:
+| Script | Qué hace |
+|---|---|
+| `pnpm test` | corre los tests con vitest |
+| `pnpm typecheck` | `tsc --noEmit` |
+| `pnpm lint` | eslint |
+| `pnpm data:validate` | valida todos los `data/celebraciones/MM.json` contra el schema, revisa ids duplicados y que `fecha.mes` coincida con el archivo |
+| `pnpm data:links` | hace HEAD/GET (y fallback con `curl`) a cada URL de fuente de todos los meses, o de uno solo con `pnpm data:links 09` |
+| `pnpm data:add` | CLI interactiva para agregar una celebración nueva (ver más abajo) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Antes de cualquier commit que toque `data/`, corré `pnpm data:validate` y `pnpm data:links`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Estructura
 
-## Deploy on Vercel
+```
+data/celebraciones/MM.json   datos por mes (01.json a 12.json)
+src/types/celebracion.ts     tipos: Celebracion, Alcance, Categoria, TipoFuente
+src/lib/schema.ts            schema zod que valida cada celebración
+src/lib/fechas.ts            zona horaria, slugs de fecha, fechas móviles
+src/lib/celebraciones.ts     carga y consulta de los JSON (cacheado)
+src/lib/buscar.ts            normalización y búsqueda client-side
+src/lib/datos-edicion.ts     funciones puras que usa el CLI de alta
+src/app/                     rutas (App Router)
+src/components/              componentes de UI
+scripts/                     CLI y validadores
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Rutas principales:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Ruta | Qué muestra |
+|---|---|
+| `/` | qué se celebra hoy, calculado en el momento (hora de Argentina) |
+| `/fecha/11-septiembre` | todo lo que se celebra ese día del año |
+| `/celebracion/dia-del-maestro` | el detalle de una celebración: descripción, fuentes, fecha en palabras si es móvil |
+| `/calendario/septiembre` | el mes completo, día por día |
+| `/buscar?q=perro` | búsqueda por nombre, descripción, tags o país |
+
+## Modelo de datos
+
+Cada archivo `data/celebraciones/MM.json` es un array de celebraciones de ese mes. Ejemplo real, de `09.json`:
+
+```json
+{
+  "id": "dia-del-maestro",
+  "nombre": "Día del Maestro",
+  "fecha": { "dia": 11, "mes": 9 },
+  "alcance": "argentina",
+  "categoria": "educacion",
+  "descripcion": "Homenaje a Domingo Faustino Sarmiento en el aniversario de su fallecimiento en 1888.",
+  "fuentes": [
+    {
+      "nombre": "Argentina.gob.ar - ¿Por qué se celebra el Día del Maestro?",
+      "url": "https://www.argentina.gob.ar/noticias/por-que-se-celebra-el-dia-del-maestro",
+      "tipo": "institucional"
+    }
+  ],
+  "emoji": "🍎",
+  "tags": ["docente", "sarmiento"],
+  "destacado": true,
+  "verificadoEn": "2026-09-11"
+}
+```
+
+### Campos
+
+| Campo | Tipo | Obligatorio | Notas |
+|---|---|---|---|
+| `id` | string | sí | slug kebab-case sin tildes, único en todo el sitio |
+| `nombre` | string | sí | 3 a 140 caracteres |
+| `fecha` | fija o móvil | sí | ver abajo |
+| `alcance` | `"argentina"` \| `"internacional"` \| `"otro-pais"` | sí | |
+| `pais` | string | sólo si `alcance = "otro-pais"` | ej. "Chile" |
+| `categoria` | una de 15 categorías | sí | `profesion`, `salud`, `ambiente`, `educacion`, `cultura`, `animales`, `comida`, `religion`, `historia`, `deporte`, `tecnologia`, `ciencia`, `sociedad`, `derechos`, `familia` |
+| `descripcion` | string | sí | una línea, 10 a 220 caracteres, termina en punto |
+| `fuentes` | array de fuentes | sí, ≥1 | al menos una no debe ser `secundaria` |
+| `emoji` | string | no | |
+| `tags` | array de strings | no | sinónimos para la búsqueda |
+| `destacado` | boolean | no | sube al tope del bloque en la lista del día |
+| `verificadoEn` | string `YYYY-MM-DD` | sí | fecha en que se abrió la fuente y se confirmó el dato |
+
+Cada fuente tiene `nombre`, `url` y `tipo`, con `tipo` uno de:
+
+| Tipo | Qué es |
+|---|---|
+| `institucional` | Estado (nacional, provincial, municipal) u organismo internacional oficial (ONU, UNESCO, OMS, FAO, OIT) |
+| `asociacion` | colegio o asociación profesional oficial (ej. un colegio de abogados, una federación deportiva) |
+| `normativa` | ley, decreto o resolución publicada en el Boletín Oficial o InfoLEG |
+| `secundaria` | cualquier otra fuente (Wikipedia, notas de prensa). Nunca puede ser la única fuente de una celebración |
+
+### Fechas fijas y móviles
+
+Una fecha fija es `{ "dia": 11, "mes": 9 }`.
+
+Una fecha móvil se define por regla, no por día del mes: `{ "mes": 10, "ordinal": 3, "diaSemana": 0 }` es "el tercer domingo de octubre", que es como se define el Día de la Madre en Argentina. `diaSemana` va de 0 (domingo) a 6 (sábado). `ordinal` es 1 a 4, o `-1` para "el último de ese día de la semana en el mes" (por ejemplo, el último lunes). El día calendario real se recalcula cada año.
+
+## Cómo editar y agregar fechas
+
+**A mano:** abrí el `MM.json` del mes que corresponda y agregá el objeto en el lugar que le toca (las fechas fijas van ordenadas por día; las móviles, al final del archivo). Después corré:
+
+```bash
+pnpm data:validate
+pnpm data:links 09   # o el mes que tocaste
+```
+
+**Con la CLI**, que valida y ordena por vos:
+
+```bash
+pnpm data:add
+```
+
+Te va a preguntar nombre, tipo de fecha, alcance (y país si corresponde), categoría, descripción, emoji, tags, si es destacada, y las fuentes (con un mínimo de una no secundaria). Sugiere un id a partir del nombre, que podés editar. Al final valida contra el schema, inserta ordenado en el `MM.json` que corresponde y te recuerda correr `data:validate` y `data:links`.
+
+También funciona sin preguntas interactivas, para scripts o agentes:
+
+```bash
+pnpm data:add --json '{"nombre":"Día del Fotógrafo","fecha":{"dia":21,"mes":9},"alcance":"argentina","categoria":"profesion","descripcion":"...","fuentes":[{"nombre":"...","url":"https://...","tipo":"institucional"}]}'
+# o con un archivo
+pnpm data:add --file nueva-celebracion.json
+```
+
+En modo no interactivo, si no mandás `id` se genera del `nombre`, y si no mandás `verificadoEn` se usa la fecha de hoy en Argentina.
+
+### Regla de fuentes
+
+Toda celebración necesita al menos una fuente `institucional`, `asociacion` o `normativa`. Wikipedia y notas de prensa sólo sirven como fuente `secundaria`, es decir, además de una de las otras, nunca solas. Sin una fuente confiable, la celebración no entra.
+
+### Qué no entra
+
+- Feriados que no se llaman "Día de/del X" (un feriado puente, un feriado trasladable sin nombre propio).
+- Acontecimientos históricos que no son una celebración anual con nombre propio (una batalla, un aniversario institucional que no se conmemora activamente).
+
+## Fuentes que usamos
+
+Dominios de referencia para buscar fuentes nuevas: `argentina.gob.ar`, `un.org`, `unesco.org`, `who.int`, `fao.org`, `boletinoficial.gob.ar`, `infoleg.gob.ar`, sitios de gobiernos provinciales y municipales, y las asociaciones o colegios profesionales de cada actividad. Cada entrada guarda en `verificadoEn` la fecha en que se abrió y confirmó esa fuente.
+
+## Zona horaria
+
+"Hoy" se calcula con `America/Argentina/Buenos_Aires`. La home (`/`) se renderiza por request, así que siempre está actualizada. Las páginas de `/fecha/[slug]` son estáticas pero se revalidan cada hora, y el rótulo "Hoy" se corrige además en el navegador para no depender de cuándo se generó la página.
+
+## Variables de entorno
+
+`NEXT_PUBLIC_SITE_URL`: URL pública del sitio (ej. `https://que-se-celebra-hoy.vercel.app`), usada para el sitemap, el `robots.txt` y las URLs canónicas. Sin definirla, se usa `http://localhost:3000`.
+
+## Limitaciones conocidas
+
+- No todos los 365/366 días tienen una celebración cargada todavía; los días sin datos muestran un estado vacío, no un error.
+- Para países que no son Argentina, sólo están cargadas las fechas más conocidas de un puñado de países (Chile, Uruguay, Brasil, México, España, Estados Unidos, Bolivia), no un calendario completo por país.
