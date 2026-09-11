@@ -1,624 +1,1218 @@
 [
   {
+    "id": "dia-mundial-de-la-dactiloscopia",
+    "nombre": "Día Mundial de la Dactiloscopia",
+    "fecha": {
+      "dia": 1,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "ciencia",
+    "descripcion": "Honra el sistema de identificación por huellas dactilares desarrollado por Juan Vucetich en Argentina.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/1deg-de-septiembre-dia-mundial-de-la-dactiloscopia",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🖐️",
+    "tags": [
+      "vucetich",
+      "huellas",
+      "policia cientifica"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-industria",
+    "nombre": "Día de la Industria",
+    "fecha": {
+      "dia": 2,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Se celebra desde 1941 en recuerdo de la primera exportación de manufacturas argentinas en 1587.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/2-de-septiembre-de-1941-dia-de-la-industria",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🏭",
+    "tags": [
+      "industria",
+      "produccion"
+    ],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-nacional-del-inmigrante",
     "nombre": "Día Nacional del Inmigrante",
-    "fecha": { "dia": 4, "mes": 9 },
+    "fecha": {
+      "dia": 4,
+      "mes": 9
+    },
     "alcance": "argentina",
     "categoria": "sociedad",
     "descripcion": "Recuerda el Decreto 21.430 de 1949, que instituyó esta fecha para homenajear a quienes eligieron la Argentina como su hogar.",
     "fuentes": [
-      { "nombre": "Argentina.gob.ar - Día Nacional del Inmigrante", "url": "https://www.argentina.gob.ar/noticias/dia-nacional-del-inmigrante-0", "tipo": "institucional" }
+      {
+        "nombre": "Argentina.gob.ar - Día Nacional del Inmigrante",
+        "url": "https://www.argentina.gob.ar/noticias/dia-nacional-del-inmigrante-0",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🌍",
-    "tags": ["inmigracion", "migrantes"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-del-scout-argentina",
-    "nombre": "Día del Scout y el Día de la Buena Acción Diaria",
-    "fecha": { "dia": 5, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "sociedad",
-    "descripcion": "Scouts de Argentina invita a hacer una buena acción diaria para promover valores como el compromiso social y la solidaridad.",
-    "fuentes": [
-      { "nombre": "Scouts de Argentina - Día del Scout y el Día de la Buena Acción Diaria", "url": "https://scouts.org.ar/comite-ejecutivo/dia-del-scout-y-el-dia-de-la-buena-accion-diaria", "tipo": "asociacion" }
+    "tags": [
+      "inmigracion",
+      "migrantes"
     ],
-    "emoji": "🏕️",
-    "tags": ["scouts", "buena accion"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-nacional-de-la-agricultura",
-    "nombre": "Día Nacional de la Agricultura y Productor Agropecuario",
-    "fecha": { "dia": 8, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "El Decreto 23.317 de 1944 fijó esta fecha en homenaje a la fundación de la colonia agrícola Esperanza, en Santa Fe.",
-    "fuentes": [
-      { "nombre": "Argentina.gob.ar - 8 de septiembre de 1944: Día Nacional de la Agricultura", "url": "https://www.argentina.gob.ar/noticias/8-de-septiembre-de-1944-dia-nacional-de-la-agricultura", "tipo": "institucional" }
-    ],
-    "emoji": "🌾",
-    "tags": ["agricultor", "campo", "esperanza"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-del-terapista-ocupacional",
-    "nombre": "Día del Terapista Ocupacional",
-    "fecha": { "dia": 10, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "Conmemora la apertura del Primer Congreso Argentino de Terapia Ocupacional en La Rioja en 1985.",
-    "fuentes": [
-      { "nombre": "Asociación Argentina de Terapistas Ocupacionales (AATO) - Efemérides", "url": "https://terapia-ocupacional.org.ar/?page_id=813", "tipo": "asociacion" }
-    ],
-    "emoji": "🖐️",
-    "tags": ["terapia ocupacional", "rehabilitacion"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-del-maestro",
-    "nombre": "Día del Maestro",
-    "fecha": { "dia": 11, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "educacion",
-    "descripcion": "Homenaje a Domingo Faustino Sarmiento en el aniversario de su fallecimiento en 1888.",
-    "fuentes": [
-      { "nombre": "Argentina.gob.ar - ¿Por qué se celebra el Día del Maestro?", "url": "https://www.argentina.gob.ar/noticias/por-que-se-celebra-el-dia-del-maestro", "tipo": "institucional" }
-    ],
-    "emoji": "🍎",
-    "tags": ["docente", "sarmiento"],
-    "destacado": true,
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-panamericano-del-maestro",
-    "nombre": "Día Panamericano del Maestro",
-    "fecha": { "dia": 11, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "educacion",
-    "descripcion": "La Primera Conferencia Interamericana de Educación, reunida en Panamá en 1943, fijó esta fecha en honor a Sarmiento.",
-    "fuentes": [
-      { "nombre": "Honorable Cámara de Diputados de la Nación - Proyecto de Resolución 8871-D-2014", "url": "https://www.hcdn.gob.ar/comisiones/permanentes/cceinformatica/proyecto.html?exp=8871-D-2014", "tipo": "normativa" },
-      { "nombre": "Dirección General de Cultura y Educación de la Provincia de Buenos Aires - 11 de septiembre", "url": "http://servicios.abc.gov.ar/docentes/efemerides/11deseptiembre/htmls/presentacion.html", "tipo": "institucional" }
-    ],
-    "emoji": "🌎",
-    "tags": ["docentes", "panamerica"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-del-profesor",
-    "nombre": "Día del Profesor",
-    "fecha": { "dia": 17, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "educacion",
-    "descripcion": "Homenaje a José Manuel Estrada, docente, escritor y político, rector del Colegio Nacional de Buenos Aires.",
-    "fuentes": [
-      { "nombre": "Argentina.gob.ar - Inspección General de Justicia saluda a los profesores en su día", "url": "https://www.argentina.gob.ar/noticias/inspeccion-general-de-justicia-saluda-los-profesores-en-su-dia", "tipo": "institucional" }
-    ],
-    "emoji": "📚",
-    "tags": ["docente", "jose manuel estrada"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-del-psicopedagogo",
-    "nombre": "Día de la/el Psicopedagoga/o",
-    "fecha": { "dia": 17, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "Recuerda la fundación en 1982 de la Federación Argentina de Psicopedagogos, en un congreso realizado en San Juan.",
-    "fuentes": [
-      { "nombre": "SIPEC Córdoba (Gobierno de Córdoba) - 17 de septiembre, Día de la/el Psicopedagoga/o", "url": "https://www.igualdadycalidadcba.gov.ar/SIPEC-CBA/Fechas-para-recordar/2025/Septiembre/psicopedagogo-a.php", "tipo": "institucional" }
-    ],
-    "emoji": "🧠",
-    "tags": ["psicopedagogia", "piaget"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-del-fotografo",
-    "nombre": "Día del Fotógrafo",
-    "fecha": { "dia": 21, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "Recuerda la llegada del daguerrotipo a Buenos Aires en septiembre de 1843, cuatro años después de su presentación en París.",
-    "fuentes": [
-      { "nombre": "Ministerio de Cultura de la Nación - Día del Fotógrafo y la Fotógrafa en Argentina y Latinoamérica", "url": "https://www.cultura.gob.ar/dia-del-fotografo-en-argentina-y-latinoamerica-9515/", "tipo": "institucional" }
-    ],
-    "emoji": "📷",
-    "tags": ["fotografia", "daguerrotipo"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-de-la-primavera",
-    "nombre": "Día de la Primavera",
-    "fecha": { "dia": 21, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "cultura",
-    "descripcion": "Marca el inicio de la estación en el hemisferio sur y llena plazas y parques de todo el país junto al Día del Estudiante.",
-    "fuentes": [
-      { "nombre": "Municipalidad de Rosario - 21 de septiembre: Día de la Primavera", "url": "https://www.rosario.gob.ar/inicio/node/1918", "tipo": "institucional" }
-    ],
-    "emoji": "🌸",
-    "tags": ["estacion", "flores"],
-    "destacado": true,
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-del-estudiante",
-    "nombre": "Día del Estudiante",
-    "fecha": { "dia": 21, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "educacion",
-    "descripcion": "Conmemora la repatriación de los restos de Domingo Faustino Sarmiento en 1888, celebrada desde 1902 por iniciativa universitaria.",
-    "fuentes": [
-      { "nombre": "Facultad de Filosofía y Letras, UNCuyo - Hoy 21 de septiembre se celebra el día del estudiante", "url": "https://ffyl.uncuyo.edu.ar/hoy-21-de-septiembre-se-celebra-el-dia-del-estudiante", "tipo": "institucional" }
-    ],
-    "emoji": "🎒",
-    "tags": ["sarmiento", "juventud"],
-    "destacado": true,
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-mundial-del-artista-plastico-argentina",
-    "nombre": "Día Mundial del Artista Plástico",
-    "fecha": { "dia": 21, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "cultura",
-    "descripcion": "Homenajea a quienes se expresan a través de la pintura, el dibujo, la escultura o el grabado, coincidiendo con la llegada de la primavera.",
-    "fuentes": [
-      { "nombre": "Argentina.gob.ar - 21 de septiembre: Día Mundial del Artista Plástico", "url": "https://www.argentina.gob.ar/noticias/21-de-septiembre-dia-mundial-del-artista-plastico", "tipo": "institucional" }
-    ],
-    "emoji": "🎨",
-    "tags": ["arte", "pintura"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-de-la-sanidad",
-    "nombre": "Día de la Sanidad",
-    "fecha": { "dia": 21, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "salud",
-    "descripcion": "Recuerda la fundación en 1941 de la Obra Social de la Asociación de Trabajadores de la Sanidad Argentina.",
-    "fuentes": [
-      { "nombre": "Facultad de Ciencias Médicas, UNCuyo - El 21 de septiembre festejamos el Día de la Sanidad", "url": "https://fcm.uncuyo.edu.ar/el-21-de-septiembre-festejamos-el-dia-de-la-sanidad", "tipo": "institucional" }
-    ],
-    "emoji": "⚕️",
-    "tags": ["trabajadores de la salud", "fatsa"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-de-las-bibliotecas-populares",
-    "nombre": "Día de las Bibliotecas Populares",
-    "fecha": { "dia": 23, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "cultura",
-    "descripcion": "Recuerda la creación de la CONABIP por la Ley 419 de 1870, impulsada por Domingo F. Sarmiento.",
-    "fuentes": [
-      { "nombre": "CONABIP - 23 de septiembre: Día de las Bibliotecas Populares", "url": "https://www.conabip.gob.ar/content/23-de-septiembre-d%C3%ADa-de-las-bibliotecas-populares-3", "tipo": "institucional" }
-    ],
-    "emoji": "📖",
-    "tags": ["conabip", "lectura"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-nacional-de-la-ballena-franca-austral",
-    "nombre": "Día Nacional de la Ballena Franca Austral",
-    "fecha": { "dia": 25, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "animales",
-    "descripcion": "Recuerda el rescate en 2002 de \"Garra\", un ejemplar juvenil enredado en las cadenas de un catamarán en Puerto Pirámides.",
-    "fuentes": [
-      { "nombre": "Universidad Nacional de La Plata - 25 de septiembre, Día Nacional de la Ballena Franca Austral", "url": "https://unlp.edu.ar/institucional/ambiente/25-de-septiembre-dia-nacional-de-la-ballena-franca-austral-50730/", "tipo": "institucional" }
-    ],
-    "emoji": "🐋",
-    "tags": ["ballenas", "garra", "puerto piramides"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-del-empleado-de-comercio",
-    "nombre": "Día del Empleado de Comercio",
-    "fecha": { "dia": 26, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "La Ley 26.541 estableció este día como descanso para los empleados de comercio en todo el país.",
-    "fuentes": [
-      { "nombre": "InfoLEG - Ley 26.541", "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/160000-164999/161502/norma.htm", "tipo": "normativa" }
-    ],
-    "emoji": "🛍️",
-    "tags": ["comercio", "feriado"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-nacional-de-la-conciencia-ambiental",
-    "nombre": "Día Nacional de la Conciencia Ambiental",
-    "fecha": { "dia": 27, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "ambiente",
-    "descripcion": "La Ley 24.604 de 1995 fijó esta fecha en memoria de siete víctimas de un escape de gas cianhídrico en Avellaneda en 1993.",
-    "fuentes": [
-      { "nombre": "Argentina.gob.ar - 27 de septiembre de 1995: Día Nacional de la Conciencia Ambiental", "url": "https://www.argentina.gob.ar/noticias/27-de-septiembre-de-1995-dia-nacional-de-la-conciencia-ambiental", "tipo": "institucional" }
-    ],
-    "emoji": "🌱",
-    "tags": ["avellaneda", "medio ambiente"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-del-inventor",
-    "nombre": "Día del Inventor",
-    "fecha": { "dia": 29, "mes": 9 },
-    "alcance": "argentina",
-    "categoria": "tecnologia",
-    "descripcion": "Homenajea a Ladislao José Biro, nacido este día en 1889, quien desarrolló y patentó la birome en Buenos Aires.",
-    "fuentes": [
-      { "nombre": "Casa Rosada - Día del Inventor: homenaje a Ladislao José Biro", "url": "https://www.casarosada.gob.ar/slider-principal/50683-dia-del-inventor-homenaje-a-ladislao-jose-biro-el-genio-detras-de-la-birome", "tipo": "institucional" }
-    ],
-    "emoji": "💡",
-    "tags": ["biro", "birome", "inventiva"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-internacional-mujeres-ninas-indigenas",
-    "nombre": "Día Internacional de las Mujeres y Niñas Indígenas",
-    "fecha": { "dia": 5, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "derechos",
-    "descripcion": "La ONU estableció esta fecha para visibilizar los derechos de las mujeres y niñas indígenas del mundo.",
-    "fuentes": [
-      { "nombre": "ONU - Día Internacional de las Mujeres y Niñas Indígenas del Mundo", "url": "https://www.un.org/es/observances/indigenous-women-day", "tipo": "institucional" }
-    ],
-    "emoji": "👩🏽",
-    "tags": ["pueblos originarios", "derechos indigenas"],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-de-la-beneficencia",
     "nombre": "Día Internacional de la Beneficencia",
-    "fecha": { "dia": 5, "mes": 9 },
+    "fecha": {
+      "dia": 5,
+      "mes": 9
+    },
     "alcance": "internacional",
     "categoria": "sociedad",
     "descripcion": "La ONU eligió esta fecha en homenaje a la Madre Teresa de Calcuta, fallecida un 5 de septiembre de 1997.",
     "fuentes": [
-      { "nombre": "ONU - Día Internacional de la Beneficencia", "url": "https://www.un.org/es/observances/charity-day", "tipo": "institucional" }
+      {
+        "nombre": "ONU - Día Internacional de la Beneficencia",
+        "url": "https://www.un.org/es/observances/charity-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🤲",
-    "tags": ["caridad", "madre teresa"],
+    "tags": [
+      "caridad",
+      "madre teresa"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
-    "id": "dia-mundial-distrofia-duchenne",
-    "nombre": "Día Mundial de Concienciación sobre la Distrofia de Duchenne",
-    "fecha": { "dia": 7, "mes": 9 },
+    "id": "dia-internacional-mujeres-ninas-indigenas",
+    "nombre": "Día Internacional de las Mujeres y Niñas Indígenas",
+    "fecha": {
+      "dia": 5,
+      "mes": 9
+    },
     "alcance": "internacional",
-    "categoria": "salud",
-    "descripcion": "La Asamblea General de la ONU designó esta fecha para visibilizar una de las enfermedades pediátricas raras más comunes.",
+    "categoria": "derechos",
+    "descripcion": "La ONU estableció esta fecha para visibilizar los derechos de las mujeres y niñas indígenas del mundo.",
     "fuentes": [
-      { "nombre": "ONU - Día Mundial de Concienciación sobre la Distrofia de Duchenne", "url": "https://www.un.org/es/observances/duchenne-awareness-day", "tipo": "institucional" }
+      {
+        "nombre": "ONU - Día Internacional de las Mujeres y Niñas Indígenas del Mundo",
+        "url": "https://www.un.org/es/observances/indigenous-women-day",
+        "tipo": "institucional"
+      }
     ],
-    "emoji": "🎗️",
-    "tags": ["distrofia muscular", "enfermedades raras"],
+    "emoji": "👩🏽",
+    "tags": [
+      "pueblos originarios",
+      "derechos indigenas"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-scout-argentina",
+    "nombre": "Día del Scout y el Día de la Buena Acción Diaria",
+    "fecha": {
+      "dia": 5,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Scouts de Argentina invita a hacer una buena acción diaria para promover valores como el compromiso social y la solidaridad.",
+    "fuentes": [
+      {
+        "nombre": "Scouts de Argentina - Día del Scout y el Día de la Buena Acción Diaria",
+        "url": "https://scouts.org.ar/comite-ejecutivo/dia-del-scout-y-el-dia-de-la-buena-accion-diaria",
+        "tipo": "asociacion"
+      }
+    ],
+    "emoji": "🏕️",
+    "tags": [
+      "scouts",
+      "buena accion"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-cooperacion-policial",
     "nombre": "Día Internacional de la Cooperación Policial",
-    "fecha": { "dia": 7, "mes": 9 },
+    "fecha": {
+      "dia": 7,
+      "mes": 9
+    },
     "alcance": "internacional",
     "categoria": "sociedad",
     "descripcion": "Reconoce el trabajo conjunto entre fuerzas policiales de distintos países para enfrentar el delito transnacional.",
     "fuentes": [
-      { "nombre": "ONU - Día Internacional de la Cooperación Policial", "url": "https://www.un.org/es/observances/police-cooperation-day", "tipo": "institucional" }
+      {
+        "nombre": "ONU - Día Internacional de la Cooperación Policial",
+        "url": "https://www.un.org/es/observances/police-cooperation-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "👮",
-    "tags": ["policia", "cooperacion internacional"],
+    "tags": [
+      "policia",
+      "cooperacion internacional"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-aire-limpio-cielo-azul",
     "nombre": "Día Internacional del Aire Limpio por un Cielo Azul",
-    "fecha": { "dia": 7, "mes": 9 },
+    "fecha": {
+      "dia": 7,
+      "mes": 9
+    },
     "alcance": "internacional",
     "categoria": "ambiente",
     "descripcion": "Impulsa acciones para mejorar la calidad del aire y reducir el impacto de la contaminación atmosférica en la salud.",
     "fuentes": [
-      { "nombre": "Clean Air Blue Skies (ONU) - Día Internacional del Aire Limpio por un Cielo Azul", "url": "https://www.cleanairblueskies.org/es", "tipo": "institucional" }
+      {
+        "nombre": "Clean Air Blue Skies (ONU) - Día Internacional del Aire Limpio por un Cielo Azul",
+        "url": "https://www.cleanairblueskies.org/es",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🌤️",
-    "tags": ["contaminacion", "calidad del aire"],
+    "tags": [
+      "contaminacion",
+      "calidad del aire"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-distrofia-duchenne",
+    "nombre": "Día Mundial de Concienciación sobre la Distrofia de Duchenne",
+    "fecha": {
+      "dia": 7,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "La Asamblea General de la ONU designó esta fecha para visibilizar una de las enfermedades pediátricas raras más comunes.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Día Mundial de Concienciación sobre la Distrofia de Duchenne",
+        "url": "https://www.un.org/es/observances/duchenne-awareness-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎗️",
+    "tags": [
+      "distrofia muscular",
+      "enfermedades raras"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-de-la-alfabetizacion",
     "nombre": "Día Internacional de la Alfabetización",
-    "fecha": { "dia": 8, "mes": 9 },
+    "fecha": {
+      "dia": 8,
+      "mes": 9
+    },
     "alcance": "internacional",
     "categoria": "educacion",
     "descripcion": "La UNESCO celebra esta fecha desde 1967 para resaltar la importancia de la alfabetización para sociedades más justas.",
     "fuentes": [
-      { "nombre": "UNESCO - Día Internacional de la Alfabetización", "url": "https://www.unesco.org/es/days/literacy", "tipo": "institucional" }
+      {
+        "nombre": "UNESCO - Día Internacional de la Alfabetización",
+        "url": "https://www.unesco.org/es/days/literacy",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "📝",
-    "tags": ["lectoescritura", "unesco"],
+    "tags": [
+      "lectoescritura",
+      "unesco"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-agricultura",
+    "nombre": "Día Nacional de la Agricultura y Productor Agropecuario",
+    "fecha": {
+      "dia": 8,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "El Decreto 23.317 de 1944 fijó esta fecha en homenaje a la fundación de la colonia agrícola Esperanza, en Santa Fe.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - 8 de septiembre de 1944: Día Nacional de la Agricultura",
+        "url": "https://www.argentina.gob.ar/noticias/8-de-septiembre-de-1944-dia-nacional-de-la-agricultura",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🌾",
+    "tags": [
+      "agricultor",
+      "campo",
+      "esperanza"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-proteger-educacion-ataques",
     "nombre": "Día Internacional para Proteger la Educación de Ataques",
-    "fecha": { "dia": 9, "mes": 9 },
+    "fecha": {
+      "dia": 9,
+      "mes": 9
+    },
     "alcance": "internacional",
     "categoria": "educacion",
     "descripcion": "Denuncia los ataques a escuelas, docentes y estudiantes en contextos de conflicto armado en todo el mundo.",
     "fuentes": [
-      { "nombre": "ONU - Día Internacional para Proteger la Educación de Ataques", "url": "https://www.un.org/es/observances/protect-education-day", "tipo": "institucional" }
+      {
+        "nombre": "ONU - Día Internacional para Proteger la Educación de Ataques",
+        "url": "https://www.un.org/es/observances/protect-education-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🏫",
-    "tags": ["conflictos armados", "escuelas"],
+    "tags": [
+      "conflictos armados",
+      "escuelas"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-terapista-ocupacional",
+    "nombre": "Día del Terapista Ocupacional",
+    "fecha": {
+      "dia": 10,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Conmemora la apertura del Primer Congreso Argentino de Terapia Ocupacional en La Rioja en 1985.",
+    "fuentes": [
+      {
+        "nombre": "Asociación Argentina de Terapistas Ocupacionales (AATO) - Efemérides",
+        "url": "https://terapia-ocupacional.org.ar/?page_id=813",
+        "tipo": "asociacion"
+      }
+    ],
+    "emoji": "🖐️",
+    "tags": [
+      "terapia ocupacional",
+      "rehabilitacion"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-panamericano-del-maestro",
+    "nombre": "Día Panamericano del Maestro",
+    "fecha": {
+      "dia": 11,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "educacion",
+    "descripcion": "La Primera Conferencia Interamericana de Educación, reunida en Panamá en 1943, fijó esta fecha en honor a Sarmiento.",
+    "fuentes": [
+      {
+        "nombre": "Honorable Cámara de Diputados de la Nación - Proyecto de Resolución 8871-D-2014",
+        "url": "https://www.hcdn.gob.ar/comisiones/permanentes/cceinformatica/proyecto.html?exp=8871-D-2014",
+        "tipo": "normativa"
+      },
+      {
+        "nombre": "Dirección General de Cultura y Educación de la Provincia de Buenos Aires - 11 de septiembre",
+        "url": "http://servicios.abc.gov.ar/docentes/efemerides/11deseptiembre/htmls/presentacion.html",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🌎",
+    "tags": [
+      "docentes",
+      "panamerica"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-maestro",
+    "nombre": "Día del Maestro",
+    "fecha": {
+      "dia": 11,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "educacion",
+    "descripcion": "Homenaje a Domingo Faustino Sarmiento en el aniversario de su fallecimiento en 1888.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - ¿Por qué se celebra el Día del Maestro?",
+        "url": "https://www.argentina.gob.ar/noticias/por-que-se-celebra-el-dia-del-maestro",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🍎",
+    "tags": [
+      "docente",
+      "sarmiento"
+    ],
+    "destacado": true,
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-naciones-unidas-cooperacion-sur-sur",
     "nombre": "Día de las Naciones Unidas para la Cooperación Sur-Sur",
-    "fecha": { "dia": 12, "mes": 9 },
+    "fecha": {
+      "dia": 12,
+      "mes": 9
+    },
     "alcance": "internacional",
     "categoria": "sociedad",
     "descripcion": "Promueve el intercambio de conocimientos y recursos entre países del Sur global para su desarrollo conjunto.",
     "fuentes": [
-      { "nombre": "ONU - Día de las Naciones Unidas para la Cooperación Sur-Sur", "url": "https://www.un.org/es/observances/south-south-cooperation-day", "tipo": "institucional" }
+      {
+        "nombre": "ONU - Día de las Naciones Unidas para la Cooperación Sur-Sur",
+        "url": "https://www.un.org/es/observances/south-south-cooperation-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🤝",
-    "tags": ["paises en desarrollo"],
+    "tags": [
+      "paises en desarrollo"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-bibliotecario",
+    "nombre": "Día del Bibliotecario",
+    "fecha": {
+      "dia": 13,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la edición de 1810 de la Gazeta de Buenos Ayres que anunció la creación de la Biblioteca Pública.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/13-de-septiembre-de-1810-dia-del-bibliotecario",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📚",
+    "tags": [
+      "biblioteca",
+      "bibliotecaria"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-cartero",
+    "nombre": "Día del Cartero",
+    "fecha": {
+      "dia": 14,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda a Bruno Ramírez, designado en 1771 como el primer cartero de Buenos Aires.",
+    "fuentes": [
+      {
+        "nombre": "Gobierno de Santiago del Estero",
+        "url": "https://sde.gob.ar/2023/09/14/14-de-septiembre-dia-del-cartero/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📬",
+    "tags": [
+      "correo",
+      "cartero"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-de-la-democracia",
     "nombre": "Día Internacional de la Democracia",
-    "fecha": { "dia": 15, "mes": 9 },
+    "fecha": {
+      "dia": 15,
+      "mes": 9
+    },
     "alcance": "internacional",
     "categoria": "derechos",
     "descripcion": "Invita a repasar el estado de la democracia en el mundo y a fortalecer la participación ciudadana.",
     "fuentes": [
-      { "nombre": "ONU - Día Internacional de la Democracia", "url": "https://www.un.org/es/observances/democracy-day", "tipo": "institucional" }
+      {
+        "nombre": "ONU - Día Internacional de la Democracia",
+        "url": "https://www.un.org/es/observances/democracy-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🗳️",
-    "tags": ["participacion", "instituciones"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-internacional-ciencia-tecnologia-innovacion-sur",
-    "nombre": "Día Internacional de la Ciencia, la Tecnología y la Innovación para el Sur",
-    "fecha": { "dia": 16, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "ciencia",
-    "descripcion": "Proclamado por la ONU en 2024 para impulsar la innovación como motor de desarrollo en los países del Sur global.",
-    "fuentes": [
-      { "nombre": "ONU - Día Internacional de la Ciencia, la Tecnología y la Innovación para el Sur", "url": "https://www.un.org/es/observances/science-technology-and-innovation-for-south-day", "tipo": "institucional" }
+    "tags": [
+      "participacion",
+      "instituciones"
     ],
-    "emoji": "🔬",
-    "tags": ["innovacion", "paises del sur"],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-cardiologia-intervencionista",
     "nombre": "Día Internacional de la Cardiología Intervencionista",
-    "fecha": { "dia": 16, "mes": 9 },
+    "fecha": {
+      "dia": 16,
+      "mes": 9
+    },
     "alcance": "internacional",
     "categoria": "salud",
     "descripcion": "Proclamado por la Asamblea General de la ONU a partir de una iniciativa originalmente impulsada por Argentina.",
     "fuentes": [
-      { "nombre": "ONU - Día Internacional de la Cardiología Intervencionista", "url": "https://www.un.org/es/observances/interventional-cardiology-day", "tipo": "institucional" }
+      {
+        "nombre": "ONU - Día Internacional de la Cardiología Intervencionista",
+        "url": "https://www.un.org/es/observances/interventional-cardiology-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "❤️",
-    "tags": ["cardiologia", "angioplastia"],
+    "tags": [
+      "cardiologia",
+      "angioplastia"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-ciencia-tecnologia-innovacion-sur",
+    "nombre": "Día Internacional de la Ciencia, la Tecnología y la Innovación para el Sur",
+    "fecha": {
+      "dia": 16,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "ciencia",
+    "descripcion": "Proclamado por la ONU en 2024 para impulsar la innovación como motor de desarrollo en los países del Sur global.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Día Internacional de la Ciencia, la Tecnología y la Innovación para el Sur",
+        "url": "https://www.un.org/es/observances/science-technology-and-innovation-for-south-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🔬",
+    "tags": [
+      "innovacion",
+      "paises del sur"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-preservacion-capa-ozono",
     "nombre": "Día Internacional de la Preservación de la Capa de Ozono",
-    "fecha": { "dia": 16, "mes": 9 },
+    "fecha": {
+      "dia": 16,
+      "mes": 9
+    },
     "alcance": "internacional",
     "categoria": "ambiente",
     "descripcion": "Conmemora la firma del Protocolo de Montreal de 1987, que reguló las sustancias que dañan la capa de ozono.",
     "fuentes": [
-      { "nombre": "ONU - Día Internacional de la Preservación de la Capa de Ozono", "url": "https://www.un.org/es/observances/ozone-day", "tipo": "institucional" }
+      {
+        "nombre": "ONU - Día Internacional de la Preservación de la Capa de Ozono",
+        "url": "https://www.un.org/es/observances/ozone-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🌍",
-    "tags": ["protocolo de montreal", "capa de ozono"],
+    "tags": [
+      "protocolo de montreal",
+      "capa de ozono"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-mundial-seguridad-del-paciente",
     "nombre": "Día Mundial de la Seguridad del Paciente",
-    "fecha": { "dia": 17, "mes": 9 },
+    "fecha": {
+      "dia": 17,
+      "mes": 9
+    },
     "alcance": "internacional",
     "categoria": "salud",
     "descripcion": "Los estados miembros de la OMS establecieron esta fecha en 2019 para promover una atención médica más segura.",
     "fuentes": [
-      { "nombre": "OMS - Día Mundial de la Seguridad del Paciente", "url": "https://www.who.int/es/campaigns/world-patient-safety-day/2020", "tipo": "institucional" }
+      {
+        "nombre": "OMS - Día Mundial de la Seguridad del Paciente",
+        "url": "https://www.who.int/es/campaigns/world-patient-safety-day/2020",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🏥",
-    "tags": ["oms", "hospitales"],
+    "tags": [
+      "oms",
+      "hospitales"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-psicopedagogo",
+    "nombre": "Día de la/el Psicopedagoga/o",
+    "fecha": {
+      "dia": 17,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la fundación en 1982 de la Federación Argentina de Psicopedagogos, en un congreso realizado en San Juan.",
+    "fuentes": [
+      {
+        "nombre": "SIPEC Córdoba (Gobierno de Córdoba) - 17 de septiembre, Día de la/el Psicopedagoga/o",
+        "url": "https://www.igualdadycalidadcba.gov.ar/SIPEC-CBA/Fechas-para-recordar/2025/Septiembre/psicopedagogo-a.php",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🧠",
+    "tags": [
+      "psicopedagogia",
+      "piaget"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-profesor",
+    "nombre": "Día del Profesor",
+    "fecha": {
+      "dia": 17,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "educacion",
+    "descripcion": "Homenaje a José Manuel Estrada, docente, escritor y político, rector del Colegio Nacional de Buenos Aires.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - Inspección General de Justicia saluda a los profesores en su día",
+        "url": "https://www.argentina.gob.ar/noticias/inspeccion-general-de-justicia-saluda-los-profesores-en-su-dia",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📚",
+    "tags": [
+      "docente",
+      "jose manuel estrada"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-igualdad-salarial",
     "nombre": "Día Internacional de la Igualdad Salarial",
-    "fecha": { "dia": 18, "mes": 9 },
+    "fecha": {
+      "dia": 18,
+      "mes": 9
+    },
     "alcance": "internacional",
     "categoria": "derechos",
     "descripcion": "Impulsa el principio de igual remuneración por trabajo de igual valor entre mujeres y varones.",
     "fuentes": [
-      { "nombre": "ONU - Día Internacional de la Igualdad Salarial", "url": "https://www.un.org/es/observances/equal-pay-day", "tipo": "institucional" }
+      {
+        "nombre": "ONU - Día Internacional de la Igualdad Salarial",
+        "url": "https://www.un.org/es/observances/equal-pay-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "💰",
-    "tags": ["brecha salarial", "genero"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-mundial-de-la-limpieza",
-    "nombre": "Día Mundial de la Limpieza",
-    "fecha": { "dia": 20, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "ambiente",
-    "descripcion": "La Asamblea General de la ONU proclamó esta fecha en 2023 para promover jornadas voluntarias de limpieza y reciclaje.",
-    "fuentes": [
-      { "nombre": "ONU - Día Mundial de la Limpieza", "url": "https://www.un.org/es/observances/cleanup-day", "tipo": "institucional" }
+    "tags": [
+      "brecha salarial",
+      "genero"
     ],
-    "emoji": "🧹",
-    "tags": ["residuos", "voluntariado"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-internacional-de-la-paz",
-    "nombre": "Día Internacional de la Paz",
-    "fecha": { "dia": 21, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "sociedad",
-    "descripcion": "El mundo observa esta fecha para fortalecer los ideales de paz mediante el cese del fuego y la no violencia.",
-    "fuentes": [
-      { "nombre": "ONU - Día Internacional de la Paz", "url": "https://www.un.org/es/observances/international-day-peace", "tipo": "institucional" }
-    ],
-    "emoji": "☮️",
-    "tags": ["onu", "alto el fuego"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-internacional-lenguas-de-senas",
-    "nombre": "Día Internacional de las Lenguas de Señas",
-    "fecha": { "dia": 23, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "derechos",
-    "descripcion": "Proclamado por la ONU para visibilizar la importancia de las lenguas de señas en los derechos humanos de las personas sordas.",
-    "fuentes": [
-      { "nombre": "ONU - Día Internacional de las Lenguas de Señas", "url": "https://www.un.org/es/observances/sign-languages-day", "tipo": "institucional" }
-    ],
-    "emoji": "🤟",
-    "tags": ["sordos", "comunicacion"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-maritimo-mundial",
-    "nombre": "Día Marítimo Mundial",
-    "fecha": { "dia": 24, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "sociedad",
-    "descripcion": "Reconoce el aporte del transporte marítimo internacional a la economía global y a la seguridad de la navegación.",
-    "fuentes": [
-      { "nombre": "ONU - Día Marítimo Mundial", "url": "https://www.un.org/es/observances/maritime-day", "tipo": "institucional" }
-    ],
-    "emoji": "⚓",
-    "tags": ["oceanos", "navegacion"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-internacional-eliminacion-armas-nucleares",
-    "nombre": "Día Internacional para la Eliminación Total de las Armas Nucleares",
-    "fecha": { "dia": 26, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "sociedad",
-    "descripcion": "Establecido por la ONU en 2013 tras una reunión de alto nivel dedicada al desarme nuclear.",
-    "fuentes": [
-      { "nombre": "ONU - Día Internacional para la Eliminación Total de las Armas Nucleares", "url": "https://www.un.org/es/observances/nuclear-weapons-elimination-day", "tipo": "institucional" }
-    ],
-    "emoji": "☢️",
-    "tags": ["desarme", "paz"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-mundial-del-turismo",
-    "nombre": "Día Mundial del Turismo",
-    "fecha": { "dia": 27, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "cultura",
-    "descripcion": "Promueve el turismo como motor de desarrollo económico inclusivo y de sostenibilidad ambiental.",
-    "fuentes": [
-      { "nombre": "ONU - Día Mundial del Turismo", "url": "https://www.un.org/es/observances/tourism-day", "tipo": "institucional" }
-    ],
-    "emoji": "✈️",
-    "tags": ["viajes", "omt"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-internacional-acceso-universal-informacion",
-    "nombre": "Día Internacional del Acceso Universal a la Información",
-    "fecha": { "dia": 28, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "derechos",
-    "descripcion": "La UNESCO declaró esta fecha en 2015 para defender el derecho de las personas a acceder a la información pública.",
-    "fuentes": [
-      { "nombre": "ONU - Día Internacional del Acceso Universal a la Información", "url": "https://www.un.org/es/observances/information-access-day", "tipo": "institucional" }
-    ],
-    "emoji": "📰",
-    "tags": ["transparencia", "unesco"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-mundial-contra-la-rabia",
-    "nombre": "Día Mundial contra la Rabia",
-    "fecha": { "dia": 28, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "salud",
-    "descripcion": "Coincide con el aniversario de la muerte de Louis Pasteur y busca concientizar sobre la prevención de esta enfermedad.",
-    "fuentes": [
-      { "nombre": "OPS/OMS - Día Mundial contra la Rabia", "url": "https://www.paho.org/en/world-rabies-day", "tipo": "institucional" }
-    ],
-    "emoji": "🐕",
-    "tags": ["vacunacion", "zoonosis"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-internacional-perdida-desperdicio-alimentos",
-    "nombre": "Día Internacional de Concienciación sobre la Pérdida y el Desperdicio de Alimentos",
-    "fecha": { "dia": 29, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "comida",
-    "descripcion": "Impulsa acciones para reducir la pérdida y el desperdicio de alimentos a lo largo de toda la cadena de producción.",
-    "fuentes": [
-      { "nombre": "ONU - Día Internacional de Concienciación sobre la Pérdida y el Desperdicio de Alimentos", "url": "https://www.un.org/es/observances/end-food-waste-day", "tipo": "institucional" }
-    ],
-    "emoji": "🍽️",
-    "tags": ["desperdicio", "sustentabilidad"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-internacional-de-la-traduccion",
-    "nombre": "Día Internacional de la Traducción",
-    "fecha": { "dia": 30, "mes": 9 },
-    "alcance": "internacional",
-    "categoria": "cultura",
-    "descripcion": "Coincide con la fiesta de San Jerónimo, patrono de los traductores, y reconoce el rol de la traducción entre culturas.",
-    "fuentes": [
-      { "nombre": "ONU - Día Internacional de la Traducción", "url": "https://www.un.org/es/observances/international-translation-day", "tipo": "institucional" }
-    ],
-    "emoji": "🌐",
-    "tags": ["san jeronimo", "idiomas"],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-independencia-chile",
     "nombre": "Día de la Independencia (Fiestas Patrias)",
-    "fecha": { "dia": 18, "mes": 9 },
+    "fecha": {
+      "dia": 18,
+      "mes": 9
+    },
     "alcance": "otro-pais",
     "pais": "Chile",
     "categoria": "historia",
     "descripcion": "Desde la década de 1830 Chile celebra esta fecha como fiesta de su independencia, iniciada con la Primera Junta de Gobierno de 1810.",
     "fuentes": [
-      { "nombre": "Archivo Nacional de Chile - Tradición de Fiestas Patrias", "url": "https://www.archivonacional.gob.cl/noticias/tradicion-de-fiestas-patrias", "tipo": "institucional" }
+      {
+        "nombre": "Archivo Nacional de Chile - Tradición de Fiestas Patrias",
+        "url": "https://www.archivonacional.gob.cl/noticias/tradicion-de-fiestas-patrias",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🇨🇱",
-    "tags": ["fiestas patrias", "dieciocho"],
+    "tags": [
+      "fiestas patrias",
+      "dieciocho"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-las-personas-sordas",
+    "nombre": "Día Nacional de las Personas Sordas",
+    "fecha": {
+      "dia": 19,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "derechos",
+    "descripcion": "Recuerda la Ley 1666 de 1885, que creó el primer instituto educativo nacional para personas sordas.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/dia-nacional-de-las-personas-sordas-una-fecha-para-concientizar",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🤟",
+    "tags": [
+      "sordera",
+      "discapacidad auditiva"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-chamame",
+    "nombre": "Día Nacional del Chamamé",
+    "fecha": {
+      "dia": 19,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "La Ley 26.558 estableció esta fecha en homenaje a Mario del Tránsito Cocomarola, fallecido en 1974.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de Cultura de la Nación",
+        "url": "https://www.cultura.gob.ar/dia-nacional-del-chamame-9521/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🪗",
+    "tags": [
+      "chamame",
+      "cocomarola",
+      "corrientes"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-de-la-limpieza",
+    "nombre": "Día Mundial de la Limpieza",
+    "fecha": {
+      "dia": 20,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "La Asamblea General de la ONU proclamó esta fecha en 2023 para promover jornadas voluntarias de limpieza y reciclaje.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Día Mundial de la Limpieza",
+        "url": "https://www.un.org/es/observances/cleanup-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🧹",
+    "tags": [
+      "residuos",
+      "voluntariado"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-la-paz",
+    "nombre": "Día Internacional de la Paz",
+    "fecha": {
+      "dia": 21,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "El mundo observa esta fecha para fortalecer los ideales de paz mediante el cese del fuego y la no violencia.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Día Internacional de la Paz",
+        "url": "https://www.un.org/es/observances/international-day-peace",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "☮️",
+    "tags": [
+      "onu",
+      "alto el fuego"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-del-artista-plastico-argentina",
+    "nombre": "Día Mundial del Artista Plástico",
+    "fecha": {
+      "dia": 21,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Homenajea a quienes se expresan a través de la pintura, el dibujo, la escultura o el grabado, coincidiendo con la llegada de la primavera.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - 21 de septiembre: Día Mundial del Artista Plástico",
+        "url": "https://www.argentina.gob.ar/noticias/21-de-septiembre-dia-mundial-del-artista-plastico",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎨",
+    "tags": [
+      "arte",
+      "pintura"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-primavera",
+    "nombre": "Día de la Primavera",
+    "fecha": {
+      "dia": 21,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Marca el inicio de la estación en el hemisferio sur y llena plazas y parques de todo el país junto al Día del Estudiante.",
+    "fuentes": [
+      {
+        "nombre": "Municipalidad de Rosario - 21 de septiembre: Día de la Primavera",
+        "url": "https://www.rosario.gob.ar/inicio/node/1918",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🌸",
+    "tags": [
+      "estacion",
+      "flores"
+    ],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-sanidad",
+    "nombre": "Día de la Sanidad",
+    "fecha": {
+      "dia": 21,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "salud",
+    "descripcion": "Recuerda la fundación en 1941 de la Obra Social de la Asociación de Trabajadores de la Sanidad Argentina.",
+    "fuentes": [
+      {
+        "nombre": "Facultad de Ciencias Médicas, UNCuyo - El 21 de septiembre festejamos el Día de la Sanidad",
+        "url": "https://fcm.uncuyo.edu.ar/el-21-de-septiembre-festejamos-el-dia-de-la-sanidad",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "⚕️",
+    "tags": [
+      "trabajadores de la salud",
+      "fatsa"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-estudiante",
+    "nombre": "Día del Estudiante",
+    "fecha": {
+      "dia": 21,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "educacion",
+    "descripcion": "Conmemora la repatriación de los restos de Domingo Faustino Sarmiento en 1888, celebrada desde 1902 por iniciativa universitaria.",
+    "fuentes": [
+      {
+        "nombre": "Facultad de Filosofía y Letras, UNCuyo - Hoy 21 de septiembre se celebra el día del estudiante",
+        "url": "https://ffyl.uncuyo.edu.ar/hoy-21-de-septiembre-se-celebra-el-dia-del-estudiante",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎒",
+    "tags": [
+      "sarmiento",
+      "juventud"
+    ],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-fotografo",
+    "nombre": "Día del Fotógrafo",
+    "fecha": {
+      "dia": 21,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la llegada del daguerrotipo a Buenos Aires en septiembre de 1843, cuatro años después de su presentación en París.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de Cultura de la Nación - Día del Fotógrafo y la Fotógrafa en Argentina y Latinoamérica",
+        "url": "https://www.cultura.gob.ar/dia-del-fotografo-en-argentina-y-latinoamerica-9515/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📷",
+    "tags": [
+      "fotografia",
+      "daguerrotipo"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-lenguas-de-senas",
+    "nombre": "Día Internacional de las Lenguas de Señas",
+    "fecha": {
+      "dia": 23,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Proclamado por la ONU para visibilizar la importancia de las lenguas de señas en los derechos humanos de las personas sordas.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Día Internacional de las Lenguas de Señas",
+        "url": "https://www.un.org/es/observances/sign-languages-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🤟",
+    "tags": [
+      "sordos",
+      "comunicacion"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-las-bibliotecas-populares",
+    "nombre": "Día de las Bibliotecas Populares",
+    "fecha": {
+      "dia": 23,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Recuerda la creación de la CONABIP por la Ley 419 de 1870, impulsada por Domingo F. Sarmiento.",
+    "fuentes": [
+      {
+        "nombre": "CONABIP - 23 de septiembre: Día de las Bibliotecas Populares",
+        "url": "https://www.conabip.gob.ar/content/23-de-septiembre-d%C3%ADa-de-las-bibliotecas-populares-3",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📖",
+    "tags": [
+      "conabip",
+      "lectura"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-maritimo-mundial",
+    "nombre": "Día Marítimo Mundial",
+    "fecha": {
+      "dia": 24,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Reconoce el aporte del transporte marítimo internacional a la economía global y a la seguridad de la navegación.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Día Marítimo Mundial",
+        "url": "https://www.un.org/es/observances/maritime-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "⚓",
+    "tags": [
+      "oceanos",
+      "navegacion"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-ballena-franca-austral",
+    "nombre": "Día Nacional de la Ballena Franca Austral",
+    "fecha": {
+      "dia": 25,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "animales",
+    "descripcion": "Recuerda el rescate en 2002 de \"Garra\", un ejemplar juvenil enredado en las cadenas de un catamarán en Puerto Pirámides.",
+    "fuentes": [
+      {
+        "nombre": "Universidad Nacional de La Plata - 25 de septiembre, Día Nacional de la Ballena Franca Austral",
+        "url": "https://unlp.edu.ar/institucional/ambiente/25-de-septiembre-dia-nacional-de-la-ballena-franca-austral-50730/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🐋",
+    "tags": [
+      "ballenas",
+      "garra",
+      "puerto piramides"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-eliminacion-armas-nucleares",
+    "nombre": "Día Internacional para la Eliminación Total de las Armas Nucleares",
+    "fecha": {
+      "dia": 26,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Establecido por la ONU en 2013 tras una reunión de alto nivel dedicada al desarme nuclear.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Día Internacional para la Eliminación Total de las Armas Nucleares",
+        "url": "https://www.un.org/es/observances/nuclear-weapons-elimination-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "☢️",
+    "tags": [
+      "desarme",
+      "paz"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-empleado-de-comercio",
+    "nombre": "Día del Empleado de Comercio",
+    "fecha": {
+      "dia": 26,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "La Ley 26.541 estableció este día como descanso para los empleados de comercio en todo el país.",
+    "fuentes": [
+      {
+        "nombre": "InfoLEG - Ley 26.541",
+        "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/160000-164999/161502/norma.htm",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🛍️",
+    "tags": [
+      "comercio",
+      "feriado"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-del-turismo",
+    "nombre": "Día Mundial del Turismo",
+    "fecha": {
+      "dia": 27,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Promueve el turismo como motor de desarrollo económico inclusivo y de sostenibilidad ambiental.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Día Mundial del Turismo",
+        "url": "https://www.un.org/es/observances/tourism-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "✈️",
+    "tags": [
+      "viajes",
+      "omt"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-conciencia-ambiental",
+    "nombre": "Día Nacional de la Conciencia Ambiental",
+    "fecha": {
+      "dia": 27,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "ambiente",
+    "descripcion": "La Ley 24.604 de 1995 fijó esta fecha en memoria de siete víctimas de un escape de gas cianhídrico en Avellaneda en 1993.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - 27 de septiembre de 1995: Día Nacional de la Conciencia Ambiental",
+        "url": "https://www.argentina.gob.ar/noticias/27-de-septiembre-de-1995-dia-nacional-de-la-conciencia-ambiental",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🌱",
+    "tags": [
+      "avellaneda",
+      "medio ambiente"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-acceso-universal-informacion",
+    "nombre": "Día Internacional del Acceso Universal a la Información",
+    "fecha": {
+      "dia": 28,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "La UNESCO declaró esta fecha en 2015 para defender el derecho de las personas a acceder a la información pública.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Día Internacional del Acceso Universal a la Información",
+        "url": "https://www.un.org/es/observances/information-access-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📰",
+    "tags": [
+      "transparencia",
+      "unesco"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-contra-la-rabia",
+    "nombre": "Día Mundial contra la Rabia",
+    "fecha": {
+      "dia": 28,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Coincide con el aniversario de la muerte de Louis Pasteur y busca concientizar sobre la prevención de esta enfermedad.",
+    "fuentes": [
+      {
+        "nombre": "OPS/OMS - Día Mundial contra la Rabia",
+        "url": "https://www.paho.org/en/world-rabies-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🐕",
+    "tags": [
+      "vacunacion",
+      "zoonosis"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-perdida-desperdicio-alimentos",
+    "nombre": "Día Internacional de Concienciación sobre la Pérdida y el Desperdicio de Alimentos",
+    "fecha": {
+      "dia": 29,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "comida",
+    "descripcion": "Impulsa acciones para reducir la pérdida y el desperdicio de alimentos a lo largo de toda la cadena de producción.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Día Internacional de Concienciación sobre la Pérdida y el Desperdicio de Alimentos",
+        "url": "https://www.un.org/es/observances/end-food-waste-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🍽️",
+    "tags": [
+      "desperdicio",
+      "sustentabilidad"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-inventor",
+    "nombre": "Día del Inventor",
+    "fecha": {
+      "dia": 29,
+      "mes": 9
+    },
+    "alcance": "argentina",
+    "categoria": "tecnologia",
+    "descripcion": "Homenajea a Ladislao José Biro, nacido este día en 1889, quien desarrolló y patentó la birome en Buenos Aires.",
+    "fuentes": [
+      {
+        "nombre": "Casa Rosada - Día del Inventor: homenaje a Ladislao José Biro",
+        "url": "https://www.casarosada.gob.ar/slider-principal/50683-dia-del-inventor-homenaje-a-ladislao-jose-biro-el-genio-detras-de-la-birome",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "💡",
+    "tags": [
+      "biro",
+      "birome",
+      "inventiva"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-de-la-traduccion",
+    "nombre": "Día Internacional de la Traducción",
+    "fecha": {
+      "dia": 30,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Coincide con la fiesta de San Jerónimo, patrono de los traductores, y reconoce el rol de la traducción entre culturas.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Día Internacional de la Traducción",
+        "url": "https://www.un.org/es/observances/international-translation-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🌐",
+    "tags": [
+      "san jeronimo",
+      "idiomas"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-del-trabajo-estados-unidos",
     "nombre": "Día del Trabajo",
-    "fecha": { "mes": 9, "ordinal": 1, "diaSemana": 1 },
+    "fecha": {
+      "mes": 9,
+      "ordinal": 1,
+      "diaSemana": 1
+    },
     "alcance": "otro-pais",
     "pais": "Estados Unidos",
     "categoria": "sociedad",
     "descripcion": "El Congreso estadounidense fijó en 1894 el primer lunes de septiembre para reconocer el aporte de los trabajadores al país.",
     "fuentes": [
-      { "nombre": "USAGov en Español - Día del Trabajo", "url": "https://www.usa.gov/es/dia-del-trabajo", "tipo": "institucional" }
+      {
+        "nombre": "USAGov en Español - Día del Trabajo",
+        "url": "https://www.usa.gov/es/dia-del-trabajo",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🇺🇸",
-    "tags": ["trabajadores", "feriado federal"],
+    "tags": [
+      "trabajadores",
+      "feriado federal"
+    ],
     "verificadoEn": "2026-09-11"
   }
 ]

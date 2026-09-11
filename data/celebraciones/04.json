@@ -2,552 +2,1152 @@
   {
     "id": "dia-nacional-donacion-medula-osea",
     "nombre": "Día Nacional de la Donación de Médula Ósea",
-    "fecha": { "dia": 1, "mes": 4 },
+    "fecha": {
+      "dia": 1,
+      "mes": 4
+    },
     "alcance": "argentina",
     "categoria": "salud",
     "descripcion": "Promueve la inscripción de donantes voluntarios en el registro de médula ósea del Incucai.",
     "fuentes": [
-      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/1o-de-abril-dia-nacional-de-la-donacion-de-medula-osea", "tipo": "institucional" }
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/1o-de-abril-dia-nacional-de-la-donacion-de-medula-osea",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🩸",
-    "tags": ["medula osea", "donante", "incucai", "trasplante"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-del-veterano-y-caidos-malvinas",
-    "nombre": "Día del Veterano, Veterana y de los Caídos en la Guerra de Malvinas",
-    "fecha": { "dia": 2, "mes": 4 },
-    "alcance": "argentina",
-    "categoria": "historia",
-    "descripcion": "Feriado nacional en homenaje a quienes combatieron y murieron en la Guerra de Malvinas de 1982.",
-    "fuentes": [
-      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/2-de-abril-dia-del-veterano-veterana-y-de-los-caidos-en-la-guerra-de-malvinas", "tipo": "institucional" }
+    "tags": [
+      "medula osea",
+      "donante",
+      "incucai",
+      "trasplante"
     ],
-    "emoji": "🇦🇷",
-    "tags": ["malvinas", "veteranos", "caidos", "guerra"],
-    "destacado": true,
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-mundial-concienciacion-autismo",
     "nombre": "Día Mundial de Concienciación sobre el Autismo",
-    "fecha": { "dia": 2, "mes": 4 },
+    "fecha": {
+      "dia": 2,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "salud",
     "descripcion": "La ONU promueve la concienciación sobre el autismo y la inclusión de las personas con TEA.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/autism-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/autism-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🧩",
-    "tags": ["autismo", "tea", "concienciacion"],
+    "tags": [
+      "autismo",
+      "tea",
+      "concienciacion"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-veterano-y-caidos-malvinas",
+    "nombre": "Día del Veterano, Veterana y de los Caídos en la Guerra de Malvinas",
+    "fecha": {
+      "dia": 2,
+      "mes": 4
+    },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Feriado nacional en homenaje a quienes combatieron y murieron en la Guerra de Malvinas de 1982.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/2-de-abril-dia-del-veterano-veterana-y-de-los-caidos-en-la-guerra-de-malvinas",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇦🇷",
+    "tags": [
+      "malvinas",
+      "veteranos",
+      "caidos",
+      "guerra"
+    ],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-personal-casas-particulares",
+    "nombre": "Día del Personal de Casas Particulares",
+    "fecha": {
+      "dia": 3,
+      "mes": 4
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Reconoce el trabajo doméstico remunerado y es día no laborable a nivel nacional para ese personal, sin pérdida de salario.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - Noticias",
+        "url": "https://www.argentina.gob.ar/noticias/3-de-abril-dia-del-personal-de-casas-particulares-0",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🧹",
+    "tags": [
+      "trabajadoras de casas particulares",
+      "empleo doméstico"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-info-peligro-minas",
     "nombre": "Día Internacional de Información sobre el Peligro de las Minas y de Asistencia para las Actividades Relativas a las Minas",
-    "fecha": { "dia": 4, "mes": 4 },
+    "fecha": {
+      "dia": 4,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "sociedad",
     "descripcion": "Impulsa el desminado humanitario y la asistencia a las comunidades afectadas por minas antipersonales.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/mine-awareness-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/mine-awareness-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "💣",
-    "tags": ["minas antipersonales", "desminado"],
+    "tags": [
+      "minas antipersonales",
+      "desminado"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-de-la-conciencia",
     "nombre": "Día Internacional de la Conciencia",
-    "fecha": { "dia": 5, "mes": 4 },
+    "fecha": {
+      "dia": 5,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "sociedad",
     "descripcion": "Invita a usar la conciencia colectiva para promover la paz y el desarrollo sostenible.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/conscience-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/conscience-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "💭",
-    "tags": ["conciencia", "paz"],
+    "tags": [
+      "conciencia",
+      "paz"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-deporte-desarrollo-paz",
     "nombre": "Día Internacional del Deporte para el Desarrollo y la Paz",
-    "fecha": { "dia": 6, "mes": 4 },
+    "fecha": {
+      "dia": 6,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "deporte",
     "descripcion": "Reconoce el papel del deporte para promover la paz y el desarrollo entre los pueblos.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/sport-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/sport-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "⚽",
-    "tags": ["deporte", "paz", "desarrollo"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-mundial-de-la-salud",
-    "nombre": "Día Mundial de la Salud",
-    "fecha": { "dia": 7, "mes": 4 },
-    "alcance": "internacional",
-    "categoria": "salud",
-    "descripcion": "La OMS convoca cada año a reflexionar sobre un tema prioritario de salud pública mundial.",
-    "fuentes": [
-      { "nombre": "Organización Mundial de la Salud", "url": "https://www.who.int/es/campaigns/world-health-day", "tipo": "institucional" }
+    "tags": [
+      "deporte",
+      "paz",
+      "desarrollo"
     ],
-    "emoji": "🏥",
-    "tags": ["oms", "salud publica"],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-reflexion-genocidio-ruanda",
     "nombre": "Día Internacional de Reflexión sobre el Genocidio de 1994 contra los Tutsis en Rwanda",
-    "fecha": { "dia": 7, "mes": 4 },
+    "fecha": {
+      "dia": 7,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "derechos",
     "descripcion": "Recuerda a las víctimas del genocidio de 1994 contra la población tutsi en Ruanda.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/preventgenocide/rwanda/day-of-reflection.shtml", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/preventgenocide/rwanda/day-of-reflection.shtml",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🕯️",
-    "tags": ["ruanda", "genocidio", "tutsis"],
+    "tags": [
+      "ruanda",
+      "genocidio",
+      "tutsis"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-de-la-salud",
+    "nombre": "Día Mundial de la Salud",
+    "fecha": {
+      "dia": 7,
+      "mes": 4
+    },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "La OMS convoca cada año a reflexionar sobre un tema prioritario de salud pública mundial.",
+    "fuentes": [
+      {
+        "nombre": "Organización Mundial de la Salud",
+        "url": "https://www.who.int/es/campaigns/world-health-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🏥",
+    "tags": [
+      "oms",
+      "salud publica"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-pueblo-gitano",
+    "nombre": "Día Internacional del Pueblo Gitano",
+    "fecha": {
+      "dia": 8,
+      "mes": 4
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Conmemora el Primer Congreso Mundial Romaní de Londres de 1971 y visibiliza la cultura y la identidad del pueblo gitano.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - Noticias",
+        "url": "https://www.argentina.gob.ar/noticias/bajtalo-guies-le-gomengo-feliz-dia-gitano",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎗️",
+    "tags": [
+      "romaní",
+      "pueblo rom",
+      "antidiscriminación"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-cardiologia-argentina",
+    "nombre": "Día de la Cardiología Argentina",
+    "fecha": {
+      "dia": 9,
+      "mes": 4
+    },
+    "alcance": "argentina",
+    "categoria": "salud",
+    "descripcion": "Conmemora la fundación de la Sociedad Argentina de Cardiología en 1937 y promueve la prevención cardiovascular.",
+    "fuentes": [
+      {
+        "nombre": "Sociedad Argentina de Cardiología (SAC)",
+        "url": "https://www.sac.org.ar/9-de-abril-dia-de-la-cardiologia-argentina/",
+        "tipo": "asociacion"
+      }
+    ],
+    "emoji": "❤️",
+    "tags": [
+      "cardiología",
+      "corazón",
+      "sac"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-del-investigador-cientifico-argentina",
     "nombre": "Día del Investigador y de la Investigadora Científica en la Argentina",
-    "fecha": { "dia": 10, "mes": 4 },
+    "fecha": {
+      "dia": 10,
+      "mes": 4
+    },
     "alcance": "argentina",
     "categoria": "profesion",
     "descripcion": "Homenajea a quienes investigan en ciencia en el aniversario del nacimiento de Bernardo Houssay.",
     "fuentes": [
-      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/10-de-abril-dia-del-investigador-y-de-la-investigadora-cientifica-en-la-argentina", "tipo": "institucional" }
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/10-de-abril-dia-del-investigador-y-de-la-investigadora-cientifica-en-la-argentina",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🔬",
-    "tags": ["houssay", "ciencia", "investigacion", "conicet"],
+    "tags": [
+      "houssay",
+      "ciencia",
+      "investigacion",
+      "conicet"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-parkinson",
+    "nombre": "Día Mundial del Parkinson",
+    "fecha": {
+      "dia": 11,
+      "mes": 4
+    },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Instituido en 1997 por la Organización Mundial de la Salud para generar conciencia sobre la enfermedad de Parkinson.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - Noticias",
+        "url": "https://www.argentina.gob.ar/noticias/11-de-abril-dia-mundial-del-parkinson",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🧠",
+    "tags": [
+      "parkinson",
+      "neurología"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-vuelos-espaciales-tripulados",
     "nombre": "Día Internacional de los Vuelos Espaciales Tripulados",
-    "fecha": { "dia": 12, "mes": 4 },
+    "fecha": {
+      "dia": 12,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "ciencia",
     "descripcion": "Celebra el aniversario del primer vuelo espacial tripulado de la historia y sus aportes a la humanidad.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/human-spaceflight-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/human-spaceflight-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🚀",
-    "tags": ["espacio", "astronautas", "gagarin"],
+    "tags": [
+      "espacio",
+      "astronautas",
+      "gagarin"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
-    "id": "dia-de-las-americas",
-    "nombre": "Día de las Américas",
-    "fecha": { "dia": 14, "mes": 4 },
+    "id": "dia-del-kinesiologo",
+    "nombre": "Día del Kinesiólogo",
+    "fecha": {
+      "dia": 13,
+      "mes": 4
+    },
     "alcance": "argentina",
-    "categoria": "sociedad",
-    "descripcion": "Recuerda la creación en 1890 de la Unión Panamericana, antecedente de la actual OEA.",
+    "categoria": "profesion",
+    "descripcion": "Establecido en 1950 por decreto en homenaje a la creación de la primera escuela de kinesiología del país en la UBA.",
     "fuentes": [
-      { "nombre": "Casa Rosada", "url": "https://www.casarosada.gob.ar/slider-principal/50435-14-de-abril-dia-de-las-americas", "tipo": "institucional" }
+      {
+        "nombre": "Gobierno de la Ciudad de Buenos Aires",
+        "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/dia-del-kinesiologo",
+        "tipo": "institucional"
+      }
     ],
-    "emoji": "🌎",
-    "tags": ["panamericanismo", "oea", "continente americano"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-victima-discapacidad-transito",
-    "nombre": "Día de la Víctima con Discapacidad por Hechos de Tránsito",
-    "fecha": { "dia": 14, "mes": 4 },
-    "alcance": "argentina",
-    "categoria": "derechos",
-    "descripcion": "Visibiliza a las personas que quedan con discapacidad permanente a causa de siniestros viales.",
-    "fuentes": [
-      { "nombre": "Argentina.gob.ar - Seguridad Vial", "url": "https://www.argentina.gob.ar/seguridadvial/educacionvial/14-de-abril-dia-de-la-victima-con-discapacidad-por-hechos-de-transito", "tipo": "institucional" }
+    "emoji": "🩺",
+    "tags": [
+      "kinesiología",
+      "rehabilitación"
     ],
-    "emoji": "♿",
-    "tags": ["siniestro vial", "discapacidad", "transito"],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-mundial-enfermedad-chagas",
     "nombre": "Día Mundial de la Enfermedad de Chagas",
-    "fecha": { "dia": 14, "mes": 4 },
+    "fecha": {
+      "dia": 14,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "salud",
     "descripcion": "La OMS impulsa la prevención, el diagnóstico y el tratamiento de la enfermedad de Chagas.",
     "fuentes": [
-      { "nombre": "Organización Mundial de la Salud", "url": "https://www.who.int/es/campaigns/world-chagas-disease-day", "tipo": "institucional" }
+      {
+        "nombre": "Organización Mundial de la Salud",
+        "url": "https://www.who.int/es/campaigns/world-chagas-disease-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🦟",
-    "tags": ["chagas", "enfermedades tropicales"],
+    "tags": [
+      "chagas",
+      "enfermedades tropicales"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-victima-discapacidad-transito",
+    "nombre": "Día de la Víctima con Discapacidad por Hechos de Tránsito",
+    "fecha": {
+      "dia": 14,
+      "mes": 4
+    },
+    "alcance": "argentina",
+    "categoria": "derechos",
+    "descripcion": "Visibiliza a las personas que quedan con discapacidad permanente a causa de siniestros viales.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - Seguridad Vial",
+        "url": "https://www.argentina.gob.ar/seguridadvial/educacionvial/14-de-abril-dia-de-la-victima-con-discapacidad-por-hechos-de-transito",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "♿",
+    "tags": [
+      "siniestro vial",
+      "discapacidad",
+      "transito"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-las-americas",
+    "nombre": "Día de las Américas",
+    "fecha": {
+      "dia": 14,
+      "mes": 4
+    },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Recuerda la creación en 1890 de la Unión Panamericana, antecedente de la actual OEA.",
+    "fuentes": [
+      {
+        "nombre": "Casa Rosada",
+        "url": "https://www.casarosada.gob.ar/slider-principal/50435-14-de-abril-dia-de-las-americas",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🌎",
+    "tags": [
+      "panamericanismo",
+      "oea",
+      "continente americano"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-del-bienestar",
     "nombre": "Día Internacional del Bienestar",
-    "fecha": { "dia": 15, "mes": 4 },
+    "fecha": {
+      "dia": 15,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "salud",
     "descripcion": "Fomenta la conciencia y la acción a favor del bienestar integral de las personas.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/wellness-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/wellness-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🧘",
-    "tags": ["bienestar", "salud integral"],
+    "tags": [
+      "bienestar",
+      "salud integral"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-mundial-de-la-voz",
     "nombre": "Día Mundial de la Voz",
-    "fecha": { "dia": 16, "mes": 4 },
+    "fecha": {
+      "dia": 16,
+      "mes": 4
+    },
     "alcance": "argentina",
     "categoria": "salud",
     "descripcion": "Promueve el cuidado vocal y la consulta temprana ante cambios en la voz.",
     "fuentes": [
-      { "nombre": "Buenos Aires Ciudad - GCBA", "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/dia-mundial-de-la-voz-0", "tipo": "institucional" },
-      { "nombre": "Colegio de Fonoaudiólogos de la Provincia de Buenos Aires", "url": "https://cfba.org.ar/efemerides/", "tipo": "asociacion" }
+      {
+        "nombre": "Buenos Aires Ciudad - GCBA",
+        "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/dia-mundial-de-la-voz-0",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Colegio de Fonoaudiólogos de la Provincia de Buenos Aires",
+        "url": "https://cfba.org.ar/efemerides/",
+        "tipo": "asociacion"
+      }
     ],
     "emoji": "🎙️",
-    "tags": ["voz", "fonoaudiologia", "otorrinolaringologia"],
+    "tags": [
+      "voz",
+      "fonoaudiologia",
+      "otorrinolaringologia"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
-    "id": "dia-del-aborigen-americano",
-    "nombre": "Día del Aborigen Americano",
-    "fecha": { "dia": 19, "mes": 4 },
-    "alcance": "argentina",
-    "categoria": "derechos",
-    "descripcion": "Conmemora el Primer Congreso Indigenista Interamericano de Pátzcuaro, celebrado en 1940.",
+    "id": "dia-mundial-del-malbec",
+    "nombre": "Día Mundial del Malbec",
+    "fecha": {
+      "dia": 17,
+      "mes": 4
+    },
+    "alcance": "internacional",
+    "categoria": "comida",
+    "descripcion": "Celebra la cepa emblema del vino argentino, cuya producción y exportación lidera el mercado mundial.",
     "fuentes": [
-      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/19-de-abril-dia-del-indigena-americano", "tipo": "institucional" }
+      {
+        "nombre": "Argentina.gob.ar - Noticias",
+        "url": "https://www.argentina.gob.ar/noticias/dia-del-malbec",
+        "tipo": "institucional"
+      }
     ],
-    "emoji": "🪶",
-    "tags": ["pueblos originarios", "indigena", "patzcuaro"],
+    "emoji": "🍷",
+    "tags": [
+      "vino",
+      "malbec",
+      "vitivinicultura"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-monumentos-sitios",
+    "nombre": "Día Internacional de los Monumentos y Sitios",
+    "fecha": {
+      "dia": 18,
+      "mes": 4
+    },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Impulsado por ICOMOS y la UNESCO desde 1983 para generar conciencia sobre el valor del patrimonio cultural.",
+    "fuentes": [
+      {
+        "nombre": "Gobierno de la Ciudad de Buenos Aires",
+        "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/dia-internacional-de-los-monumentos-y-sitios-historicos",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🏛️",
+    "tags": [
+      "patrimonio",
+      "icomos",
+      "unesco"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-do-indio-brasil",
     "nombre": "Dia do Índio",
-    "fecha": { "dia": 19, "mes": 4 },
+    "fecha": {
+      "dia": 19,
+      "mes": 4
+    },
     "alcance": "otro-pais",
     "pais": "Brasil",
     "categoria": "derechos",
     "descripcion": "Fecha instituida por decreto en Brasil para homenajear a los pueblos indígenas del país.",
     "fuentes": [
-      { "nombre": "Museu do Índio - FUNAI (gov.br)", "url": "https://pesquisa.museudoindio.gov.br/index.php/19-de-abril-o-dia-do-indio-as-comemoracoes-realizadas-em-1944-e-1945-volume-i", "tipo": "institucional" }
+      {
+        "nombre": "Museu do Índio - FUNAI (gov.br)",
+        "url": "https://pesquisa.museudoindio.gov.br/index.php/19-de-abril-o-dia-do-indio-as-comemoracoes-realizadas-em-1944-e-1945-volume-i",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🪶",
-    "tags": ["pueblos indigenas", "funai", "brasil"],
+    "tags": [
+      "pueblos indigenas",
+      "funai",
+      "brasil"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-aborigen-americano",
+    "nombre": "Día del Aborigen Americano",
+    "fecha": {
+      "dia": 19,
+      "mes": 4
+    },
+    "alcance": "argentina",
+    "categoria": "derechos",
+    "descripcion": "Conmemora el Primer Congreso Indigenista Interamericano de Pátzcuaro, celebrado en 1940.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/19-de-abril-dia-del-indigena-americano",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🪶",
+    "tags": [
+      "pueblos originarios",
+      "indigena",
+      "patzcuaro"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-idioma-chino-onu",
     "nombre": "Día del Idioma Chino en las Naciones Unidas",
-    "fecha": { "dia": 20, "mes": 4 },
+    "fecha": {
+      "dia": 20,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "cultura",
     "descripcion": "Promueve el multilingüismo en la ONU y celebra la lengua china en la fecha del Guyu, término solar de la primavera.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "http://www.un.org/zh/events/chineselanguageday/", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "http://www.un.org/zh/events/chineselanguageday/",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🈶",
-    "tags": ["idioma chino", "multilinguismo", "onu"],
+    "tags": [
+      "idioma chino",
+      "multilinguismo",
+      "onu"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-mundial-creatividad-innovacion",
     "nombre": "Día Mundial de la Creatividad y la Innovación",
-    "fecha": { "dia": 21, "mes": 4 },
+    "fecha": {
+      "dia": 21,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "cultura",
     "descripcion": "Promueve la creatividad y la innovación como motores del desarrollo sostenible.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/creativity-and-innovation-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/creativity-and-innovation-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "💡",
-    "tags": ["creatividad", "innovacion"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-trabajador-construccion",
-    "nombre": "Día del/a Trabajador/a de la Construcción",
-    "fecha": { "dia": 22, "mes": 4 },
-    "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "Establecido por la UOCRA en su convenio colectivo de 1975 para todo el gremio de la construcción.",
-    "fuentes": [
-      { "nombre": "INET - Instituto Nacional de Educación Tecnológica", "url": "https://www.inet.edu.ar/index.php/22-de-abril-dia-del-a-trabajador-a-de-la-construccion/", "tipo": "institucional" }
+    "tags": [
+      "creatividad",
+      "innovacion"
     ],
-    "emoji": "🏗️",
-    "tags": ["uocra", "obrero", "gremio"],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-madre-tierra",
     "nombre": "Día Internacional de la Madre Tierra",
-    "fecha": { "dia": 22, "mes": 4 },
+    "fecha": {
+      "dia": 22,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "ambiente",
     "descripcion": "Promueve la armonía con la naturaleza y el equilibrio del planeta como sistema de vida.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/earth-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/earth-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🌍",
-    "tags": ["tierra", "ambiente", "naturaleza"],
+    "tags": [
+      "tierra",
+      "ambiente",
+      "naturaleza"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
-    "id": "dia-nacional-agrimensura",
-    "nombre": "Día Nacional de la Agrimensura",
-    "fecha": { "dia": 23, "mes": 4 },
+    "id": "dia-trabajador-construccion",
+    "nombre": "Día del/a Trabajador/a de la Construcción",
+    "fecha": {
+      "dia": 22,
+      "mes": 4
+    },
     "alcance": "argentina",
     "categoria": "profesion",
-    "descripcion": "Recuerda el decreto de La Rioja de 1963 que reconoció al agrimensor como profesional público.",
+    "descripcion": "Establecido por la UOCRA en su convenio colectivo de 1975 para todo el gremio de la construcción.",
     "fuentes": [
-      { "nombre": "Instituto Geográfico Nacional", "url": "https://www.ign.gob.ar/content/23-de-abril-d%C3%ADa-nacional-de-la-agrimensura", "tipo": "institucional" }
+      {
+        "nombre": "INET - Instituto Nacional de Educación Tecnológica",
+        "url": "https://www.inet.edu.ar/index.php/22-de-abril-dia-del-a-trabajador-a-de-la-construccion/",
+        "tipo": "institucional"
+      }
     ],
-    "emoji": "📐",
-    "tags": ["agrimensor", "catastro", "mensura"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-idioma-espanol-onu",
-    "nombre": "Día del Idioma Español en las Naciones Unidas",
-    "fecha": { "dia": 23, "mes": 4 },
-    "alcance": "internacional",
-    "categoria": "cultura",
-    "descripcion": "Celebra el español como lengua oficial de la ONU en el aniversario de la muerte de Cervantes.",
-    "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/spanish-language-day", "tipo": "institucional" }
+    "emoji": "🏗️",
+    "tags": [
+      "uocra",
+      "obrero",
+      "gremio"
     ],
-    "emoji": "🇪🇸",
-    "tags": ["idioma espanol", "cervantes", "onu"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-idioma-ingles-onu",
-    "nombre": "Día del Idioma Inglés en las Naciones Unidas",
-    "fecha": { "dia": 23, "mes": 4 },
-    "alcance": "internacional",
-    "categoria": "cultura",
-    "descripcion": "Celebra el inglés como lengua oficial de la ONU en la fecha tradicional asociada a Shakespeare.",
-    "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/en/observances/english-language-day", "tipo": "institucional" }
-    ],
-    "emoji": "🇬🇧",
-    "tags": ["idioma ingles", "shakespeare", "onu"],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-mundial-libro-derecho-autor",
     "nombre": "Día Mundial del Libro y del Derecho de Autor",
-    "fecha": { "dia": 23, "mes": 4 },
+    "fecha": {
+      "dia": 23,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "cultura",
     "descripcion": "La UNESCO promueve la lectura, la edición y la protección de los derechos de autor en todo el mundo.",
     "fuentes": [
-      { "nombre": "UNESCO", "url": "https://www.unesco.org/es/days/world-book-and-copyright", "tipo": "institucional" }
+      {
+        "nombre": "UNESCO",
+        "url": "https://www.unesco.org/es/days/world-book-and-copyright",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "📚",
-    "tags": ["libro", "lectura", "derecho de autor"],
+    "tags": [
+      "libro",
+      "lectura",
+      "derecho de autor"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
-    "id": "dia-accion-tolerancia-respeto-pueblos",
-    "nombre": "Día de Acción por la Tolerancia y el Respeto entre los Pueblos",
-    "fecha": { "dia": 24, "mes": 4 },
+    "id": "dia-nacional-agrimensura",
+    "nombre": "Día Nacional de la Agrimensura",
+    "fecha": {
+      "dia": 23,
+      "mes": 4
+    },
     "alcance": "argentina",
-    "categoria": "derechos",
-    "descripcion": "Instituido por la Ley 26.199 en memoria del genocidio armenio de 1915.",
+    "categoria": "profesion",
+    "descripcion": "Recuerda el decreto de La Rioja de 1963 que reconoció al agrimensor como profesional público.",
     "fuentes": [
-      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/24-de-abril-dia-de-accion-por-la-tolerancia-y-el-respeto-entre-los-pueblos", "tipo": "institucional" }
+      {
+        "nombre": "Instituto Geográfico Nacional",
+        "url": "https://www.ign.gob.ar/content/23-de-abril-d%C3%ADa-nacional-de-la-agrimensura",
+        "tipo": "institucional"
+      }
     ],
-    "emoji": "🕊️",
-    "tags": ["genocidio armenio", "tolerancia", "memoria"],
+    "emoji": "📐",
+    "tags": [
+      "agrimensor",
+      "catastro",
+      "mensura"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-idioma-espanol-onu",
+    "nombre": "Día del Idioma Español en las Naciones Unidas",
+    "fecha": {
+      "dia": 23,
+      "mes": 4
+    },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Celebra el español como lengua oficial de la ONU en el aniversario de la muerte de Cervantes.",
+    "fuentes": [
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/spanish-language-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇪🇸",
+    "tags": [
+      "idioma espanol",
+      "cervantes",
+      "onu"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-idioma-ingles-onu",
+    "nombre": "Día del Idioma Inglés en las Naciones Unidas",
+    "fecha": {
+      "dia": 23,
+      "mes": 4
+    },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "Celebra el inglés como lengua oficial de la ONU en la fecha tradicional asociada a Shakespeare.",
+    "fuentes": [
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/en/observances/english-language-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇬🇧",
+    "tags": [
+      "idioma ingles",
+      "shakespeare",
+      "onu"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-multilateralismo-diplomacia-paz",
     "nombre": "Día Internacional del Multilateralismo y la Diplomacia para la Paz",
-    "fecha": { "dia": 24, "mes": 4 },
+    "fecha": {
+      "dia": 24,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "sociedad",
     "descripcion": "Reconoce la diplomacia y la cooperación multilateral como herramientas para preservar la paz.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/Multilateralism-for-Peace-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/Multilateralism-for-Peace-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🤝",
-    "tags": ["multilateralismo", "diplomacia", "paz"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-internacional-ninas-tic",
-    "nombre": "Día Internacional de las Niñas en las TIC",
-    "fecha": { "mes": 4, "ordinal": 4, "diaSemana": 4 },
-    "alcance": "internacional",
-    "categoria": "tecnologia",
-    "descripcion": "La UIT impulsa que niñas y jóvenes elijan carreras en tecnologías de la información.",
-    "fuentes": [
-      { "nombre": "Unión Internacional de Telecomunicaciones (UIT)", "url": "https://www.itu.int/women-and-girls/girls-in-ict/", "tipo": "institucional" }
+    "tags": [
+      "multilateralismo",
+      "diplomacia",
+      "paz"
     ],
-    "emoji": "💻",
-    "tags": ["tic", "ninas", "tecnologia", "uit"],
     "verificadoEn": "2026-09-11"
   },
   {
-    "id": "dia-empleado-despachante-aduana",
-    "nombre": "Día del Empleado de Despachante de Aduana",
-    "fecha": { "dia": 27, "mes": 4 },
+    "id": "dia-accion-tolerancia-respeto-pueblos",
+    "nombre": "Día de Acción por la Tolerancia y el Respeto entre los Pueblos",
+    "fecha": {
+      "dia": 24,
+      "mes": 4
+    },
     "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "El Centro Despachantes de Aduana saluda a los empleados del sector en todo el país.",
+    "categoria": "derechos",
+    "descripcion": "Instituido por la Ley 26.199 en memoria del genocidio armenio de 1915.",
     "fuentes": [
-      { "nombre": "Centro Despachantes de Aduana de la República Argentina", "url": "https://www.cda.org.ar/detalle_noticia.php?id=37034", "tipo": "asociacion" }
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/24-de-abril-dia-de-accion-por-la-tolerancia-y-el-respeto-entre-los-pueblos",
+        "tipo": "institucional"
+      }
     ],
-    "emoji": "📦",
-    "tags": ["aduana", "comercio exterior", "despachante"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-mundial-paludismo",
-    "nombre": "Día Mundial del Paludismo",
-    "fecha": { "dia": 25, "mes": 4 },
-    "alcance": "internacional",
-    "categoria": "salud",
-    "descripcion": "La OMS impulsa la inversión sostenida para prevenir y controlar el paludismo en el mundo.",
-    "fuentes": [
-      { "nombre": "Organización Mundial de la Salud", "url": "https://www.who.int/es/campaigns/world-malaria-day", "tipo": "institucional" }
+    "emoji": "🕊️",
+    "tags": [
+      "genocidio armenio",
+      "tolerancia",
+      "memoria"
     ],
-    "emoji": "🦟",
-    "tags": ["paludismo", "malaria"],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-del-delegado",
     "nombre": "Día Internacional del Delegado",
-    "fecha": { "dia": 25, "mes": 4 },
+    "fecha": {
+      "dia": 25,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "historia",
     "descripcion": "Recuerda el primer día de la Conferencia de San Francisco de 1945, donde se fundó la ONU.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/delegates-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/delegates-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🏛️",
-    "tags": ["onu", "delegados", "diplomacia"],
+    "tags": [
+      "onu",
+      "delegados",
+      "diplomacia"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
-    "id": "dia-mundial-propiedad-intelectual",
-    "nombre": "Día Mundial de la Propiedad Intelectual",
-    "fecha": { "dia": 26, "mes": 4 },
+    "id": "dia-mundial-paludismo",
+    "nombre": "Día Mundial del Paludismo",
+    "fecha": {
+      "dia": 25,
+      "mes": 4
+    },
     "alcance": "internacional",
-    "categoria": "cultura",
-    "descripcion": "La OMPI promueve el rol de las patentes, las marcas y los derechos de autor en la innovación.",
+    "categoria": "salud",
+    "descripcion": "La OMS impulsa la inversión sostenida para prevenir y controlar el paludismo en el mundo.",
     "fuentes": [
-      { "nombre": "Organización Mundial de la Propiedad Intelectual", "url": "https://www.wipo.int/ip-outreach/es/ipday/", "tipo": "institucional" }
+      {
+        "nombre": "Organización Mundial de la Salud",
+        "url": "https://www.who.int/es/campaigns/world-malaria-day",
+        "tipo": "institucional"
+      }
     ],
-    "emoji": "©️",
-    "tags": ["propiedad intelectual", "ompi", "patentes"],
+    "emoji": "🦟",
+    "tags": [
+      "paludismo",
+      "malaria"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-recordacion-chernobyl",
     "nombre": "Día Internacional de Recordación del Desastre de Chernóbil",
-    "fecha": { "dia": 26, "mes": 4 },
+    "fecha": {
+      "dia": 26,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "historia",
     "descripcion": "Recuerda a las víctimas del accidente nuclear de Chernóbil de 1986 y sus consecuencias.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/chernobyl-remembrance-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/chernobyl-remembrance-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "☢️",
-    "tags": ["chernobil", "accidente nuclear"],
+    "tags": [
+      "chernobil",
+      "accidente nuclear"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-propiedad-intelectual",
+    "nombre": "Día Mundial de la Propiedad Intelectual",
+    "fecha": {
+      "dia": 26,
+      "mes": 4
+    },
+    "alcance": "internacional",
+    "categoria": "cultura",
+    "descripcion": "La OMPI promueve el rol de las patentes, las marcas y los derechos de autor en la innovación.",
+    "fuentes": [
+      {
+        "nombre": "Organización Mundial de la Propiedad Intelectual",
+        "url": "https://www.wipo.int/ip-outreach/es/ipday/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "©️",
+    "tags": [
+      "propiedad intelectual",
+      "ompi",
+      "patentes"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-empleado-despachante-aduana",
+    "nombre": "Día del Empleado de Despachante de Aduana",
+    "fecha": {
+      "dia": 27,
+      "mes": 4
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "El Centro Despachantes de Aduana saluda a los empleados del sector en todo el país.",
+    "fuentes": [
+      {
+        "nombre": "Centro Despachantes de Aduana de la República Argentina",
+        "url": "https://www.cda.org.ar/detalle_noticia.php?id=37034",
+        "tipo": "asociacion"
+      }
+    ],
+    "emoji": "📦",
+    "tags": [
+      "aduana",
+      "comercio exterior",
+      "despachante"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-mundial-seguridad-salud-trabajo",
     "nombre": "Día Mundial de la Seguridad y la Salud en el Trabajo",
-    "fecha": { "dia": 28, "mes": 4 },
+    "fecha": {
+      "dia": 28,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "salud",
     "descripcion": "Promueve la prevención de accidentes y enfermedades laborales en todo el mundo.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/work-safety-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/work-safety-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🦺",
-    "tags": ["seguridad laboral", "salud ocupacional"],
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-del-animal-argentina",
-    "nombre": "Día del Animal",
-    "fecha": { "dia": 29, "mes": 4 },
-    "alcance": "argentina",
-    "categoria": "animales",
-    "descripcion": "Recuerda a Ignacio Lucas Albarracín, fundador de la Sociedad Protectora de Animales, fallecido el 29 de abril de 1926.",
-    "fuentes": [
-      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/29-de-abril-dia-del-animal", "tipo": "institucional" }
+    "tags": [
+      "seguridad laboral",
+      "salud ocupacional"
     ],
-    "emoji": "🐾",
-    "tags": ["proteccion animal", "mascotas"],
-    "destacado": true,
-    "verificadoEn": "2026-09-11"
-  },
-  {
-    "id": "dia-internacional-memoria-victimas-terremotos",
-    "nombre": "Día Internacional en Memoria de las Víctimas de los Terremotos",
-    "fecha": { "dia": 29, "mes": 4 },
-    "alcance": "internacional",
-    "categoria": "sociedad",
-    "descripcion": "Recuerda a las víctimas de terremotos y promueve la reducción del riesgo sísmico.",
-    "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/earthquake-victims-day", "tipo": "institucional" }
-    ],
-    "emoji": "🏚️",
-    "tags": ["terremotos", "victimas", "riesgo sismico"],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-de-la-danza",
     "nombre": "Día Internacional de la Danza",
-    "fecha": { "dia": 29, "mes": 4 },
+    "fecha": {
+      "dia": 29,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "cultura",
     "descripcion": "Establecido por el Instituto Internacional del Teatro (UNESCO) en el natalicio de Jean-Georges Noverre.",
     "fuentes": [
-      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/29-de-abril-dia-internacional-de-la-danza", "tipo": "institucional" }
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/29-de-abril-dia-internacional-de-la-danza",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "💃",
-    "tags": ["danza", "ballet", "unesco"],
+    "tags": [
+      "danza",
+      "ballet",
+      "unesco"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
-    "id": "dia-del-nino-mexico",
-    "nombre": "Día del Niño",
-    "fecha": { "dia": 30, "mes": 4 },
-    "alcance": "otro-pais",
-    "pais": "México",
-    "categoria": "familia",
-    "descripcion": "Establecido en 1924 durante la presidencia de Álvaro Obregón para reafirmar los derechos de la niñez.",
+    "id": "dia-internacional-memoria-victimas-terremotos",
+    "nombre": "Día Internacional en Memoria de las Víctimas de los Terremotos",
+    "fecha": {
+      "dia": 29,
+      "mes": 4
+    },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Recuerda a las víctimas de terremotos y promueve la reducción del riesgo sísmico.",
     "fuentes": [
-      { "nombre": "Poder Judicial del Estado de Coahuila de Zaragoza", "url": "https://www.pjecz.gob.mx/derechos-humanos-e-igualdad-de-genero/sabias-que/abril/30-de-abril---dia-del-nino-en-mexico/", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/earthquake-victims-day",
+        "tipo": "institucional"
+      }
     ],
-    "emoji": "🎈",
-    "tags": ["niñez", "mexico", "infancia"],
+    "emoji": "🏚️",
+    "tags": [
+      "terremotos",
+      "victimas",
+      "riesgo sismico"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-animal-argentina",
+    "nombre": "Día del Animal",
+    "fecha": {
+      "dia": 29,
+      "mes": 4
+    },
+    "alcance": "argentina",
+    "categoria": "animales",
+    "descripcion": "Recuerda a Ignacio Lucas Albarracín, fundador de la Sociedad Protectora de Animales, fallecido el 29 de abril de 1926.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/29-de-abril-dia-del-animal",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🐾",
+    "tags": [
+      "proteccion animal",
+      "mascotas"
+    ],
+    "destacado": true,
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-del-jazz",
     "nombre": "Día Internacional del Jazz",
-    "fecha": { "dia": 30, "mes": 4 },
+    "fecha": {
+      "dia": 30,
+      "mes": 4
+    },
     "alcance": "internacional",
     "categoria": "cultura",
     "descripcion": "La UNESCO celebra el jazz como lenguaje universal de libertad y diálogo entre culturas.",
     "fuentes": [
-      { "nombre": "Naciones Unidas", "url": "https://www.un.org/es/observances/jazz-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas",
+        "url": "https://www.un.org/es/observances/jazz-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🎷",
-    "tags": ["jazz", "musica", "unesco"],
+    "tags": [
+      "jazz",
+      "musica",
+      "unesco"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-nino-mexico",
+    "nombre": "Día del Niño",
+    "fecha": {
+      "dia": 30,
+      "mes": 4
+    },
+    "alcance": "otro-pais",
+    "pais": "México",
+    "categoria": "familia",
+    "descripcion": "Establecido en 1924 durante la presidencia de Álvaro Obregón para reafirmar los derechos de la niñez.",
+    "fuentes": [
+      {
+        "nombre": "Poder Judicial del Estado de Coahuila de Zaragoza",
+        "url": "https://www.pjecz.gob.mx/derechos-humanos-e-igualdad-de-genero/sabias-que/abril/30-de-abril---dia-del-nino-en-mexico/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎈",
+    "tags": [
+      "niñez",
+      "mexico",
+      "infancia"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-internacional-ninas-tic",
+    "nombre": "Día Internacional de las Niñas en las TIC",
+    "fecha": {
+      "mes": 4,
+      "ordinal": 4,
+      "diaSemana": 4
+    },
+    "alcance": "internacional",
+    "categoria": "tecnologia",
+    "descripcion": "La UIT impulsa que niñas y jóvenes elijan carreras en tecnologías de la información.",
+    "fuentes": [
+      {
+        "nombre": "Unión Internacional de Telecomunicaciones (UIT)",
+        "url": "https://www.itu.int/women-and-girls/girls-in-ict/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "💻",
+    "tags": [
+      "tic",
+      "ninas",
+      "tecnologia",
+      "uit"
+    ],
     "verificadoEn": "2026-09-11"
   }
 ]

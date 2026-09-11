@@ -20,6 +20,74 @@
     "emoji": "👨‍👩‍👧"
   },
   {
+    "id": "dia-nacional-del-perro",
+    "nombre": "Día Nacional del Perro",
+    "fecha": {
+      "dia": 2,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "animales",
+    "descripcion": "Homenajea a Chonino, el perro policía que murió protegiendo a su guía en 1983, y a los perros en general.",
+    "fuentes": [
+      {
+        "nombre": "Casa Rosada",
+        "url": "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/51271-dia-nacional-del-perro-2",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🐕",
+    "destacado": true
+  },
+  {
+    "id": "dia-del-bombero-voluntario-argentino",
+    "nombre": "Día del Bombero Voluntario",
+    "fecha": {
+      "dia": 2,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a los bomberos voluntarios argentinos, en el aniversario del primer cuerpo fundado en La Boca en 1884.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/g2-de-junio-d%C3%ADa-del-bombero-voluntario",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🚒",
+    "tags": [
+      "bomberos"
+    ]
+  },
+  {
+    "id": "dia-del-profesional-de-ciencias-economicas",
+    "nombre": "Día del Profesional de Ciencias Económicas",
+    "fecha": {
+      "dia": 2,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda el nombramiento de Manuel Belgrano como primer Secretario del Consulado de Comercio en 1794.",
+    "fuentes": [
+      {
+        "nombre": "FACPCE",
+        "url": "https://www.facpce.org.ar/dia-del-profesional-de-ciencias-economicas/",
+        "tipo": "asociacion"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "📊",
+    "tags": [
+      "contador",
+      "economista"
+    ]
+  },
+  {
     "id": "dia-mundial-de-la-bicicleta",
     "nombre": "Día Mundial de la Bicicleta",
     "fecha": {
@@ -60,6 +128,26 @@
     "emoji": "🕊️"
   },
   {
+    "id": "dia-internacional-contra-la-pesca-ilegal",
+    "nombre": "Día Internacional de la Lucha contra la Pesca Ilegal, No Declarada y No Reglamentada",
+    "fecha": {
+      "dia": 5,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Visibiliza el impacto de la pesca ilegal sobre los recursos marinos y la seguridad alimentaria.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/end-illegal-fishing-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🎣"
+  },
+  {
     "id": "dia-mundial-del-medio-ambiente",
     "nombre": "Día Mundial del Medio Ambiente",
     "fecha": {
@@ -80,24 +168,24 @@
     "emoji": "🌎"
   },
   {
-    "id": "dia-internacional-contra-la-pesca-ilegal",
-    "nombre": "Día Internacional de la Lucha contra la Pesca Ilegal, No Declarada y No Reglamentada",
+    "id": "dia-de-la-ingenieria-argentina",
+    "nombre": "Día de la Ingeniería Argentina",
     "fecha": {
-      "dia": 5,
+      "dia": 6,
       "mes": 6
     },
-    "alcance": "internacional",
-    "categoria": "ambiente",
-    "descripcion": "Visibiliza el impacto de la pesca ilegal sobre los recursos marinos y la seguridad alimentaria.",
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Conmemora la graduación de Luis Augusto Huergo, el primer ingeniero civil del país, en 1870.",
     "fuentes": [
       {
-        "nombre": "ONU - Observancias",
-        "url": "https://www.un.org/es/observances/end-illegal-fishing-day",
-        "tipo": "institucional"
+        "nombre": "Colegio de Ingenieros Especialistas de Santa Fe",
+        "url": "https://cie.gov.ar/web/noticias/639-dia-de-la-ingenieria-argentina",
+        "tipo": "asociacion"
       }
     ],
     "verificadoEn": "2026-09-11",
-    "emoji": "🎣"
+    "emoji": "⚙️"
   },
   {
     "id": "dia-de-la-lengua-rusa",
@@ -140,6 +228,26 @@
     "emoji": "🍽️"
   },
   {
+    "id": "dia-del-periodista",
+    "nombre": "Día del Periodista",
+    "fecha": {
+      "dia": 7,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la aparición de la Gazeta de Buenos Ayres, el primer periódico patrio, en 1810.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/por-que-se-conmemora-hoy-el-dia-del-periodista-y-de-la-periodista",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "📰"
+  },
+  {
     "id": "dia-mundial-de-los-oceanos",
     "nombre": "Día Mundial de los Océanos",
     "fecha": {
@@ -158,6 +266,30 @@
     ],
     "verificadoEn": "2026-09-11",
     "emoji": "🌊"
+  },
+  {
+    "id": "dia-del-geologo",
+    "nombre": "Día del Geólogo y la Geóloga",
+    "fecha": {
+      "dia": 9,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Recuerda la primera reunión de 1947 que dio origen a la organización profesional de los geólogos argentinos.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - Noticias",
+        "url": "https://www.argentina.gob.ar/noticias/9-de-junio-dia-de-las-geologas-y-los-geologos-en-la-republica-argentina",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "⛏️",
+    "tags": [
+      "geología",
+      "geólogos"
+    ],
+    "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-para-el-dialogo-entre-civilizaciones",
@@ -180,6 +312,71 @@
     "emoji": "🤝"
   },
   {
+    "id": "dia-nacional-de-la-seguridad-vial",
+    "nombre": "Día Nacional de la Seguridad Vial",
+    "fecha": {
+      "dia": 10,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Recuerda el cambio del sentido de circulación vehicular en 1945 y promueve la conducta responsable en el tránsito.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - ANSV",
+        "url": "https://www.argentina.gob.ar/seguridadvial/educacionvial/10-de-junio-dia-mundial-de-la-seguridad-vial",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🚦"
+  },
+  {
+    "id": "dia-de-la-afirmacion-de-los-derechos-argentinos-sobre-las-malvinas",
+    "nombre": "Día de la Afirmación de los Derechos Argentinos sobre las Islas Malvinas, Islas del Atlántico Sur y Sector Antártico",
+    "fecha": {
+      "dia": 10,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Fijado por la Ley 20.561 para reafirmar la soberanía argentina sobre las Islas Malvinas y el Atlántico Sur.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - Normativa (Ley 20.561)",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-20561-231251",
+        "tipo": "normativa"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🇦🇷"
+  },
+  {
+    "id": "dia-de-la-cruz-roja-argentina",
+    "nombre": "Día de la Cruz Roja Argentina",
+    "fecha": {
+      "dia": 10,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "salud",
+    "descripcion": "Recuerda la fundación de la Cruz Roja Argentina en 1880, impulsada por los médicos Rawson y Ayerza.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de Educación de Córdoba - 10 de junio, Día de la Cruz Roja Argentina",
+        "url": "https://www.igualdadycalidadcba.gov.ar/SIPEC-CBA/Fechas-para-recordar/2025/Junio/cruz-roja.php",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Cruz Roja Argentina - Aniversario",
+        "url": "https://cruzroja.org.ar/blog/aniversario-cruz-roja-argentina/",
+        "tipo": "asociacion"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🏥"
+  },
+  {
     "id": "dia-internacional-del-juego",
     "nombre": "Día Internacional del Juego",
     "fecha": {
@@ -198,6 +395,26 @@
     ],
     "verificadoEn": "2026-09-11",
     "emoji": "🧸"
+  },
+  {
+    "id": "dia-del-vecino",
+    "nombre": "Día del Vecino",
+    "fecha": {
+      "dia": 11,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "sociedad",
+    "descripcion": "Celebra el rol de los vecinos en la vida comunitaria, en el aniversario de la segunda fundación de Buenos Aires.",
+    "fuentes": [
+      {
+        "nombre": "Gobierno de la Ciudad de Buenos Aires",
+        "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/dia-del-vecino-participativo",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🏘️"
   },
   {
     "id": "dia-mundial-contra-el-trabajo-infantil",
@@ -240,6 +457,27 @@
     "emoji": "🎗️"
   },
   {
+    "id": "dia-del-escritor",
+    "nombre": "Día del Escritor",
+    "fecha": {
+      "dia": 13,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a los escritores argentinos en el aniversario del nacimiento de Leopoldo Lugones.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/13-de-junio-dia-del-escritor-0",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "✍️",
+    "destacado": true
+  },
+  {
     "id": "dia-mundial-del-donante-de-sangre",
     "nombre": "Día Mundial del Donante de Sangre",
     "fecha": {
@@ -280,6 +518,26 @@
     "emoji": "🧓"
   },
   {
+    "id": "dia-nacional-del-libro",
+    "nombre": "Día Nacional del Libro",
+    "fecha": {
+      "dia": 15,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "cultura",
+    "descripcion": "Destaca la importancia de la lectura y los libros en la cultura y la educación argentinas.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/15-de-junio-dia-del-libro-en-la-argentina",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "📚"
+  },
+  {
     "id": "dia-internacional-de-las-remesas-familiares",
     "nombre": "Día Internacional de las Remesas Familiares",
     "fecha": {
@@ -318,6 +576,46 @@
     ],
     "verificadoEn": "2026-09-11",
     "emoji": "🏜️"
+  },
+  {
+    "id": "dia-nacional-de-la-libertad-latinoamericana",
+    "nombre": "Día Nacional de la Libertad Latinoamericana",
+    "fecha": {
+      "dia": 17,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Conmemora el fallecimiento del general Martín Miguel de Güemes, defensor de la frontera norte en 1821.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/17-de-junio-dia-nacional-de-la-libertad-latinoamericana-0",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🇦🇷"
+  },
+  {
+    "id": "dia-del-editor",
+    "nombre": "Día del Editor",
+    "fecha": {
+      "dia": 17,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a editoras y editores, en el aniversario del nacimiento de Boris Spivacow, fundador de Eudeba.",
+    "fuentes": [
+      {
+        "nombre": "Facultad de Ciencias de la Educación, UNER",
+        "url": "https://www.fcedu.uner.edu.ar/17-de-junio-dia-de-las-y-los-editores/",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "📖"
   },
   {
     "id": "dia-internacional-para-contrarrestar-el-discurso-de-odio",
@@ -380,6 +678,27 @@
     "emoji": "🎗️"
   },
   {
+    "id": "juneteenth-estados-unidos",
+    "nombre": "Juneteenth",
+    "fecha": {
+      "dia": 19,
+      "mes": 6
+    },
+    "alcance": "otro-pais",
+    "categoria": "derechos",
+    "descripcion": "Feriado federal de Estados Unidos que conmemora el fin de la esclavitud, declarado en 1865 en Texas.",
+    "fuentes": [
+      {
+        "nombre": "Govinfo.gov (Gobierno de EE.UU.)",
+        "url": "https://www.govinfo.gov/features/juneteenth",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "pais": "Estados Unidos",
+    "emoji": "✊🏾"
+  },
+  {
     "id": "dia-mundial-de-los-refugiados",
     "nombre": "Día Mundial de los Refugiados",
     "fecha": {
@@ -398,6 +717,27 @@
     ],
     "verificadoEn": "2026-09-11",
     "emoji": "🏳️"
+  },
+  {
+    "id": "dia-de-la-bandera-nacional",
+    "nombre": "Día de la Bandera Nacional",
+    "fecha": {
+      "dia": 20,
+      "mes": 6
+    },
+    "alcance": "argentina",
+    "categoria": "historia",
+    "descripcion": "Homenajea a Manuel Belgrano, creador de la bandera argentina, en el aniversario de su fallecimiento en 1820.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/20-de-junio-dia-de-la-bandera-nacional",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🇦🇷",
+    "destacado": true
   },
   {
     "id": "dia-internacional-de-la-celebracion-del-solsticio",
@@ -440,24 +780,29 @@
     "emoji": "🧘"
   },
   {
-    "id": "dia-de-las-naciones-unidas-para-la-administracion-publica",
-    "nombre": "Día de las Naciones Unidas para la Administración Pública",
+    "id": "dia-del-futbolista-argentino",
+    "nombre": "Día del Futbolista Argentino",
     "fecha": {
-      "dia": 23,
+      "dia": 22,
       "mes": 6
     },
-    "alcance": "internacional",
-    "categoria": "sociedad",
-    "descripcion": "Reconoce el valor del servicio público en la construcción de sociedades más justas y eficientes.",
+    "alcance": "argentina",
+    "categoria": "deporte",
+    "descripcion": "Homenajea el «Gol del Siglo» de Diego Maradona a Inglaterra en el Mundial de México 1986.",
     "fuentes": [
       {
-        "nombre": "ONU - Observancias",
-        "url": "https://www.un.org/es/observances/public-service-day",
-        "tipo": "institucional"
+        "nombre": "Asociación del Fútbol Argentino (AFA)",
+        "url": "https://www.afa.com.ar/es/posts/el-dia-del-futbolista-argentino-encuentra-a-la-seleccion-en-pleno-mundial-y-frente-a-austria",
+        "tipo": "asociacion"
       }
     ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "🏛️"
+    "emoji": "⚽",
+    "tags": [
+      "maradona",
+      "fútbol",
+      "gol del siglo"
+    ],
+    "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-de-las-viudas",
@@ -478,6 +823,26 @@
     ],
     "verificadoEn": "2026-09-11",
     "emoji": "🖤"
+  },
+  {
+    "id": "dia-de-las-naciones-unidas-para-la-administracion-publica",
+    "nombre": "Día de las Naciones Unidas para la Administración Pública",
+    "fecha": {
+      "dia": 23,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "sociedad",
+    "descripcion": "Reconoce el valor del servicio público en la construcción de sociedades más justas y eficientes.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/public-service-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🏛️"
   },
   {
     "id": "dia-internacional-de-las-mujeres-en-la-diplomacia",
@@ -520,26 +885,6 @@
     "emoji": "⚓"
   },
   {
-    "id": "dia-internacional-en-apoyo-de-las-victimas-de-la-tortura",
-    "nombre": "Día Internacional en Apoyo de las Víctimas de la Tortura",
-    "fecha": {
-      "dia": 26,
-      "mes": 6
-    },
-    "alcance": "internacional",
-    "categoria": "derechos",
-    "descripcion": "Honra a las víctimas de la tortura y reafirma el compromiso de erradicar esta práctica.",
-    "fuentes": [
-      {
-        "nombre": "ONU - Observancias",
-        "url": "https://www.un.org/es/observances/torture-victims-day",
-        "tipo": "institucional"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "🕯️"
-  },
-  {
     "id": "dia-internacional-de-la-lucha-contra-el-uso-indebido-y-el-trafico-ilicito-de-drogas",
     "nombre": "Día Internacional de la Lucha contra el Uso Indebido y el Tráfico Ilícito de Drogas",
     "fecha": {
@@ -558,6 +903,26 @@
     ],
     "verificadoEn": "2026-09-11",
     "emoji": "🚫"
+  },
+  {
+    "id": "dia-internacional-en-apoyo-de-las-victimas-de-la-tortura",
+    "nombre": "Día Internacional en Apoyo de las Víctimas de la Tortura",
+    "fecha": {
+      "dia": 26,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Honra a las víctimas de la tortura y reafirma el compromiso de erradicar esta práctica.",
+    "fuentes": [
+      {
+        "nombre": "ONU - Observancias",
+        "url": "https://www.un.org/es/observances/torture-victims-day",
+        "tipo": "institucional"
+      }
+    ],
+    "verificadoEn": "2026-09-11",
+    "emoji": "🕯️"
   },
   {
     "id": "dia-internacional-de-la-sordoceguera",
@@ -598,6 +963,31 @@
     ],
     "verificadoEn": "2026-09-11",
     "emoji": "🏪"
+  },
+  {
+    "id": "dia-internacional-orgullo-lgbtiq",
+    "nombre": "Día Internacional del Orgullo LGBTIQ+",
+    "fecha": {
+      "dia": 28,
+      "mes": 6
+    },
+    "alcance": "internacional",
+    "categoria": "derechos",
+    "descripcion": "Conmemora la revuelta de Stonewall de 1969 en Nueva York y reivindica los derechos del colectivo LGBTIQ+.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - Noticias",
+        "url": "https://www.argentina.gob.ar/noticias/dia-internacional-del-orgullo-lgbttiq",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🌈",
+    "tags": [
+      "orgullo",
+      "stonewall",
+      "diversidad"
+    ],
+    "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-de-los-tropicos",
@@ -660,301 +1050,6 @@
     "emoji": "🏛️"
   },
   {
-    "id": "dia-del-bombero-voluntario-argentino",
-    "nombre": "Día del Bombero Voluntario",
-    "fecha": {
-      "dia": 2,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "Homenajea a los bomberos voluntarios argentinos, en el aniversario del primer cuerpo fundado en La Boca en 1884.",
-    "fuentes": [
-      {
-        "nombre": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar/noticias/g2-de-junio-d%C3%ADa-del-bombero-voluntario",
-        "tipo": "institucional"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "🚒",
-    "tags": [
-      "bomberos"
-    ]
-  },
-  {
-    "id": "dia-del-profesional-de-ciencias-economicas",
-    "nombre": "Día del Profesional de Ciencias Económicas",
-    "fecha": {
-      "dia": 2,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "Recuerda el nombramiento de Manuel Belgrano como primer Secretario del Consulado de Comercio en 1794.",
-    "fuentes": [
-      {
-        "nombre": "FACPCE",
-        "url": "https://www.facpce.org.ar/dia-del-profesional-de-ciencias-economicas/",
-        "tipo": "asociacion"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "📊",
-    "tags": [
-      "contador",
-      "economista"
-    ]
-  },
-  {
-    "id": "dia-nacional-del-perro",
-    "nombre": "Día Nacional del Perro",
-    "fecha": {
-      "dia": 2,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "animales",
-    "descripcion": "Homenajea a Chonino, el perro policía que murió protegiendo a su guía en 1983, y a los perros en general.",
-    "fuentes": [
-      {
-        "nombre": "Casa Rosada",
-        "url": "https://www.casarosada.gob.ar/informacion/actividad-oficial/9-noticias/51271-dia-nacional-del-perro-2",
-        "tipo": "institucional"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "🐕",
-    "destacado": true
-  },
-  {
-    "id": "dia-de-la-ingenieria-argentina",
-    "nombre": "Día de la Ingeniería Argentina",
-    "fecha": {
-      "dia": 6,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "Conmemora la graduación de Luis Augusto Huergo, el primer ingeniero civil del país, en 1870.",
-    "fuentes": [
-      {
-        "nombre": "Colegio de Ingenieros Especialistas de Santa Fe",
-        "url": "https://cie.gov.ar/web/noticias/639-dia-de-la-ingenieria-argentina",
-        "tipo": "asociacion"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "⚙️"
-  },
-  {
-    "id": "dia-del-periodista",
-    "nombre": "Día del Periodista",
-    "fecha": {
-      "dia": 7,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "Recuerda la aparición de la Gazeta de Buenos Ayres, el primer periódico patrio, en 1810.",
-    "fuentes": [
-      {
-        "nombre": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar/noticias/por-que-se-conmemora-hoy-el-dia-del-periodista-y-de-la-periodista",
-        "tipo": "institucional"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "📰"
-  },
-  {
-    "id": "dia-de-la-afirmacion-de-los-derechos-argentinos-sobre-las-malvinas",
-    "nombre": "Día de la Afirmación de los Derechos Argentinos sobre las Islas Malvinas, Islas del Atlántico Sur y Sector Antártico",
-    "fecha": {
-      "dia": 10,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "historia",
-    "descripcion": "Fijado por la Ley 20.561 para reafirmar la soberanía argentina sobre las Islas Malvinas y el Atlántico Sur.",
-    "fuentes": [
-      {
-        "nombre": "Argentina.gob.ar - Normativa (Ley 20.561)",
-        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-20561-231251",
-        "tipo": "normativa"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "🇦🇷"
-  },
-  {
-    "id": "dia-de-la-cruz-roja-argentina",
-    "nombre": "Día de la Cruz Roja Argentina",
-    "fecha": {
-      "dia": 10,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "salud",
-    "descripcion": "Recuerda la fundación de la Cruz Roja Argentina en 1880, impulsada por los médicos Rawson y Ayerza.",
-    "fuentes": [
-      {
-        "nombre": "Ministerio de Educación de Córdoba - 10 de junio, Día de la Cruz Roja Argentina",
-        "url": "https://www.igualdadycalidadcba.gov.ar/SIPEC-CBA/Fechas-para-recordar/2025/Junio/cruz-roja.php",
-        "tipo": "institucional"
-      },
-      {
-        "nombre": "Cruz Roja Argentina - Aniversario",
-        "url": "https://cruzroja.org.ar/blog/aniversario-cruz-roja-argentina/",
-        "tipo": "asociacion"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "🏥"
-  },
-  {
-    "id": "dia-nacional-de-la-seguridad-vial",
-    "nombre": "Día Nacional de la Seguridad Vial",
-    "fecha": {
-      "dia": 10,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "sociedad",
-    "descripcion": "Recuerda el cambio del sentido de circulación vehicular en 1945 y promueve la conducta responsable en el tránsito.",
-    "fuentes": [
-      {
-        "nombre": "Argentina.gob.ar - ANSV",
-        "url": "https://www.argentina.gob.ar/seguridadvial/educacionvial/10-de-junio-dia-mundial-de-la-seguridad-vial",
-        "tipo": "institucional"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "🚦"
-  },
-  {
-    "id": "dia-del-vecino",
-    "nombre": "Día del Vecino",
-    "fecha": {
-      "dia": 11,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "sociedad",
-    "descripcion": "Celebra el rol de los vecinos en la vida comunitaria, en el aniversario de la segunda fundación de Buenos Aires.",
-    "fuentes": [
-      {
-        "nombre": "Gobierno de la Ciudad de Buenos Aires",
-        "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/dia-del-vecino-participativo",
-        "tipo": "institucional"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "🏘️"
-  },
-  {
-    "id": "dia-del-escritor",
-    "nombre": "Día del Escritor",
-    "fecha": {
-      "dia": 13,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "Homenajea a los escritores argentinos en el aniversario del nacimiento de Leopoldo Lugones.",
-    "fuentes": [
-      {
-        "nombre": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar/noticias/13-de-junio-dia-del-escritor-0",
-        "tipo": "institucional"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "✍️",
-    "destacado": true
-  },
-  {
-    "id": "dia-nacional-del-libro",
-    "nombre": "Día Nacional del Libro",
-    "fecha": {
-      "dia": 15,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "cultura",
-    "descripcion": "Destaca la importancia de la lectura y los libros en la cultura y la educación argentinas.",
-    "fuentes": [
-      {
-        "nombre": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar/noticias/15-de-junio-dia-del-libro-en-la-argentina",
-        "tipo": "institucional"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "📚"
-  },
-  {
-    "id": "dia-del-editor",
-    "nombre": "Día del Editor",
-    "fecha": {
-      "dia": 17,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "profesion",
-    "descripcion": "Homenajea a editoras y editores, en el aniversario del nacimiento de Boris Spivacow, fundador de Eudeba.",
-    "fuentes": [
-      {
-        "nombre": "Facultad de Ciencias de la Educación, UNER",
-        "url": "https://www.fcedu.uner.edu.ar/17-de-junio-dia-de-las-y-los-editores/",
-        "tipo": "institucional"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "📖"
-  },
-  {
-    "id": "dia-nacional-de-la-libertad-latinoamericana",
-    "nombre": "Día Nacional de la Libertad Latinoamericana",
-    "fecha": {
-      "dia": 17,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "historia",
-    "descripcion": "Conmemora el fallecimiento del general Martín Miguel de Güemes, defensor de la frontera norte en 1821.",
-    "fuentes": [
-      {
-        "nombre": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar/noticias/17-de-junio-dia-nacional-de-la-libertad-latinoamericana-0",
-        "tipo": "institucional"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "🇦🇷"
-  },
-  {
-    "id": "dia-de-la-bandera-nacional",
-    "nombre": "Día de la Bandera Nacional",
-    "fecha": {
-      "dia": 20,
-      "mes": 6
-    },
-    "alcance": "argentina",
-    "categoria": "historia",
-    "descripcion": "Homenajea a Manuel Belgrano, creador de la bandera argentina, en el aniversario de su fallecimiento en 1820.",
-    "fuentes": [
-      {
-        "nombre": "Argentina.gob.ar",
-        "url": "https://www.argentina.gob.ar/noticias/20-de-junio-dia-de-la-bandera-nacional",
-        "tipo": "institucional"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "emoji": "🇦🇷",
-    "destacado": true
-  },
-  {
     "id": "dia-de-la-prefectura-naval-argentina",
     "nombre": "Día de la Prefectura Naval Argentina",
     "fecha": {
@@ -995,26 +1090,5 @@
     "verificadoEn": "2026-09-11",
     "emoji": "👨‍👧",
     "destacado": true
-  },
-  {
-    "id": "juneteenth-estados-unidos",
-    "nombre": "Juneteenth",
-    "fecha": {
-      "dia": 19,
-      "mes": 6
-    },
-    "alcance": "otro-pais",
-    "categoria": "derechos",
-    "descripcion": "Feriado federal de Estados Unidos que conmemora el fin de la esclavitud, declarado en 1865 en Texas.",
-    "fuentes": [
-      {
-        "nombre": "Govinfo.gov (Gobierno de EE.UU.)",
-        "url": "https://www.govinfo.gov/features/juneteenth",
-        "tipo": "institucional"
-      }
-    ],
-    "verificadoEn": "2026-09-11",
-    "pais": "Estados Unidos",
-    "emoji": "✊🏾"
   }
 ]
