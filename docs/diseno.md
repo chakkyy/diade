@@ -1,12 +1,11 @@
-# ¿Qué se celebra hoy? — diseño (2026-09-11)
+# ¿Qué se celebra hoy? — diseño
 
 Calendario de "Días de X" para Argentina: efemérides nacionales, días profesionales, conmemoraciones internacionales y fechas populares. No es una página de feriados ni de acontecimientos históricos.
 
-## Árbol de decisiones (grilling auto-respondido: pedido "one-shot sin supervisión")
+## Decisiones de diseño
 
 | # | Decisión | Ruling | Costo si está mal |
 |---|----------|--------|-------------------|
-| Q1 | Ubicación | `~/Desktop/projects/yolo/que-se-celebra-hoy`, repo git propio | trivial, se mueve |
 | Q2 | Stack | Next.js 16.3 App Router + TS + Tailwind 4 + pnpm; vitest + zod | fijado por el pedido |
 | Q3 | Persistencia | JSON por mes en `data/celebraciones/MM.json`, validado con zod en build y en tests. Sin DB: sin auth en v1, un backoffice web escribible sería un agujero si se deploya | migrar a SQLite/Supabase después es un loader nuevo, los JSON quedan como seed |
 | Q4 | Backoffice | CLI `pnpm data:add` (interactivo, escribe el JSON validado) + `pnpm data:validate` + `pnpm data:links` (HTTP check de fuentes) + doc en README | si se quiere UI, se agrega sobre el mismo schema |
@@ -61,7 +60,7 @@ interface Celebracion {
 
 Mobile-first, app-like. Tipografía Geist (ya en el scaffold). Un solo acento: celeste argentino `#74ACDF` (light) / `#8CC4EE` (dark) en links, chips activos y el día actual del calendario; el resto neutros. Nada de gradientes ni tarjetas con sombra: bordes de 1px, radios 12px, listas densas. Cada celebración es una fila: emoji + nombre + chip de categoría + (chip de país si aplica), descripción de una línea, fuente como link discreto. Header sticky con la fecha grande ("Hoy, viernes 11 de septiembre") y flechas ◀ ▶ con `aria-label`. Todo con foco visible y contraste AA en ambos temas.
 
-## Casos de prueba obligatorios (tests/)
+## Casos de prueba (tests/)
 - 10 de septiembre → incluye "Día del Terapista Ocupacional" (argentina, profesion).
 - 11 de septiembre → incluye "Día del Maestro" (argentina) y "Día Panamericano del Maestro" (internacional).
 - 21 de septiembre → incluye "Día del Fotógrafo" (argentina), "Día de la Primavera" y "Día del Estudiante".
