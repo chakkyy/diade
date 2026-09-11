@@ -1,20 +1,23 @@
 import type { Metadata } from "next";
+import Buscador from "@/components/Buscador";
+import { indiceBusqueda } from "@/lib/celebraciones";
+import { leerFiltros } from "@/lib/buscar-url";
+import { hoyEnArgentina } from "@/lib/fechas";
 
-export const metadata: Metadata = {
-  title: "Buscar",
-  description: "Buscá una celebración por nombre, categoría o alcance.",
-};
+export async function generateMetadata(props: PageProps<"/buscar">): Promise<Metadata> {
+  const { q } = leerFiltros(await props.searchParams);
 
-export default function PaginaBuscar() {
-  return (
-    <div className="pt-7">
-      <p className="text-[11px] font-semibold tracking-[0.08em] text-texto-secundario uppercase">
-        Buscar
-      </p>
-      <h1 className="mt-1.5 text-[26px] leading-[1.12] font-semibold tracking-[-0.02em] sm:text-[32px]">
-        Buscar una celebración
-      </h1>
-      <p className="mt-3 text-[15px] leading-6 text-texto-secundario">Próximamente.</p>
-    </div>
-  );
+  return {
+    title: q.trim() === "" ? "Buscar" : `Resultados para "${q.trim()}"`,
+    description: "Buscá celebraciones por nombre, profesión o tema y filtrá por alcance y categoría.",
+    alternates: { canonical: "/buscar" },
+  };
+}
+
+export default async function PaginaBuscar(props: PageProps<"/buscar">) {
+  const inicial = leerFiltros(await props.searchParams);
+  const indice = indiceBusqueda();
+  const anio = hoyEnArgentina().anio;
+
+  return <Buscador indice={indice} inicial={inicial} anio={anio} />;
 }
