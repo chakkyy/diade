@@ -191,7 +191,7 @@ export default function Buscador({
       />
 
       <p aria-live="polite" className="mt-5 text-[13px] text-texto-secundario">
-        {sinFiltros ? `Todas las celebraciones (${resultados.length})` : `${resultados.length} resultados`}
+        {sinFiltros ? `Todas las celebraciones (${resultados.length})` : `${resultados.length} ${resultados.length === 1 ? "resultado" : "resultados"}`}
       </p>
 
       {resultados.length === 0 ? (
