@@ -164,7 +164,13 @@ Dominios de referencia para buscar fuentes nuevas: `argentina.gob.ar`, `un.org`,
 
 `NEXT_PUBLIC_SITE_URL`: URL pública del sitio (ej. `https://que-se-celebra-hoy.vercel.app`), usada para el sitemap, el `robots.txt` y las URLs canónicas. Sin definirla, se usa `http://localhost:3000`.
 
+## Cobertura de datos
+
+- 550 celebraciones: 208 de Argentina, 269 internacionales y 73 de otros países.
+- Los 366 días del año tienen al menos una celebración. Cuando Argentina y los organismos internacionales no tienen nada para una fecha, entra un "Día de X" de otro país con fuente oficial de ese país, marcado con `alcance: "otro-pais"` y su `pais`.
+- Todas las fuentes se verifican con `pnpm data:links` (HTTP 200 al momento de la carga).
+
 ## Limitaciones conocidas
 
-- No todos los 365/366 días tienen una celebración cargada todavía; los días sin datos muestran un estado vacío, no un error.
-- Para países que no son Argentina, sólo están cargadas las fechas más conocidas de un puñado de países (Chile, Uruguay, Brasil, México, España, Estados Unidos, Bolivia), no un calendario completo por país.
+- Para países que no son Argentina no hay un calendario completo por país: están las fechas más conocidas de la región (Chile, Uruguay, Brasil, México, España, Estados Unidos, Bolivia) y las que cubren días sin celebración argentina o internacional.
+- El 29 de febrero sólo existe en años bisiestos; el Día Mundial de las Enfermedades Poco Frecuentes está cargado el 28 y, como entrada aparte, el 29 para los bisiestos, porque la fuente lo fija en "el último día de febrero".
