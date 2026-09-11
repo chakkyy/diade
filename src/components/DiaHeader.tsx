@@ -27,13 +27,14 @@ export default function DiaHeader({
   esHoy: boolean | "auto";
 }) {
   const titulo = formatearFechaLarga(fecha, anio);
+  const url = `/fecha/${slugDeFecha(fecha)}`;
   const anterior = slugDeFecha(fechaAnterior(fecha, anio));
   const siguiente = slugDeFecha(fechaSiguiente(fecha, anio));
 
   return (
     <div className="pt-6">
       {esHoy === "auto" ? (
-        <EstadoHoy dia={fecha.dia} mes={fecha.mes} />
+        <EstadoHoy dia={fecha.dia} mes={fecha.mes} anio={anio} />
       ) : (
         <EtiquetaDia esHoy={esHoy} anio={anio} />
       )}
@@ -67,7 +68,7 @@ export default function DiaHeader({
         </Link>
         <SelectorFecha dia={fecha.dia} mes={fecha.mes} anio={anio} />
         <div className="ml-auto">
-          <CompartirBoton titulo={`${titulo} · ¿Qué se celebra hoy?`} />
+          <CompartirBoton titulo={`${titulo} · ¿Qué se celebra hoy?`} url={url} />
         </div>
       </div>
     </div>

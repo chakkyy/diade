@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
+import { useSyncExternalStore } from "react";
 import { celdasDelMes } from "@/lib/calendario";
-import { MESES, slugDeFecha, type FechaDia } from "@/lib/fechas";
+import { MESES, hoyEnArgentina, slugDeFecha } from "@/lib/fechas";
 
 interface ConteoDia {
   total: number;
@@ -19,18 +22,31 @@ const DIAS_SEMANA_ABREVIADOS: { corto: string; completo: string }[] = [
   { corto: "dom", completo: "domingo" },
 ];
 
+function sinSuscripcion(): () => void {
+  return () => {};
+}
+
+function leerHoyClaveServidor(): string {
+  return "";
+}
+
+function leerHoyClaveCliente(): string {
+  const hoy = hoyEnArgentina();
+  return `${hoy.dia}-${hoy.mes}-${hoy.anio}`;
+}
+
 export default function CalendarioMes({
   mes,
   anio,
-  conteos,
-  hoy,
+  conteosEntradas,
 }: {
   mes: number;
   anio: number;
-  conteos: Map<number, ConteoDia>;
-  hoy: FechaDia | null;
+  conteosEntradas: [number, ConteoDia][];
 }) {
+  const conteos = new Map(conteosEntradas);
   const celdas = celdasDelMes(mes, anio);
+  const hoyClave = useSyncExternalStore(sinSuscripcion, leerHoyClaveCliente, leerHoyClaveServidor);
 
   return (
     <div className="mt-6">
@@ -48,7 +64,7 @@ export default function CalendarioMes({
           }
 
           const conteo = conteos.get(dia);
-          const esHoy = hoy !== null && hoy.dia === dia && hoy.mes === mes;
+          const esHoy = hoyClave === `${dia}-${mes}-${anio}`;
           const nombreMes = MESES[mes - 1];
           const label =
             conteo && conteo.total > 0

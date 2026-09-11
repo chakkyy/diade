@@ -17,6 +17,7 @@ import { formatearFechaCorta, hoyEnArgentina, resolverFechaMovil, slugDeFecha } 
 import { esFechaMovil, type Celebracion } from "@/types/celebracion";
 
 export const revalidate = 3600;
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return cargarTodas().map((c) => ({ id: c.id }));

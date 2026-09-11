@@ -7,16 +7,20 @@ const fuenteSchema = z.object({
   tipo: z.enum(TIPOS_FUENTE),
 });
 
-const fechaFijaSchema = z.object({
-  dia: z.number().int().min(1).max(31),
-  mes: z.number().int().min(1).max(12),
-});
+const fechaFijaSchema = z
+  .object({
+    dia: z.number().int().min(1).max(31),
+    mes: z.number().int().min(1).max(12),
+  })
+  .strict();
 
-const fechaMovilSchema = z.object({
-  mes: z.number().int().min(1).max(12),
-  ordinal: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(-1)]),
-  diaSemana: z.number().int().min(0).max(6),
-});
+const fechaMovilSchema = z
+  .object({
+    mes: z.number().int().min(1).max(12),
+    ordinal: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(-1)]),
+    diaSemana: z.number().int().min(0).max(6),
+  })
+  .strict();
 
 const DIAS_POR_MES = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
@@ -33,7 +37,7 @@ export const celebracionSchema = z
     emoji: z.string().min(1).max(8).optional(),
     tags: z.array(z.string().min(2)).optional(),
     destacado: z.boolean().optional(),
-    verificadoEn: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "verificadoEn debe ser YYYY-MM-DD"),
+    verificadoEn: z.iso.date("verificadoEn debe ser una fecha YYYY-MM-DD válida"),
   })
   .strict()
   .refine((c) => c.fuentes.some((f) => f.tipo !== "secundaria"), {

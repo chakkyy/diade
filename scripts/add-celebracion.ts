@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import readline from "node:readline/promises";
 import { celebracionSchema } from "../src/lib/schema";
-import { insertarOrdenado, nombreArchivoMes, slugDeNombre } from "../src/lib/datos-edicion";
+import { idsExistentes, insertarOrdenado, nombreArchivoMes, slugDeNombre } from "../src/lib/datos-edicion";
 import { CATEGORIAS, TIPOS_FUENTE, type Categoria, type Celebracion, type Fuente } from "../src/types/celebracion";
 
 function directorioDatos(): string {
@@ -37,6 +37,14 @@ function mostrarErrores(errores: { path: PropertyKey[]; message: string }[]): vo
   for (const e of errores) console.error(`   ${e.path.join(".")}: ${e.message}`);
 }
 
+function leerTodosLosArchivos(dir: string): Celebracion[][] {
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((nombre) => nombre.endsWith(".json"))
+    .map((nombre) => JSON.parse(fs.readFileSync(path.join(dir, nombre), "utf8")) as Celebracion[]);
+}
+
 function insertarYGuardar(dir: string, candidata: unknown): number {
   const parsed = celebracionSchema.safeParse(candidata);
   if (!parsed.success) {
@@ -48,8 +56,8 @@ function insertarYGuardar(dir: string, candidata: unknown): number {
   const ruta = path.join(dir, archivo);
   const existentes: Celebracion[] = fs.existsSync(ruta) ? JSON.parse(fs.readFileSync(ruta, "utf8")) : [];
 
-  if (existentes.some((c) => c.id === celebracion.id)) {
-    console.error(`✗ ya existe una celebración con id "${celebracion.id}" en ${archivo}`);
+  if (idsExistentes(leerTodosLosArchivos(dir)).has(celebracion.id)) {
+    console.error(`✗ ya existe una celebración con id "${celebracion.id}" en los datos`);
     return 1;
   }
 

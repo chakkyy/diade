@@ -24,7 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const descripcion = descripcionDeHoy(celebracionesDeFecha(fecha, hoy.anio), larga);
 
   return {
-    title: titulo,
+    title: { absolute: `${titulo} · ¿Qué se celebra hoy?` },
     description: descripcion,
     alternates: { canonical: "/" },
     openGraph: {
@@ -50,7 +50,7 @@ export default async function Home() {
       hrefSiguiente={`/fecha/${slugDeFecha(fechaSiguiente(fecha, hoy.anio))}`}
     >
       <DiaHeader fecha={fecha} anio={hoy.anio} esHoy />
-      <ListaCelebraciones celebraciones={celebraciones} anio={hoy.anio} />
+      <ListaCelebraciones celebraciones={celebraciones} />
       <ProximosDestacados proximos={proximos} />
     </NavegacionDia>
   );

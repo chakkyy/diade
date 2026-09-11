@@ -21,6 +21,7 @@ import { descripcionDeFecha, tituloDeFecha } from "@/lib/seo";
 const ANIO_BISIESTO_REFERENCIA = 2024;
 
 export const revalidate = 3600;
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   const params: { slug: string }[] = [];
@@ -47,17 +48,18 @@ export async function generateMetadata(props: PageProps<"/fecha/[slug]">): Promi
   const celebraciones = celebracionesDeFecha(fecha, anio);
   const titulo = tituloDeFecha(celebraciones, fecha);
   const descripcion = descripcionDeFecha(celebraciones, fecha);
+  const slugNormalizado = slugDeFecha(fecha);
 
   return {
     title: titulo,
     description: descripcion,
-    alternates: { canonical: `/fecha/${slug}` },
+    alternates: { canonical: `/fecha/${slugNormalizado}` },
     openGraph: {
       type: "article",
       locale: "es_AR",
       title: `${titulo} · ¿Qué se celebra hoy?`,
       description: descripcion,
-      url: `/fecha/${slug}`,
+      url: `/fecha/${slugNormalizado}`,
     },
   };
 }
@@ -77,7 +79,7 @@ export default async function PaginaFecha(props: PageProps<"/fecha/[slug]">) {
       hrefSiguiente={`/fecha/${slugDeFecha(fechaSiguiente(fecha, anio))}`}
     >
       <DiaHeader fecha={fecha} anio={anio} esHoy="auto" />
-      <ListaCelebraciones celebraciones={celebraciones} anio={anio} />
+      <ListaCelebraciones celebraciones={celebraciones} />
       <ProximosDestacados proximos={proximos} />
     </NavegacionDia>
   );

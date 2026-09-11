@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { insertarOrdenado, nombreArchivoMes, slugDeNombre } from "@/lib/datos-edicion";
+import { idsExistentes, insertarOrdenado, nombreArchivoMes, slugDeNombre } from "@/lib/datos-edicion";
 import type { Celebracion } from "@/types/celebracion";
 
 function fija(id: string, dia: number, mes = 9): Celebracion {
@@ -74,5 +74,24 @@ describe("insertarOrdenado", () => {
     const lista = [fija("a", 5)];
     insertarOrdenado(lista, fija("b", 1));
     expect(lista.map((c) => c.id)).toEqual(["a"]);
+  });
+});
+
+describe("idsExistentes", () => {
+  it("junta los ids de todos los archivos, no sólo el primero", () => {
+    const archivos = [[fija("a", 5)], [fija("b", 11)], [movil("z", 3, 0)]];
+    const ids = idsExistentes(archivos);
+    expect(ids.has("a")).toBe(true);
+    expect(ids.has("b")).toBe(true);
+    expect(ids.has("z")).toBe(true);
+  });
+  it("detecta un id duplicado en un archivo distinto al que se está editando", () => {
+    const archivoSeptiembre = [fija("dia-del-maestro", 11, 9)];
+    const archivoEnero = [fija("otra-celebracion", 3, 1)];
+    const ids = idsExistentes([archivoSeptiembre, archivoEnero]);
+    expect(ids.has("dia-del-maestro")).toBe(true);
+  });
+  it("devuelve un set vacío sin archivos", () => {
+    expect(idsExistentes([]).size).toBe(0);
   });
 });

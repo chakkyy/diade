@@ -12,11 +12,7 @@ function leerEsHoyServidor(): boolean {
   return false;
 }
 
-function leerAnioServidor(): number {
-  return new Date().getFullYear();
-}
-
-export default function EstadoHoy({ dia, mes }: { dia: number; mes: number }) {
+export default function EstadoHoy({ dia, mes, anio }: { dia: number; mes: number; anio: number }) {
   const esHoy = useSyncExternalStore(
     sinSuscripcion,
     () => {
@@ -25,7 +21,6 @@ export default function EstadoHoy({ dia, mes }: { dia: number; mes: number }) {
     },
     leerEsHoyServidor,
   );
-  const anio = useSyncExternalStore(sinSuscripcion, () => hoyEnArgentina().anio, leerAnioServidor);
 
   return <EtiquetaDia esHoy={esHoy} anio={anio} />;
 }

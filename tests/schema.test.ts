@@ -36,4 +36,22 @@ describe("celebracionSchema", () => {
   it("rechaza ids con tildes o mayúsculas", () => {
     expect(celebracionSchema.safeParse({ ...base, id: "Día-del-Maestro" }).success).toBe(false);
   });
+  it("rechaza una fecha móvil disfrazada de fija con campos de ambas", () => {
+    const r = celebracionSchema.safeParse({
+      ...base,
+      fecha: { mes: 10, dia: 18, ordinal: 3, diaSemana: 0 },
+    });
+    expect(r.success).toBe(false);
+  });
+  it("rechaza una fecha fija con campos móviles extra", () => {
+    const r = celebracionSchema.safeParse({
+      ...base,
+      fecha: { dia: 11, mes: 9, ordinal: 3, diaSemana: 0 },
+    });
+    expect(r.success).toBe(false);
+  });
+  it("rechaza verificadoEn con una fecha inexistente", () => {
+    const r = celebracionSchema.safeParse({ ...base, verificadoEn: "2026-99-99" });
+    expect(r.success).toBe(false);
+  });
 });

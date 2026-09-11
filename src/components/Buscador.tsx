@@ -14,7 +14,7 @@ import { resolverFechaMovil, slugDeFecha } from "@/lib/fechas";
 import { esFechaMovil } from "@/types/celebracion";
 import type { Alcance, Categoria, ItemIndice } from "@/types/celebracion";
 
-const TAMANIO_PAGINA = 100;
+const TAMANIO_PAGINA = 30;
 const DEMORA_TEXTO_MS = 250;
 
 function etiquetaAlcance(item: ItemIndice): string {
@@ -75,6 +75,16 @@ export default function Buscador({
   const [alcance, setAlcance] = useState<Alcance[]>(inicial.alcance);
   const [categoria, setCategoria] = useState<Categoria[]>(inicial.categoria);
   const [visibles, setVisibles] = useState(TAMANIO_PAGINA);
+
+  const [claveInicialAplicada, setClaveInicialAplicada] = useState(() => escribirFiltros(inicial));
+  const claveInicialActual = escribirFiltros(inicial);
+  if (claveInicialActual !== claveInicialAplicada) {
+    setClaveInicialAplicada(claveInicialActual);
+    setQ(inicial.q);
+    setAlcance(inicial.alcance);
+    setCategoria(inicial.categoria);
+  }
+
   const claveFiltros = `${q}|${alcance.join(",")}|${categoria.join(",")}`;
   const [claveAnterior, setClaveAnterior] = useState(claveFiltros);
 

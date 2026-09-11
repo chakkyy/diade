@@ -12,6 +12,7 @@ import { mesAnterior, mesSiguiente } from "@/lib/calendario";
 import { MESES, hoyEnArgentina, mesDeSlug, slugDeMes } from "@/lib/fechas";
 
 export const revalidate = 3600;
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return MESES.map((mes) => ({ mes }));
@@ -56,11 +57,9 @@ export default async function PaginaCalendarioMes(props: PageProps<"/calendario/
   const mes = mesDeSlug(slug);
   if (!mes) notFound();
 
-  const hoy = hoyEnArgentina();
-  const anio = hoy.anio;
+  const anio = hoyEnArgentina().anio;
   const { conteos } = totales(mes, anio);
   const nombreMes = MESES[mes - 1];
-  const esMesActual = mes === hoy.mes;
 
   const celebracionesDelMes = cargarTodas()
     .map((c) => ({ c, resuelta: fechaResuelta(c, anio) }))
@@ -99,12 +98,7 @@ export default async function PaginaCalendarioMes(props: PageProps<"/calendario/
           <SelectorMes mes={mes} />
         </div>
       </div>
-      <CalendarioMes
-        mes={mes}
-        anio={anio}
-        conteos={conteos}
-        hoy={esMesActual ? { dia: hoy.dia, mes: hoy.mes } : null}
-      />
+      <CalendarioMes mes={mes} anio={anio} conteosEntradas={Array.from(conteos.entries())} />
       <div className="mt-8">
         <h2 className="text-[13px] font-semibold tracking-[-0.01em]">
           Este mes ({celebracionesDelMes.length})

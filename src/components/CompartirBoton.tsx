@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-export default function CompartirBoton({ titulo }: { titulo: string }) {
+export default function CompartirBoton({ titulo, url }: { titulo: string; url?: string }) {
   const [copiado, setCopiado] = useState(false);
   const temporizador = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -13,17 +13,17 @@ export default function CompartirBoton({ titulo }: { titulo: string }) {
   }, []);
 
   async function compartir() {
-    const url = window.location.href;
+    const urlCompartible = url ? new URL(url, window.location.origin).href : window.location.href;
     if (navigator.share) {
       try {
-        await navigator.share({ title: titulo, url });
+        await navigator.share({ title: titulo, url: urlCompartible });
         return;
       } catch {
         return;
       }
     }
     try {
-      await navigator.clipboard.writeText(url);
+      await navigator.clipboard.writeText(urlCompartible);
       setCopiado(true);
       temporizador.current = setTimeout(() => setCopiado(false), 2000);
     } catch {

@@ -55,7 +55,7 @@ function Bloque({
   );
 }
 
-export default function ListaCelebraciones({ celebraciones }: { celebraciones: Celebracion[]; anio: number }) {
+export default function ListaCelebraciones({ celebraciones }: { celebraciones: Celebracion[] }) {
   if (celebraciones.length === 0) {
     return (
       <div className="mt-7 rounded-caja border border-dashed border-borde-fuerte bg-superficie px-4 py-9 text-center">

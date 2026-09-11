@@ -14,6 +14,14 @@ export function nombreArchivoMes(mes: number): string {
   return `${String(mes).padStart(2, "0")}.json`;
 }
 
+export function idsExistentes(archivos: Celebracion[][]): Set<string> {
+  const ids = new Set<string>();
+  for (const lista of archivos) {
+    for (const c of lista) ids.add(c.id);
+  }
+  return ids;
+}
+
 export function insertarOrdenado(lista: Celebracion[], nueva: Celebracion): Celebracion[] {
   const resultado = [...lista];
   if (esFechaMovil(nueva.fecha)) {
