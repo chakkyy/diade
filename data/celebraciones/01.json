@@ -2,201 +2,534 @@
   {
     "id": "dia-mundial-del-braille",
     "nombre": "Día Mundial del Braille",
-    "fecha": { "dia": 4, "mes": 1 },
+    "fecha": {
+      "dia": 4,
+      "mes": 1
+    },
     "alcance": "internacional",
     "categoria": "derechos",
     "descripcion": "Promueve el braille como medio de comunicación para garantizar los derechos humanos de las personas ciegas o con baja visión.",
     "fuentes": [
-      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/braille-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas - Días Internacionales",
+        "url": "https://www.un.org/es/observances/braille-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "👆",
-    "tags": ["braille", "ciegos", "discapacidad visual"],
+    "tags": [
+      "braille",
+      "ciegos",
+      "discapacidad visual"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-los-ninos-uruguay",
+    "nombre": "Día de los Niños",
+    "fecha": {
+      "dia": 6,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Uruguay",
+    "categoria": "familia",
+    "descripcion": "Feriado uruguayo establecido por la Ley 6997 de 1919, dedicado a los niños y coincidente con el Día de Reyes.",
+    "fuentes": [
+      {
+        "nombre": "IMPO - Ley N° 6997 (1919)",
+        "url": "https://www.impo.com.uy/bases/leyes/6997-1919",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🎁",
+    "tags": [
+      "niños",
+      "uruguay",
+      "reyes"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-gauchito-gil",
+    "nombre": "Día del Gauchito Gil",
+    "fecha": {
+      "dia": 8,
+      "mes": 1
+    },
+    "alcance": "argentina",
+    "categoria": "religion",
+    "descripcion": "Devoción popular reconocida como patrimonio cultural inmaterial, celebrada en el santuario de Mercedes, Corrientes.",
+    "fuentes": [
+      {
+        "nombre": "Argentina.gob.ar - Ministerio de Cultura",
+        "url": "https://www.argentina.gob.ar/cultura/manifestaciones-del-patrimonio-cultural-inmaterial/corrientes/devocion-popular-al-gauchito",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🕯️",
+    "tags": [
+      "gauchito gil",
+      "corrientes",
+      "santo popular"
+    ],
+    "destacado": true,
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-del-trabajador-de-transporte-de-pasajeros",
     "nombre": "Día del Trabajador de Transporte de Pasajeros",
-    "fecha": { "dia": 10, "mes": 1 },
+    "fecha": {
+      "dia": 10,
+      "mes": 1
+    },
     "alcance": "argentina",
     "categoria": "profesion",
     "descripcion": "Recuerda la fundación de la Unión Tranviarios, el primer sindicato nacional del sector, en 1919.",
     "fuentes": [
-      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/10-de-enero-dia-del-trabajador-de-transporte-de-pasajeros", "tipo": "institucional" }
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/10-de-enero-dia-del-trabajador-de-transporte-de-pasajeros",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🚌",
-    "tags": ["colectivero", "transporte público"],
+    "tags": [
+      "colectivero",
+      "transporte público"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-trabajador-pastelero-confitero-heladero-pizzero-alfajorero",
+    "nombre": "Día del Trabajador Pastelero, Confitero, Heladero, Pizzero y Alfajorero",
+    "fecha": {
+      "dia": 12,
+      "mes": 1
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "El Convenio Colectivo 272/96 fija esta fecha como Día del Gremio en homenaje a la fundación del sindicato del sector.",
+    "fuentes": [
+      {
+        "nombre": "Sindicato de Pasteleros de Buenos Aires - CCT 272/96",
+        "url": "https://pasteleros.org/wp-content/uploads/2021/06/Convenio-272-96-2019-PASTELERIA.pdf",
+        "tipo": "asociacion"
+      }
+    ],
+    "emoji": "🥧",
+    "tags": [
+      "pastelero",
+      "pizzero",
+      "confitero",
+      "heladero",
+      "alfajorero",
+      "gremio"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-libertad-religiosa-estados-unidos",
+    "nombre": "Día de la Libertad Religiosa",
+    "fecha": {
+      "dia": 16,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Estados Unidos",
+    "categoria": "derechos",
+    "descripcion": "Proclamación presidencial anual en Estados Unidos que conmemora el Estatuto de Virginia sobre la Libertad Religiosa de 1786.",
+    "fuentes": [
+      {
+        "nombre": "The White House - Presidential Proclamation on Religious Freedom Day",
+        "url": "https://obamawhitehouse.archives.gov/the-press-office/2013/01/16/presidential-proclamation-religious-freedom-day",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🗽",
+    "tags": [
+      "estados unidos",
+      "libertad religiosa",
+      "primera enmienda"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-trabajador-cervecero",
+    "nombre": "Día del Trabajador Cervecero",
+    "fecha": {
+      "dia": 19,
+      "mes": 1
+    },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "El Convenio Colectivo 482/2007 instituye esta fecha en reconocimiento a la fundación de la FATCA.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de Trabajo de la Provincia de Buenos Aires - CCT 482/2007",
+        "url": "https://www.trabajo.gba.gov.ar/delegaciones/biblioteca_deles/CCT%20482-2007%20CERVECEROS.pdf",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🍺",
+    "tags": [
+      "cervecero",
+      "fatca",
+      "gremio"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-roto-chileno",
+    "nombre": "Día del Roto Chileno",
+    "fecha": {
+      "dia": 20,
+      "mes": 1
+    },
+    "alcance": "otro-pais",
+    "pais": "Chile",
+    "categoria": "historia",
+    "descripcion": "Homenaje chileno a los soldados populares que vencieron en la batalla de Yungay de 1839.",
+    "fuentes": [
+      {
+        "nombre": "Biblioteca del Congreso Nacional de Chile - Días nacionales en Chile",
+        "url": "https://obtienearchivo.bcn.cl/obtienearchivo?id=repositorio%2F10221%2F35744%2F1%2FDias_nacionales_en_Chile_ordenadas_por_tipo.pdf",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇨🇱",
+    "tags": [
+      "chile",
+      "yungay",
+      "roto chileno"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-nacional-del-musico",
     "nombre": "Día Nacional del Músico",
-    "fecha": { "dia": 23, "mes": 1 },
+    "fecha": {
+      "dia": 23,
+      "mes": 1
+    },
     "alcance": "argentina",
     "categoria": "profesion",
     "descripcion": "Homenajea a los músicos argentinos en el aniversario del nacimiento de Luis Alberto Spinetta.",
     "fuentes": [
-      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/23-de-enero-dia-nacional-del-musico", "tipo": "institucional" }
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/23-de-enero-dia-nacional-del-musico",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🎸",
-    "tags": ["spinetta", "música"],
+    "tags": [
+      "spinetta",
+      "música"
+    ],
     "destacado": true,
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-de-la-educacion",
     "nombre": "Día Internacional de la Educación",
-    "fecha": { "dia": 24, "mes": 1 },
+    "fecha": {
+      "dia": 24,
+      "mes": 1
+    },
     "alcance": "internacional",
     "categoria": "educacion",
     "descripcion": "Reconoce el papel de la educación en la construcción de la paz y el desarrollo sostenible.",
     "fuentes": [
-      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/education-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas - Días Internacionales",
+        "url": "https://www.un.org/es/observances/education-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "📚",
-    "tags": ["escuela", "aprendizaje"],
+    "tags": [
+      "escuela",
+      "aprendizaje"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-mundial-cultura-africana-y-afrodescendientes",
     "nombre": "Día Mundial de la Cultura Africana y de los Afrodescendientes",
-    "fecha": { "dia": 24, "mes": 1 },
+    "fecha": {
+      "dia": 24,
+      "mes": 1
+    },
     "alcance": "internacional",
     "categoria": "cultura",
     "descripcion": "Honra las culturas del continente africano y de sus diásporas en todo el mundo.",
     "fuentes": [
-      { "nombre": "UNESCO", "url": "https://www.unesco.org/es/days/african-culture", "tipo": "institucional" }
+      {
+        "nombre": "UNESCO",
+        "url": "https://www.unesco.org/es/days/african-culture",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🥁",
-    "tags": ["áfrica", "afrodescendientes", "diversidad cultural"],
+    "tags": [
+      "áfrica",
+      "afrodescendientes",
+      "diversidad cultural"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-nacional-del-reportero-grafico",
     "nombre": "Día Nacional del Reportero Gráfico",
-    "fecha": { "dia": 25, "mes": 1 },
+    "fecha": {
+      "dia": 25,
+      "mes": 1
+    },
     "alcance": "argentina",
     "categoria": "profesion",
     "descripcion": "Recuerda el asesinato del fotoperiodista José Luis Cabezas en 1997 y honra la libertad de prensa.",
     "fuentes": [
-      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/dia-nacional-del-reportero-grafico", "tipo": "institucional" }
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/dia-nacional-del-reportero-grafico",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "📷",
-    "tags": ["josé luis cabezas", "fotoperiodismo", "libertad de prensa"],
+    "tags": [
+      "josé luis cabezas",
+      "fotoperiodismo",
+      "libertad de prensa"
+    ],
     "destacado": true,
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-de-la-energia-limpia",
     "nombre": "Día Internacional de la Energía Limpia",
-    "fecha": { "dia": 26, "mes": 1 },
+    "fecha": {
+      "dia": 26,
+      "mes": 1
+    },
     "alcance": "internacional",
     "categoria": "ambiente",
     "descripcion": "Impulsa la transición hacia fuentes de energía limpia y el acceso universal a electricidad sostenible.",
     "fuentes": [
-      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/clean-energy-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas - Días Internacionales",
+        "url": "https://www.un.org/es/observances/clean-energy-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "⚡",
-    "tags": ["energía renovable", "clima"],
+    "tags": [
+      "energía renovable",
+      "clima"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-mundial-de-la-educacion-ambiental",
     "nombre": "Día Mundial de la Educación Ambiental",
-    "fecha": { "dia": 26, "mes": 1 },
+    "fecha": {
+      "dia": 26,
+      "mes": 1
+    },
     "alcance": "argentina",
     "categoria": "ambiente",
     "descripcion": "Impulsa la educación ambiental como herramienta de conciencia ecológica, a partir de la Declaración de Estocolmo de 1972.",
     "fuentes": [
-      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/26-de-enero-dia-mundial-de-la-educacion-ambiental", "tipo": "institucional" }
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/26-de-enero-dia-mundial-de-la-educacion-ambiental",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🌱",
-    "tags": ["medio ambiente", "ecología"],
+    "tags": [
+      "medio ambiente",
+      "ecología"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-conmemoracion-victimas-holocausto",
     "nombre": "Día Internacional de Conmemoración anual en memoria de las víctimas del Holocausto",
-    "fecha": { "dia": 27, "mes": 1 },
+    "fecha": {
+      "dia": 27,
+      "mes": 1
+    },
     "alcance": "internacional",
     "categoria": "historia",
     "descripcion": "Moviliza a la sociedad civil para el recuerdo del Holocausto y la prevención de futuros genocidios.",
     "fuentes": [
-      { "nombre": "Naciones Unidas - Listado de días y semanas internacionales", "url": "https://www.un.org/es/observances/list-days-weeks", "tipo": "institucional" },
-      { "nombre": "Naciones Unidas - Holocaust Remembrance", "url": "https://www.un.org/es/holocaustremembrance/", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas - Listado de días y semanas internacionales",
+        "url": "https://www.un.org/es/observances/list-days-weeks",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Naciones Unidas - Holocaust Remembrance",
+        "url": "https://www.un.org/es/holocaustremembrance/",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🕯️",
-    "tags": ["memoria", "genocidio"],
+    "tags": [
+      "memoria",
+      "genocidio"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-del-conservador-restaurador",
     "nombre": "Día del Conservador Restaurador",
-    "fecha": { "dia": 27, "mes": 1 },
+    "fecha": {
+      "dia": 27,
+      "mes": 1
+    },
     "alcance": "argentina",
     "categoria": "cultura",
     "descripcion": "Reconoce a los profesionales que preservan y restauran el patrimonio cultural e histórico.",
     "fuentes": [
-      { "nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/27-de-enero-dia-del-conservador-restaurador", "tipo": "institucional" }
+      {
+        "nombre": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/noticias/27-de-enero-dia-del-conservador-restaurador",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🖼️",
-    "tags": ["patrimonio", "restauración"],
+    "tags": [
+      "patrimonio",
+      "restauración"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-internacional-de-la-coexistencia-pacifica",
     "nombre": "Día Internacional de la Coexistencia Pacífica",
-    "fecha": { "dia": 28, "mes": 1 },
+    "fecha": {
+      "dia": 28,
+      "mes": 1
+    },
     "alcance": "internacional",
     "categoria": "sociedad",
     "descripcion": "Promueve la convivencia pacífica más allá de diferencias de género, raza, idioma, religión o cultura.",
     "fuentes": [
-      { "nombre": "Naciones Unidas - Días Internacionales", "url": "https://www.un.org/es/observances/peaceful-coexistence-day", "tipo": "institucional" }
+      {
+        "nombre": "Naciones Unidas - Días Internacionales",
+        "url": "https://www.un.org/es/observances/peaceful-coexistence-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🕊️",
-    "tags": ["paz", "convivencia", "tolerancia"],
+    "tags": [
+      "paz",
+      "convivencia",
+      "tolerancia"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-mundial-enfermedades-tropicales-desatendidas",
     "nombre": "Día Mundial de las Enfermedades Tropicales Desatendidas",
-    "fecha": { "dia": 30, "mes": 1 },
+    "fecha": {
+      "dia": 30,
+      "mes": 1
+    },
     "alcance": "internacional",
     "categoria": "salud",
     "descripcion": "Visibiliza el impacto de las enfermedades tropicales desatendidas en las poblaciones más pobres del mundo.",
     "fuentes": [
-      { "nombre": "Organización Mundial de la Salud", "url": "https://www.who.int/es/campaigns/world-ntd-day", "tipo": "institucional" }
+      {
+        "nombre": "Organización Mundial de la Salud",
+        "url": "https://www.who.int/es/campaigns/world-ntd-day",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🦟",
-    "tags": ["salud global", "enfermedades desatendidas"],
+    "tags": [
+      "salud global",
+      "enfermedades desatendidas"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-san-juan-bosco",
+    "nombre": "Día de San Juan Bosco",
+    "fecha": {
+      "dia": 31,
+      "mes": 1
+    },
+    "alcance": "internacional",
+    "categoria": "religion",
+    "descripcion": "Fiesta litúrgica católica que recuerda al fundador de la Familia Salesiana, patrono de los educadores.",
+    "fuentes": [
+      {
+        "nombre": "Salesianos España - Familia Salesiana",
+        "url": "https://salesianos.info/blog/estamos-de-fiesta-hoy-celebramos-a-san-juan-bosco/",
+        "tipo": "asociacion"
+      }
+    ],
+    "emoji": "⛪",
+    "tags": [
+      "don bosco",
+      "salesianos",
+      "santoral"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-mundial-contra-la-lepra",
     "nombre": "Día Mundial contra la Lepra (enfermedad de Hansen)",
-    "fecha": { "mes": 1, "ordinal": -1, "diaSemana": 0 },
+    "fecha": {
+      "mes": 1,
+      "ordinal": -1,
+      "diaSemana": 0
+    },
     "alcance": "internacional",
     "categoria": "salud",
     "descripcion": "Busca terminar con el estigma hacia las personas afectadas por la lepra y concientizar sobre su cura.",
     "fuentes": [
-      { "nombre": "OPS/OMS - Organización Panamericana de la Salud", "url": "https://www.paho.org/es/campanas/dia-mundial-contra-lepra-enfermedad-hansen", "tipo": "institucional" }
+      {
+        "nombre": "OPS/OMS - Organización Panamericana de la Salud",
+        "url": "https://www.paho.org/es/campanas/dia-mundial-contra-lepra-enfermedad-hansen",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "🎗️",
-    "tags": ["lepra", "estigma", "enfermedad de hansen"],
+    "tags": [
+      "lepra",
+      "estigma",
+      "enfermedad de hansen"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {
     "id": "dia-de-martin-luther-king-jr",
     "nombre": "Día de Martin Luther King, Jr.",
-    "fecha": { "mes": 1, "ordinal": 3, "diaSemana": 1 },
+    "fecha": {
+      "mes": 1,
+      "ordinal": 3,
+      "diaSemana": 1
+    },
     "alcance": "otro-pais",
     "pais": "Estados Unidos",
     "categoria": "derechos",
     "descripcion": "Feriado federal que honra el legado de Martin Luther King Jr. en la lucha por los derechos civiles.",
     "fuentes": [
-      { "nombre": "USAGov en español", "url": "https://www.usa.gov/es/dia-martin-luther-king", "tipo": "institucional" }
+      {
+        "nombre": "USAGov en español",
+        "url": "https://www.usa.gov/es/dia-martin-luther-king",
+        "tipo": "institucional"
+      }
     ],
     "emoji": "✊",
-    "tags": ["derechos civiles", "estados unidos"],
+    "tags": [
+      "derechos civiles",
+      "estados unidos"
+    ],
     "verificadoEn": "2026-09-11"
   }
 ]
