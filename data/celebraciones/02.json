@@ -213,6 +213,32 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-odontologo-mexico",
+    "nombre": "Día del Odontólogo",
+    "fecha": {
+      "dia": 9,
+      "mes": 2
+    },
+    "alcance": "otro-pais",
+    "pais": "México",
+    "categoria": "profesion",
+    "descripcion": "Reconoce la labor de los odontólogos en la prevención y el tratamiento de enfermedades bucodentales en México.",
+    "fuentes": [
+      {
+        "nombre": "Gobierno de México - Secretaría de Salud",
+        "url": "https://www.gob.mx/salud/articulos/9-de-febrero-dia-del-odontologo",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🦷",
+    "tags": [
+      "dentista",
+      "salud bucal",
+      "odontologia"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-internacional-leopardo-arabe",
     "nombre": "Día Internacional del Leopardo Árabe",
     "fecha": {
@@ -408,6 +434,32 @@
     "tags": [
       "ninez",
       "oncologia pediatrica"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-restauracion-independencia-lituania",
+    "nombre": "Día de la Restauración de la Independencia de Lituania",
+    "fecha": {
+      "dia": 16,
+      "mes": 2
+    },
+    "alcance": "otro-pais",
+    "pais": "Lituania",
+    "categoria": "historia",
+    "descripcion": "Recuerda la firma del Acta de Independencia de Lituania por el Consejo de Lituania el 16 de febrero de 1918.",
+    "fuentes": [
+      {
+        "nombre": "Seimas - Parlamento de la República de Lituania",
+        "url": "https://www.lrs.lt/pls/inter/w5_show?p_r=5691&p_k=2",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇱🇹",
+    "tags": [
+      "acta de independencia",
+      "consejo de lituania",
+      "estado de lituania"
     ],
     "verificadoEn": "2026-09-11"
   },
