@@ -50,6 +50,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-san-marino",
+    "nombre": "Fiesta de San Marino y de la Fundación de la República",
+    "fecha": {
+      "dia": 3,
+      "mes": 9
+    },
+    "alcance": "otro-pais",
+    "pais": "San Marino",
+    "categoria": "historia",
+    "descripcion": "Conmemora la fundación de la República de San Marino, tradicionalmente fechada el 3 de septiembre del año 301.",
+    "fuentes": [
+      {
+        "nombre": "Governo di San Marino (Segreteria di Stato)",
+        "url": "https://www.gov.sm/pub1/GovSM/dam/jcr:f41d96d3-5286-46ef-9a9d-35060f0d16d3/STORIA%20DELLA%20REPUBBLICA%20DI%20SAN%20MARINO%20-%20Profili%20Generali.pdf",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇸🇲",
+    "tags": [
+      "monte titano",
+      "santo marino"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-nacional-del-inmigrante",
     "nombre": "Día Nacional del Inmigrante",
     "fecha": {
@@ -142,6 +167,32 @@
     "tags": [
       "scouts",
       "buena accion"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-independencia-eswatini",
+    "nombre": "Día de la Independencia de Eswatini",
+    "fecha": {
+      "dia": 6,
+      "mes": 9
+    },
+    "alcance": "otro-pais",
+    "pais": "Eswatini",
+    "categoria": "historia",
+    "descripcion": "Recuerda la independencia de Eswatini del Reino Unido, lograda el 6 de septiembre de 1968.",
+    "fuentes": [
+      {
+        "nombre": "Parliament of the Kingdom of Eswatini",
+        "url": "https://parliament.gov.sz/about/stateopening/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇸🇿",
+    "tags": [
+      "somhlolo day",
+      "swazilandia",
+      "sobhuza"
     ],
     "verificadoEn": "2026-09-11"
   },
@@ -872,6 +923,30 @@
     "tags": [
       "fotografia",
       "daguerrotipo"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-mundial-sin-auto",
+    "nombre": "Día Mundial sin Auto",
+    "fecha": {
+      "dia": 22,
+      "mes": 9
+    },
+    "alcance": "internacional",
+    "categoria": "ambiente",
+    "descripcion": "Jornada de cierre de la Semana Europea de la Movilidad que invita a dejar el auto y optar por transporte sostenible.",
+    "fuentes": [
+      {
+        "nombre": "Comisión Europea - Capacity4Dev",
+        "url": "https://capacity4dev.europa.eu/events/car-free-day-22-september_en",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🚲",
+    "tags": [
+      "semana europea de la movilidad",
+      "car free day"
     ],
     "verificadoEn": "2026-09-11"
   },

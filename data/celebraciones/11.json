@@ -125,6 +125,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-unidad-nacional-italia",
+    "nombre": "Día de la Unidad Nacional y de las Fuerzas Armadas",
+    "fecha": {
+      "dia": 4,
+      "mes": 11
+    },
+    "alcance": "otro-pais",
+    "pais": "Italia",
+    "categoria": "historia",
+    "descripcion": "Conmemora el fin de la Primera Guerra Mundial para Italia y honra a sus Fuerzas Armadas.",
+    "fuentes": [
+      {
+        "nombre": "Ministero della Difesa (Italia)",
+        "url": "https://www.difesa.it/primopiano/4-novembre-2024-giornata-dellunita-nazionale-e-delle-forze-armate/58174.html",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇮🇹",
+    "tags": [
+      "villa giusti",
+      "mattarella"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-mundial-concienciacion-tsunamis",
     "nombre": "Día Mundial de Concienciación sobre los Tsunamis",
     "fecha": {
@@ -1000,6 +1025,31 @@
       "matrimonio infantil",
       "niñas",
       "derechos"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-independencia-panama",
+    "nombre": "Día de la Independencia de Panamá",
+    "fecha": {
+      "dia": 28,
+      "mes": 11
+    },
+    "alcance": "otro-pais",
+    "pais": "Panamá",
+    "categoria": "historia",
+    "descripcion": "Recuerda la proclamación de la independencia de Panamá de España, el 28 de noviembre de 1821.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de Educación de Panamá - Educa Panamá",
+        "url": "https://www.educapanama.edu.pa/?q=articulos-educativos%2Farticulos%2F28-de-noviembre-indedepencia-de-panama-de-espana",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇵🇦",
+    "tags": [
+      "villa de los santos",
+      "gran colombia"
     ],
     "verificadoEn": "2026-09-11"
   },

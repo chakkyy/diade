@@ -74,6 +74,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-internacional-del-bombero",
+    "nombre": "Día Internacional del Bombero",
+    "fecha": {
+      "dia": 4,
+      "mes": 5
+    },
+    "alcance": "otro-pais",
+    "pais": "Australia",
+    "categoria": "profesion",
+    "descripcion": "Homenaje anual a los bomberos caídos en servicio, coincide con el día de San Florián, su santo patrono.",
+    "fuentes": [
+      {
+        "nombre": "CFA - Country Fire Authority (Gobierno de Victoria, Australia)",
+        "url": "https://news.cfa.vic.gov.au/news/international-firefighters-day-saturday-4-may",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🚒",
+    "tags": [
+      "san florian",
+      "firefighters day"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-mundial-higiene-manos",
     "nombre": "Día Mundial de la Higiene de Manos",
     "fecha": {
@@ -167,6 +192,30 @@
       "sismos",
       "inpres",
       "terremotos"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-europa",
+    "nombre": "Día de Europa",
+    "fecha": {
+      "dia": 9,
+      "mes": 5
+    },
+    "alcance": "internacional",
+    "categoria": "historia",
+    "descripcion": "Conmemora la Declaración Schuman de 1950, que sentó las bases de la actual Unión Europea.",
+    "fuentes": [
+      {
+        "nombre": "Unión Europea - European Union",
+        "url": "https://european-union.europa.eu/principles-countries-history/europe-day_en",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇪🇺",
+    "tags": [
+      "schuman",
+      "union europea"
     ],
     "verificadoEn": "2026-09-11"
   },
@@ -265,6 +314,56 @@
     "tags": [
       "plagas",
       "cultivos"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-fundacion-republica-ecuador",
+    "nombre": "Día de la Fundación de la República del Ecuador",
+    "fecha": {
+      "dia": 13,
+      "mes": 5
+    },
+    "alcance": "otro-pais",
+    "pais": "Ecuador",
+    "categoria": "historia",
+    "descripcion": "Recuerda la proclamación de la República del Ecuador en 1830, al separarse de la Gran Colombia.",
+    "fuentes": [
+      {
+        "nombre": "Cancillería del Ecuador - Ministerio de Relaciones Exteriores y Movilidad Humana",
+        "url": "https://www.cancilleria.gob.ec/2020/03/03/historia-de-la-cancilleria/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇪🇨",
+    "tags": [
+      "juan jose flores",
+      "gran colombia"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-independencia-paraguay",
+    "nombre": "Día de la Independencia de Paraguay",
+    "fecha": {
+      "dia": 14,
+      "mes": 5
+    },
+    "alcance": "otro-pais",
+    "pais": "Paraguay",
+    "categoria": "historia",
+    "descripcion": "Recuerda la declaración de independencia de Paraguay de España, proclamada la noche del 14 de mayo de 1811.",
+    "fuentes": [
+      {
+        "nombre": "Gobierno de la Provincia de Formosa (Argentina)",
+        "url": "https://www.formosa.gob.ar/noticia/25509/61/14_y_15_de_mayo_dia_de_la_independencia_de_paraguay",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇵🇾",
+    "tags": [
+      "asuncion",
+      "casa de la independencia"
     ],
     "verificadoEn": "2026-09-11"
   },

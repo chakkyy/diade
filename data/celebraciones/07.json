@@ -106,6 +106,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-independencia-venezuela",
+    "nombre": "Día de la Independencia de Venezuela",
+    "fecha": {
+      "dia": 5,
+      "mes": 7
+    },
+    "alcance": "otro-pais",
+    "pais": "Venezuela",
+    "categoria": "historia",
+    "descripcion": "Recuerda la firma del Acta de la Declaración de Independencia de Venezuela, el 5 de julio de 1811.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio del Poder Popular para Relaciones Exteriores de Venezuela",
+        "url": "https://mppre.gob.ve/publicacion/721-0",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇻🇪",
+    "tags": [
+      "acta de independencia",
+      "roscio"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-mundial-del-desarrollo-rural",
     "nombre": "Día Mundial del Desarrollo Rural",
     "fecha": {
@@ -500,6 +525,30 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-constitucion-corea-del-sur",
+    "nombre": "Día de la Constitución de Corea del Sur",
+    "fecha": {
+      "dia": 17,
+      "mes": 7
+    },
+    "alcance": "otro-pais",
+    "pais": "Corea del Sur",
+    "categoria": "historia",
+    "descripcion": "Conmemora la promulgación de la primera Constitución de la República de Corea, el 17 de julio de 1948.",
+    "fuentes": [
+      {
+        "nombre": "Consulado General de la República de Corea en Toronto",
+        "url": "https://overseas.mofa.go.kr/ca-toronto-ko/brd/m_21240/view.do?seq=1331107",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇰🇷",
+    "tags": [
+      "jeheonjeol"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-internacional-nelson-mandela",
     "nombre": "Día Internacional Nelson Mandela",
     "fecha": {
@@ -649,6 +698,31 @@
     ],
     "emoji": "🤝",
     "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-belgica",
+    "nombre": "Día Nacional de Bélgica",
+    "fecha": {
+      "dia": 21,
+      "mes": 7
+    },
+    "alcance": "otro-pais",
+    "pais": "Bélgica",
+    "categoria": "historia",
+    "descripcion": "Recuerda el juramento de Leopoldo I como primer rey de los belgas en 1831, tras la independencia del país.",
+    "fuentes": [
+      {
+        "nombre": "Comisión Europea - Speech Repository",
+        "url": "https://speech-repository.webcloud.ec.europa.eu/news/belgian-national-day-21-july",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇧🇪",
+    "tags": [
+      "leopoldo i",
+      "fete nationale"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {

@@ -375,6 +375,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-independencia-republica-centroafricana",
+    "nombre": "Día de la Independencia de la República Centroafricana",
+    "fecha": {
+      "dia": 13,
+      "mes": 8
+    },
+    "alcance": "otro-pais",
+    "pais": "República Centroafricana",
+    "categoria": "historia",
+    "descripcion": "Recuerda la independencia de la República Centroafricana de Francia, lograda el 13 de agosto de 1960.",
+    "fuentes": [
+      {
+        "nombre": "Embajada de la República Centroafricana en Francia",
+        "url": "https://paris.diplomatie.gouv.cf/centrafrique/27/presentation",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇨🇫",
+    "tags": [
+      "boganda",
+      "bangui"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-nacional-de-la-mujer-policia",
     "nombre": "Día Nacional de la Mujer Policía",
     "fecha": {
@@ -469,6 +494,31 @@
       "libertador"
     ],
     "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-constitucion-indonesia",
+    "nombre": "Día de la Constitución de Indonesia",
+    "fecha": {
+      "dia": 18,
+      "mes": 8
+    },
+    "alcance": "otro-pais",
+    "pais": "Indonesia",
+    "categoria": "historia",
+    "descripcion": "Conmemora la ratificación de la Constitución de 1945 por el comité preparatorio de la independencia indonesia.",
+    "fuentes": [
+      {
+        "nombre": "Sekretariat Negara Republik Indonesia (Secretaría de Estado)",
+        "url": "https://www.setneg.go.id/baca/index/sambutan_presiden_ri_pada_peringatan_hari_konstitusi_18_agustus_2010",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇮🇩",
+    "tags": [
+      "hari konstitusi",
+      "uud 1945"
+    ],
     "verificadoEn": "2026-09-11"
   },
   {

@@ -689,6 +689,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-reconciliacion-sudafrica",
+    "nombre": "Día de la Reconciliación",
+    "fecha": {
+      "dia": 16,
+      "mes": 12
+    },
+    "alcance": "otro-pais",
+    "pais": "Sudáfrica",
+    "categoria": "sociedad",
+    "descripcion": "Jornada sudafricana que promueve la unidad nacional y la reconciliación tras el fin del apartheid.",
+    "fuentes": [
+      {
+        "nombre": "Gobierno de Sudáfrica - South African Government",
+        "url": "https://www.gov.za/day-reconciliation",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🤝",
+    "tags": [
+      "apartheid",
+      "union buildings"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-del-contador-publico",
     "nombre": "Día del Contador Público",
     "fecha": {
@@ -882,6 +907,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-agricultor-india",
+    "nombre": "Día Nacional del Agricultor de India",
+    "fecha": {
+      "dia": 23,
+      "mes": 12
+    },
+    "alcance": "otro-pais",
+    "pais": "India",
+    "categoria": "profesion",
+    "descripcion": "Homenajea a los agricultores indios en el aniversario del nacimiento de Chaudhary Charan Singh.",
+    "fuentes": [
+      {
+        "nombre": "All India Radio - News on Air (gobierno de India)",
+        "url": "https://www.newsonair.gov.in/vp-dhankhar-pays-tribute-to-chaudhary-charan-singh-on-birth-anniversary",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🌾",
+    "tags": [
+      "kisan diwas",
+      "chaudhary charan singh"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "navidad",
     "nombre": "Navidad",
     "fecha": {
@@ -999,6 +1049,31 @@
     "tags": [
       "bromatologo",
       "inocuidad alimentaria"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-rizal-filipinas",
+    "nombre": "Día de Rizal",
+    "fecha": {
+      "dia": 30,
+      "mes": 12
+    },
+    "alcance": "otro-pais",
+    "pais": "Filipinas",
+    "categoria": "historia",
+    "descripcion": "Recuerda el aniversario de la ejecución de José Rizal, héroe nacional filipino, en 1896.",
+    "fuentes": [
+      {
+        "nombre": "Gobierno Municipal de Porac, Pampanga (Filipinas)",
+        "url": "https://www.poracpampanga.gov.ph/rizal-day/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇵🇭",
+    "tags": [
+      "jose rizal",
+      "rizal day"
     ],
     "verificadoEn": "2026-09-11"
   }

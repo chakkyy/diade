@@ -954,6 +954,30 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-restauracion-taiwan",
+    "nombre": "Día de la Restauración de Taiwán",
+    "fecha": {
+      "dia": 25,
+      "mes": 10
+    },
+    "alcance": "otro-pais",
+    "pais": "Taiwán",
+    "categoria": "historia",
+    "descripcion": "Recuerda el retorno de Taiwán a la administración de la República de China, tras el fin del dominio japonés en 1945.",
+    "fuentes": [
+      {
+        "nombre": "Office of the President, Republic of China (Taiwan)",
+        "url": "https://english.president.gov.tw/NEWS/3780",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇹🇼",
+    "tags": [
+      "retrocession day"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
     "id": "dia-latinoamericano-de-prevencion-de-quemaduras",
     "nombre": "Día Latinoamericano para la Prevención de las Quemaduras",
     "fecha": {
@@ -1000,6 +1024,31 @@
       "unesco",
       "archivos",
       "cine"
+    ],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-no-grecia",
+    "nombre": "Día del No",
+    "fecha": {
+      "dia": 28,
+      "mes": 10
+    },
+    "alcance": "otro-pais",
+    "pais": "Grecia",
+    "categoria": "historia",
+    "descripcion": "Conmemora el rechazo de Grecia al ultimátum italiano de 1940, que la llevó a entrar en la Segunda Guerra Mundial.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de Asuntos Exteriores de Grecia (Hellenic Republic - Ministry of Foreign Affairs)",
+        "url": "https://www.mfa.gr/minyma-yfypourgou-exoterikon-giorgou-kotsira-pros-tous-apodimous-ellines-me-tin-efkairia-tis-epeteiou-tis-28is-oktovriou-1940-athina-27-10-2024/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇬🇷",
+    "tags": [
+      "oxi day",
+      "metaxas"
     ],
     "verificadoEn": "2026-09-11"
   },
