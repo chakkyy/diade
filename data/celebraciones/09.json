@@ -78,7 +78,8 @@
     "categoria": "educacion",
     "descripcion": "La Primera Conferencia Interamericana de Educación, reunida en Panamá en 1943, fijó esta fecha en honor a Sarmiento.",
     "fuentes": [
-      { "nombre": "Dirección de Educación de Chaco - 11 de Septiembre: Día del Maestro", "url": "https://dirdocumentacion.educacion.chaco.gob.ar/2026/09/10/11-de-septiembre-dia-del-maestro/", "tipo": "institucional" }
+      { "nombre": "Honorable Cámara de Diputados de la Nación - Proyecto de Resolución 8871-D-2014", "url": "https://www.hcdn.gob.ar/comisiones/permanentes/cceinformatica/proyecto.html?exp=8871-D-2014", "tipo": "normativa" },
+      { "nombre": "Dirección General de Cultura y Educación de la Provincia de Buenos Aires - 11 de septiembre", "url": "http://servicios.abc.gov.ar/docentes/efemerides/11deseptiembre/htmls/presentacion.html", "tipo": "institucional" }
     ],
     "emoji": "🌎",
     "tags": ["docentes", "panamerica"],
@@ -132,7 +133,7 @@
     "fecha": { "dia": 21, "mes": 9 },
     "alcance": "argentina",
     "categoria": "cultura",
-    "descripcion": "Marca el inicio de la estación y se celebra en plazas y parques de todo el país junto al Día del Estudiante.",
+    "descripcion": "Marca el inicio de la estación en el hemisferio sur y llena plazas y parques de todo el país junto al Día del Estudiante.",
     "fuentes": [
       { "nombre": "Municipalidad de Rosario - 21 de septiembre: Día de la Primavera", "url": "https://www.rosario.gob.ar/inicio/node/1918", "tipo": "institucional" }
     ],

@@ -799,7 +799,12 @@
     "descripcion": "Recuerda la fundación de la Cruz Roja Argentina en 1880, impulsada por los médicos Rawson y Ayerza.",
     "fuentes": [
       {
-        "nombre": "Cruz Roja Argentina",
+        "nombre": "Ministerio de Educación de Córdoba - 10 de junio, Día de la Cruz Roja Argentina",
+        "url": "https://www.igualdadycalidadcba.gov.ar/SIPEC-CBA/Fechas-para-recordar/2025/Junio/cruz-roja.php",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Cruz Roja Argentina - Aniversario",
         "url": "https://cruzroja.org.ar/blog/aniversario-cruz-roja-argentina/",
         "tipo": "asociacion"
       }
@@ -855,7 +860,7 @@
       "mes": 6
     },
     "alcance": "argentina",
-    "categoria": "cultura",
+    "categoria": "profesion",
     "descripcion": "Homenajea a los escritores argentinos en el aniversario del nacimiento de Leopoldo Lugones.",
     "fuentes": [
       {

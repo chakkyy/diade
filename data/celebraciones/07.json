@@ -391,7 +391,7 @@
     "nombre": "Día del Payador",
     "fecha": { "dia": 23, "mes": 7 },
     "alcance": "argentina",
-    "categoria": "cultura",
+    "categoria": "profesion",
     "descripcion": "Recuerda la histórica payada de 1884 entre Gabino Ezeiza y Juan Nava, hito de la improvisación cantada rioplatense.",
     "fuentes": [
       { "nombre": "Argentina.gob.ar - Día del Payador en la Argentina", "url": "https://www.argentina.gob.ar/noticias/23-de-julio-dia-del-payador", "tipo": "institucional" }

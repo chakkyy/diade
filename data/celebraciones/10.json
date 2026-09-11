@@ -429,6 +429,7 @@
     "categoria": "familia",
     "descripcion": "Homenajea a las madres el tercer domingo de octubre, fecha propia de la tradición argentina.",
     "fuentes": [
+      { "nombre": "Facultad de Ciencias Aplicadas a la Industria, UNCuyo - Día de la Madre", "url": "https://fcai.uncuyo.edu.ar/salutacion-dia-de-la-madre", "tipo": "institucional" },
       { "nombre": "Municipalidad de Valle María - Día de la Madre", "url": "https://www.vallemaria.gob.ar/?q=content/dia-la-madre", "tipo": "institucional" }
     ],
     "emoji": "💐",
