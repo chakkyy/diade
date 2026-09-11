@@ -1,0 +1,12 @@
+[
+  {
+    "id": "dia-invalido-de-prueba",
+    "nombre": "Día Inválido de Prueba",
+    "fecha": { "dia": 10, "mes": 9 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Entrada inválida a propósito: su única fuente es secundaria.",
+    "fuentes": [{ "nombre": "Wikipedia", "url": "https://es.wikipedia.org/", "tipo": "secundaria" }],
+    "verificadoEn": "2026-09-11"
+  }
+]

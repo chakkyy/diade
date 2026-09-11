@@ -60,3 +60,15 @@ export interface Celebracion {
 export function esFechaMovil(fecha: FechaCelebracion): fecha is FechaMovil {
   return "ordinal" in fecha;
 }
+
+export interface ItemIndice {
+  id: string;
+  nombre: string;
+  descripcion: string;
+  alcance: Alcance;
+  pais?: string;
+  categoria: Categoria;
+  emoji?: string;
+  tags?: string[];
+  fecha: FechaCelebracion;
+}

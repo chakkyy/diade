@@ -1,0 +1,45 @@
+[
+  {
+    "id": "dia-de-prueba-uno",
+    "nombre": "Día de Prueba Uno",
+    "fecha": { "dia": 10, "mes": 9 },
+    "alcance": "argentina",
+    "categoria": "profesion",
+    "descripcion": "Entrada ficticia usada solo para tests de la Unidad A.",
+    "fuentes": [{ "nombre": "Fuente Ficticia", "url": "https://example.com/uno", "tipo": "institucional" }],
+    "destacado": true,
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-prueba-dos",
+    "nombre": "Día de Prueba Dos",
+    "fecha": { "dia": 10, "mes": 9 },
+    "alcance": "internacional",
+    "categoria": "salud",
+    "descripcion": "Otra entrada ficticia para tests, mismo día que la anterior.",
+    "fuentes": [{ "nombre": "Fuente Ficticia", "url": "https://example.com/dos", "tipo": "institucional" }],
+    "tags": ["prueba", "salud"],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-prueba-tres",
+    "nombre": "Día de Prueba Tres",
+    "fecha": { "dia": 15, "mes": 9 },
+    "alcance": "otro-pais",
+    "pais": "Chile",
+    "categoria": "cultura",
+    "descripcion": "Entrada ficticia de otro país para tests de agrupación.",
+    "fuentes": [{ "nombre": "Fuente Ficticia Chile", "url": "https://example.com/tres", "tipo": "institucional" }],
+    "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-movil-de-prueba",
+    "nombre": "Día Móvil de Prueba",
+    "fecha": { "mes": 9, "ordinal": 3, "diaSemana": 0 },
+    "alcance": "argentina",
+    "categoria": "familia",
+    "descripcion": "Entrada ficticia móvil, tercer domingo de septiembre.",
+    "fuentes": [{ "nombre": "Fuente Ficticia Móvil", "url": "https://example.com/movil", "tipo": "normativa" }],
+    "verificadoEn": "2026-09-11"
+  }
+]
