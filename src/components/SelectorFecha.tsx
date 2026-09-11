@@ -26,6 +26,8 @@ export default function SelectorFecha({
         id={id}
         type="date"
         defaultValue={valor}
+        min={`${anio}-01-01`}
+        max={`${anio}-12-31`}
         onChange={(evento) => {
           const partes = evento.target.value.split("-");
           if (partes.length !== 3) return;
