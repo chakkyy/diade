@@ -42,3 +42,6 @@ next-env.d.ts
 
 # vitest cache
 .vitest/
+
+# worktrees de unidades paralelas
+.worktrees/
