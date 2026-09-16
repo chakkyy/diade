@@ -1,6 +1,6 @@
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { cargarEfemerides, efemeridesDeFecha } from "@/lib/efemerides";
+import { agruparEfemerides, cargarEfemerides, efemeridesDeFecha } from "@/lib/efemerides";
 import { efemerideSchema } from "@/lib/schema";
 
 const FIXTURES = path.join(process.cwd(), "tests", "fixtures", "efemerides");
@@ -12,7 +12,7 @@ const base = {
   tipo: "nacimiento",
   texto: "Nace Tanguito, músico y compositor argentino (f. 1972).",
   alcance: "argentina",
-  fuentes: [{ nombre: "Wikipedia - Tanguito", url: "https://es.wikipedia.org/wiki/Tanguito", tipo: "secundaria" }],
+  fuentes: [{ nombre: "Wikipedia (Tanguito)", url: "https://es.wikipedia.org/wiki/Tanguito", tipo: "secundaria" }],
   verificadoEn: "2026-09-16",
 };
 
@@ -45,9 +45,16 @@ describe("cargarEfemerides y efemeridesDeFecha", () => {
     expect(todas).toHaveLength(4);
   });
 
-  it("devuelve solo las del día, ordenadas por año ascendente", () => {
+  it("devuelve solo las del día, Argentina primero y después por año ascendente", () => {
     const lista = efemeridesDeFecha({ dia: 16, mes: 9 }, todas);
-    expect(lista.map((e) => e.anio)).toEqual([1810, 1945, 1976]);
+    expect(lista.map((e) => e.anio)).toEqual([1945, 1976, 1810]);
+    expect(lista.map((e) => e.alcance)).toEqual(["argentina", "argentina", "internacional"]);
+  });
+
+  it("agrupa por alcance conservando el orden", () => {
+    const { argentina, internacional } = agruparEfemerides(efemeridesDeFecha({ dia: 16, mes: 9 }, todas));
+    expect(argentina.map((e) => e.anio)).toEqual([1945, 1976]);
+    expect(internacional.map((e) => e.anio)).toEqual([1810]);
   });
 
   it("incluye a Tanguito el 16 de septiembre", () => {

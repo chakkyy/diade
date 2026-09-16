@@ -34,6 +34,13 @@ describe("datos reales de efemérides", () => {
     expect(vacios).toEqual([]);
   });
 
+  it("Argentina va antes que internacional el 16 de septiembre", () => {
+    const lista = efemeridesDeFecha({ dia: 16, mes: 9 }, todas);
+    const primerInternacional = lista.findIndex((e) => e.alcance === "internacional");
+    const ultimaArgentina = lista.map((e) => e.alcance).lastIndexOf("argentina");
+    expect(ultimaArgentina).toBeLessThan(primerInternacional);
+  });
+
   it("16 de septiembre incluye el nacimiento de Tanguito en 1945", () => {
     const e = efemeridesDeFecha({ dia: 16, mes: 9 }, todas).find((x) => /Tanguito/.test(x.texto));
     expect(e).toBeDefined();

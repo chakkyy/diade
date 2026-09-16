@@ -117,20 +117,25 @@ function normalizarTexto(tipo: TipoEfemeride, crudo: string): string | null {
 
 const PAGINA_GENERICA = /^(Anexo:|Siglo |Años |Década |\d{1,4}( a\. C\.)?$)/;
 
-function fuenteDe(item: ItemFeed, mes: number, dia: number): Efemeride["fuentes"][number] {
+function paginaDelDia(mes: number, dia: number, ancla: string): Efemeride["fuentes"][number] {
+  const nombreMes = MESES[mes - 1];
+  return {
+    nombre: `Wikipedia (${dia} de ${nombreMes})`,
+    url: `https://es.wikipedia.org/wiki/${dia}_de_${nombreMes}#${ancla}`,
+    tipo: "secundaria",
+  };
+}
+
+function fuenteDe(item: ItemFeed, tipo: TipoEfemeride, mes: number, dia: number): Efemeride["fuentes"][number] {
+  if (tipo === "acontecimiento") return paginaDelDia(mes, dia, "Acontecimientos");
   const pagina = item.pages?.find(
     (p) => p.content_urls?.desktop?.page && !PAGINA_GENERICA.test(p.normalizedtitle ?? p.title?.replace(/_/g, " ") ?? ""),
   );
   if (pagina?.content_urls?.desktop?.page) {
     const titulo = pagina.normalizedtitle ?? pagina.title?.replace(/_/g, " ") ?? "artículo";
-    return { nombre: `Wikipedia - ${titulo}`, url: pagina.content_urls.desktop.page, tipo: "secundaria" };
+    return { nombre: `Wikipedia (${titulo})`, url: pagina.content_urls.desktop.page, tipo: "secundaria" };
   }
-  const nombreMes = MESES[mes - 1];
-  return {
-    nombre: `Wikipedia - ${dia} de ${nombreMes}`,
-    url: `https://es.wikipedia.org/wiki/${dia}_de_${nombreMes}`,
-    tipo: "secundaria",
-  };
+  return paginaDelDia(mes, dia, tipo === "nacimiento" ? "Nacimientos" : "Fallecimientos");
 }
 
 function puntajeAcontecimiento(item: ItemFeed): number {
@@ -182,7 +187,7 @@ function candidatosDe(feed: Feed, mes: number, dia: number, anioActual: number):
         puntaje: esPersona ? 0 : puntajeAcontecimiento(item),
         deportista: esPersona && DEPORTISTA.test(item.text),
         qid: esPersona ? (item.pages?.[0]?.wikibase_item ?? null) : null,
-        fuente: fuenteDe(item, mes, dia),
+        fuente: fuenteDe(item, tipo, mes, dia),
       });
     }
   }

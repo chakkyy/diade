@@ -28,8 +28,21 @@ export function cargarEfemerides(dir: string = path.join(process.cwd(), "data", 
   return todas;
 }
 
+const ORDEN_ALCANCE: Record<Efemeride["alcance"], number> = { argentina: 0, internacional: 1 };
+
 export function efemeridesDeFecha(f: FechaDia, todas: Efemeride[] = cargarEfemerides()): Efemeride[] {
   return todas
     .filter((e) => e.fecha.dia === f.dia && e.fecha.mes === f.mes)
-    .sort((a, b) => a.anio - b.anio || a.texto.localeCompare(b.texto, "es"));
+    .sort(
+      (a, b) =>
+        ORDEN_ALCANCE[a.alcance] - ORDEN_ALCANCE[b.alcance] ||
+        a.anio - b.anio ||
+        a.texto.localeCompare(b.texto, "es"),
+    );
+}
+
+export function agruparEfemerides(lista: Efemeride[]): { argentina: Efemeride[]; internacional: Efemeride[] } {
+  const grupos = { argentina: [] as Efemeride[], internacional: [] as Efemeride[] };
+  for (const e of lista) grupos[e.alcance].push(e);
+  return grupos;
 }

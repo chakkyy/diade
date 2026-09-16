@@ -6,7 +6,7 @@
     "tipo": "nacimiento",
     "texto": "Nace Tanguito, músico y compositor argentino (f. 1972).",
     "alcance": "argentina",
-    "fuentes": [{ "nombre": "Wikipedia - Tanguito", "url": "https://es.wikipedia.org/wiki/Tanguito", "tipo": "secundaria" }],
+    "fuentes": [{ "nombre": "Wikipedia (Tanguito)", "url": "https://es.wikipedia.org/wiki/Tanguito", "tipo": "secundaria" }],
     "verificadoEn": "2026-09-16"
   },
   {
@@ -16,7 +16,7 @@
     "tipo": "acontecimiento",
     "texto": "En La Plata comienza la Noche de los Lápices.",
     "alcance": "argentina",
-    "fuentes": [{ "nombre": "Wikipedia - La Plata", "url": "https://es.wikipedia.org/wiki/La_Plata", "tipo": "secundaria" }],
+    "fuentes": [{ "nombre": "Wikipedia (16 de septiembre)", "url": "https://es.wikipedia.org/wiki/16_de_septiembre#Acontecimientos", "tipo": "secundaria" }],
     "verificadoEn": "2026-09-16"
   },
   {
@@ -26,7 +26,7 @@
     "tipo": "acontecimiento",
     "texto": "En México, Miguel Hidalgo da el Grito de Dolores e inicia la guerra de independencia.",
     "alcance": "internacional",
-    "fuentes": [{ "nombre": "Wikipedia - Grito de Dolores", "url": "https://es.wikipedia.org/wiki/Grito_de_Dolores", "tipo": "secundaria" }],
+    "fuentes": [{ "nombre": "Wikipedia (16 de septiembre)", "url": "https://es.wikipedia.org/wiki/16_de_septiembre#Acontecimientos", "tipo": "secundaria" }],
     "verificadoEn": "2026-09-16"
   },
   {
@@ -36,7 +36,7 @@
     "tipo": "fallecimiento",
     "texto": "Muere Domingo Faustino Sarmiento, presidente argentino (n. 1811).",
     "alcance": "argentina",
-    "fuentes": [{ "nombre": "Wikipedia - Domingo Faustino Sarmiento", "url": "https://es.wikipedia.org/wiki/Domingo_Faustino_Sarmiento", "tipo": "secundaria" }],
+    "fuentes": [{ "nombre": "Wikipedia (Domingo Faustino Sarmiento)", "url": "https://es.wikipedia.org/wiki/Domingo_Faustino_Sarmiento", "tipo": "secundaria" }],
     "verificadoEn": "2026-09-16"
   }
 ]

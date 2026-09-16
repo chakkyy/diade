@@ -174,12 +174,12 @@ Cada efeméride tiene esta forma:
   "tipo": "nacimiento",
   "texto": "Nace Tanguito, músico y compositor argentino (f. 1972).",
   "alcance": "argentina",
-  "fuentes": [{ "nombre": "Wikipedia - Tanguito", "url": "https://es.wikipedia.org/wiki/Tanguito", "tipo": "secundaria" }],
+  "fuentes": [{ "nombre": "Wikipedia (Tanguito)", "url": "https://es.wikipedia.org/wiki/Tanguito", "tipo": "secundaria" }],
   "verificadoEn": "2026-09-16"
 }
 ```
 
-`tipo` es `acontecimiento`, `nacimiento` o `fallecimiento`; `alcance` es `argentina` (el texto menciona Argentina, Buenos Aires o un gentilicio argentino) o `internacional`. A diferencia de las celebraciones, acá Wikipedia alcanza como única fuente: cada entrada enlaza al artículo de Wikipedia de la persona o del hecho, y `verificadoEn` es la fecha de la importación.
+`tipo` es `acontecimiento`, `nacimiento` o `fallecimiento`; `alcance` es `argentina` (el texto menciona Argentina, Buenos Aires o un gentilicio argentino) o `internacional`. A diferencia de las celebraciones, acá Wikipedia alcanza como única fuente. Los nacimientos y fallecimientos enlazan al artículo de la persona; los acontecimientos enlazan a la página del día en Wikipedia (por ejemplo `16_de_septiembre#Acontecimientos`), que es de donde sale el texto. `verificadoEn` es la fecha de la importación.
 
 Qué elige el script por día (cupos en `scripts/importar-efemerides.ts`):
 

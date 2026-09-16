@@ -1,3 +1,4 @@
+import { agruparEfemerides } from "@/lib/efemerides";
 import { nombreCortoFuente } from "@/lib/fuentes";
 import type { Efemeride } from "@/types/efemeride";
 
@@ -5,15 +6,22 @@ function formatearAnio(anio: number): string {
   return anio < 0 ? `${-anio} a. C.` : String(anio);
 }
 
-export default function EfemeridesDelDia({ efemerides }: { efemerides: Efemeride[] }) {
+const TITULOS_BLOQUE: Record<Efemeride["alcance"], { emoji: string; texto: string; clase: string }> = {
+  argentina: { emoji: "🇦🇷", texto: "Argentina", clase: "text-acento-texto" },
+  internacional: { emoji: "🌎", texto: "Internacional", clase: "text-internacional-texto" },
+};
+
+function Bloque({ alcance, efemerides }: { alcance: Efemeride["alcance"]; efemerides: Efemeride[] }) {
   if (efemerides.length === 0) return null;
+  const { emoji, texto, clase } = TITULOS_BLOQUE[alcance];
 
   return (
-    <section className="mt-8">
-      <div className="flex items-baseline justify-between gap-3 px-1 pb-2">
-        <h2 className="text-[11px] font-semibold tracking-[0.08em] text-texto-secundario uppercase">
-          Efemérides del día
-        </h2>
+    <div className="mt-4 first:mt-0">
+      <div className="flex items-baseline justify-between gap-3 px-1 pb-1.5">
+        <h3 className={`flex items-baseline gap-1.5 text-[11px] font-semibold tracking-[0.08em] uppercase ${clase}`}>
+          <span aria-hidden="true">{emoji}</span>
+          {texto}
+        </h3>
         <span className="text-[11px] tabular-nums text-texto-secundario">{efemerides.length}</span>
       </div>
       <ul className="overflow-hidden rounded-caja border border-borde bg-superficie">
@@ -28,13 +36,7 @@ export default function EfemeridesDelDia({ efemerides }: { efemerides: Efemeride
                     esArgentina ? "text-acento-texto" : "text-texto-secundario"
                   }`}
                 >
-                  {esArgentina ? <span className="sr-only">Argentina: </span> : null}
                   {formatearAnio(e.anio)}
-                  {esArgentina ? (
-                    <span aria-hidden="true" className="text-[10px]">
-                      🇦🇷
-                    </span>
-                  ) : null}
                 </span>
                 <div className="min-w-0 flex-1">
                   <p className="text-[14px] leading-5">{e.texto}</p>
@@ -70,6 +72,21 @@ export default function EfemeridesDelDia({ efemerides }: { efemerides: Efemeride
           );
         })}
       </ul>
+    </div>
+  );
+}
+
+export default function EfemeridesDelDia({ efemerides }: { efemerides: Efemeride[] }) {
+  if (efemerides.length === 0) return null;
+  const { argentina, internacional } = agruparEfemerides(efemerides);
+
+  return (
+    <section className="mt-8">
+      <h2 className="px-1 pb-2 text-[11px] font-semibold tracking-[0.08em] text-texto-secundario uppercase">
+        Efemérides del día
+      </h2>
+      <Bloque alcance="argentina" efemerides={argentina} />
+      <Bloque alcance="internacional" efemerides={internacional} />
     </section>
   );
 }
