@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { ALCANCES, CATEGORIAS, TIPOS_FUENTE } from "@/types/celebracion";
+import { ALCANCES_EFEMERIDE, TIPOS_EFEMERIDE } from "@/types/efemeride";
 
 const fuenteSchema = z.object({
   nombre: z.string().min(2),
@@ -56,3 +57,22 @@ export const celebracionSchema = z
 export const archivoMesSchema = z.array(celebracionSchema);
 
 export type CelebracionValidada = z.infer<typeof celebracionSchema>;
+
+export const efemerideSchema = z
+  .object({
+    id: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "id debe ser kebab-case sin tildes"),
+    fecha: fechaFijaSchema,
+    anio: z.number().int().min(-5000).max(2100),
+    tipo: z.enum(TIPOS_EFEMERIDE),
+    texto: z.string().min(10).max(400).regex(/[.!?»")]$/, "texto termina en punto"),
+    alcance: z.enum(ALCANCES_EFEMERIDE),
+    fuentes: z.array(fuenteSchema).min(1),
+    verificadoEn: z.iso.date("verificadoEn debe ser una fecha YYYY-MM-DD válida"),
+  })
+  .strict()
+  .refine((e) => e.fecha.dia <= DIAS_POR_MES[e.fecha.mes - 1], {
+    message: "dia fuera de rango para el mes",
+    path: ["fecha", "dia"],
+  });
+
+export const archivoEfemeridesSchema = z.array(efemerideSchema);

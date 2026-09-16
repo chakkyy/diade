@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { connection } from "next/server";
 import DiaHeader from "@/components/DiaHeader";
+import EfemeridesDelDia from "@/components/EfemeridesDelDia";
 import ListaCelebraciones from "@/components/ListaCelebraciones";
 import NavegacionDia from "@/components/NavegacionDia";
 import ProximosDestacados from "@/components/ProximosDestacados";
 import { cargarTodas, celebracionesDeFecha } from "@/lib/celebraciones";
+import { cargarEfemerides, efemeridesDeFecha } from "@/lib/efemerides";
 import {
   fechaAnterior,
   fechaSiguiente,
@@ -43,6 +45,7 @@ export default async function Home() {
   const fecha = { dia: hoy.dia, mes: hoy.mes };
   const celebraciones = celebracionesDeFecha(fecha, hoy.anio);
   const proximos = proximosDestacados(fecha, hoy.anio, 3, cargarTodas());
+  const efemerides = efemeridesDeFecha(fecha, cargarEfemerides());
 
   return (
     <NavegacionDia
@@ -51,6 +54,7 @@ export default async function Home() {
     >
       <DiaHeader fecha={fecha} anio={hoy.anio} esHoy />
       <ListaCelebraciones celebraciones={celebraciones} />
+      <EfemeridesDelDia efemerides={efemerides} />
       <ProximosDestacados proximos={proximos} />
     </NavegacionDia>
   );

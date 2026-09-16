@@ -1,8 +1,10 @@
 # ¿Qué se celebra hoy?
 
-Calendario de "Días de X" para Argentina: efemérides nacionales, días profesionales, conmemoraciones internacionales (ONU, UNESCO, OMS, FAO, OIT) y fechas populares como el Día de la Madre o el Día del Estudiante. Cada celebración lleva al menos una fuente verificable.
+Calendario de "Días de X" para Argentina: días nacionales, días profesionales, conmemoraciones internacionales (ONU, UNESCO, OMS, FAO, OIT) y fechas populares como el Día de la Madre o el Día del Estudiante. Cada celebración lleva al menos una fuente verificable.
 
-No es una página de feriados (salvo que se llamen "Día de/del X", como el Día de la Bandera) ni un almanaque de acontecimientos históricos.
+Debajo de las celebraciones, cada día muestra además sus **efemérides**: acontecimientos, nacimientos y fallecimientos de ese día en la historia ("1945 – Nace Tanguito, músico y compositor argentino"), con foco en Argentina. Se importan de Wikipedia con un script y no se editan a mano.
+
+No es una página de feriados (salvo que se llamen "Día de/del X", como el Día de la Bandera).
 
 ## Cómo correr
 
@@ -30,6 +32,9 @@ pnpm start
 | `pnpm data:validate` | valida todos los `data/celebraciones/MM.json` contra el schema, revisa ids duplicados y que `fecha.mes` coincida con el archivo |
 | `pnpm data:links` | hace HEAD/GET (y fallback con `curl`) a cada URL de fuente de todos los meses, o de uno solo con `pnpm data:links 09` |
 | `pnpm data:add` | CLI interactiva para agregar una celebración nueva (ver más abajo) |
+| `pnpm data:efemerides` | importa las efemérides de todo el año desde Wikipedia a `data/efemerides/MM.json`, o de un mes con `pnpm data:efemerides 9` (ver [Efemérides](#efemérides)) |
+
+`pnpm data:validate` valida también `data/efemerides/`; `pnpm data:links efemerides` (o `pnpm data:links efemerides 09`) chequea las URLs de las efemérides.
 
 Antes de cualquier commit que toque `data/`, corré `pnpm data:validate` y `pnpm data:links`.
 
@@ -37,10 +42,13 @@ Antes de cualquier commit que toque `data/`, corré `pnpm data:validate` y `pnpm
 
 ```
 data/celebraciones/MM.json   datos por mes (01.json a 12.json)
+data/efemerides/MM.json      efemérides por mes, generadas por `pnpm data:efemerides`
 src/types/celebracion.ts     tipos: Celebracion, Alcance, Categoria, TipoFuente
-src/lib/schema.ts            schema zod que valida cada celebración
+src/types/efemeride.ts       tipo Efemeride
+src/lib/schema.ts            schemas zod que validan cada celebración y cada efeméride
 src/lib/fechas.ts            zona horaria, slugs de fecha, fechas móviles
 src/lib/celebraciones.ts     carga y consulta de los JSON (cacheado)
+src/lib/efemerides.ts        carga y consulta de las efemérides (cacheado)
 src/lib/buscar.ts            normalización y búsqueda client-side
 src/lib/datos-edicion.ts     funciones puras que usa el CLI de alta
 src/app/                     rutas (App Router)
@@ -52,8 +60,8 @@ Rutas principales:
 
 | Ruta | Qué muestra |
 |---|---|
-| `/` | qué se celebra hoy, calculado en el momento (hora de Argentina) |
-| `/fecha/11-septiembre` | todo lo que se celebra ese día del año |
+| `/` | qué se celebra hoy, calculado en el momento (hora de Argentina), y las efemérides del día |
+| `/fecha/11-septiembre` | todo lo que se celebra ese día del año, y sus efemérides |
 | `/celebracion/dia-del-maestro` | el detalle de una celebración: descripción, fuentes, fecha en palabras si es móvil |
 | `/calendario/septiembre` | el mes completo, día por día |
 | `/buscar?q=perro` | búsqueda por nombre, descripción, tags o país |
@@ -152,6 +160,34 @@ Toda celebración necesita al menos una fuente `institucional`, `asociacion` o `
 - Feriados que no se llaman "Día de/del X" (un feriado puente, un feriado trasladable sin nombre propio).
 - Acontecimientos históricos que no son una celebración anual con nombre propio (una batalla, un aniversario institucional que no se conmemora activamente).
 
+## Efemérides
+
+Las efemérides viven en `data/efemerides/MM.json` y las genera `pnpm data:efemerides` a partir del feed "On this day" de Wikimedia para Wikipedia en español (`api.wikimedia.org/feed/v1/wikipedia/es/onthisday`). Es una carga de todo el año de una sola vez (unos 12 minutos); no hay que volver a correrla cada mes. Se vuelve a correr sólo para refrescar el contenido con lo que Wikipedia haya agregado, y reemplaza los doce archivos.
+
+Cada efeméride tiene esta forma:
+
+```json
+{
+  "id": "1945-nace-tanguito-musico-y-compositor",
+  "fecha": { "dia": 16, "mes": 9 },
+  "anio": 1945,
+  "tipo": "nacimiento",
+  "texto": "Nace Tanguito, músico y compositor argentino (f. 1972).",
+  "alcance": "argentina",
+  "fuentes": [{ "nombre": "Wikipedia - Tanguito", "url": "https://es.wikipedia.org/wiki/Tanguito", "tipo": "secundaria" }],
+  "verificadoEn": "2026-09-16"
+}
+```
+
+`tipo` es `acontecimiento`, `nacimiento` o `fallecimiento`; `alcance` es `argentina` (el texto menciona Argentina, Buenos Aires o un gentilicio argentino) o `internacional`. A diferencia de las celebraciones, acá Wikipedia alcanza como única fuente: cada entrada enlaza al artículo de Wikipedia de la persona o del hecho, y `verificadoEn` es la fecha de la importación.
+
+Qué elige el script por día (cupos en `scripts/importar-efemerides.ts`):
+
+- Argentina: hasta 4 acontecimientos, 3 nacimientos y 2 fallecimientos.
+- Internacional: hasta 3 acontecimientos, 2 nacimientos (anteriores a 1990) y 2 fallecimientos.
+- Los acontecimientos se ordenan por cuántos artículos de Wikipedia enlazan. Las personas, por la cantidad de ediciones de Wikipedia en las que existe su artículo (Wikidata); las personas internacionales necesitan al menos 8 y los deportistas al menos 15, para que no entren cientos de futbolistas.
+- El texto es la primera oración del feed, con "Nace" o "Muere" adelante para personas. Los acontecimientos se cortan en la última oración completa antes de los 300 caracteres.
+
 ## Fuentes que usamos
 
 Dominios de referencia para buscar fuentes nuevas: `argentina.gob.ar`, `un.org`, `unesco.org`, `who.int`, `fao.org`, `boletinoficial.gob.ar`, `infoleg.gob.ar`, sitios de gobiernos provinciales y municipales, y las asociaciones o colegios profesionales de cada actividad. Cada entrada guarda en `verificadoEn` la fecha en que se abrió y confirmó esa fuente.
@@ -171,6 +207,7 @@ Producción en Vercel: https://diadehoy.vercel.app (proyecto `diade`, scope `cha
 ## Cobertura de datos
 
 - 550 celebraciones: 208 de Argentina, 269 internacionales y 73 de otros países.
+- Efemérides para los 366 días, con al menos una argentina por día (`pnpm test` lo verifica).
 - Los 366 días del año tienen al menos una celebración. Cuando Argentina y los organismos internacionales no tienen nada para una fecha, entra un "Día de X" de otro país con fuente oficial de ese país, marcado con `alcance: "otro-pais"` y su `pais`.
 - Todas las fuentes se verifican con `pnpm data:links` (HTTP 200 al momento de la carga).
 

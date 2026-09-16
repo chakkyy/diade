@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import DiaHeader from "@/components/DiaHeader";
+import EfemeridesDelDia from "@/components/EfemeridesDelDia";
 import ListaCelebraciones from "@/components/ListaCelebraciones";
 import NavegacionDia from "@/components/NavegacionDia";
 import ProximosDestacados from "@/components/ProximosDestacados";
 import { cargarTodas, celebracionesDeFecha } from "@/lib/celebraciones";
+import { cargarEfemerides, efemeridesDeFecha } from "@/lib/efemerides";
 import {
   diasDelMes,
   esFechaValida,
@@ -72,6 +74,7 @@ export default async function PaginaFecha(props: PageProps<"/fecha/[slug]">) {
   const anio = anioDeReferencia(fecha, hoyEnArgentina().anio);
   const celebraciones = celebracionesDeFecha(fecha, anio);
   const proximos = proximosDestacados(fecha, anio, 3, cargarTodas());
+  const efemerides = efemeridesDeFecha(fecha, cargarEfemerides());
 
   return (
     <NavegacionDia
@@ -80,6 +83,7 @@ export default async function PaginaFecha(props: PageProps<"/fecha/[slug]">) {
     >
       <DiaHeader fecha={fecha} anio={anio} esHoy="auto" />
       <ListaCelebraciones celebraciones={celebraciones} />
+      <EfemeridesDelDia efemerides={efemerides} />
       <ProximosDestacados proximos={proximos} />
     </NavegacionDia>
   );

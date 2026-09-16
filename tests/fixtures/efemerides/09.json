@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1945-nace-tanguito",
+    "fecha": { "dia": 16, "mes": 9 },
+    "anio": 1945,
+    "tipo": "nacimiento",
+    "texto": "Nace Tanguito, músico y compositor argentino (f. 1972).",
+    "alcance": "argentina",
+    "fuentes": [{ "nombre": "Wikipedia - Tanguito", "url": "https://es.wikipedia.org/wiki/Tanguito", "tipo": "secundaria" }],
+    "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1976-noche-de-los-lapices",
+    "fecha": { "dia": 16, "mes": 9 },
+    "anio": 1976,
+    "tipo": "acontecimiento",
+    "texto": "En La Plata comienza la Noche de los Lápices.",
+    "alcance": "argentina",
+    "fuentes": [{ "nombre": "Wikipedia - La Plata", "url": "https://es.wikipedia.org/wiki/La_Plata", "tipo": "secundaria" }],
+    "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1810-grito-de-dolores",
+    "fecha": { "dia": 16, "mes": 9 },
+    "anio": 1810,
+    "tipo": "acontecimiento",
+    "texto": "En México, Miguel Hidalgo da el Grito de Dolores e inicia la guerra de independencia.",
+    "alcance": "internacional",
+    "fuentes": [{ "nombre": "Wikipedia - Grito de Dolores", "url": "https://es.wikipedia.org/wiki/Grito_de_Dolores", "tipo": "secundaria" }],
+    "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1888-muere-domingo-faustino-sarmiento",
+    "fecha": { "dia": 11, "mes": 9 },
+    "anio": 1888,
+    "tipo": "fallecimiento",
+    "texto": "Muere Domingo Faustino Sarmiento, presidente argentino (n. 1811).",
+    "alcance": "argentina",
+    "fuentes": [{ "nombre": "Wikipedia - Domingo Faustino Sarmiento", "url": "https://es.wikipedia.org/wiki/Domingo_Faustino_Sarmiento", "tipo": "secundaria" }],
+    "verificadoEn": "2026-09-16"
+  }
+]

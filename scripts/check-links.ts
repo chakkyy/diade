@@ -1,15 +1,19 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
-import { archivoMesSchema } from "../src/lib/schema";
+import { archivoEfemeridesSchema, archivoMesSchema } from "../src/lib/schema";
 
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36";
-const CONCURRENCIA = 8;
+const CONCURRENCIA_POR_CONJUNTO = { celebraciones: 8, efemerides: 2 } as const;
+const ESPERA_429_MS = 5000;
 const TIMEOUT_MS = 20000;
 
-const dir = path.join(process.cwd(), "data", "celebraciones");
-const soloMes = process.argv[2];
+const args = process.argv.slice(2);
+const conjunto = args.includes("efemerides") ? "efemerides" : "celebraciones";
+const schema = conjunto === "efemerides" ? archivoEfemeridesSchema : archivoMesSchema;
+const dir = path.join(process.cwd(), "data", conjunto);
+const soloMes = args.find((a) => /^\d{1,2}$/.test(a));
 const archivos = fs
   .readdirSync(dir)
   .filter(
@@ -22,9 +26,7 @@ const archivos = fs
 type Tarea = { archivo: string; id: string; url: string };
 const tareas: Tarea[] = [];
 for (const archivo of archivos) {
-  const data = archivoMesSchema.parse(
-    JSON.parse(fs.readFileSync(path.join(dir, archivo), "utf8")),
-  );
+  const data = schema.parse(JSON.parse(fs.readFileSync(path.join(dir, archivo), "utf8")));
   for (const c of data)
     for (const f of c.fuentes) tareas.push({ archivo, id: c.id, url: f.url });
 }
@@ -68,7 +70,11 @@ function probarConCurl(url: string): number | string {
 }
 
 async function verificar(url: string): Promise<number | string> {
-  const head = await probar(url, "HEAD");
+  let head = await probar(url, "HEAD");
+  for (let intento = 0; head === 429 && intento < 3; intento++) {
+    await new Promise((r) => setTimeout(r, ESPERA_429_MS * (intento + 1)));
+    head = await probar(url, "HEAD");
+  }
   if (head === 200) return head;
   const get = await probar(url, "GET");
   if (typeof get === "number") return get;
@@ -84,7 +90,7 @@ async function worker() {
   }
 }
 async function main() {
-  await Promise.all(Array.from({ length: CONCURRENCIA }, worker));
+  await Promise.all(Array.from({ length: CONCURRENCIA_POR_CONJUNTO[conjunto] }, worker));
 
   let rotos = 0;
   for (const url of urls) {

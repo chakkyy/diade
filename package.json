@@ -12,7 +12,8 @@
     "typecheck": "tsc --noEmit",
     "data:validate": "tsx scripts/validate-data.ts",
     "data:links": "tsx scripts/check-links.ts",
-    "data:add": "tsx scripts/add-celebracion.ts"
+    "data:add": "tsx scripts/add-celebracion.ts",
+    "data:efemerides": "tsx scripts/importar-efemerides.ts"
   },
   "dependencies": {
     "next": "16.3.4",

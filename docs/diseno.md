@@ -1,6 +1,6 @@
 # ¿Qué se celebra hoy? — diseño
 
-Calendario de "Días de X" para Argentina: efemérides nacionales, días profesionales, conmemoraciones internacionales y fechas populares. No es una página de feriados ni de acontecimientos históricos.
+Calendario de "Días de X" para Argentina: días nacionales, días profesionales, conmemoraciones internacionales y fechas populares, más las efemérides (acontecimientos, nacimientos y fallecimientos) de cada día. No es una página de feriados.
 
 ## Decisiones de diseño
 
@@ -18,6 +18,9 @@ Calendario de "Días de X" para Argentina: efemérides nacionales, días profesi
 | Q11 | Dark mode | clase `dark` en `<html>`, toggle con localStorage, default = sistema | ninguno |
 | Q12 | Zona horaria | `America/Argentina/Buenos_Aires` vía `Intl.DateTimeFormat`, calculada en el server por request (`connection()`); la home nunca se prerenderiza | sin esto "hoy" sería el día del build |
 | Q13 | 29 de febrero | página existe; en años no bisiestos el selector/navegación la saltea | mínimo |
+| Q15 | Efemérides: origen | se importan del feed "On this day" de Wikimedia (es.wikipedia) con `pnpm data:efemerides`, todo el año de una vez, a `data/efemerides/MM.json`. No se cargan a mano: el pedido es que escale sin volver a cargar cada mes. Alternativa descartada: pedir el feed en cada request (dependencia externa en runtime, sin control de calidad ni foco argentino) | si Wikipedia cambia el feed, se ajusta el script y se regenera |
+| Q16 | Efemérides: fuentes | Wikipedia (`secundaria`) alcanza como única fuente; cada entrada enlaza al artículo de la persona o del hecho. La regla de celebraciones (institucional/normativa) haría imposible la cobertura anual | mínimo: el link es verificable con `data:links efemerides` |
+| Q17 | Efemérides: selección | cupos por día y alcance (AR 4/3/2, INT 3/2/2 para acontecimiento/nacimiento/fallecimiento); ranking por artículos enlazados (hechos) y por ediciones de Wikipedia según Wikidata (personas); deportistas sólo con ≥15 ediciones. Se muestran en orden cronológico debajo de las celebraciones en `/` y `/fecha/[slug]`; sin página de detalle, búsqueda ni conteo en calendario | si el ranking deja afuera algo importante, se suben cupos o se ajustan los umbrales en el script |
 | Q14 | Alcance de datos v1 | ~365 días cubiertos: todos los días internacionales oficiales ONU/UNESCO/OMS/FAO (~200) + ~150-200 argentinos (nacionales, profesionales, populares) + otros países sólo los muy conocidos (Chile, Uruguay, Brasil, México, España, EE.UU.) con fuente oficial del país | días sin entrada muestran estado vacío honesto |
 
 ## Modelo de datos (`src/types/celebracion.ts`, validado por `src/lib/schema.ts`)
@@ -47,14 +50,31 @@ interface Celebracion {
 }
 ```
 
+### Efemérides (`src/types/efemeride.ts`)
+
+```ts
+interface Efemeride {
+  id: string;                 // "1945-nace-tanguito-musico-y-compositor"
+  fecha: FechaFija;           // siempre fija
+  anio: number;               // -401 para el 401 a. C.
+  tipo: "acontecimiento" | "nacimiento" | "fallecimiento";
+  texto: string;              // una oración, ≤ 300 chars, "Nace…" / "Muere…" para personas
+  alcance: "argentina" | "internacional";
+  fuentes: Fuente[];          // ≥1, Wikipedia como secundaria alcanza
+  verificadoEn: string;       // fecha de la importación
+}
+```
+
 ## Rutas y responsabilidades
 
 - `src/lib/fechas.ts`: `hoyEnArgentina()`, `slugDeFecha({dia,mes})` ("11-septiembre"), `fechaDeSlug(slug)`, `MESES`, `resolverFechaMovil(regla, año)`, `fechaAnterior/fechaSiguiente`, `esBisiesto`.
 - `src/lib/celebraciones.ts`: carga y valida los 12 JSON (cacheado en módulo), `celebracionesDeFecha(dia, mes, año)`, `celebracionPorId`, `contarPorDia(mes, año)` para el calendario, `agruparPorAlcance`.
+- `src/lib/efemerides.ts`: `cargarEfemerides()` (12 JSON validados, cacheado), `efemeridesDeFecha(fecha)` ordenadas por año.
 - `src/lib/buscar.ts`: `normalizar(texto)`, `buscar(indice, query, filtros)`.
 - `src/app/page.tsx` (hoy), `src/app/fecha/[slug]/page.tsx`, `src/app/celebracion/[id]/page.tsx`, `src/app/calendario/[mes]/page.tsx`, `src/app/buscar/page.tsx`, `sitemap.ts`, `robots.ts`, `not-found.tsx`.
 - `src/components/`: `DiaHeader` (fecha + prev/next + selector), `ListaCelebraciones` (bloques por alcance), `CelebracionCard`, `CalendarioMes`, `Buscador`, `Filtros`, `ThemeToggle`, `Chip`.
-- `scripts/validate-data.ts`, `scripts/check-links.ts`, `scripts/add-celebracion.ts`.
+- `src/components/EfemeridesDelDia.tsx`: bloque "Efemérides del día" (año en tabular, texto, fuente), debajo de la lista del día.
+- `scripts/validate-data.ts`, `scripts/check-links.ts`, `scripts/add-celebracion.ts`, `scripts/importar-efemerides.ts`.
 
 ## Diseño visual
 
