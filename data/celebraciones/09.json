@@ -1406,9 +1406,14 @@
     "descripcion": "Por tradición se celebra en Colombia el tercer sábado de septiembre.",
     "fuentes": [
       {
+        "nombre": "Bogota.gov.co - ¿Por qué se celebra en Bogotá el Día de Amor y Amistad en septiembre?",
+        "url": "https://bogota.gov.co/internacional/por-que-se-celebra-en-bogota-el-dia-de-amor-y-amistad-en-septiembre",
+        "tipo": "institucional"
+      },
+      {
         "nombre": "Canal Institucional - Día del Amor y la Amistad",
         "url": "https://www.canalinstitucional.tv/te-interesa/dia-del-amor-y-la-amistad",
-        "tipo": "institucional"
+        "tipo": "secundaria"
       }
     ],
     "emoji": "💕",
