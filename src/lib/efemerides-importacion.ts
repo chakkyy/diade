@@ -2,7 +2,7 @@ import type { Efemeride } from "@/types/efemeride";
 
 const ARGENTINA = /\bargentin[oa]s?\b|\bArgentina\b|Buenos Aires|bonaerense|porteñ[oa]s?\b/i;
 const COLOMBIA_GENTILICIO = /\bcolombian[oa]s?\b|\bColombia\b/i;
-const COLOMBIA_LUGAR = /Bogotá|Medellín|\bCali\b|Cartagena de Indias|Barranquilla|Nueva Granada/;
+const COLOMBIA_LUGAR = /Bogotá|(?<!\p{L})Cali(?!\p{L})|Cartagena de Indias|Barranquilla|Nueva Granada/u;
 
 export function alcanceDeTexto(texto: string): Efemeride["alcance"] {
   if (ARGENTINA.test(texto)) return "argentina";

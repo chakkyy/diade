@@ -12,6 +12,15 @@ describe("alcanceDeTexto", () => {
   it("Argentina gana si el texto nombra a los dos", () => {
     expect(alcanceDeTexto("Futbolista argentino que jugó en Medellín")).toBe("argentina");
   });
+  it("no confunde Caliço ni el Medellín español, pero conserva los colombianos", () => {
+    expect(alcanceDeTexto("Muere Luís Caliço (54), regatista portugués.")).toBe("internacional");
+    expect(
+      alcanceDeTexto("En el marco de la guerra de independencia de España (1808-1814), Francia derrota a España en la batalla de Medellín."),
+    ).toBe("internacional");
+    expect(alcanceDeTexto("Se funda la ciudad de Cali.")).toBe("colombia");
+    expect(alcanceDeTexto("Nace un escritor en Medellín, Colombia.")).toBe("colombia");
+    expect(alcanceDeTexto("Se funda Medellín (Colombia).")).toBe("colombia");
+  });
   it("no confunde palabras parecidas", () => {
     expect(alcanceDeTexto("Terremoto en California")).toBe("internacional");
     expect(alcanceDeTexto("Cristóbal Colón llega a las Antillas")).toBe("internacional");

@@ -51,8 +51,13 @@ describe("datos reales de efemérides", () => {
 
   it("hay efemérides colombianas y ninguna repite el texto de otra del mismo día", () => {
     const colombianas = todas.filter((e) => e.alcance === "colombia");
-    expect(colombianas.length).toBeGreaterThan(300);
-    const claves = colombianas.map((e) => `${e.fecha.mes}-${e.fecha.dia}-${e.anio}-${e.tipo}-${e.texto}`);
+    expect(colombianas.length).toBeGreaterThan(1700);
+    const clave = (e: (typeof todas)[number]) => `${e.fecha.mes}-${e.fecha.dia}-${e.anio}-${e.tipo}-${e.texto}`;
+    const claves = colombianas.map(clave);
     expect(new Set(claves).size).toBe(claves.length);
+    const enTodas = new Map<string, number>();
+    for (const e of todas) enTodas.set(clave(e), (enTodas.get(clave(e)) ?? 0) + 1);
+    expect(colombianas.filter((e) => (enTodas.get(clave(e)) ?? 0) > 1).map((e) => e.id)).toEqual([]);
   });
+
 });

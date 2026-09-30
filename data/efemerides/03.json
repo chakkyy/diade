@@ -9849,25 +9849,6 @@
     "verificadoEn": "2026-09-16"
   },
   {
-    "id": "1809-en-el-marco-de-la-guerra",
-    "fecha": {
-      "dia": 28,
-      "mes": 3
-    },
-    "anio": 1809,
-    "tipo": "acontecimiento",
-    "texto": "En el marco de la guerra de independencia de España (1808-1814), Francia derrota a España en la batalla de Medellín.",
-    "alcance": "colombia",
-    "fuentes": [
-      {
-        "nombre": "Wikipedia (28 de marzo)",
-        "url": "https://es.wikipedia.org/wiki/28_de_marzo#Acontecimientos",
-        "tipo": "secundaria"
-      }
-    ],
-    "verificadoEn": "2026-09-30"
-  },
-  {
     "id": "1823-en-la-provincia-de-la-rioja",
     "fecha": {
       "dia": 28,

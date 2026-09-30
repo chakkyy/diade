@@ -3879,25 +3879,6 @@
     "verificadoEn": "2026-09-16"
   },
   {
-    "id": "2014-el-club-de-futbol-river-plate",
-    "fecha": {
-      "dia": 10,
-      "mes": 12
-    },
-    "anio": 2014,
-    "tipo": "acontecimiento",
-    "texto": "El club de fútbol River Plate se consagra campeón de la Copa Sudamericana tras derrotar en la final a Atlético Nacional de Medellín por 2 a 0, cortando así una sequía de 17 años sin títulos internacionales.",
-    "alcance": "colombia",
-    "fuentes": [
-      {
-        "nombre": "Wikipedia (10 de diciembre)",
-        "url": "https://es.wikipedia.org/wiki/10_de_diciembre#Acontecimientos",
-        "tipo": "secundaria"
-      }
-    ],
-    "verificadoEn": "2026-09-30"
-  },
-  {
     "id": "384-muere-damaso-i-papa-romano-entre",
     "fecha": {
       "dia": 11,
@@ -11005,25 +10986,6 @@
       }
     ],
     "verificadoEn": "2026-09-16"
-  },
-  {
-    "id": "1977-nace-claudio-rodriguez-medellin-conductor-mexicano",
-    "fecha": {
-      "dia": 29,
-      "mes": 12
-    },
-    "anio": 1977,
-    "tipo": "nacimiento",
-    "texto": "Nace Claudio Rodríguez Medellín, conductor mexicano de televisión.",
-    "alcance": "colombia",
-    "fuentes": [
-      {
-        "nombre": "Wikipedia (Claudio Rodríguez Medellín)",
-        "url": "https://es.wikipedia.org/wiki/Claudio_Rodr%C3%ADguez_Medell%C3%ADn",
-        "tipo": "secundaria"
-      }
-    ],
-    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1990-en-argentina-el-presidente-carlos-menem",

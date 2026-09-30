@@ -9178,25 +9178,6 @@
     "verificadoEn": "2026-09-16"
   },
   {
-    "id": "2011-en-la-provincia-de-loreto-peru",
-    "fecha": {
-      "dia": 24,
-      "mes": 8
-    },
-    "anio": 2011,
-    "tipo": "acontecimiento",
-    "texto": "En la provincia de Loreto (Perú), un terremoto de magnitud 7 grados de la escala de Richter sacude Pucallpa. El epicentro se ubicó en el pueblo de Contamana, afectando varias regiones. Dejó 1 muerto y muchos heridos.",
-    "alcance": "colombia",
-    "fuentes": [
-      {
-        "nombre": "Wikipedia (24 de agosto)",
-        "url": "https://es.wikipedia.org/wiki/24_de_agosto#Acontecimientos",
-        "tipo": "secundaria"
-      }
-    ],
-    "verificadoEn": "2026-09-30"
-  },
-  {
     "id": "1530-nace-ivan-el-terrible-zar-ruso",
     "fecha": {
       "dia": 25,

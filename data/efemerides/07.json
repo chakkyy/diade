@@ -7545,25 +7545,6 @@
     "verificadoEn": "2026-09-30"
   },
   {
-    "id": "2024-muere-luis-calico-54-regatista-portugues",
-    "fecha": {
-      "dia": 20,
-      "mes": 7
-    },
-    "anio": 2024,
-    "tipo": "fallecimiento",
-    "texto": "Muere Luís Caliço (54), regatista portugués; cáncer (n. 1969).",
-    "alcance": "colombia",
-    "fuentes": [
-      {
-        "nombre": "Wikipedia (20 de julio)",
-        "url": "https://es.wikipedia.org/wiki/20_de_julio#Fallecimientos",
-        "tipo": "secundaria"
-      }
-    ],
-    "verificadoEn": "2026-09-30"
-  },
-  {
     "id": "2025-en-brasil-el-jugador-colombiano-richard",
     "fecha": {
       "dia": 20,

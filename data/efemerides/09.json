@@ -76,25 +76,6 @@
     "verificadoEn": "2026-09-16"
   },
   {
-    "id": "1859-llega-a-su-maximo-la-mas",
-    "fecha": {
-      "dia": 1,
-      "mes": 9
-    },
-    "anio": 1859,
-    "tipo": "acontecimiento",
-    "texto": "Llega a su máximo la más intensa tormenta solar de la historia humana ―conocida también como evento Carrington debido a que el astrónomo aficionado británico Richard Carrington (1826‑1875) fue el primero en observarla, en las afueras de Londres―, que afecta a la mayor parte del planeta.",
-    "alcance": "colombia",
-    "fuentes": [
-      {
-        "nombre": "Wikipedia (1 de septiembre)",
-        "url": "https://es.wikipedia.org/wiki/1_de_septiembre#Acontecimientos",
-        "tipo": "secundaria"
-      }
-    ],
-    "verificadoEn": "2026-09-30"
-  },
-  {
     "id": "1865-nace-enrique-tornu-cirujano-e-higienista",
     "fecha": {
       "dia": 1,
@@ -473,25 +454,6 @@
       }
     ],
     "verificadoEn": "2026-09-16"
-  },
-  {
-    "id": "1859-termina-la-mas-intensa-tormenta-solar",
-    "fecha": {
-      "dia": 2,
-      "mes": 9
-    },
-    "anio": 1859,
-    "tipo": "acontecimiento",
-    "texto": "Termina la más intensa tormenta solar de la historia humana ―conocida también como evento Carrington debido a que el astrónomo aficionado británico Richard Carrington (1826‑1875) fue el primero en observarla, en las afueras de Londres―, que duró dos días y que afectó a la mayor parte del planeta.",
-    "alcance": "colombia",
-    "fuentes": [
-      {
-        "nombre": "Wikipedia (2 de septiembre)",
-        "url": "https://es.wikipedia.org/wiki/2_de_septiembre#Acontecimientos",
-        "tipo": "secundaria"
-      }
-    ],
-    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1870-durante-la-guerra-franco-prusiana-en",
