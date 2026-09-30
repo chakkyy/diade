@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import EnlaceHoy from "@/components/EnlaceHoy";
+import TrasHidratar from "@/components/TrasHidratar";
 
 export const metadata: Metadata = {
   title: "Página no encontrada",
@@ -18,7 +19,9 @@ export default function NoEncontrada() {
         La fecha que buscabas no está en el calendario. Puede ser un día que no existe, como el 31 de
         septiembre.
       </p>
-      <EnlaceHoy />
+      <TrasHidratar>
+        <EnlaceHoy />
+      </TrasHidratar>
     </div>
   );
 }

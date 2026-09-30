@@ -5,6 +5,7 @@ import PieZona from "@/components/PieZona";
 import SelectorPais from "@/components/SelectorPais";
 import TabBar from "@/components/TabBar";
 import ThemeToggle from "@/components/ThemeToggle";
+import TrasHidratar from "@/components/TrasHidratar";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -53,8 +54,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="flex min-h-full flex-col bg-fondo pb-[calc(58px+env(safe-area-inset-bottom))] text-texto sm:pb-0">
         <header className="sticky top-0 z-20 border-b border-borde bg-fondo/90 backdrop-blur-sm">
           <div className="mx-auto flex h-14 w-full max-w-2xl items-center gap-3 px-4">
-            <NavSecciones />
-            <SelectorPais />
+            <TrasHidratar>
+              <NavSecciones />
+              <SelectorPais />
+            </TrasHidratar>
             <ThemeToggle />
           </div>
         </header>
@@ -63,10 +66,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </main>
         <footer className="border-t border-borde">
           <div className="mx-auto w-full max-w-2xl px-4 py-6 text-[13px] leading-relaxed text-texto-secundario">
-            <PieZona />
+            <TrasHidratar>
+              <PieZona />
+            </TrasHidratar>
           </div>
         </footer>
-        <TabBar />
+        <TrasHidratar>
+          <TabBar />
+        </TrasHidratar>
       </body>
     </html>
   );
