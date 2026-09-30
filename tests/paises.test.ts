@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   PAISES,
+  busquedaParaPais,
   grupoDeAlcance,
   paisDeAlcance,
   paisDeRuta,
@@ -79,5 +80,22 @@ describe("paisDeAlcance", () => {
     expect(paisDeAlcance("argentina")?.codigo).toBe("ar");
     expect(paisDeAlcance("internacional")).toBeNull();
     expect(paisDeAlcance("otro-pais")).toBeNull();
+  });
+});
+
+describe("busquedaParaPais", () => {
+  it("conserva el texto y la categoría y descarta el alcance del vecino", () => {
+    expect(busquedaParaPais("?q=maestro&alcance=argentina&categoria=educacion", "co")).toBe(
+      "?q=maestro&categoria=educacion",
+    );
+  });
+  it("conserva internacional y otro-pais", () => {
+    expect(busquedaParaPais("?alcance=internacional&alcance=otro-pais", "co")).toBe(
+      "?alcance=internacional&alcance=otro-pais",
+    );
+  });
+  it("devuelve vacío si no queda nada", () => {
+    expect(busquedaParaPais("?alcance=colombia", "ar")).toBe("");
+    expect(busquedaParaPais("", "co")).toBe("");
   });
 });

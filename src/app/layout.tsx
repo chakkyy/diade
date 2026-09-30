@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
+import NavSecciones from "@/components/NavSecciones";
+import PieZona from "@/components/PieZona";
+import SelectorPais from "@/components/SelectorPais";
 import TabBar from "@/components/TabBar";
 import ThemeToggle from "@/components/ThemeToggle";
-import { IconoBuscar, IconoCalendario } from "@/components/iconos";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -52,28 +53,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="flex min-h-full flex-col bg-fondo pb-[calc(58px+env(safe-area-inset-bottom))] text-texto sm:pb-0">
         <header className="sticky top-0 z-20 border-b border-borde bg-fondo/90 backdrop-blur-sm">
           <div className="mx-auto flex h-14 w-full max-w-2xl items-center gap-3 px-4">
-            <Link
-              href="/"
-              className="mr-auto shrink-0 text-[13px] font-semibold tracking-tight sm:text-sm"
-            >
-              ¿Qué se celebra hoy?
-            </Link>
-            <nav aria-label="Secciones" className="hidden items-center gap-1 sm:flex">
-              <Link
-                href="/calendario"
-                className="flex items-center gap-1.5 rounded-[10px] px-2 py-1.5 text-[13px] text-texto-secundario transition-colors duration-150 hover:bg-superficie-suave hover:text-texto"
-              >
-                <IconoCalendario />
-                <span>Calendario</span>
-              </Link>
-              <Link
-                href="/buscar"
-                className="flex items-center gap-1.5 rounded-[10px] px-2 py-1.5 text-[13px] text-texto-secundario transition-colors duration-150 hover:bg-superficie-suave hover:text-texto"
-              >
-                <IconoBuscar />
-                <span>Buscar</span>
-              </Link>
-            </nav>
+            <NavSecciones />
+            <SelectorPais />
             <ThemeToggle />
           </div>
         </header>
@@ -82,7 +63,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </main>
         <footer className="border-t border-borde">
           <div className="mx-auto w-full max-w-2xl px-4 py-6 text-[13px] leading-relaxed text-texto-secundario">
-            Datos con fuente verificable · Zona horaria Argentina
+            <PieZona />
           </div>
         </footer>
         <TabBar />

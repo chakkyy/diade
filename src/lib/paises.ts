@@ -79,3 +79,15 @@ export function rutaEnOtroPais(pathname: string, destino: CodigoPais): string {
   const base = sinPrefijo === "" ? "/" : sinPrefijo;
   return rutaDePais(destino, base === "/" ? "/" : base.replace(/\/$/, ""));
 }
+
+export function busquedaParaPais(search: string, destino: CodigoPais): string {
+  const params = new URLSearchParams(search);
+  const alcances = params.getAll("alcance");
+  params.delete("alcance");
+  for (const alcance of alcances) {
+    const propio = paisDeAlcance(alcance as Alcance);
+    if (propio === null || propio.codigo === destino) params.append("alcance", alcance);
+  }
+  const texto = params.toString();
+  return texto === "" ? "" : `?${texto}`;
+}
