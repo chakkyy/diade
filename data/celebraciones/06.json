@@ -168,6 +168,31 @@
     "emoji": "🌎"
   },
   {
+    "id": "dia-nacional-del-medio-ambiente-colombia",
+    "nombre": "Día Nacional del Medio Ambiente",
+    "fecha": {
+      "dia": 5,
+      "mes": 6
+    },
+    "alcance": "colombia",
+    "categoria": "ambiente",
+    "descripcion": "La Ley 61 de 1990 declaró el 5 de junio de cada año como Día Nacional del Medio Ambiente.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 61 de 1990",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=272",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🌳",
+    "tags": [
+      "medio ambiente",
+      "ambiente",
+      "ecologia"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-de-la-ingenieria-argentina",
     "nombre": "Día de la Ingeniería Argentina",
     "fecha": {
@@ -266,6 +291,36 @@
     ],
     "verificadoEn": "2026-09-11",
     "emoji": "🌊"
+  },
+  {
+    "id": "dia-del-estudiante-caido",
+    "nombre": "Día del Estudiante Caído",
+    "fecha": {
+      "dia": 8,
+      "mes": 6
+    },
+    "alcance": "colombia",
+    "categoria": "historia",
+    "descripcion": "Se conmemora en Colombia los días 8 y 9 de junio el Día del Estudiante Caído.",
+    "fuentes": [
+      {
+        "nombre": "IDEP - Los días 8 y 9 de junio se conmemora en Colombia el Día del Estudiante Caído",
+        "url": "https://www.idep.edu.co/node/680",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Museo Nacional de Colombia - Junio 2024",
+        "url": "https://www.museonacional.gov.co/noticias/Paginas/Junio_2024.aspx",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎓",
+    "tags": [
+      "estudiante",
+      "gonzalo bravo",
+      "movimiento estudiantil"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-del-geologo",
@@ -740,6 +795,32 @@
     "destacado": true
   },
   {
+    "id": "dia-nacional-del-bizcocho-de-achira",
+    "nombre": "Día Nacional del Bizcocho de Achira",
+    "fecha": {
+      "dia": 20,
+      "mes": 6
+    },
+    "alcance": "colombia",
+    "categoria": "comida",
+    "descripcion": "La Ley 2575 de 2026 estableció el 20 de junio de cada año como Día Nacional del Bizcocho de Achira, para su conmemoración y promoción.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 2575 de 2026",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_2575_2026.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🥐",
+    "tags": [
+      "achira",
+      "bizcocho",
+      "huila",
+      "gastronomia"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-de-la-celebracion-del-solsticio",
     "nombre": "Día Internacional de la Celebración del Solsticio",
     "fecha": {
@@ -803,6 +884,31 @@
       "gol del siglo"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-victimas-guerra-mil-dias",
+    "nombre": "Día del Reconocimiento a las Víctimas de la Guerra de los Mil Días",
+    "fecha": {
+      "dia": 22,
+      "mes": 6
+    },
+    "alcance": "colombia",
+    "categoria": "historia",
+    "descripcion": "La Ley 2567 de 2026 declaró el 22 de junio de cada año como día del reconocimiento a las víctimas de la Guerra de los Mil Días.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 2567 de 2026",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_2567_2026.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🕊️",
+    "tags": [
+      "guerra de los mil dias",
+      "victimas",
+      "reconciliacion"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-internacional-de-las-viudas",
@@ -965,6 +1071,36 @@
     "emoji": "🏪"
   },
   {
+    "id": "dia-nacional-del-servidor-publico",
+    "nombre": "Día Nacional del Servidor Público",
+    "fecha": {
+      "dia": 27,
+      "mes": 6
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "El Decreto 2865 de 2013 declaró el 27 de junio de cada año como Día Nacional del Servidor Público.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Decreto 2865 de 2013",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=55876",
+        "tipo": "normativa"
+      },
+      {
+        "nombre": "Función Pública - Conmemoración del Día Nacional del Servidor Público",
+        "url": "https://www.funcionpublica.gov.co/eva/es/dianacionalservidorpublico",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🧑‍💼",
+    "tags": [
+      "servidor publico",
+      "empleado publico",
+      "funcionario"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-orgullo-lgbtiq",
     "nombre": "Día Internacional del Orgullo LGBTIQ+",
     "fecha": {
@@ -1089,6 +1225,59 @@
     ],
     "verificadoEn": "2026-09-11",
     "emoji": "👨‍👧",
+    "destacado": true
+  },
+  {
+    "id": "dia-nacional-del-campesino",
+    "nombre": "Día del Campesino",
+    "fecha": {
+      "mes": 6,
+      "ordinal": 1,
+      "diaSemana": 0
+    },
+    "alcance": "colombia",
+    "categoria": "sociedad",
+    "descripcion": "La Ley 2223 de 2022 establece que el Día del Campesino se celebra el primer domingo de junio en todos los municipios del país.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 2223 de 2022",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_2223_2022.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🌾",
+    "tags": [
+      "campesino",
+      "campesina",
+      "agricultor"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-del-padre-colombia",
+    "nombre": "Día del Padre",
+    "fecha": {
+      "mes": 6,
+      "ordinal": 3,
+      "diaSemana": 0
+    },
+    "alcance": "colombia",
+    "categoria": "familia",
+    "descripcion": "En Colombia se celebra el tercer domingo de junio.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría de Cultura, Recreación y Deporte de Bogotá - Día del Padre en BibloRed",
+        "url": "https://culturarecreacionydeporte.gov.co/es/principal/noticias/celebra-el-dia-del-padre-en-las-bibliotecas-publicas-de-bogota-con-biblored",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "👨",
+    "tags": [
+      "padre",
+      "papa",
+      "dia de los padres"
+    ],
+    "verificadoEn": "2026-09-30",
     "destacado": true
   }
 ]

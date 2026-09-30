@@ -123,6 +123,60 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-de-la-discapacidad-colombia",
+    "nombre": "Día Nacional de la Discapacidad",
+    "fecha": {
+      "dia": 3,
+      "mes": 12
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "El artículo 18 de la Ley 1145 de 2007 estableció el 3 de diciembre de cada año como Día Nacional de la Discapacidad.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 1145 de 2007",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=25670",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "♿",
+    "tags": [
+      "discapacidad",
+      "personas con discapacidad"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-del-medico-colombia",
+    "nombre": "Día del Médico",
+    "fecha": {
+      "dia": 3,
+      "mes": 12
+    },
+    "alcance": "colombia",
+    "categoria": "salud",
+    "descripcion": "Cada 3 de diciembre se celebra el Día Panamericano del Médico.",
+    "fuentes": [
+      {
+        "nombre": "Federación Médica Colombiana - Día panamericano del médico",
+        "url": "https://www.federacionmedicacolombiana.com/2020/12/03/dia-panamericano-del-medico-2/",
+        "tipo": "asociacion"
+      },
+      {
+        "nombre": "Hospital Regional de Moniquirá - Fechas especiales 2026",
+        "url": "https://hrm.gov.co/wp-content/uploads/2026/01/Fechas-Especiales-2026-1-1.pdf",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🩺",
+    "tags": [
+      "medico",
+      "panamericano del medico",
+      "doctor"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-contra-medidas-coercitivas-unilaterales",
     "nombre": "Día Internacional contra las Medidas Coercitivas Unilaterales",
     "fecha": {
@@ -220,6 +274,61 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-fisioterapeuta",
+    "nombre": "Día Nacional del Fisioterapeuta",
+    "fecha": {
+      "dia": 5,
+      "mes": 12
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "Homenaje a la graduación en 1953 de las primeras fisioterapeutas colombianas.",
+    "fuentes": [
+      {
+        "nombre": "Hospital General de Medellín - Día Nacional del Fisioterapeuta",
+        "url": "https://www.hgm.gov.co/publicaciones/4071/dia-nacional-del-fisioterapeuta/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Instituto Departamental de Salud de Nariño - Día Nacional del Fisioterapeuta",
+        "url": "https://www.idsn.gov.co/publicaciones/837/dia-nacional-del-fisioterapeuta/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🦵",
+    "tags": [
+      "fisioterapeuta",
+      "fisioterapia",
+      "kinesiologo"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-nacional-de-la-memoria-y-las-luchas-del-trabajador-bananero-y-platanero",
+    "nombre": "Día Nacional de la Memoria y las Luchas del Trabajador Bananero y Platanero",
+    "fecha": {
+      "dia": 5,
+      "mes": 12
+    },
+    "alcance": "colombia",
+    "categoria": "historia",
+    "descripcion": "La Ley 2321 de 2023 declaró el 5 de diciembre de cada año como Día Nacional de la Memoria y las Luchas del Trabajador Bananero y Platanero.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 2321 de 2023",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_2321_2023.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🍌",
+    "tags": [
+      "bananeras",
+      "trabajador bananero",
+      "masacre de las bananeras"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-de-la-constitucion-espanola",
     "nombre": "Día de la Constitución Española",
     "fecha": {
@@ -292,6 +401,37 @@
       "vuelo"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-las-velitas",
+    "nombre": "Día de las Velitas",
+    "fecha": {
+      "dia": 7,
+      "mes": 12
+    },
+    "alcance": "colombia",
+    "categoria": "religion",
+    "descripcion": "Colombia celebra el 7 de diciembre la tradicional Noche de Velitas.",
+    "fuentes": [
+      {
+        "nombre": "Bogotá.gov.co - Origen de la celebración del Día de Velitas",
+        "url": "https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/origen-de-la-celebracion-del-dia-de-velitas-bogota-2025",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Señal Memoria RTVC - Día de las velitas",
+        "url": "https://www.senalmemoria.co/piezas/dia-de-las-velitas-tradicion-e-historia",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🕯️",
+    "tags": [
+      "velitas",
+      "noche de velitas",
+      "inmaculada concepcion"
+    ],
+    "verificadoEn": "2026-09-30",
+    "destacado": true
   },
   {
     "id": "dia-de-la-inmaculada-concepcion-de-maria",
@@ -367,6 +507,36 @@
       "memoria"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-infanteria-colombia",
+    "nombre": "Día de la Infantería",
+    "fecha": {
+      "dia": 9,
+      "mes": 12
+    },
+    "alcance": "colombia",
+    "categoria": "historia",
+    "descripcion": "El Día de la Infantería Colombiana se celebra el 9 de diciembre.",
+    "fuentes": [
+      {
+        "nombre": "Agencia Logística de las Fuerzas Militares - Día de la Infantería",
+        "url": "https://www.agencialogistica.gov.co/event-created/dia-la-infanteria/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Comando General de las Fuerzas Militares - Conmemoración Día de la Infantería",
+        "url": "https://www.cgfm.mil.co/es/multimedia/noticias/conmemoracion-dia-de-la-infanteria",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎖️",
+    "tags": [
+      "infanteria",
+      "ejercito",
+      "ayacucho"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-de-la-restauracion-de-la-democracia",

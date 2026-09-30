@@ -239,6 +239,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-periodista-colombia",
+    "nombre": "Día del Periodista Colombiano",
+    "fecha": {
+      "dia": 9,
+      "mes": 2
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "La Ley 51 de 1975 señaló el 9 de febrero de cada año como Día del Periodista Colombiano.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 51 de 1975",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=66152",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "📰",
+    "tags": [
+      "periodista",
+      "periodismo",
+      "prensa"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-leopardo-arabe",
     "nombre": "Día Internacional del Leopardo Árabe",
     "fecha": {
@@ -559,6 +584,36 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-fotografo-y-camarografo-colombia",
+    "nombre": "Día del Fotógrafo y Camarógrafo",
+    "fecha": {
+      "dia": 20,
+      "mes": 2
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "La Ley 20 de 1991 señaló como Día Nacional del Fotógrafo Profesional Colombiano el día de su aprobación, el 20 de febrero de 1991; se celebra cada 20 de febrero.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 20 de 1991",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=66160",
+        "tipo": "normativa"
+      },
+      {
+        "nombre": "Secretaría de Cultura, Recreación y Deporte de Bogotá - Día del Fotógrafo y Camarógrafo",
+        "url": "https://www.culturarecreacionydeporte.gov.co/es/dia-del-fotografo-y-camarografo-celebramos-el-arte-de-transmitir-emociones",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📷",
+    "tags": [
+      "fotografo",
+      "camarografo",
+      "reportero grafico"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-lengua-materna",
     "nombre": "Día Internacional de la Lengua Materna",
     "fecha": {
@@ -582,6 +637,56 @@
       "diversidad"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-las-lenguas-nativas",
+    "nombre": "Día Nacional de las Lenguas Nativas",
+    "fecha": {
+      "dia": 21,
+      "mes": 2
+    },
+    "alcance": "colombia",
+    "categoria": "cultura",
+    "descripcion": "La Ley 1381 de 2010 declaró el 21 de febrero de cada año como Día Nacional de las Lenguas Nativas.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 1381 de 2010",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=38741",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🗣️",
+    "tags": [
+      "lenguas nativas",
+      "lenguas indigenas",
+      "diversidad linguistica"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-nacional-del-defensor-de-familia",
+    "nombre": "Día Nacional del Defensor de Familia",
+    "fecha": {
+      "dia": 21,
+      "mes": 2
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "El Decreto 2480 de 2018 declaró el 21 de febrero de cada año como Día Nacional del Defensor de Familia.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Decreto 2480 de 2018",
+        "url": "https://www1.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=90129",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "👨‍👩‍👧",
+    "tags": [
+      "defensor de familia",
+      "icbf",
+      "ninez"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-antartida-argentina",
@@ -751,6 +856,31 @@
     ],
     "emoji": "🏛️",
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-docente-orientador",
+    "nombre": "Día del Docente Orientador",
+    "fecha": {
+      "dia": 26,
+      "mes": 2
+    },
+    "alcance": "colombia",
+    "categoria": "educacion",
+    "descripcion": "El Decreto 418 de 2018 reconoce el 26 de febrero de cada año como Día del Docente Orientador.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Decreto 418 de 2018",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=85503",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🧭",
+    "tags": [
+      "orientador escolar",
+      "docente orientador",
+      "colegio"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-creacion-bandera-nacional-argentina",

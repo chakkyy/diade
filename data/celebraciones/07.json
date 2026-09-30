@@ -85,6 +85,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-economista-colombia",
+    "nombre": "Día del Economista",
+    "fecha": {
+      "dia": 3,
+      "mes": 7
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "Se celebra el 3 de julio, en conmemoración del nacimiento en 1762 de Pedro Fermín de Vargas.",
+    "fuentes": [
+      {
+        "nombre": "Universidad del Magdalena - Día del Economista",
+        "url": "https://www.unimagdalena.edu.co/presentacionPublicacion/VerNoticia/276409",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📈",
+    "tags": [
+      "economista",
+      "economia",
+      "pedro fermin de vargas"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-de-la-independencia-estados-unidos",
     "nombre": "Día de la Independencia de Estados Unidos",
     "fecha": {
@@ -525,6 +550,32 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-conductor",
+    "nombre": "Día Nacional del Conductor",
+    "fecha": {
+      "dia": 16,
+      "mes": 7
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "La Ley 1103 de 2006 declaró el 16 de julio de cada año como Día Nacional del Conductor.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 1103 de 2006",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=22452",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🚌",
+    "tags": [
+      "conductor",
+      "transportador",
+      "chofer",
+      "seguridad vial"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-constitucion-corea-del-sur",
     "nombre": "Día de la Constitución de Corea del Sur",
     "fecha": {
@@ -640,6 +691,32 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-de-los-heroes-de-la-nacion-y-sus-familias",
+    "nombre": "Día de los Héroes de la Nación y sus Familias",
+    "fecha": {
+      "dia": 19,
+      "mes": 7
+    },
+    "alcance": "colombia",
+    "categoria": "historia",
+    "descripcion": "La Ley 913 de 2004 declaró el 19 de julio como fecha oficial del Día de los Héroes de la Nación y sus Familias.",
+    "fuentes": [
+      {
+        "nombre": "Fuerza Aérea Colombiana - Día de los Héroes de la Nación y sus Familias",
+        "url": "https://www.fac.mil.co/es/noticias/dia-de-los-heroes-de-la-nacion-y-sus-familias",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎖️",
+    "tags": [
+      "heroe de la nacion",
+      "heroes",
+      "fuerzas militares",
+      "ley 913"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-de-la-luna",
     "nombre": "Día Internacional de la Luna",
     "fecha": {
@@ -699,6 +776,38 @@
     "emoji": "🤝",
     "destacado": true,
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-independencia-colombia",
+    "nombre": "Día de la Independencia",
+    "fecha": {
+      "dia": 20,
+      "mes": 7
+    },
+    "alcance": "colombia",
+    "categoria": "historia",
+    "descripcion": "Colombia conmemora el 20 de julio como Día de la Independencia.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de las Culturas - 20 de Julio, Día de la Independencia de Colombia",
+        "url": "https://mng.mincultura.gov.co/areas/poblaciones/conmemoraciones/Paginas/20-de-Julio---D%C3%ADa-de-la-Independencia-de-Colombia.aspx",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Bogotá.gov.co - Desfile militar del 20 de julio",
+        "url": "https://bogota.gov.co/mi-ciudad/desfile-militar-del-20-de-julio-en-bogota-por-que-se-conmemora",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇨🇴",
+    "tags": [
+      "independencia",
+      "grito de independencia",
+      "20 de julio",
+      "festivo"
+    ],
+    "verificadoEn": "2026-09-30",
+    "destacado": true
   },
   {
     "id": "dia-nacional-belgica",

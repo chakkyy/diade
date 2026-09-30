@@ -150,6 +150,36 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-administrador-de-empresas-colombia",
+    "nombre": "Día del Administrador de Empresas",
+    "fecha": {
+      "dia": 4,
+      "mes": 11
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "Conmemora la promulgación de la Ley 60 de 1981, que reconoció y reguló la profesión de administrador de empresas.",
+    "fuentes": [
+      {
+        "nombre": "Agencia Logística de las Fuerzas Militares - Día del Administrador de Empresas",
+        "url": "https://www.agencialogistica.gov.co/event-created/dia-del-administrador-empresas/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Universidad del Valle - Semana del Administrador de Empresas",
+        "url": "https://administracion.univalle.edu.co/noticias/con-jornada-academica-se-celebro-la-semana-del-administrador-de-empresas",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "💼",
+    "tags": [
+      "administrador",
+      "administracion",
+      "empresas"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-mundial-concienciacion-tsunamis",
     "nombre": "Día Mundial de Concienciación sobre los Tsunamis",
     "fecha": {
@@ -173,6 +203,36 @@
       "costas"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-policia-nacional-colombia",
+    "nombre": "Día de la Policía Nacional",
+    "fecha": {
+      "dia": 5,
+      "mes": 11
+    },
+    "alcance": "colombia",
+    "categoria": "historia",
+    "descripcion": "En Colombia el Día de la Policía Nacional se celebra el 5 de noviembre.",
+    "fuentes": [
+      {
+        "nombre": "Ley 2600 de 2026 - Diario Oficial",
+        "url": "https://sidn.ramajudicial.gov.co/SIDN/NORMATIVA/TEXTOS_COMPLETOS/7_LEYES/LEYES%202026/Ley%202600%20de%202026.pdf",
+        "tipo": "normativa"
+      },
+      {
+        "nombre": "Agencia Logística de las Fuerzas Militares - Día de la Policía Nacional",
+        "url": "https://www.agencialogistica.gov.co/event-created/dia-la-policia-nacional/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "👮",
+    "tags": [
+      "policia",
+      "policia nacional",
+      "aniversario policia"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-internacional-prevencion-explotacion-ambiental-guerra",
@@ -325,6 +385,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-de-la-fuerza-aerea-colombiana",
+    "nombre": "Día de la Fuerza Aérea Colombiana",
+    "fecha": {
+      "dia": 8,
+      "mes": 11
+    },
+    "alcance": "colombia",
+    "categoria": "historia",
+    "descripcion": "Conmemora la fundación de la Fuerza Aérea Colombiana en 1919.",
+    "fuentes": [
+      {
+        "nombre": "Agencia Logística de las Fuerzas Militares - Día de la Fuerza Aérea Colombiana",
+        "url": "https://www.agencialogistica.gov.co/event-created/dia-la-fuerza-aerea-colombiana/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "✈️",
+    "tags": [
+      "fuerza aerea",
+      "fac",
+      "aviacion militar"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-nacional-donante-sangre",
     "nombre": "Día Nacional del Donante Voluntario de Sangre",
     "fecha": {
@@ -348,6 +433,31 @@
       "salud"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-madre-y-el-padre-comunitario",
+    "nombre": "Día Nacional de la Madre y el Padre Comunitario",
+    "fecha": {
+      "dia": 9,
+      "mes": 11
+    },
+    "alcance": "colombia",
+    "categoria": "familia",
+    "descripcion": "La Ley 2582 de 2026 estableció el 9 de noviembre de cada año como Día Nacional de la Madre y el Padre Comunitario.",
+    "fuentes": [
+      {
+        "nombre": "Ley 2582 de 2026 - Diario Oficial",
+        "url": "https://sidn.ramajudicial.gov.co/SIDN/NORMATIVA/TEXTOS_COMPLETOS/7_LEYES/LEYES%202026/Ley%202582%20de%202026.pdf",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "👨‍👩‍👧",
+    "tags": [
+      "madre comunitaria",
+      "padre comunitario",
+      "icbf"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-mundial-ciencia-paz-desarrollo",
@@ -425,6 +535,31 @@
       "fuerzas armadas"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-bombero-colombia",
+    "nombre": "Día Nacional del Bombero",
+    "fecha": {
+      "dia": 11,
+      "mes": 11
+    },
+    "alcance": "colombia",
+    "categoria": "sociedad",
+    "descripcion": "La resolución 0661 de 2014 instituyó el Día Nacional del Bombero en Colombia.",
+    "fuentes": [
+      {
+        "nombre": "Alcaldía de Tuluá - Día del bombero en Colombia",
+        "url": "https://tulua.gov.co/publicaciones/2339/dia-del-bombero-en-colombia-alcaldia-de-tulua/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🚒",
+    "tags": [
+      "bombero",
+      "bomberos",
+      "cuerpo de bomberos"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-mundial-contra-la-neumonia",
@@ -524,6 +659,36 @@
       "salud"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-mujer-colombiana",
+    "nombre": "Día de la Mujer Colombiana",
+    "fecha": {
+      "dia": 14,
+      "mes": 11
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "Se conmemora cada 14 de noviembre en Colombia desde 1967.",
+    "fuentes": [
+      {
+        "nombre": "Canal Institucional - Día de la Mujer Colombiana",
+        "url": "https://www.canalinstitucional.tv/te-interesa/dia-de-la-mujer-colombiana",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Rama Judicial - Ley 44 de 1967",
+        "url": "https://www.ramajudicial.gov.co/web/consejo-superior-de-la-judicatura/portal/corporacion/normatividad/-/asset_publisher/P5M0rVxrpi0U/content/id/132500587",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "👩",
+    "tags": [
+      "mujer colombiana",
+      "policarpa salavarrieta",
+      "la pola"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-mundial-prematuridad",
@@ -778,6 +943,30 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-psicologo-colombia",
+    "nombre": "Día Nacional del Psicólogo",
+    "fecha": {
+      "dia": 20,
+      "mes": 11
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "El artículo 92 de la Ley 1090 de 2006 estableció el 20 de noviembre de cada año como Día Nacional del Psicólogo.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 1090 de 2006",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=66205",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🧠",
+    "tags": [
+      "psicologo",
+      "psicologia"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-mundial-television",
     "nombre": "Día Mundial de la Televisión",
     "fecha": {
@@ -954,6 +1143,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-colombiano-de-oro",
+    "nombre": "Día del Colombiano de Oro",
+    "fecha": {
+      "dia": 24,
+      "mes": 11
+    },
+    "alcance": "colombia",
+    "categoria": "sociedad",
+    "descripcion": "El artículo 6 de la Ley 1091 de 2006 declaró el 24 de noviembre de cada año como Día del Colombiano de Oro.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 1091 de 2006",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=21565",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "👴",
+    "tags": [
+      "colombiano de oro",
+      "adulto mayor",
+      "personas mayores"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-eliminacion-violencia-mujer",
     "nombre": "Día Internacional de la Eliminación de la Violencia contra la Mujer",
     "fecha": {
@@ -1002,6 +1216,31 @@
       "movilidad"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-vigilancia-y-la-seguridad-privada",
+    "nombre": "Día Nacional de la Vigilancia y la Seguridad Privada",
+    "fecha": {
+      "dia": 26,
+      "mes": 11
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "El artículo 10 de la Ley 1920 de 2018 estableció el 26 de noviembre como Día Nacional de la Vigilancia y la Seguridad Privada.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 1920 de 2018",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1920_2018.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🛡️",
+    "tags": [
+      "vigilancia",
+      "seguridad privada",
+      "vigilante"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-internacional-eliminacion-matrimonio-infantil",

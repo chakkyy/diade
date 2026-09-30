@@ -123,6 +123,36 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-odontologo-colombia",
+    "nombre": "Día del Odontólogo",
+    "fecha": {
+      "dia": 3,
+      "mes": 10
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "Se celebra el 3 de octubre en varios países del continente desde 1917, año en que se conformó la Federación Odontológica Latinoamericana.",
+    "fuentes": [
+      {
+        "nombre": "Instituto Departamental de Salud de Nariño - Día del odontólogo",
+        "url": "https://www.idsn.gov.co/publicaciones/1540/dia-del-odontologo/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Hospital Regional de Moniquirá - Fechas especiales 2026",
+        "url": "https://hrm.gov.co/wp-content/uploads/2026/01/Fechas-Especiales-2026-1-1.pdf",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🦷",
+    "tags": [
+      "odontologo",
+      "dentista",
+      "odontologia"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-mundial-de-los-animales",
     "nombre": "Día Mundial de los Animales",
     "fecha": {
@@ -372,6 +402,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-archivista-colombia",
+    "nombre": "Día Nacional del Archivista",
+    "fecha": {
+      "dia": 9,
+      "mes": 10
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "Establecido el 9 de octubre de cada año por el artículo 54 de la Ley 1409 de 2010.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 1409 de 2010",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1409_2010_pr001.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🗄️",
+    "tags": [
+      "archivista",
+      "archivistica",
+      "archivos"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-mundial-salud-mental",
     "nombre": "Día Mundial de la Salud Mental",
     "fecha": {
@@ -395,6 +450,36 @@
       "bienestar"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-colombiano-migrante",
+    "nombre": "Día Nacional del Colombiano Migrante",
+    "fecha": {
+      "dia": 10,
+      "mes": 10
+    },
+    "alcance": "colombia",
+    "categoria": "sociedad",
+    "descripcion": "La Ley 1999 de 2019 declaró el 10 de octubre de cada año como Día Nacional del Colombiano Migrante.",
+    "fuentes": [
+      {
+        "nombre": "Gobernación del Atlántico - Ley 1999 de 2019",
+        "url": "https://www.atlantico.gov.co/index.php/leyes-gober/17839-ley-1999-del-2019",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Secretaría del Senado - Ley 1999 de 2019",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1999_2019.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🧳",
+    "tags": [
+      "migrante",
+      "migracion",
+      "colombianos en el exterior"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-internacional-nina",
@@ -471,6 +556,32 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-dignidad-victimas-genocidio-union-patriotica",
+    "nombre": "Día Nacional por la Dignidad de las Víctimas del Genocidio contra la Unión Patriótica",
+    "fecha": {
+      "dia": 11,
+      "mes": 10
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "La Ley 2482 de 2025 declaró el 11 de octubre de cada año como Día Nacional por la Dignidad de las Víctimas del Genocidio contra la Unión Patriótica.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 2482 de 2025",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_2482_2025.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🕊️",
+    "tags": [
+      "union patriotica",
+      "victimas",
+      "genocidio",
+      "memoria"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-ninos-brasil",
     "nombre": "Día del Niño",
     "fecha": {
@@ -520,6 +631,38 @@
     ],
     "destacado": true,
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-diversidad-etnica-cultural-colombia",
+    "nombre": "Día de la Diversidad Étnica y Cultural de la Nación Colombiana",
+    "fecha": {
+      "dia": 12,
+      "mes": 10
+    },
+    "alcance": "colombia",
+    "categoria": "cultura",
+    "descripcion": "La Ley 2347 de 2024 estableció el 12 de octubre de cada año como Día de la Diversidad Étnica y Cultural, día de fiesta nacional.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 2347 de 2024",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_2347_2024.html",
+        "tipo": "normativa"
+      },
+      {
+        "nombre": "Instituto Tecnológico del Putumayo - Ley 2347 de 2024",
+        "url": "https://www.itrc.gov.co/Itrc/wp-content/uploads/2024/03/LEY-2347-DEL-8-DE-FEBRERO-DE-2024-1.pdf",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🌎",
+    "tags": [
+      "diversidad etnica",
+      "dia de la raza",
+      "12 de octubre",
+      "diversidad cultural"
+    ],
+    "verificadoEn": "2026-09-30",
+    "destacado": true
   },
   {
     "id": "dia-internacional-reduccion-riesgo-desastres",
@@ -855,6 +998,35 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-trabajador-social-colombia",
+    "nombre": "Día Nacional del Trabajador Social",
+    "fecha": {
+      "dia": 22,
+      "mes": 10
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "El Consejo Nacional de Trabajo Social conmemora cada 22 de octubre el Día Nacional del Trabajador Social.",
+    "fuentes": [
+      {
+        "nombre": "Consejo Nacional de Trabajo Social - Día Nacional del Trabajador/a Social",
+        "url": "https://www.consejonacionaldetrabajosocial.org.co/feliz-dia-ts/",
+        "tipo": "asociacion"
+      },
+      {
+        "nombre": "Hospital Regional de Moniquirá - Fechas especiales 2026",
+        "url": "https://hrm.gov.co/wp-content/uploads/2026/01/Fechas-Especiales-2026-1-1.pdf",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🤝",
+    "tags": [
+      "trabajador social",
+      "trabajo social"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-leopardo-nieves",
     "nombre": "Día Internacional del Leopardo de las Nieves",
     "fecha": {
@@ -904,6 +1076,31 @@
       "salud"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-reconocimiento-mujeres-buscadoras-colombia",
+    "nombre": "Día Nacional de Reconocimiento a las Mujeres Buscadoras de Víctimas de Desaparición Forzada",
+    "fecha": {
+      "dia": 23,
+      "mes": 10
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "La Ley 2364 de 2024 declaró el 23 de octubre de cada año como Día Nacional de Reconocimiento a las Mujeres Buscadoras de Víctimas de Desaparición Forzada.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 2364 de 2024",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_2364_2024.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🔎",
+    "tags": [
+      "mujeres buscadoras",
+      "desaparicion forzada",
+      "victimas"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-mundial-informacion-desarrollo",
@@ -1051,6 +1248,31 @@
       "metaxas"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-deportista-colombiano",
+    "nombre": "Día Nacional del Deportista Colombiano",
+    "fecha": {
+      "dia": 28,
+      "mes": 10
+    },
+    "alcance": "colombia",
+    "categoria": "deporte",
+    "descripcion": "La Ley 2359 de 2024 institucionalizó el 28 de octubre de cada año como Día Nacional del Deportista Colombiano, para reconocer a las glorias del deporte.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 2359 de 2024",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_2359_2024.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🏅",
+    "tags": [
+      "deportista",
+      "deporte",
+      "atleta"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-internacional-de-los-cuidados-y-el-apoyo",

@@ -44,6 +44,32 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-pueblo-raizal",
+    "nombre": "Día Nacional del Pueblo Raizal",
+    "fecha": {
+      "dia": 1,
+      "mes": 8
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "Colombia conmemora el 1 de agosto el Día Nacional del Pueblo Raizal.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría de Cultura, Recreación y Deporte de Bogotá - Día Nacional del Pueblo Raizal",
+        "url": "https://www.culturarecreacionydeporte.gov.co/es/eventos/eureka-celebra-el-dia-nacional-del-raizal",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🌊",
+    "tags": [
+      "raizal",
+      "emancipacion raizal",
+      "san andres",
+      "ley 2192"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-del-trabajador-hotelero-y-gastronomico",
     "nombre": "Día del Trabajador Hotelero y Gastronómico",
     "fecha": {
@@ -245,6 +271,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-de-la-bandera-colombia",
+    "nombre": "Día de la Bandera",
+    "fecha": {
+      "dia": 7,
+      "mes": 8
+    },
+    "alcance": "colombia",
+    "categoria": "historia",
+    "descripcion": "La Ley 28 de 1925 decretó que el Día de la Bandera se celebre el 7 de agosto de cada año.",
+    "fuentes": [
+      {
+        "nombre": "Dimar - 7 de agosto, Día de la Bandera",
+        "url": "https://www.dimar.mil.co/7-de-agosto-un-dia-de-la-bandera-hay-que-ser-colombianos",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🚩",
+    "tags": [
+      "bandera",
+      "bandera de colombia",
+      "ley 28 de 1925"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-de-la-natacion-argentina",
     "nombre": "Día de la Natación Argentina",
     "fecha": {
@@ -335,6 +386,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-nutricionista-colombia",
+    "nombre": "Día del Nutricionista",
+    "fecha": {
+      "dia": 11,
+      "mes": 8
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "Se celebra el 11 de agosto el Día del Nutricionista en Colombia.",
+    "fuentes": [
+      {
+        "nombre": "Instituto Departamental de Salud de Nariño - 11 de agosto, día del nutricionista",
+        "url": "https://www.idsn.gov.co/publicaciones/397/11-de-agosto-dia-del-nutricionista/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🥗",
+    "tags": [
+      "nutricionista",
+      "dietista",
+      "nutricion"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-juventud",
     "nombre": "Día Internacional de la Juventud",
     "fecha": {
@@ -398,6 +474,57 @@
       "bangui"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-libertad-de-expresion-colombia",
+    "nombre": "Día de la Libertad de Expresión",
+    "fecha": {
+      "dia": 13,
+      "mes": 8
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "La Ley 586 de 2000 instituyó el 13 de agosto como Día de la Libertad de Expresión.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 586 de 2000",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4152",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🗣️",
+    "tags": [
+      "libertad de prensa",
+      "expresion",
+      "periodismo",
+      "ley 586"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-nacional-de-las-organizaciones-ecologistas-y-ambientales",
+    "nombre": "Día Nacional de las Organizaciones Ecologistas y Ambientales",
+    "fecha": {
+      "dia": 13,
+      "mes": 8
+    },
+    "alcance": "colombia",
+    "categoria": "ambiente",
+    "descripcion": "Cada 13 de agosto Colombia conmemora el trabajo de las organizaciones ecologistas y ambientales.",
+    "fuentes": [
+      {
+        "nombre": "Bogotá.gov.co - Día Nacional de Organizaciones Ecologistas y Ambientales",
+        "url": "https://bogota.gov.co/mi-ciudad/ambiente/13-de-agosto-dia-nacional-de-organizaciones-ecologistas-y-ambientales",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🌱",
+    "tags": [
+      "ecologistas",
+      "organizaciones ambientales",
+      "ambientalistas"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-nacional-de-la-mujer-policia",
@@ -520,6 +647,32 @@
       "uud 1945"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-lucha-contra-la-corrupcion",
+    "nombre": "Día Nacional de la Lucha Contra la Corrupción",
+    "fecha": {
+      "dia": 18,
+      "mes": 8
+    },
+    "alcance": "colombia",
+    "categoria": "sociedad",
+    "descripcion": "La Ley 668 de 2001 declaró el 18 de agosto como Día Nacional de la Lucha Contra la Corrupción.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 668 de 2001",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4159",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "⚖️",
+    "tags": [
+      "anticorrupcion",
+      "transparencia",
+      "luis carlos galan",
+      "ley 668"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-mundial-asistencia-humanitaria",
@@ -645,6 +798,32 @@
     ],
     "emoji": "⛓️",
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-contra-la-violencia-y-discriminacion-por-orientacion-sexual",
+    "nombre": "Día Nacional Contra la Violencia y Discriminación por Orientación Sexual o Identidad de Género",
+    "fecha": {
+      "dia": 23,
+      "mes": 8
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "Cada 23 de agosto Colombia conmemora el Día Nacional Contra la Violencia y Discriminación por Orientación Sexual o Identidad de Género.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría de Integración Social de Bogotá - Día Nacional de la No Homofobia",
+        "url": "https://www.integracionsocial.gov.co/index.php/noticias/97-noticias-lgbti/6152-dia-nacional-de-la-no-homofobia-un-llamado-de-esperanza",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🏳️‍🌈",
+    "tags": [
+      "no homofobia",
+      "lgbti",
+      "leon zuleta",
+      "diversidad sexual"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-del-lector",
@@ -903,5 +1082,32 @@
     ],
     "destacado": true,
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-las-personas-de-la-tercera-edad-y-del-pensionado",
+    "nombre": "Día Nacional de las Personas de la Tercera Edad y del Pensionado",
+    "fecha": {
+      "mes": 8,
+      "ordinal": -1,
+      "diaSemana": 0
+    },
+    "alcance": "colombia",
+    "categoria": "sociedad",
+    "descripcion": "La Ley 271 de 1996 establece que se celebre el último domingo de agosto de cada año.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 271 de 1996",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=314",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "👵",
+    "tags": [
+      "adulto mayor",
+      "pensionado",
+      "tercera edad",
+      "abuelos"
+    ],
+    "verificadoEn": "2026-09-30"
   }
 ]

@@ -92,6 +92,37 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-sistema-braille",
+    "nombre": "Día Nacional del Sistema Braille",
+    "fecha": {
+      "dia": 4,
+      "mes": 1
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "La Ley 2265 de 2022 declaró el 4 de enero como Día Nacional del Sistema Braille.",
+    "fuentes": [
+      {
+        "nombre": "Ley 2265 de 2022 - Compilación jurídica MinTIC",
+        "url": "https://normograma.mintic.gov.co/mintic/compilacion/docs/ley_2265_2022.htm",
+        "tipo": "normativa"
+      },
+      {
+        "nombre": "INCI - 4 de enero: Día mundial y nacional del braille",
+        "url": "https://www.inci.gov.co/blog/4-de-enero-dia-mundial-y-nacional-del-braille",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "👆",
+    "tags": [
+      "braille",
+      "ciegos",
+      "discapacidad visual",
+      "inci"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "cabalgata-reyes-magos-espana",
     "nombre": "Cabalgata de Reyes Magos",
     "fecha": {
@@ -143,6 +174,37 @@
       "reyes"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-los-reyes-magos",
+    "nombre": "Día de los Reyes Magos",
+    "fecha": {
+      "dia": 6,
+      "mes": 1
+    },
+    "alcance": "colombia",
+    "categoria": "religion",
+    "descripcion": "Festivo del 6 de enero; según la Ley 51 de 1983 el descanso se traslada al lunes siguiente cuando no cae en lunes, por lo que se observa ese lunes.",
+    "fuentes": [
+      {
+        "nombre": "Bogota.gov.co - Días festivos del 2025",
+        "url": "https://bogota.gov.co/mi-ciudad/turismo/estos-son-los-dias-festivos-del-2025-conoce-el-calendario-oficial",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Función Pública - Ley 51 de 1983",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4954",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "👑",
+    "tags": [
+      "reyes",
+      "epifania",
+      "festivo",
+      "ley emiliani"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "navidad-copta-egipto",

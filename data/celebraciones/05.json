@@ -26,6 +26,37 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-trabajo-colombia",
+    "nombre": "Día del Trabajo",
+    "fecha": {
+      "dia": 1,
+      "mes": 5
+    },
+    "alcance": "colombia",
+    "categoria": "sociedad",
+    "descripcion": "Se conmemora el 1 de mayo como Día de las y los Trabajadores, según la Alcaldía de Bogotá.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 51 de 1983",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4954",
+        "tipo": "normativa"
+      },
+      {
+        "nombre": "Bogotá.gov.co - Día de las y los Trabajadores: por qué se conmemora el primero de mayo",
+        "url": "https://bogota.gov.co/mi-ciudad/desarrollo-economico/por-que-se-conmemora-este-primero-de-mayo-de-2023-el-dia-del-trabajo",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🛠️",
+    "tags": [
+      "trabajador",
+      "trabajadores",
+      "primero de mayo",
+      "dia del trabajador"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-mundial-del-atun",
     "nombre": "Día Mundial del Atún",
     "fecha": {
@@ -48,6 +79,32 @@
       "océanos"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-conmemorativo-victimas-bojaya",
+    "nombre": "Día Conmemorativo de las Víctimas de Bojayá",
+    "fecha": {
+      "dia": 2,
+      "mes": 5
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "La Ley 2087 de 2021 declaró el 2 de mayo como día en homenaje a las víctimas de la masacre en la comunidad de Bellavista, municipio de Bojayá.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 2087 de 2021",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_2087_2021.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🕯️",
+    "tags": [
+      "bojaya",
+      "victimas",
+      "masacre",
+      "choco"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-mundial-libertad-prensa",
@@ -295,6 +352,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-veterinario-colombia",
+    "nombre": "Día del Veterinario",
+    "fecha": {
+      "dia": 10,
+      "mes": 5
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "Se conmemora en Colombia el 10 de mayo, fecha en que en 1921 se fundó la Escuela de Medicina Veterinaria.",
+    "fuentes": [
+      {
+        "nombre": "Alcaldía de Cali - Día del veterinario en Colombia se conmemora el 10 de mayo",
+        "url": "https://intranet.cali.gov.co/2024/05/08/dia-del-veterinario-en-colombia-se-conmemora-el-10-de-mayo/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🐾",
+    "tags": [
+      "veterinario",
+      "medico veterinario",
+      "veterinaria"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-del-himno-nacional-argentino",
     "nombre": "Día del Himno Nacional Argentino",
     "fecha": {
@@ -439,6 +521,58 @@
       "cátedra"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-oficial-del-educador",
+    "nombre": "Día Oficial del Educador",
+    "fecha": {
+      "dia": 15,
+      "mes": 5
+    },
+    "alcance": "colombia",
+    "categoria": "educacion",
+    "descripcion": "El Decreto 996 de 1951 declaró el 15 de mayo de cada año como Día Oficial del Educador, fiesta de San Juan Bautista de La Salle, patrono de los maestros.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Decreto 996 de 1951",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1470",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🍎",
+    "tags": [
+      "dia del maestro",
+      "maestro",
+      "docente",
+      "profesor"
+    ],
+    "verificadoEn": "2026-09-30",
+    "destacado": true
+  },
+  {
+    "id": "dia-nacional-de-la-familia",
+    "nombre": "Día Nacional de la Familia",
+    "fecha": {
+      "dia": 15,
+      "mes": 5
+    },
+    "alcance": "colombia",
+    "categoria": "familia",
+    "descripcion": "La Ley 1857 de 2017 declaró el 15 de mayo de cada año como Día Nacional de la Familia.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 1857 de 2017",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=82917",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "👨‍👩‍👧",
+    "tags": [
+      "familia",
+      "dia sin redes",
+      "dia de la familia"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-internacional-convivencia-paz",
@@ -683,6 +817,36 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-de-la-afrocolombianidad",
+    "nombre": "Día Nacional de la Afrocolombianidad",
+    "fecha": {
+      "dia": 21,
+      "mes": 5
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "La Ley 725 de 2001 estableció que se celebre el 21 de mayo de cada año.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 725 de 2001",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4598",
+        "tipo": "normativa"
+      },
+      {
+        "nombre": "Policía Nacional - Día de la Afrocolombianidad",
+        "url": "https://www.policia.gov.co/noticia/dia-afrocolombianidad",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "✊🏿",
+    "tags": [
+      "afrocolombiano",
+      "afrodescendiente",
+      "abolicion de la esclavitud"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-diversidad-biologica",
     "nombre": "Día Internacional de la Diversidad Biológica",
     "fecha": {
@@ -782,6 +946,31 @@
       "salesianos"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-concejal-municipal",
+    "nombre": "Día Nacional del Concejal Municipal",
+    "fecha": {
+      "dia": 24,
+      "mes": 5
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "La Ley 1055 de 2006 declaró el 24 de mayo como Día Nacional del Concejal Municipal y exalta la memoria de quienes murieron en ese cargo.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 1055 de 2006",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1055_2006.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🏛️",
+    "tags": [
+      "concejal",
+      "concejo municipal",
+      "concejales"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-de-la-revolucion-de-mayo",
@@ -927,6 +1116,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-ingeniero-sci",
+    "nombre": "Día del Ingeniero",
+    "fecha": {
+      "dia": 29,
+      "mes": 5
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "La Sociedad Colombiana de Ingenieros instituye el 29 de mayo, día de su aniversario, como Día del Ingeniero.",
+    "fuentes": [
+      {
+        "nombre": "Sociedad Colombiana de Ingenieros - ¿Cuándo es realmente el Día del Ingeniero en Colombia?",
+        "url": "https://sci.org.co/cuando-es-realmente-el-dia-del-ingeniero-en-colombia/",
+        "tipo": "asociacion"
+      }
+    ],
+    "emoji": "📐",
+    "tags": [
+      "ingeniero",
+      "ingenieria",
+      "sci"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-papa",
     "nombre": "Día Internacional de la Papa",
     "fecha": {
@@ -1045,5 +1259,33 @@
       "aves"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-madre",
+    "nombre": "Día de la Madre",
+    "fecha": {
+      "mes": 5,
+      "ordinal": 2,
+      "diaSemana": 0
+    },
+    "alcance": "colombia",
+    "categoria": "familia",
+    "descripcion": "La Ley 28 de 1925 creó la fiesta nacional de la Madre, que se celebra el segundo domingo de mayo.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 28 de 1925",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=257",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "💐",
+    "tags": [
+      "madre",
+      "mama",
+      "fiesta de la madre",
+      "madres"
+    ],
+    "verificadoEn": "2026-09-30",
+    "destacado": true
   }
 ]

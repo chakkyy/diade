@@ -342,6 +342,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-de-los-derechos-humanos",
+    "nombre": "Día Nacional de los Derechos Humanos",
+    "fecha": {
+      "dia": 9,
+      "mes": 9
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "La Ley 95 de 1985 declaró el 9 de septiembre como Día Nacional de los Derechos Humanos.",
+    "fuentes": [
+      {
+        "nombre": "Fuerza Aérea Colombiana - Día Nacional de los Derechos Humanos",
+        "url": "https://www.fac.mil.co/es/noticias/colombia-celebra-el-dia-nacional-de-los-derechos-humanos",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🕊️",
+    "tags": [
+      "derechos humanos",
+      "san pedro claver",
+      "ley 95"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-del-terapista-ocupacional",
     "nombre": "Día del Terapista Ocupacional",
     "fecha": {
@@ -657,6 +682,31 @@
       "jose manuel estrada"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-biologo",
+    "nombre": "Día Nacional del Biólogo",
+    "fecha": {
+      "dia": 17,
+      "mes": 9
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "Cada 17 de septiembre se conmemora en Colombia el día del biólogo, fecha que recuerda la reglamentación del ejercicio de la biología como profesión por la Ley 22 de 1984.",
+    "fuentes": [
+      {
+        "nombre": "Edumas - Día Nacional del Biólogo",
+        "url": "https://edumas.gov.co/inicio/2025/09/17/dia-nacional-del-biologo/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🔬",
+    "tags": [
+      "biologo",
+      "biologia",
+      "ley 22 de 1984"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-internacional-igualdad-salarial",
@@ -1289,5 +1339,85 @@
       "feriado federal"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-patrimonio-cultural",
+    "nombre": "Día Nacional del Patrimonio Cultural",
+    "fecha": {
+      "mes": 9,
+      "ordinal": 2,
+      "diaSemana": 0
+    },
+    "alcance": "colombia",
+    "categoria": "cultura",
+    "descripcion": "El Ministerio de las Culturas, las Artes y los Saberes declaró el segundo domingo de septiembre como Día Nacional del Patrimonio.",
+    "fuentes": [
+      {
+        "nombre": "Museo Nacional de Colombia - Día Nacional del Patrimonio Cultural",
+        "url": "https://www.museonacional.gov.co/noticias/Paginas/Agenda_septiembre.aspx",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🏛️",
+    "tags": [
+      "patrimonio",
+      "mes del patrimonio",
+      "museos"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-nacional-del-deporte-la-recreacion-y-la-educacion-fisica",
+    "nombre": "Día Nacional del Deporte, la Recreación y la Educación Física",
+    "fecha": {
+      "mes": 9,
+      "ordinal": 3,
+      "diaSemana": 0
+    },
+    "alcance": "colombia",
+    "categoria": "deporte",
+    "descripcion": "La Ley 912 de 2004 institucionalizó el tercer domingo de septiembre de cada año como Día Nacional del Deporte, la Recreación y la Educación Física.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 912 de 2004",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=22120",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🏅",
+    "tags": [
+      "deporte",
+      "recreacion",
+      "educacion fisica",
+      "deportistas"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-del-amor-y-la-amistad-colombia",
+    "nombre": "Día del Amor y la Amistad",
+    "fecha": {
+      "mes": 9,
+      "ordinal": 3,
+      "diaSemana": 6
+    },
+    "alcance": "colombia",
+    "categoria": "sociedad",
+    "descripcion": "Por tradición se celebra en Colombia el tercer sábado de septiembre.",
+    "fuentes": [
+      {
+        "nombre": "Canal Institucional - Día del Amor y la Amistad",
+        "url": "https://www.canalinstitucional.tv/te-interesa/dia-del-amor-y-la-amistad",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "💕",
+    "tags": [
+      "amor y amistad",
+      "san valentin",
+      "amigo secreto"
+    ],
+    "verificadoEn": "2026-09-30",
+    "destacado": true
   }
 ]

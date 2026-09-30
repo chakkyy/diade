@@ -274,6 +274,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-memoria-solidaridad-victimas",
+    "nombre": "Día Nacional de la Memoria y Solidaridad con las Víctimas",
+    "fecha": {
+      "dia": 9,
+      "mes": 4
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "La Ley 1448 de 2011 establece el 9 de abril como Día de la Memoria y Solidaridad con las Víctimas, con eventos estatales de memoria y reconocimiento.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 1448 de 2011",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=43043",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🕯️",
+    "tags": [
+      "victimas",
+      "memoria",
+      "conflicto armado"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-del-investigador-cientifico-argentina",
     "nombre": "Día del Investigador y de la Investigadora Científica en la Argentina",
     "fecha": {
@@ -322,6 +347,35 @@
       "neurología"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-diputado",
+    "nombre": "Día Nacional del Diputado",
+    "fecha": {
+      "dia": 11,
+      "mes": 4
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "La Ley 2595 de 2026 declaró el 11 de abril como Día Nacional del Diputado.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 2595 de 2026",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_2595_2026.html",
+        "tipo": "normativa"
+      },
+      {
+        "nombre": "Cámara de Representantes - Día Nacional del Diputado",
+        "url": "https://www.camara.gov.co/dia-nacional-del-diputado-362/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🏛️",
+    "tags": [
+      "diputado",
+      "asamblea departamental"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-internacional-vuelos-espaciales-tripulados",
@@ -801,6 +855,67 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-idioma-colombia",
+    "nombre": "Día del Idioma",
+    "fecha": {
+      "dia": 23,
+      "mes": 4
+    },
+    "alcance": "colombia",
+    "categoria": "cultura",
+    "descripcion": "El Decreto 707 de 1938 estableció el 23 de abril de todos los años como Día del Idioma, en homenaje a Miguel de Cervantes Saavedra.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de Educación - Decreto 707 de 1938",
+        "url": "https://www.mineducacion.gov.co/portal/ejes-tematicos/Normas-sobre-Educacion-Preescolar-Basica-y-Media/102718:Decreto-0707-de-Abril-23-de-1938",
+        "tipo": "normativa"
+      },
+      {
+        "nombre": "Concejo de Bogotá - 23 de abril: Día del Idioma",
+        "url": "https://concejodebogota.gov.co/23-de-abril-dia-del-idioma/cbogota/2019-04-23/120431.php",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📖",
+    "tags": [
+      "idioma",
+      "lengua",
+      "cervantes",
+      "espanol"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-del-bibliotecario-colombia",
+    "nombre": "Día del Bibliotecario",
+    "fecha": {
+      "dia": 23,
+      "mes": 4
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "En Colombia se celebra el 23 de abril, coincidiendo con el Día del Libro; la fecha fue aprobada en 1958 por la Asociación Colombiana de Bibliotecarios.",
+    "fuentes": [
+      {
+        "nombre": "BibloRed - Historia del Día del libro, del bibliotecario y de la lengua española",
+        "url": "https://www.biblored.gov.co/noticias/historia-dia-libro-bibliotecario-lengua-espanola",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Biblioteca Nacional de Colombia - Día del Bibliotecario, del Libro y del Idioma",
+        "url": "https://www.bibliotecanacional.gov.co/es-co/actividades/noticias/en-la-bnc/d%C3%ADa-del-bibliotecario-del-libro-y-del-idioma",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📚",
+    "tags": [
+      "bibliotecario",
+      "biblioteca",
+      "bibliotecologia"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-multilateralismo-diplomacia-paz",
     "nombre": "Día Internacional del Multilateralismo y la Diplomacia para la Paz",
     "fecha": {
@@ -949,6 +1064,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-de-la-secretaria",
+    "nombre": "Día de la Secretaria",
+    "fecha": {
+      "dia": 26,
+      "mes": 4
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "Se celebra cada 26 de abril en Colombia el Día de la Secretaria y el Secretario.",
+    "fuentes": [
+      {
+        "nombre": "Bogotá.gov.co - Bogotá celebró el día de las secretarias y secretarios",
+        "url": "https://bogota.gov.co/mi-ciudad/gestion-publica/bogota-mi-ciudad-celebro-el-dia-de-las-secretarias-y-secretarios-2025",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🗂️",
+    "tags": [
+      "secretaria",
+      "secretario",
+      "asistente administrativo"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-empleado-despachante-aduana",
     "nombre": "Día del Empleado de Despachante de Aduana",
     "fecha": {
@@ -996,6 +1136,31 @@
       "salud ocupacional"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-bacteriologo",
+    "nombre": "Día Nacional del Bacteriólogo",
+    "fecha": {
+      "dia": 28,
+      "mes": 4
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "La Ley 1193 de 2008 estableció el 28 de abril de cada año como Día Nacional del Bacteriólogo.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 1193 de 2008",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_1193_2008.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🔬",
+    "tags": [
+      "bacteriologo",
+      "laboratorio clinico",
+      "bacteriologia"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-internacional-de-la-danza",
@@ -1149,5 +1314,59 @@
       "uit"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-ninez-y-la-recreacion",
+    "nombre": "Día Nacional de la Niñez y la Recreación",
+    "fecha": {
+      "mes": 4,
+      "ordinal": -1,
+      "diaSemana": 6
+    },
+    "alcance": "colombia",
+    "categoria": "familia",
+    "descripcion": "La Ley 724 de 2001 estableció que se celebre el último sábado de abril de cada año.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Ley 724 de 2001",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4599",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🧒",
+    "tags": [
+      "dia del nino",
+      "ninez",
+      "recreacion",
+      "ninos"
+    ],
+    "verificadoEn": "2026-09-30",
+    "destacado": true
+  },
+  {
+    "id": "dia-civico-de-la-paz-con-la-naturaleza",
+    "nombre": "Día Cívico de la Paz con la Naturaleza",
+    "fecha": {
+      "mes": 4,
+      "ordinal": 3,
+      "diaSemana": 5
+    },
+    "alcance": "colombia",
+    "categoria": "ambiente",
+    "descripcion": "El Decreto 500 de 2024 declaró el tercer viernes de abril de cada año como Día Cívico de la Paz con la Naturaleza, con motivo de la protección de los recursos naturales.",
+    "fuentes": [
+      {
+        "nombre": "Función Pública - Decreto 500 de 2024",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=238215",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🌿",
+    "tags": [
+      "dia civico",
+      "naturaleza",
+      "recursos naturales"
+    ],
+    "verificadoEn": "2026-09-30"
   }
 ]

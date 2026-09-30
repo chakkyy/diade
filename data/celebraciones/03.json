@@ -97,6 +97,56 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-reciclador-y-del-reciclaje",
+    "nombre": "Día Nacional del Reciclador y del Reciclaje",
+    "fecha": {
+      "dia": 1,
+      "mes": 3
+    },
+    "alcance": "colombia",
+    "categoria": "ambiente",
+    "descripcion": "El Ministerio de Ambiente incluye el 1 de marzo como Día Nacional del Reciclador y del Reciclaje en su calendario ambiental 2026.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de Ambiente - Calendario ambiental 2026",
+        "url": "https://www.minambiente.gov.co/wp-content/uploads/2026/01/CALENDARIO-AMBIENTAL-2026.pdf",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "♻️",
+    "tags": [
+      "reciclador",
+      "reciclaje",
+      "recicladores de oficio"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-del-contador-publico-colombia",
+    "nombre": "Día del Contador Público",
+    "fecha": {
+      "dia": 1,
+      "mes": 3
+    },
+    "alcance": "colombia",
+    "categoria": "profesion",
+    "descripcion": "Se conmemora en Colombia el 1 de marzo desde 1975, por una reunión de la Junta Nacional de Directivas de Agremiaciones de Contadores Públicos.",
+    "fuentes": [
+      {
+        "nombre": "Agencia Nacional Digital - Día del Contador Público en Colombia",
+        "url": "https://and.gov.co/transparencia-y-acceso-a-la-informacion/informacion-de-entidad/calendario-de-actividades-eventos/dia-del-contador-0",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🧮",
+    "tags": [
+      "contador",
+      "contaduria",
+      "contador publico"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-independencia-texas",
     "nombre": "Texas Independence Day",
     "fecha": {
@@ -239,6 +289,32 @@
       "miguel angel"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-las-victimas-de-crimenes-de-estado",
+    "nombre": "Día Nacional de las Víctimas de Crímenes de Estado",
+    "fecha": {
+      "dia": 6,
+      "mes": 3
+    },
+    "alcance": "colombia",
+    "categoria": "derechos",
+    "descripcion": "El Centro Nacional de Memoria Histórica registra en sus efemérides que cada 6 de marzo Colombia conmemora el Día por la Dignidad de las Víctimas de Crímenes de Estado.",
+    "fuentes": [
+      {
+        "nombre": "Centro Nacional de Memoria Histórica - Efemérides",
+        "url": "https://centrodememoriahistorica.gov.co/efemerides/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🕯️",
+    "tags": [
+      "victimas",
+      "crimenes de estado",
+      "memoria",
+      "dignidad"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-nacional-del-medico-legista",
@@ -477,6 +553,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-de-la-endometriosis",
+    "nombre": "Día Nacional de la Endometriosis",
+    "fecha": {
+      "dia": 14,
+      "mes": 3
+    },
+    "alcance": "colombia",
+    "categoria": "salud",
+    "descripcion": "La Ley 2338 de 2023 instituyó el 14 de marzo de cada año como Día Nacional de la concientización y prevención de la Endometriosis.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 2338 de 2023",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_2338_2023.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🎗️",
+    "tags": [
+      "endometriosis",
+      "concientizacion",
+      "salud de la mujer"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "dia-internacional-lucha-contra-islamofobia",
     "nombre": "Día Internacional de la Lucha contra la Islamofobia",
     "fecha": {
@@ -544,6 +645,32 @@
     ],
     "emoji": "📜",
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-conmemorativo-fallecidos-covid-19",
+    "nombre": "Día Nacional Conmemorativo de las personas fallecidas por COVID-19",
+    "fecha": {
+      "dia": 16,
+      "mes": 3
+    },
+    "alcance": "colombia",
+    "categoria": "salud",
+    "descripcion": "La Ley 2211 de 2022 declaró el 16 de marzo como día para honrar a las personas fallecidas por COVID-19 y exaltar la labor del talento humano en salud durante la pandemia.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 2211 de 2022",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_2211_2022.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🕊️",
+    "tags": [
+      "covid",
+      "pandemia",
+      "fallecidos",
+      "talento humano en salud"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-memoria-solidaridad-victimas-atentado-embajada-israel",
@@ -644,6 +771,61 @@
       "oficios"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-hombre-colombia",
+    "nombre": "Día del Hombre",
+    "fecha": {
+      "dia": 19,
+      "mes": 3
+    },
+    "alcance": "colombia",
+    "categoria": "sociedad",
+    "descripcion": "En Colombia el Día Internacional del Hombre, también conocido como Día del Hombre, se celebra cada 19 de marzo.",
+    "fuentes": [
+      {
+        "nombre": "Agencia Nacional Digital - Día Internacional del Hombre",
+        "url": "https://and.gov.co/transparencia-y-acceso-a-la-informacion/informacion-de-entidad/calendario-de-actividades-eventos/dia-internacional-0",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "👨",
+    "tags": [
+      "hombre",
+      "dia del hombre",
+      "masculinidad"
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-de-san-jose",
+    "nombre": "Día de San José",
+    "fecha": {
+      "dia": 19,
+      "mes": 3
+    },
+    "alcance": "colombia",
+    "categoria": "religion",
+    "descripcion": "Festivo del 19 de marzo; según la Ley 51 de 1983 el descanso se traslada al lunes siguiente cuando no cae en lunes, por lo que se observa ese lunes.",
+    "fuentes": [
+      {
+        "nombre": "Bogota.gov.co - Días festivos del 2025",
+        "url": "https://bogota.gov.co/mi-ciudad/turismo/estos-son-los-dias-festivos-del-2025-conoce-el-calendario-oficial",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Función Pública - Ley 51 de 1983",
+        "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4954",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🪚",
+    "tags": [
+      "san jose",
+      "festivo",
+      "ley emiliani"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-internacional-de-la-felicidad",
@@ -836,6 +1018,31 @@
       "inclusion"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-musica-colombiana",
+    "nombre": "Día Nacional de la Música Colombiana",
+    "fecha": {
+      "dia": 21,
+      "mes": 3
+    },
+    "alcance": "colombia",
+    "categoria": "cultura",
+    "descripcion": "La Ley 851 de 2003 declaró el 21 de marzo como Día Nacional de la Música Colombiana.",
+    "fuentes": [
+      {
+        "nombre": "Secretaría del Senado - Ley 851 de 2003",
+        "url": "http://www.secretariasenado.gov.co/senado/basedoc/ley_0851_2003.html",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "🎶",
+    "tags": [
+      "musica colombiana",
+      "musica vernacula",
+      "compositores"
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "dia-mundial-del-agua",
