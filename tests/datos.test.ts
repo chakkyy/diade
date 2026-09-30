@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { cargarTodas, celebracionesDeFecha } from "@/lib/celebraciones";
+import { cargarTodas, celebracionesDeFecha, fechaResuelta } from "@/lib/celebraciones";
 
 const todas = cargarTodas();
 
@@ -49,5 +49,25 @@ describe("datos reales", () => {
     const primerInternacional = lista.findIndex((c) => c.alcance === "internacional");
     const ultimaArgentina = lista.map((c) => c.alcance).lastIndexOf("argentina");
     expect(ultimaArgentina).toBeLessThan(primerInternacional);
+  });
+});
+
+describe("datos de Colombia", () => {
+  const colombianas = todas.filter((c) => c.alcance === "colombia");
+
+  it("hay al menos 75 celebraciones colombianas", () => {
+    expect(colombianas.length).toBeGreaterThanOrEqual(75);
+  });
+  it("hay celebraciones colombianas en los doce meses", () => {
+    const meses = new Set(colombianas.map((c) => fechaResuelta(c, 2026).mes));
+    expect(meses.size).toBe(12);
+  });
+  it("ninguna lleva pais y ninguna entrada otro-pais es de Colombia o Argentina", () => {
+    expect(colombianas.filter((c) => c.pais !== undefined).map((c) => c.id)).toEqual([]);
+    expect(todas.filter((c) => c.pais === "Colombia" || c.pais === "Argentina").map((c) => c.id)).toEqual([]);
+  });
+  it("Colombia va primero en /co el día de la Independencia", () => {
+    const lista = celebracionesDeFecha({ dia: 20, mes: 7 }, 2026, "co", todas);
+    expect(lista[0]?.alcance).toBe("colombia");
   });
 });
