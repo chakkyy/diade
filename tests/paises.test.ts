@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   PAISES,
   busquedaParaPais,
+  esClicSimple,
   grupoDeAlcance,
   paisDeAlcance,
   paisDeRuta,
@@ -97,5 +98,18 @@ describe("busquedaParaPais", () => {
   it("devuelve vacío si no queda nada", () => {
     expect(busquedaParaPais("?alcance=colombia", "ar")).toBe("");
     expect(busquedaParaPais("", "co")).toBe("");
+  });
+});
+
+describe("esClicSimple", () => {
+  const base = { metaKey: false, ctrlKey: false, shiftKey: false, altKey: false, button: 0 };
+  it("acepta el clic primario sin modificadores", () => {
+    expect(esClicSimple(base)).toBe(true);
+  });
+  it.each(["metaKey", "ctrlKey", "shiftKey", "altKey"] as const)("rechaza con %s", (tecla) => {
+    expect(esClicSimple({ ...base, [tecla]: true })).toBe(false);
+  });
+  it("rechaza el botón del medio", () => {
+    expect(esClicSimple({ ...base, button: 1 })).toBe(false);
   });
 });

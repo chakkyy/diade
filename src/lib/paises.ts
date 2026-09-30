@@ -91,3 +91,13 @@ export function busquedaParaPais(search: string, destino: CodigoPais): string {
   const texto = params.toString();
   return texto === "" ? "" : `?${texto}`;
 }
+
+export function esClicSimple(evento: {
+  metaKey: boolean;
+  ctrlKey: boolean;
+  shiftKey: boolean;
+  altKey: boolean;
+  button: number;
+}): boolean {
+  return !(evento.metaKey || evento.ctrlKey || evento.shiftKey || evento.altKey) && evento.button === 0;
+}

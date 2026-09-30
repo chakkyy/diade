@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { CODIGOS_PAIS, PAISES, busquedaParaPais, paisDeRuta, rutaEnOtroPais } from "@/lib/paises";
+import { CODIGOS_PAIS, PAISES, busquedaParaPais, esClicSimple, paisDeRuta, rutaEnOtroPais } from "@/lib/paises";
 
 export default function SelectorPais() {
   const pathname = usePathname() ?? "/";
@@ -23,6 +23,7 @@ export default function SelectorPais() {
             title={nombre}
             aria-current={activo ? "true" : undefined}
             onClick={(evento) => {
+              if (!esClicSimple(evento)) return;
               const busqueda = busquedaParaPais(window.location.search, codigo);
               if (busqueda === "") return;
               evento.preventDefault();
