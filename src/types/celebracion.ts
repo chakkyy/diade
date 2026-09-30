@@ -1,4 +1,4 @@
-export const ALCANCES = ["argentina", "internacional", "otro-pais"] as const;
+export const ALCANCES = ["argentina", "colombia", "internacional", "otro-pais"] as const;
 export type Alcance = (typeof ALCANCES)[number];
 
 export const CATEGORIAS = [

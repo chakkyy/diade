@@ -3,7 +3,7 @@ import { leerFiltros, escribirFiltros } from "@/lib/buscar-url";
 
 describe("leerFiltros", () => {
   it("lee q, alcance y categoria simples", () => {
-    expect(leerFiltros({ q: "perro", alcance: "argentina", categoria: "animales" })).toEqual({
+    expect(leerFiltros({ q: "perro", alcance: "argentina", categoria: "animales" }, "ar")).toEqual({
       q: "perro",
       alcance: ["argentina"],
       categoria: ["animales"],
@@ -11,7 +11,7 @@ describe("leerFiltros", () => {
   });
   it("lee alcance y categoria repetibles", () => {
     expect(
-      leerFiltros({ alcance: ["argentina", "internacional"], categoria: ["animales", "salud"] }),
+      leerFiltros({ alcance: ["argentina", "internacional"], categoria: ["animales", "salud"] }, "ar"),
     ).toEqual({
       q: "",
       alcance: ["argentina", "internacional"],
@@ -20,7 +20,7 @@ describe("leerFiltros", () => {
   });
   it("ignora valores inválidos de alcance y categoria", () => {
     expect(
-      leerFiltros({ alcance: ["marte", "argentina"], categoria: ["inventada", "salud"] }),
+      leerFiltros({ alcance: ["marte", "argentina"], categoria: ["inventada", "salud"] }, "ar"),
     ).toEqual({
       q: "",
       alcance: ["argentina"],
@@ -28,13 +28,24 @@ describe("leerFiltros", () => {
     });
   });
   it("sin parámetros devuelve valores vacíos", () => {
-    expect(leerFiltros({})).toEqual({ q: "", alcance: [], categoria: [] });
+    expect(leerFiltros({}, "ar")).toEqual({ q: "", alcance: [], categoria: [] });
   });
   it("q repetida toma el primer valor", () => {
-    expect(leerFiltros({ q: ["uno", "dos"] })).toEqual({ q: "uno", alcance: [], categoria: [] });
+    expect(leerFiltros({ q: ["uno", "dos"] }, "ar")).toEqual({ q: "uno", alcance: [], categoria: [] });
   });
   it("q undefined da string vacío", () => {
-    expect(leerFiltros({ q: undefined })).toEqual({ q: "", alcance: [], categoria: [] });
+    expect(leerFiltros({ q: undefined }, "ar")).toEqual({ q: "", alcance: [], categoria: [] });
+  });
+});
+
+describe("leerFiltros por país", () => {
+  it("descarta el alcance del vecino", () => {
+    expect(leerFiltros({ q: "maestro", alcance: ["argentina", "internacional"] }, "co")).toEqual({
+      q: "maestro",
+      alcance: ["internacional"],
+      categoria: [],
+    });
+    expect(leerFiltros({ alcance: "colombia" }, "ar").alcance).toEqual([]);
   });
 });
 

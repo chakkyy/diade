@@ -3,7 +3,7 @@ import path from "node:path";
 import readline from "node:readline/promises";
 import { celebracionSchema } from "../src/lib/schema";
 import { idsExistentes, insertarOrdenado, nombreArchivoMes, slugDeNombre } from "../src/lib/datos-edicion";
-import { CATEGORIAS, TIPOS_FUENTE, type Categoria, type Celebracion, type Fuente } from "../src/types/celebracion";
+import { ALCANCES, CATEGORIAS, TIPOS_FUENTE, type Categoria, type Celebracion, type Fuente } from "../src/types/celebracion";
 
 function directorioDatos(): string {
   const args = process.argv.slice(2);
@@ -141,7 +141,7 @@ async function modoInteractivo(): Promise<number> {
             ) as 0 | 1 | 2 | 3 | 4 | 5 | 6,
           };
 
-    const alcance = await preguntarLista(rl, "Alcance:", ["argentina", "internacional", "otro-pais"] as const);
+    const alcance = await preguntarLista(rl, "Alcance:", ALCANCES);
     const pais = alcance === "otro-pais" ? (await rl.question("  país: ")).trim() : undefined;
 
     const categoria: Categoria = await preguntarLista(rl, "Categoría:", CATEGORIAS);

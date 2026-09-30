@@ -1,5 +1,5 @@
-import { ETIQUETAS_ALCANCE, ETIQUETAS_CATEGORIA } from "@/lib/buscar";
-import { ALCANCES, CATEGORIAS } from "@/types/celebracion";
+import { ETIQUETAS_ALCANCE, ETIQUETAS_CATEGORIA, alcancesDeFiltro } from "@/lib/buscar";
+import { CATEGORIAS } from "@/types/celebracion";
 import type { Alcance, Categoria } from "@/types/celebracion";
 
 function ChipToggle({
@@ -41,7 +41,7 @@ export default function Filtros({
   return (
     <div className="mt-4 flex flex-col gap-3">
       <div role="group" aria-label="Filtrar por alcance" className="flex flex-wrap gap-2">
-        {ALCANCES.map((valor) => (
+        {alcancesDeFiltro("ar").map((valor) => (
           <ChipToggle key={valor} activo={alcance.includes(valor)} onClick={() => onToggleAlcance(valor)}>
             {ETIQUETAS_ALCANCE[valor]}
           </ChipToggle>

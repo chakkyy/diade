@@ -5,13 +5,13 @@ import type { TonoBloque } from "@/components/EmojiTile";
 import type { Celebracion } from "@/types/celebracion";
 
 const TITULOS_BLOQUE: Record<TonoBloque, { emoji: string | null; texto: string }> = {
-  argentina: { emoji: "🇦🇷", texto: "Argentina" },
+  local: { emoji: "🇦🇷", texto: "Argentina" },
   internacional: { emoji: "🌎", texto: "Internacional" },
   otros: { emoji: null, texto: "Otros países" },
 };
 
 const COLORES_PRINCIPAL: Record<TonoBloque, string> = {
-  argentina: "text-acento-texto",
+  local: "text-acento-texto",
   internacional: "text-internacional-texto",
   otros: "text-texto",
 };
@@ -76,11 +76,11 @@ export default function ListaCelebraciones({ celebraciones }: { celebraciones: C
     );
   }
 
-  const { argentina, internacional, otroPais } = agruparPorAlcance(celebraciones);
+  const { local, internacional, otros } = agruparPorAlcance(celebraciones, "ar");
   const bloques: { tono: TonoBloque; lista: Celebracion[] }[] = [
-    { tono: "argentina", lista: argentina },
+    { tono: "local", lista: local },
     { tono: "internacional", lista: internacional },
-    { tono: "otros", lista: otroPais },
+    { tono: "otros", lista: otros },
   ];
   const primerBloqueConDatos = bloques.find(({ lista }) => lista.length > 0)?.tono;
 

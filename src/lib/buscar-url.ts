@@ -1,5 +1,7 @@
-import { ALCANCES, CATEGORIAS } from "@/types/celebracion";
+import { CATEGORIAS } from "@/types/celebracion";
 import type { Alcance, Categoria } from "@/types/celebracion";
+import { alcancesDeFiltro } from "@/lib/buscar";
+import type { CodigoPais } from "@/lib/paises";
 
 export interface FiltrosUrl {
   q: string;
@@ -19,10 +21,10 @@ function valoresValidos<T extends string>(valor: ValorParam, permitidos: readonl
   return lista.filter((v): v is T => (permitidos as readonly string[]).includes(v));
 }
 
-export function leerFiltros(searchParams: Record<string, ValorParam>): FiltrosUrl {
+export function leerFiltros(searchParams: Record<string, ValorParam>, pais: CodigoPais): FiltrosUrl {
   return {
     q: primerValor(searchParams.q),
-    alcance: valoresValidos(searchParams.alcance, ALCANCES),
+    alcance: valoresValidos(searchParams.alcance, alcancesDeFiltro(pais)),
     categoria: valoresValidos(searchParams.categoria, CATEGORIAS),
   };
 }

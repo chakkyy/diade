@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { CODIGOS_PAIS, PAISES } from "@/lib/paises";
 import { ALCANCES, CATEGORIAS, TIPOS_FUENTE } from "@/types/celebracion";
 import { ALCANCES_EFEMERIDE, TIPOS_EFEMERIDE } from "@/types/efemeride";
 
@@ -49,6 +50,10 @@ export const celebracionSchema = z
     message: "alcance otro-pais requiere pais",
     path: ["pais"],
   })
+  .refine(
+    (c) => c.alcance !== "otro-pais" || !CODIGOS_PAIS.some((codigo) => PAISES[codigo].nombre === c.pais),
+    { message: "un país propio usa su alcance, no otro-pais", path: ["pais"] },
+  )
   .refine((c) => "ordinal" in c.fecha || c.fecha.dia <= DIAS_POR_MES[c.fecha.mes - 1], {
     message: "dia fuera de rango para el mes",
     path: ["fecha", "dia"],

@@ -1,4 +1,5 @@
 import { esFechaMovil, type Celebracion } from "@/types/celebracion";
+import { paisDeAlcance, type CodigoPais } from "@/lib/paises";
 import { esFechaValida, resolverFechaMovil, type FechaDia } from "@/lib/fechas";
 
 export interface ProximoDestacado {
@@ -38,11 +39,14 @@ export function proximosDestacados(
   anio: number,
   cantidad: number,
   todas: Celebracion[],
+  pais: CodigoPais,
 ): ProximoDestacado[] {
   const proximos: ProximoDestacado[] = [];
 
   for (const celebracion of todas) {
     if (!celebracion.destacado) continue;
+    const propio = paisDeAlcance(celebracion.alcance);
+    if (propio !== null && propio.codigo !== pais) continue;
     const aparicion = proximaAparicion(celebracion, desde, anio);
     if (aparicion === null) continue;
     proximos.push({ celebracion, ...aparicion });

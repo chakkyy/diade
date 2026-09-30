@@ -4,7 +4,7 @@ import { cargarTodas, celebracionesDeFecha } from "@/lib/celebraciones";
 const todas = cargarTodas();
 
 function nombresDe(dia: number, mes: number) {
-  return celebracionesDeFecha({ dia, mes }, 2026, todas).map((c) => c.nombre);
+  return celebracionesDeFecha({ dia, mes }, 2026, "ar", todas).map((c) => c.nombre);
 }
 
 describe("datos reales", () => {
@@ -23,7 +23,7 @@ describe("datos reales", () => {
   });
 
   it("10 de septiembre incluye el Día del Terapista Ocupacional (Argentina)", () => {
-    const c = celebracionesDeFecha({ dia: 10, mes: 9 }, 2026, todas).find((x) =>
+    const c = celebracionesDeFecha({ dia: 10, mes: 9 }, 2026, "ar", todas).find((x) =>
       /terapista ocupacional/i.test(x.nombre),
     );
     expect(c).toBeDefined();
@@ -45,7 +45,7 @@ describe("datos reales", () => {
   });
 
   it("Argentina va antes que internacional el 11 de septiembre", () => {
-    const lista = celebracionesDeFecha({ dia: 11, mes: 9 }, 2026, todas);
+    const lista = celebracionesDeFecha({ dia: 11, mes: 9 }, 2026, "ar", todas);
     const primerInternacional = lista.findIndex((c) => c.alcance === "internacional");
     const ultimaArgentina = lista.map((c) => c.alcance).lastIndexOf("argentina");
     expect(ultimaArgentina).toBeLessThan(primerInternacional);

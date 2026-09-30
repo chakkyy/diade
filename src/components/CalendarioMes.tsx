@@ -2,15 +2,9 @@
 
 import Link from "next/link";
 import { useSyncExternalStore } from "react";
+import type { ConteoDia } from "@/lib/celebraciones";
 import { celdasDelMes } from "@/lib/calendario";
 import { MESES, hoyEn, slugDeFecha } from "@/lib/fechas";
-
-interface ConteoDia {
-  total: number;
-  argentina: number;
-  internacional: number;
-  otroPais: number;
-}
 
 const DIAS_SEMANA_ABREVIADOS: { corto: string; completo: string }[] = [
   { corto: "lun", completo: "lunes" },
@@ -92,13 +86,13 @@ export default function CalendarioMes({
                 {conteo && conteo.total > 0 ? (
                   <>
                     <span className="flex items-center gap-[3px]" aria-hidden="true">
-                      {conteo.argentina > 0 ? (
+                      {conteo.local > 0 ? (
                         <span className="size-[5px] rounded-full bg-acento" />
                       ) : null}
                       {conteo.internacional > 0 ? (
                         <span className="size-[5px] rounded-full bg-internacional-texto" />
                       ) : null}
-                      {conteo.otroPais > 0 ? (
+                      {conteo.otros > 0 ? (
                         <span className="size-[5px] rounded-full border border-borde-fuerte" />
                       ) : null}
                     </span>

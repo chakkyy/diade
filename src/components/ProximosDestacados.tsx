@@ -20,7 +20,7 @@ export default function ProximosDestacados({ proximos }: { proximos: ProximoDest
             >
               <EmojiTile
                 emoji={celebracion.emoji}
-                tono={tonoDeAlcance(celebracion.alcance)}
+                tono={tonoDeAlcance(celebracion.alcance, "ar")}
                 tamanio="sm"
               />
               <span className="min-w-0 flex-1">

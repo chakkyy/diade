@@ -30,7 +30,7 @@ function ResultadoFila({ item, anio }: { item: ItemIndice; anio: number }) {
   return (
     <li className="border-b border-borde transition-colors duration-150 last:border-b-0 active:bg-superficie-suave">
       <div className="flex items-start gap-3 px-3.5 py-3">
-        <EmojiTile emoji={item.emoji} tono={tonoDeAlcance(item.alcance)} />
+        <EmojiTile emoji={item.emoji} tono={tonoDeAlcance(item.alcance, "ar")} />
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-1.5">
             <Link
@@ -140,6 +140,7 @@ export default function Buscador({
   const resultados = useMemo(
     () =>
       buscar(indice, q, {
+        pais: "ar",
         alcance: alcance.length > 0 ? alcance : undefined,
         categoria: categoria.length > 0 ? categoria : undefined,
       }),

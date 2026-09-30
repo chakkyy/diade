@@ -1,5 +1,6 @@
 import type { Alcance, Categoria, ItemIndice } from "@/types/celebracion";
 import { esFechaMovil } from "@/types/celebracion";
+import { PAISES, grupoDeAlcance, prioridadDeAlcance, type CodigoPais } from "@/lib/paises";
 
 export function normalizar(texto: string): string {
   return texto
@@ -11,12 +12,24 @@ export function normalizar(texto: string): string {
 }
 
 export interface FiltrosBusqueda {
+  pais: CodigoPais;
   alcance?: Alcance[];
   categoria?: Categoria[];
 }
 
+export function alcancesDeFiltro(pais: CodigoPais): Alcance[] {
+  return [PAISES[pais].alcance, "internacional", "otro-pais"];
+}
+
+function cumpleAlcance(item: ItemIndice, filtros: FiltrosBusqueda): boolean {
+  if (!filtros.alcance) return true;
+  const grupo = grupoDeAlcance(item.alcance, filtros.pais);
+  if (grupo === "otros") return filtros.alcance.includes("otro-pais");
+  return filtros.alcance.includes(item.alcance);
+}
+
 function cumpleFiltros(item: ItemIndice, filtros: FiltrosBusqueda): boolean {
-  if (filtros.alcance && !filtros.alcance.includes(item.alcance)) return false;
+  if (!cumpleAlcance(item, filtros)) return false;
   if (filtros.categoria && !filtros.categoria.includes(item.categoria)) return false;
   return true;
 }
@@ -38,8 +51,6 @@ function coincideItem(item: ItemIndice, palabras: string[]): boolean {
   return palabras.every((p) => campos.some((c) => c.includes(p)));
 }
 
-const ORDEN_ALCANCE: Record<Alcance, number> = { argentina: 0, internacional: 1, "otro-pais": 2 };
-
 function claveOrdinal(item: ItemIndice): number {
   return esFechaMovil(item.fecha) ? (item.fecha.ordinal === -1 ? 99 : item.fecha.ordinal) : item.fecha.dia;
 }
@@ -49,12 +60,12 @@ function compararFecha(a: ItemIndice, b: ItemIndice): number {
   return claveOrdinal(a) - claveOrdinal(b);
 }
 
-function comparar(a: ItemIndice, b: ItemIndice, palabras: string[]): number {
+function comparar(a: ItemIndice, b: ItemIndice, palabras: string[], pais: CodigoPais): number {
   if (palabras.length > 0) {
     const aEnNombre = coincideEnNombre(a, palabras);
     const bEnNombre = coincideEnNombre(b, palabras);
     if (aEnNombre !== bEnNombre) return aEnNombre ? -1 : 1;
-    const porAlcance = ORDEN_ALCANCE[a.alcance] - ORDEN_ALCANCE[b.alcance];
+    const porAlcance = prioridadDeAlcance(a.alcance, pais) - prioridadDeAlcance(b.alcance, pais);
     if (porAlcance !== 0) return porAlcance;
   }
   const porFecha = compararFecha(a, b);
@@ -62,11 +73,11 @@ function comparar(a: ItemIndice, b: ItemIndice, palabras: string[]): number {
   return a.nombre.localeCompare(b.nombre, "es");
 }
 
-export function buscar(indice: ItemIndice[], query: string, filtros: FiltrosBusqueda = {}): ItemIndice[] {
-  const filtrado = indice.filter((item) => cumpleFiltros(item, filtros));
+export function buscar(indice: ItemIndice[], query: string, opciones: FiltrosBusqueda): ItemIndice[] {
+  const filtrado = indice.filter((item) => cumpleFiltros(item, opciones));
   const palabras = normalizar(query).split(" ").filter(Boolean);
   const resultado = palabras.length === 0 ? filtrado : filtrado.filter((item) => coincideItem(item, palabras));
-  return resultado.slice().sort((a, b) => comparar(a, b, palabras));
+  return resultado.slice().sort((a, b) => comparar(a, b, palabras, opciones.pais));
 }
 
 export const ETIQUETAS_CATEGORIA: Record<Categoria, string> = {
@@ -89,6 +100,7 @@ export const ETIQUETAS_CATEGORIA: Record<Categoria, string> = {
 
 export const ETIQUETAS_ALCANCE: Record<Alcance, string> = {
   argentina: "Argentina",
+  colombia: "Colombia",
   internacional: "Internacional",
   "otro-pais": "Otros países",
 };

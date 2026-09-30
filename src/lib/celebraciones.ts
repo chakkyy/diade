@@ -1,8 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { Alcance, Celebracion, ItemIndice } from "@/types/celebracion";
+import type { Celebracion, ItemIndice } from "@/types/celebracion";
 import { esFechaMovil } from "@/types/celebracion";
 import { archivoMesSchema } from "@/lib/schema";
+import { grupoDeAlcance, prioridadDeAlcance, type CodigoPais } from "@/lib/paises";
 import { diasDelMes, resolverFechaMovil, type FechaDia } from "@/lib/fechas";
 
 const cache = new Map<string, Celebracion[]>();
@@ -31,8 +32,6 @@ export function cargarTodas(dir: string = path.join(process.cwd(), "data", "cele
   return todas;
 }
 
-const ORDEN_ALCANCE: Record<Alcance, number> = { argentina: 0, internacional: 1, "otro-pais": 2 };
-
 export function fechaResuelta(c: Celebracion, anio: number): FechaDia {
   return esFechaMovil(c.fecha) ? resolverFechaMovil(c.fecha, anio) : c.fecha;
 }
@@ -40,6 +39,7 @@ export function fechaResuelta(c: Celebracion, anio: number): FechaDia {
 export function celebracionesDeFecha(
   f: FechaDia,
   anio: number,
+  pais: CodigoPais,
   todas: Celebracion[] = cargarTodas(),
 ): Celebracion[] {
   return todas
@@ -48,7 +48,7 @@ export function celebracionesDeFecha(
       return resuelta.dia === f.dia && resuelta.mes === f.mes;
     })
     .sort((a, b) => {
-      const porAlcance = ORDEN_ALCANCE[a.alcance] - ORDEN_ALCANCE[b.alcance];
+      const porAlcance = prioridadDeAlcance(a.alcance, pais) - prioridadDeAlcance(b.alcance, pais);
       if (porAlcance !== 0) return porAlcance;
       const porDestacado = Number(Boolean(b.destacado)) - Number(Boolean(a.destacado));
       if (porDestacado !== 0) return porDestacado;
@@ -56,17 +56,12 @@ export function celebracionesDeFecha(
     });
 }
 
-export function agruparPorAlcance(lista: Celebracion[]): {
-  argentina: Celebracion[];
-  internacional: Celebracion[];
-  otroPais: Celebracion[];
-} {
-  const grupos = { argentina: [] as Celebracion[], internacional: [] as Celebracion[], otroPais: [] as Celebracion[] };
-  for (const c of lista) {
-    if (c.alcance === "argentina") grupos.argentina.push(c);
-    else if (c.alcance === "internacional") grupos.internacional.push(c);
-    else grupos.otroPais.push(c);
-  }
+export function agruparPorAlcance(
+  lista: Celebracion[],
+  pais: CodigoPais,
+): { local: Celebracion[]; internacional: Celebracion[]; otros: Celebracion[] } {
+  const grupos = { local: [] as Celebracion[], internacional: [] as Celebracion[], otros: [] as Celebracion[] };
+  for (const c of lista) grupos[grupoDeAlcance(c.alcance, pais)].push(c);
   return grupos;
 }
 
@@ -74,21 +69,27 @@ export function celebracionPorId(id: string, todas: Celebracion[] = cargarTodas(
   return todas.find((c) => c.id === id);
 }
 
+export interface ConteoDia {
+  total: number;
+  local: number;
+  internacional: number;
+  otros: number;
+}
+
 export function contarPorDia(
   mes: number,
   anio: number,
+  pais: CodigoPais,
   todas: Celebracion[] = cargarTodas(),
-): Map<number, { total: number; argentina: number; internacional: number; otroPais: number }> {
-  const conteo = new Map<number, { total: number; argentina: number; internacional: number; otroPais: number }>();
+): Map<number, ConteoDia> {
+  const conteo = new Map<number, ConteoDia>();
   const totalDias = diasDelMes(mes, anio);
   for (const c of todas) {
     const resuelta = fechaResuelta(c, anio);
     if (resuelta.mes !== mes || resuelta.dia < 1 || resuelta.dia > totalDias) continue;
-    const actual = conteo.get(resuelta.dia) ?? { total: 0, argentina: 0, internacional: 0, otroPais: 0 };
+    const actual = conteo.get(resuelta.dia) ?? { total: 0, local: 0, internacional: 0, otros: 0 };
     actual.total++;
-    if (c.alcance === "argentina") actual.argentina++;
-    else if (c.alcance === "internacional") actual.internacional++;
-    else actual.otroPais++;
+    actual[grupoDeAlcance(c.alcance, pais)]++;
     conteo.set(resuelta.dia, actual);
   }
   return conteo;

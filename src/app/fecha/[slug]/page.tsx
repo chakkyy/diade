@@ -47,9 +47,9 @@ export async function generateMetadata(props: PageProps<"/fecha/[slug]">): Promi
   if (!fecha) return { title: "Fecha no encontrada" };
 
   const anio = anioDeReferencia(fecha, hoyEn("ar").anio);
-  const celebraciones = celebracionesDeFecha(fecha, anio);
-  const titulo = tituloDeFecha(celebraciones, fecha);
-  const descripcion = descripcionDeFecha(celebraciones, fecha);
+  const celebraciones = celebracionesDeFecha(fecha, anio, "ar");
+  const titulo = tituloDeFecha(celebraciones, fecha, "ar");
+  const descripcion = descripcionDeFecha(celebraciones, fecha, "ar");
   const slugNormalizado = slugDeFecha(fecha);
 
   return {
@@ -72,8 +72,8 @@ export default async function PaginaFecha(props: PageProps<"/fecha/[slug]">) {
   if (!fecha) notFound();
 
   const anio = anioDeReferencia(fecha, hoyEn("ar").anio);
-  const celebraciones = celebracionesDeFecha(fecha, anio);
-  const proximos = proximosDestacados(fecha, anio, 3, cargarTodas());
+  const celebraciones = celebracionesDeFecha(fecha, anio, "ar");
+  const proximos = proximosDestacados(fecha, anio, 3, cargarTodas(), "ar");
   const efemerides = efemeridesDeFecha(fecha, cargarEfemerides());
 
   return (

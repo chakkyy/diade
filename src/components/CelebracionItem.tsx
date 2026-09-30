@@ -7,7 +7,7 @@ import { nombreCortoFuente } from "@/lib/fuentes";
 import type { Celebracion, Fuente } from "@/types/celebracion";
 
 const BORDES_DESTACADO: Record<TonoBloque, string> = {
-  argentina: "border-l-acento",
+  local: "border-l-acento",
   internacional: "border-l-internacional-texto",
   otros: "border-l-borde-fuerte",
 };
@@ -24,7 +24,7 @@ export default function CelebracionItem({
   indice?: number;
 }) {
   const fuente = fuentePrincipal(celebracion.fuentes);
-  const tono = tonoDeAlcance(celebracion.alcance);
+  const tono = tonoDeAlcance(celebracion.alcance, "ar");
   const borde = celebracion.destacado ? BORDES_DESTACADO[tono] : "border-l-transparent";
 
   return (

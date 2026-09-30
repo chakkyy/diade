@@ -1,9 +1,10 @@
 import type { Alcance } from "@/types/celebracion";
+import { grupoDeAlcance, type CodigoPais, type GrupoAlcance } from "@/lib/paises";
 
-export type TonoBloque = "argentina" | "internacional" | "otros";
+export type TonoBloque = GrupoAlcance;
 
 const FONDOS: Record<TonoBloque, string> = {
-  argentina: "bg-acento-suave",
+  local: "bg-acento-suave",
   internacional: "bg-internacional-suave",
   otros: "bg-superficie-suave",
 };
@@ -13,10 +14,8 @@ const TAMANIOS = {
   sm: "size-8 rounded-[9px] text-[16px]",
 } as const;
 
-export function tonoDeAlcance(alcance: Alcance): TonoBloque {
-  if (alcance === "argentina") return "argentina";
-  if (alcance === "internacional") return "internacional";
-  return "otros";
+export function tonoDeAlcance(alcance: Alcance, pais: CodigoPais): TonoBloque {
+  return grupoDeAlcance(alcance, pais);
 }
 
 export default function EmojiTile({

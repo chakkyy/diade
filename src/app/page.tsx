@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const fecha = { dia: hoy.dia, mes: hoy.mes };
   const larga = formatearFechaLarga(fecha, hoy.anio);
   const titulo = `Hoy, ${larga}`;
-  const descripcion = descripcionDeHoy(celebracionesDeFecha(fecha, hoy.anio), larga);
+  const descripcion = descripcionDeHoy(celebracionesDeFecha(fecha, hoy.anio, "ar"), larga, "ar");
 
   return {
     title: { absolute: `${titulo} · ¿Qué se celebra hoy?` },
@@ -43,8 +43,8 @@ export default async function Home() {
   await connection();
   const hoy = hoyEn("ar");
   const fecha = { dia: hoy.dia, mes: hoy.mes };
-  const celebraciones = celebracionesDeFecha(fecha, hoy.anio);
-  const proximos = proximosDestacados(fecha, hoy.anio, 3, cargarTodas());
+  const celebraciones = celebracionesDeFecha(fecha, hoy.anio, "ar");
+  const proximos = proximosDestacados(fecha, hoy.anio, 3, cargarTodas(), "ar");
   const efemerides = efemeridesDeFecha(fecha, cargarEfemerides());
 
   return (

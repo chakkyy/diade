@@ -41,5 +41,16 @@
     "descripcion": "Entrada ficticia móvil, tercer domingo de septiembre.",
     "fuentes": [{ "nombre": "Fuente Ficticia Móvil", "url": "https://example.com/movil", "tipo": "normativa" }],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-prueba-colombia",
+    "nombre": "Día de Prueba Colombia",
+    "fecha": { "dia": 10, "mes": 9 },
+    "alcance": "colombia",
+    "categoria": "cultura",
+    "descripcion": "Entrada ficticia colombiana para tests de orden por país.",
+    "fuentes": [{ "nombre": "Fuente Ficticia Colombia", "url": "https://example.com/colombia", "tipo": "institucional" }],
+    "destacado": true,
+    "verificadoEn": "2026-09-30"
   }
 ]

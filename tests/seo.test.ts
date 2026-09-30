@@ -33,7 +33,7 @@ describe("ordenarPorRelevancia", () => {
       celebracion("Chilena", "otro-pais", { pais: "Chile" }),
       celebracion("Argentina"),
     ];
-    expect(ordenarPorRelevancia(lista).map((c) => c.nombre)).toEqual([
+    expect(ordenarPorRelevancia(lista, "ar").map((c) => c.nombre)).toEqual([
       "Argentina",
       "Internacional",
       "Chilena",
@@ -45,12 +45,12 @@ describe("ordenarPorRelevancia", () => {
       celebracion("Comun"),
       celebracion("Destacada", "argentina", { destacado: true }),
     ];
-    expect(ordenarPorRelevancia(lista).map((c) => c.nombre)).toEqual(["Destacada", "Comun"]);
+    expect(ordenarPorRelevancia(lista, "ar").map((c) => c.nombre)).toEqual(["Destacada", "Comun"]);
   });
 
   it("no muta la lista original", () => {
     const lista = [celebracion("Internacional", "internacional"), celebracion("Argentina")];
-    ordenarPorRelevancia(lista);
+    ordenarPorRelevancia(lista, "ar");
     expect(lista.map((c) => c.nombre)).toEqual(["Internacional", "Argentina"]);
   });
 });
@@ -58,28 +58,28 @@ describe("ordenarPorRelevancia", () => {
 describe("nombresPrincipales", () => {
   it("devuelve como maximo el limite pedido", () => {
     const lista = ["A", "B", "C", "D"].map((n) => celebracion(n));
-    expect(nombresPrincipales(lista, 3)).toEqual(["A", "B", "C"]);
+    expect(nombresPrincipales(lista, 3, "ar")).toEqual(["A", "B", "C"]);
   });
 
   it("con lista vacia devuelve vacio", () => {
-    expect(nombresPrincipales([], 3)).toEqual([]);
+    expect(nombresPrincipales([], 3, "ar")).toEqual([]);
   });
 });
 
 describe("tituloDeFecha", () => {
   it("sin celebraciones devuelve solo la fecha", () => {
-    expect(tituloDeFecha([], FECHA)).toBe("11 de septiembre");
+    expect(tituloDeFecha([], FECHA, "ar")).toBe("11 de septiembre");
   });
 
   it("con una celebracion la nombra", () => {
-    expect(tituloDeFecha([celebracion("Día del Maestro")], FECHA)).toBe(
+    expect(tituloDeFecha([celebracion("Día del Maestro")], FECHA, "ar")).toBe(
       "11 de septiembre: Día del Maestro",
     );
   });
 
   it("con dos celebraciones nombra las dos sin contador", () => {
     const lista = [celebracion("Día del Maestro"), celebracion("Día del Cliente")];
-    expect(tituloDeFecha(lista, FECHA)).toBe("11 de septiembre: Día del Maestro, Día del Cliente");
+    expect(tituloDeFecha(lista, FECHA, "ar")).toBe("11 de septiembre: Día del Maestro, Día del Cliente");
   });
 
   it("con cinco celebraciones nombra dos y cuenta el resto", () => {
@@ -90,7 +90,7 @@ describe("tituloDeFecha", () => {
       celebracion("Día de la Radio", "internacional"),
       celebracion("Día del Profesor", "otro-pais", { pais: "Chile" }),
     ];
-    expect(tituloDeFecha(lista, FECHA)).toBe(
+    expect(tituloDeFecha(lista, FECHA, "ar")).toBe(
       "11 de septiembre: Día del Maestro, Día del Cliente y 3 más",
     );
   });
@@ -100,7 +100,7 @@ describe("tituloDeFecha", () => {
       celebracion("Día Panamericano del Maestro", "internacional"),
       celebracion("Día del Maestro"),
     ];
-    expect(tituloDeFecha(lista, FECHA)).toBe(
+    expect(tituloDeFecha(lista, FECHA, "ar")).toBe(
       "11 de septiembre: Día del Maestro, Día Panamericano del Maestro",
     );
   });
@@ -108,27 +108,27 @@ describe("tituloDeFecha", () => {
 
 describe("descripcionDeFecha", () => {
   it("sin celebraciones es honesta", () => {
-    expect(descripcionDeFecha([], FECHA)).toBe(
+    expect(descripcionDeFecha([], FECHA, "ar")).toBe(
       "Todavía no tenemos celebraciones registradas para el 11 de septiembre.",
     );
   });
 
   it("con una celebracion usa singular", () => {
-    expect(descripcionDeFecha([celebracion("Día del Maestro")], FECHA)).toBe(
+    expect(descripcionDeFecha([celebracion("Día del Maestro")], FECHA, "ar")).toBe(
       "El 11 de septiembre se celebra: Día del Maestro. Con fuente verificable.",
     );
   });
 
   it("con dos celebraciones usa plural", () => {
     const lista = [celebracion("Día del Maestro"), celebracion("Día del Cliente")];
-    expect(descripcionDeFecha(lista, FECHA)).toBe(
+    expect(descripcionDeFecha(lista, FECHA, "ar")).toBe(
       "El 11 de septiembre se celebran: Día del Maestro, Día del Cliente. Con fuentes verificables.",
     );
   });
 
   it("con cinco celebraciones lista tres y cuenta el resto", () => {
     const lista = ["A", "B", "C", "D", "E"].map((n) => celebracion(n));
-    expect(descripcionDeFecha(lista, FECHA)).toBe(
+    expect(descripcionDeFecha(lista, FECHA, "ar")).toBe(
       "El 11 de septiembre se celebran: A, B, C y 2 más. Con fuentes verificables.",
     );
   });
@@ -136,21 +136,30 @@ describe("descripcionDeFecha", () => {
 
 describe("descripcionDeHoy", () => {
   it("sin celebraciones es honesta", () => {
-    expect(descripcionDeHoy([], "viernes 11 de septiembre")).toBe(
+    expect(descripcionDeHoy([], "viernes 11 de septiembre", "ar")).toBe(
       "Hoy es viernes 11 de septiembre y todavía no tenemos celebraciones registradas.",
     );
   });
 
   it("con celebraciones lista hasta tres", () => {
     const lista = ["A", "B", "C", "D"].map((n) => celebracion(n));
-    expect(descripcionDeHoy(lista, "viernes 11 de septiembre")).toBe(
+    expect(descripcionDeHoy(lista, "viernes 11 de septiembre", "ar")).toBe(
       "Hoy, viernes 11 de septiembre, se celebran: A, B, C y 1 más. Con fuentes verificables.",
     );
   });
 
   it("con una sola celebracion usa singular", () => {
-    expect(descripcionDeHoy([celebracion("Día del Maestro")], "viernes 11 de septiembre")).toBe(
+    expect(descripcionDeHoy([celebracion("Día del Maestro")], "viernes 11 de septiembre", "ar")).toBe(
       "Hoy, viernes 11 de septiembre, se celebra: Día del Maestro. Con fuente verificable.",
     );
+  });
+});
+
+describe("relevancia por país", () => {
+  it("en Colombia el día colombiano va antes que el argentino", () => {
+    const lista = [celebracion("Día Argentino", "argentina"), celebracion("Día Colombiano", "colombia")];
+    expect(nombresPrincipales(lista, 1, "co")).toEqual(["Día Colombiano"]);
+    expect(nombresPrincipales(lista, 1, "ar")).toEqual(["Día Argentino"]);
+    expect(tituloDeFecha(lista, FECHA, "co")).toBe("11 de septiembre: Día Colombiano, Día Argentino");
   });
 });

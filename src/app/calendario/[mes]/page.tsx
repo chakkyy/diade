@@ -19,11 +19,11 @@ export function generateStaticParams() {
 }
 
 function totales(mes: number, anio: number) {
-  const conteos = contarPorDia(mes, anio);
+  const conteos = contarPorDia(mes, anio, "ar");
   let argentina = 0;
   let internacional = 0;
   for (const conteo of conteos.values()) {
-    argentina += conteo.argentina;
+    argentina += conteo.local;
     internacional += conteo.internacional;
   }
   return { argentina, internacional, conteos };
@@ -112,7 +112,7 @@ export default async function PaginaCalendarioMes(props: PageProps<"/calendario/
               <span className="w-6 shrink-0 text-[13px] tabular-nums text-texto-secundario">
                 {resuelta.dia}
               </span>
-              <EmojiTile emoji={c.emoji} tono={tonoDeAlcance(c.alcance)} tamanio="sm" />
+              <EmojiTile emoji={c.emoji} tono={tonoDeAlcance(c.alcance, "ar")} tamanio="sm" />
               <Link
                 href={`/celebracion/${c.id}`}
                 className="min-w-0 flex-1 truncate text-[14px] leading-5 font-medium underline-offset-2 hover:underline hover:decoration-acento active:opacity-70"

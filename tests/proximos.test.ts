@@ -32,43 +32,56 @@ const TODAS = [PRIMAVERA, MAESTRO, ESCRITOR, MADRE, NAVIDAD, ANIO_NUEVO, COMUN];
 
 describe("proximosDestacados", () => {
   it("devuelve los destacados siguientes ordenados por cercanía", () => {
-    const proximos = proximosDestacados({ dia: 11, mes: 9 }, 2026, 3, TODAS);
+    const proximos = proximosDestacados({ dia: 11, mes: 9 }, 2026, 3, TODAS, "ar");
     expect(proximos.map((p) => p.celebracion.id)).toEqual(["primavera", "madre", "navidad"]);
     expect(proximos.map((p) => p.enDias)).toEqual([10, 37, 105]);
   });
 
   it("resuelve las fechas móviles del año que se está viendo", () => {
-    const [, madre] = proximosDestacados({ dia: 11, mes: 9 }, 2026, 3, TODAS);
+    const [, madre] = proximosDestacados({ dia: 11, mes: 9 }, 2026, 3, TODAS, "ar");
     expect(madre.fecha).toEqual({ dia: 18, mes: 10 });
   });
 
   it("excluye el mismo día y las celebraciones sin destacado", () => {
-    const ids = proximosDestacados({ dia: 11, mes: 9 }, 2026, 5, TODAS).map((p) => p.celebracion.id);
+    const ids = proximosDestacados({ dia: 11, mes: 9 }, 2026, 5, TODAS, "ar").map((p) => p.celebracion.id);
     expect(ids).not.toContain("maestro");
     expect(ids).not.toContain("comun");
   });
 
   it("da la vuelta al año", () => {
-    const proximos = proximosDestacados({ dia: 30, mes: 12 }, 2026, 2, TODAS);
+    const proximos = proximosDestacados({ dia: 30, mes: 12 }, 2026, 2, TODAS, "ar");
     expect(proximos[0].celebracion.id).toBe("anio-nuevo");
     expect(proximos[0].enDias).toBe(2);
     expect(proximos[1].celebracion.id).toBe("escritor");
   });
 
   it("respeta la cantidad pedida", () => {
-    expect(proximosDestacados({ dia: 11, mes: 9 }, 2026, 1, TODAS)).toHaveLength(1);
-    expect(proximosDestacados({ dia: 11, mes: 9 }, 2026, 0, TODAS)).toHaveLength(0);
+    expect(proximosDestacados({ dia: 11, mes: 9 }, 2026, 1, TODAS, "ar")).toHaveLength(1);
+    expect(proximosDestacados({ dia: 11, mes: 9 }, 2026, 0, TODAS, "ar")).toHaveLength(0);
   });
 
   it("devuelve vacío si no hay destacados", () => {
-    expect(proximosDestacados({ dia: 11, mes: 9 }, 2026, 3, [COMUN])).toEqual([]);
+    expect(proximosDestacados({ dia: 11, mes: 9 }, 2026, 3, [COMUN], "ar")).toEqual([]);
   });
 
   it("saltea el 29 de febrero en años no bisiestos", () => {
     const bisiesto = celebracion("bisiesto", { dia: 29, mes: 2 }, true);
-    const proximos = proximosDestacados({ dia: 20, mes: 2 }, 2027, 1, [bisiesto]);
+    const proximos = proximosDestacados({ dia: 20, mes: 2 }, 2027, 1, [bisiesto], "ar");
     expect(proximos[0].fecha).toEqual({ dia: 29, mes: 2 });
     expect(proximos[0].enDias).toBe(374);
+  });
+});
+
+describe("proximosDestacados por país", () => {
+  it("no anuncia los destacados del vecino", () => {
+    const colombiano: Celebracion = { ...celebracion("colombiano", { dia: 12, mes: 9 }, true), alcance: "colombia" };
+    const lista = [PRIMAVERA, colombiano];
+    expect(proximosDestacados({ dia: 11, mes: 9 }, 2026, 3, lista, "ar").map((p) => p.celebracion.id)).toEqual([
+      "primavera",
+    ]);
+    expect(proximosDestacados({ dia: 11, mes: 9 }, 2026, 3, lista, "co").map((p) => p.celebracion.id)).toEqual([
+      "colombiano",
+    ]);
   });
 });
 

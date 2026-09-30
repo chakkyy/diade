@@ -5,7 +5,7 @@ import { leerFiltros } from "@/lib/buscar-url";
 import { hoyEn } from "@/lib/fechas";
 
 export async function generateMetadata(props: PageProps<"/buscar">): Promise<Metadata> {
-  const { q } = leerFiltros(await props.searchParams);
+  const { q } = leerFiltros(await props.searchParams, "ar");
 
   return {
     title: q.trim() === "" ? "Buscar" : `Resultados para "${q.trim()}"`,
@@ -15,7 +15,7 @@ export async function generateMetadata(props: PageProps<"/buscar">): Promise<Met
 }
 
 export default async function PaginaBuscar(props: PageProps<"/buscar">) {
-  const inicial = leerFiltros(await props.searchParams);
+  const inicial = leerFiltros(await props.searchParams, "ar");
   const indice = indiceBusqueda();
   const anio = hoyEn("ar").anio;
 

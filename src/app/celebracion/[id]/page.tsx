@@ -70,7 +70,7 @@ export default async function PaginaCelebracion(props: PageProps<"/celebracion/[
   const slugFecha = slugDeFecha(fechaResuelta);
   const fechaCorta = formatearFechaCorta(fechaResuelta);
 
-  const otrasCelebraciones = celebracionesDeFecha(fechaResuelta, anioActual).filter(
+  const otrasCelebraciones = celebracionesDeFecha(fechaResuelta, anioActual, "ar").filter(
     (c) => c.id !== celebracion.id,
   );
 
@@ -91,7 +91,7 @@ export default async function PaginaCelebracion(props: PageProps<"/celebracion/[
       </div>
 
       <div className="mt-3 flex items-start gap-3">
-        <EmojiTile emoji={celebracion.emoji} tono={tonoDeAlcance(celebracion.alcance)} />
+        <EmojiTile emoji={celebracion.emoji} tono={tonoDeAlcance(celebracion.alcance, "ar")} />
         <h1 className="text-[26px] leading-[1.18] font-semibold tracking-[-0.02em] sm:text-[32px]">
           {celebracion.nombre}
         </h1>

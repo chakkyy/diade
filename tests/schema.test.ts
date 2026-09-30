@@ -27,6 +27,13 @@ describe("celebracionSchema", () => {
     expect(celebracionSchema.safeParse({ ...base, alcance: "otro-pais" }).success).toBe(false);
     expect(celebracionSchema.safeParse({ ...base, alcance: "otro-pais", pais: "Chile" }).success).toBe(true);
   });
+  it("acepta alcance colombia sin pais", () => {
+    expect(celebracionSchema.safeParse({ ...base, alcance: "colombia" }).success).toBe(true);
+  });
+  it("rechaza otro-pais con el nombre de un país propio", () => {
+    expect(celebracionSchema.safeParse({ ...base, alcance: "otro-pais", pais: "Colombia" }).success).toBe(false);
+    expect(celebracionSchema.safeParse({ ...base, alcance: "otro-pais", pais: "Argentina" }).success).toBe(false);
+  });
   it("rechaza 31 de septiembre", () => {
     expect(celebracionSchema.safeParse({ ...base, fecha: { dia: 31, mes: 9 } }).success).toBe(false);
   });
