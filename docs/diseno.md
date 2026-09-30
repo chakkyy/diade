@@ -1,6 +1,6 @@
 # ¿Qué se celebra hoy? — diseño
 
-Calendario de "Días de X" para Argentina: días nacionales, días profesionales, conmemoraciones internacionales y fechas populares, más las efemérides (acontecimientos, nacimientos y fallecimientos) de cada día. No es una página de feriados.
+Calendario de "Días de X" para Argentina y Colombia: días nacionales, días profesionales, conmemoraciones internacionales y fechas populares, más las efemérides (acontecimientos, nacimientos y fallecimientos) de cada día. No es una página de feriados.
 
 ## Decisiones de diseño
 
@@ -9,24 +9,24 @@ Calendario de "Días de X" para Argentina: días nacionales, días profesionales
 | Q2 | Stack | Next.js 16.3 App Router + TS + Tailwind 4 + pnpm; vitest + zod | fijado por el pedido |
 | Q3 | Persistencia | JSON por mes en `data/celebraciones/MM.json`, validado con zod en build y en tests. Sin DB: sin auth en v1, un backoffice web escribible sería un agujero si se deploya | migrar a SQLite/Supabase después es un loader nuevo, los JSON quedan como seed |
 | Q4 | Backoffice | CLI `pnpm data:add` (interactivo, escribe el JSON validado) + `pnpm data:validate` + `pnpm data:links` (HTTP check de fuentes) + doc en README | si se quiere UI, se agrega sobre el mismo schema |
-| Q5 | URLs | `/` hoy (ART, render por request) · `/fecha/DD-mes` (ej. `/fecha/11-septiembre`, SSG 366 páginas) · `/celebracion/[id]` · `/calendario/[mes]` · `/buscar?q=&alcance=&categoria=` | ninguno grave |
+| Q5 | URLs | Argentina en la raíz: `/` hoy (ART, render por request) · `/fecha/DD-mes` (ej. `/fecha/11-septiembre`, SSG 366 páginas) · `/celebracion/[id]` · `/calendario/[mes]` · `/buscar?q=&alcance=&categoria=`. Colombia bajo el prefijo `/co` con las mismas rutas (`/co`, `/co/fecha/20-julio`, `/co/celebracion/[id]`, `/co/calendario/[mes]`, `/co/buscar`). Cada celebración es la misma entrada en los dos prefijos; el canonical del detalle es siempre `/celebracion/[id]`, y el sitemap lista las fechas, los meses y la búsqueda de los dos países y los detalles una sola vez, sin prefijo | ninguno grave; agregar un tercer país es una entrada en `PAISES` y una carpeta de rutas |
 | Q6 | Fechas móviles | soportadas por regla `{ mes, ordinal (1..4 ó -1), diaSemana }` (Día de la Madre AR = 3er domingo de octubre, Día del Padre AR = 3er domingo de junio). Se resuelven para el año que se está viendo | sin esto faltarían las dos fechas populares más grandes del país |
 | Q7 | Fuentes | cada entrada ≥1 fuente con `tipo` `institucional` (Estado, ONU/UNESCO/OMS/FAO/OIT…) o `asociacion` (colegio/asociación profesional oficial) o `normativa` (ley/decreto/resolución en Boletín Oficial o InfoLEG). Wikipedia sólo como `secundaria` y nunca sola. Sin fuente confiable → no entra | es la regla del pedido; el validador la hace cumplir |
 | Q8 | Feriados | entran sólo si se llaman "Día de/del X" (Día de la Bandera, Día de la Independencia…) con categoría `historia`; los feriados sin nombre de "Día de" no | aclarado en README |
-| Q9 | Orden en el día | Argentina primero (destacados antes), luego Internacional, luego Otros países; dentro de cada bloque alfabético | ninguno |
-| Q10 | Búsqueda | client-side sobre el índice completo (~400 entradas, <150 KB), normaliza tildes y mayúsculas, busca en nombre + descripción + tags | ninguno |
+| Q9 | Orden en el día | Primero el país de la vista (destacados antes), luego Internacional, luego Otros países; dentro de cada bloque alfabético. El otro país del sitio va dentro de Otros países, con su bandera: una celebración colombiana aparece en Argentina como "Otros países" y una argentina en `/co` igual | ninguno |
+| Q10 | Búsqueda | client-side sobre el índice completo (629 entradas, ~200 KB sin comprimir), normaliza tildes y mayúsculas, busca en nombre + descripción + tags | ninguno |
 | Q11 | Dark mode | clase `dark` en `<html>`, toggle con localStorage, default = sistema | ninguno |
-| Q12 | Zona horaria | `America/Argentina/Buenos_Aires` vía `Intl.DateTimeFormat`, calculada en el server por request (`connection()`); la home nunca se prerenderiza | sin esto "hoy" sería el día del build |
+| Q12 | Zona horaria | por país vía `Intl.DateTimeFormat`: `America/Argentina/Buenos_Aires` para `/` y `America/Bogota` para `/co`, calculada en el server por request (`connection()`); las dos homes nunca se prerenderizan | sin esto "hoy" sería el día del build; un día cerca de medianoche puede diferir entre los dos países, que por eso calculan cada uno el suyo |
 | Q13 | 29 de febrero | página existe; en años no bisiestos el selector/navegación la saltea | mínimo |
 | Q15 | Efemérides: origen | se importan del feed "On this day" de Wikimedia (es.wikipedia) con `pnpm data:efemerides`, todo el año de una vez, a `data/efemerides/MM.json`. No se cargan a mano: el pedido es que escale sin volver a cargar cada mes. Alternativa descartada: pedir el feed en cada request (dependencia externa en runtime, sin control de calidad ni foco argentino) | si Wikipedia cambia el feed, se ajusta el script y se regenera |
 | Q16 | Efemérides: fuentes | Wikipedia (`secundaria`) alcanza como única fuente; cada entrada enlaza al artículo de la persona o del hecho. La regla de celebraciones (institucional/normativa) haría imposible la cobertura anual | mínimo: el link es verificable con `data:links efemerides` |
-| Q17 | Efemérides: selección | cupos por día y alcance (AR 4/3/2, INT 3/2/2 para acontecimiento/nacimiento/fallecimiento); ranking por artículos enlazados (hechos) y por ediciones de Wikipedia según Wikidata (personas); deportistas sólo con ≥15 ediciones. Se muestran en orden cronológico debajo de las celebraciones en `/` y `/fecha/[slug]`; sin página de detalle, búsqueda ni conteo en calendario | si el ranking deja afuera algo importante, se suben cupos o se ajustan los umbrales en el script |
-| Q14 | Alcance de datos v1 | ~365 días cubiertos: todos los días internacionales oficiales ONU/UNESCO/OMS/FAO (~200) + ~150-200 argentinos (nacionales, profesionales, populares) + otros países sólo los muy conocidos (Chile, Uruguay, Brasil, México, España, EE.UU.) con fuente oficial del país | días sin entrada muestran estado vacío honesto |
+| Q17 | Efemérides: selección | cupos por día y alcance (AR 4/3/2, CO 4/3/2, INT 3/2/2 para acontecimiento/nacimiento/fallecimiento); ranking por artículos enlazados (hechos) y por ediciones de Wikipedia según Wikidata (personas); deportistas sólo con ≥15 ediciones. Se muestran en orden cronológico debajo de las celebraciones en las homes y en `/fecha/[slug]` de cada país: primero las del país y después las internacionales. Una efeméride colombiana con `tambienInternacional` también se ve en Argentina como internacional; las demás no cruzan de país; sin página de detalle, búsqueda ni conteo en calendario | si el ranking deja afuera algo importante, se suben cupos o se ajustan los umbrales en el script |
+| Q14 | Alcance de datos | los 366 días cubiertos: los días internacionales oficiales ONU/UNESCO/OMS/FAO (269) + 208 argentinos (nacionales, profesionales, populares) + 79 colombianos con fuente oficial + otros países sólo los muy conocidos (Chile, Uruguay, Brasil, México, España, EE.UU.) con fuente oficial del país (73). Colombia tiene lo que se pudo confirmar con fuente oficial, no una cobertura pareja con Argentina | muchos días de `/co` muestran sólo Internacional y Otros países; los días sin entrada muestran estado vacío honesto |
 
 ## Modelo de datos (`src/types/celebracion.ts`, validado por `src/lib/schema.ts`)
 
 ```ts
-type Alcance = "argentina" | "internacional" | "otro-pais";
+type Alcance = "argentina" | "colombia" | "internacional" | "otro-pais";
 type Categoria = "profesion" | "salud" | "ambiente" | "educacion" | "cultura" | "animales" | "comida" | "religion" | "historia" | "deporte" | "tecnologia" | "ciencia" | "sociedad" | "derechos" | "familia";
 type TipoFuente = "institucional" | "asociacion" | "normativa" | "secundaria";
 
@@ -39,7 +39,7 @@ interface Celebracion {
   nombre: string;             // "Día del Maestro"
   fecha: FechaFija | FechaMovil;
   alcance: Alcance;
-  pais?: string;              // obligatorio si alcance = otro-pais, ej. "Chile"
+  pais?: string;              // obligatorio si alcance = otro-pais, ej. "Chile" (nunca Argentina ni Colombia)
   categoria: Categoria;
   descripcion: string;        // una línea, ≤ 200 chars, termina en punto
   fuentes: Fuente[];          // ≥1, y ≥1 con tipo ≠ secundaria
@@ -59,7 +59,8 @@ interface Efemeride {
   anio: number;               // -401 para el 401 a. C.
   tipo: "acontecimiento" | "nacimiento" | "fallecimiento";
   texto: string;              // una oración, ≤ 300 chars, "Nace…" / "Muere…" para personas
-  alcance: "argentina" | "internacional";
+  alcance: "argentina" | "colombia" | "internacional";
+  tambienInternacional?: true; // sólo en colombianas de alcance mundial: se ven también en Argentina
   fuentes: Fuente[];          // ≥1, Wikipedia como secundaria alcanza
   verificadoEn: string;       // fecha de la importación
 }
@@ -67,12 +68,16 @@ interface Efemeride {
 
 ## Rutas y responsabilidades
 
-- `src/lib/fechas.ts`: `hoyEnArgentina()`, `slugDeFecha({dia,mes})` ("11-septiembre"), `fechaDeSlug(slug)`, `MESES`, `resolverFechaMovil(regla, año)`, `fechaAnterior/fechaSiguiente`, `esBisiesto`.
-- `src/lib/celebraciones.ts`: carga y valida los 12 JSON (cacheado en módulo), `celebracionesDeFecha(dia, mes, año)`, `celebracionPorId`, `contarPorDia(mes, año)` para el calendario, `agruparPorAlcance`.
-- `src/lib/efemerides.ts`: `cargarEfemerides()` (12 JSON validados, cacheado), `efemeridesDeFecha(fecha)` ordenadas por año.
+- `src/lib/paises.ts`: `PAISES` (`ar` y `co`: alcance, nombre, bandera, zona horaria, prefijo, ciudad), `rutaDePais`, `paisDeRuta`, `rutaEnOtroPais`, `grupoDeAlcance` (local, internacional u otros según el país de la vista).
+- `src/lib/fechas.ts`: `hoyEn(pais)`, `slugDeFecha({dia,mes})` ("11-septiembre"), `fechaDeSlug(slug)`, `MESES`, `resolverFechaMovil(regla, año)`, `fechaAnterior/fechaSiguiente`, `esBisiesto`.
+- `src/lib/celebraciones.ts`: carga y valida los 12 JSON (cacheado en módulo), `celebracionesDeFecha(dia, mes, año, pais)`, `celebracionPorId`, `contarPorDia(mes, año)` para el calendario, `agruparPorAlcance`.
+- `src/lib/efemerides.ts`: `cargarEfemerides()` (12 JSON validados, cacheado), `efemeridesDeFecha(fecha, pais)`: las del país primero y las internacionales después, cada grupo por año.
 - `src/lib/buscar.ts`: `normalizar(texto)`, `buscar(indice, query, filtros)`.
-- `src/app/page.tsx` (hoy), `src/app/fecha/[slug]/page.tsx`, `src/app/celebracion/[id]/page.tsx`, `src/app/calendario/[mes]/page.tsx`, `src/app/buscar/page.tsx`, `sitemap.ts`, `robots.ts`, `not-found.tsx`.
-- `src/components/`: `DiaHeader` (fecha + prev/next + selector), `ListaCelebraciones` (bloques por alcance), `CelebracionCard`, `CalendarioMes`, `Buscador`, `Filtros`, `ThemeToggle`, `Chip`.
+- `src/vistas/`: el cuerpo de cada página (`VistaHoy`, `VistaFecha`, `VistaCelebracion`, `VistaCalendarioMes`, `VistaBuscar`), parametrizado por país.
+- Argentina: `src/app/page.tsx` (hoy), `src/app/fecha/[slug]/page.tsx`, `src/app/celebracion/[id]/page.tsx`, `src/app/calendario/[mes]/page.tsx`, `src/app/buscar/page.tsx`.
+- Colombia: `src/app/co/page.tsx`, `src/app/co/fecha/[slug]/page.tsx`, `src/app/co/celebracion/[id]/page.tsx`, `src/app/co/calendario/[mes]/page.tsx`, `src/app/co/buscar/page.tsx`. Las rutas son delgadas: resuelven los parámetros y llaman a la vista con `pais="co"`.
+- `src/app/sitemap.ts`, `robots.ts`, `not-found.tsx`.
+- `src/components/`: `DiaHeader` (fecha + prev/next + selector), `ListaCelebraciones` (bloques por alcance), `CelebracionCard`, `CalendarioMes`, `Buscador`, `Filtros`, `SelectorPais` (🇦🇷 | 🇨🇴, conserva la página al cambiar de país), `NavSecciones`, `TabBar`, `PieZona` (pie con la zona horaria del país), `ThemeToggle`, `Chip`.
 - `src/components/EfemeridesDelDia.tsx`: bloque "Efemérides del día" (año en tabular, texto, fuente), debajo de la lista del día.
 - `scripts/validate-data.ts`, `scripts/check-links.ts`, `scripts/add-celebracion.ts`, `scripts/importar-efemerides.ts`.
 
