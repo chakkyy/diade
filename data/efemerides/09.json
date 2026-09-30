@@ -76,6 +76,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1859-llega-a-su-maximo-la-mas",
+    "fecha": {
+      "dia": 1,
+      "mes": 9
+    },
+    "anio": 1859,
+    "tipo": "acontecimiento",
+    "texto": "Llega a su máximo la más intensa tormenta solar de la historia humana ―conocida también como evento Carrington debido a que el astrónomo aficionado británico Richard Carrington (1826‑1875) fue el primero en observarla, en las afueras de Londres―, que afecta a la mayor parte del planeta.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (1 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/1_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1865-nace-enrique-tornu-cirujano-e-higienista",
     "fecha": {
       "dia": 1,
@@ -171,6 +190,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1932-en-la-frontera-entre-el-peru",
+    "fecha": {
+      "dia": 1,
+      "mes": 9
+    },
+    "anio": 1932,
+    "tipo": "acontecimiento",
+    "texto": "En la frontera entre el Perú y Colombia, tropas peruanas ingresan a la ciudad de Leticia, dando inicio a la guerra colombo-peruana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (1 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/1_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1940-nace-annie-ernaux-escritora-y-catedratica",
     "fecha": {
       "dia": 1,
@@ -207,6 +245,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1975-nace-maritza-rodriguez-actriz-modelo-presentadora",
+    "fecha": {
+      "dia": 1,
+      "mes": 9
+    },
+    "anio": 1975,
+    "tipo": "nacimiento",
+    "texto": "Nace Maritza Rodríguez, actriz, modelo, presentadora y empresaria colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Maritza Rodríguez)",
+        "url": "https://es.wikipedia.org/wiki/Maritza_Rodr%C3%ADguez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1980-en-buenos-aires-a-lo-largo",
@@ -418,6 +475,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1859-termina-la-mas-intensa-tormenta-solar",
+    "fecha": {
+      "dia": 2,
+      "mes": 9
+    },
+    "anio": 1859,
+    "tipo": "acontecimiento",
+    "texto": "Termina la más intensa tormenta solar de la historia humana ―conocida también como evento Carrington debido a que el astrónomo aficionado británico Richard Carrington (1826‑1875) fue el primero en observarla, en las afueras de Londres―, que duró dos días y que afectó a la mayor parte del planeta.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (2 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/2_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1870-durante-la-guerra-franco-prusiana-en",
     "fecha": {
       "dia": 2,
@@ -435,6 +511,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1903-en-estados-unidos-se-abole-de",
+    "fecha": {
+      "dia": 2,
+      "mes": 9
+    },
+    "anio": 1903,
+    "tipo": "acontecimiento",
+    "texto": "En Estados Unidos se abole de manera oficial el Tratado Herrán-Hay (para la construcción del Canal de Panamá), entre Estados Unidos y Colombia.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (2 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/2_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1917-pablo-teodoro-fels-realiza-entre-buenos",
@@ -473,6 +568,82 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1942-nace-rodrigo-lloreda-abogado-laboralista-empresario",
+    "fecha": {
+      "dia": 2,
+      "mes": 9
+    },
+    "anio": 1942,
+    "tipo": "nacimiento",
+    "texto": "Nace Rodrigo Lloreda, abogado laboralista, empresario de medios, diplomático, catedrático, periodista, escritor y político colombiano (f. 2000).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Rodrigo Lloreda Caicedo)",
+        "url": "https://es.wikipedia.org/wiki/Rodrigo_Lloreda_Caicedo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1948-en-medellin-colombia-inicia-sus-emisiones",
+    "fecha": {
+      "dia": 2,
+      "mes": 9
+    },
+    "anio": 1948,
+    "tipo": "acontecimiento",
+    "texto": "En Medellín (Colombia), inicia sus emisiones Caracol Radio, la primera de ese país.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (2 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/2_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1951-nace-rodrigo-villalba-mosquera-politico-colombiano",
+    "fecha": {
+      "dia": 2,
+      "mes": 9
+    },
+    "anio": 1951,
+    "tipo": "nacimiento",
+    "texto": "Nace Rodrigo Villalba Mosquera, político colombiano, Gobernador del Huila entre 2004-2007 y desde 2024.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Rodrigo Villalba Mosquera)",
+        "url": "https://es.wikipedia.org/wiki/Rodrigo_Villalba_Mosquera",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1961-nace-carlos-valderrama-futbolista-colombiano",
+    "fecha": {
+      "dia": 2,
+      "mes": 9
+    },
+    "anio": 1961,
+    "tipo": "nacimiento",
+    "texto": "Nace Carlos Valderrama, futbolista colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Carlos Valderrama)",
+        "url": "https://es.wikipedia.org/wiki/Carlos_Valderrama",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1962-nace-keir-starmer-barrister-y-politico",
@@ -589,6 +760,63 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1999-muere-virginia-gutierrez-de-pineda-antropologa",
+    "fecha": {
+      "dia": 2,
+      "mes": 9
+    },
+    "anio": 1999,
+    "tipo": "fallecimiento",
+    "texto": "Muere Virginia Gutiérrez de Pineda, antropóloga colombiana (n. 1921).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Virginia Gutiérrez de Pineda)",
+        "url": "https://es.wikipedia.org/wiki/Virginia_Guti%C3%A9rrez_de_Pineda",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "2022-en-neiva-colombia-siete-policias-son",
+    "fecha": {
+      "dia": 2,
+      "mes": 9
+    },
+    "anio": 2022,
+    "tipo": "acontecimiento",
+    "texto": "En Neiva (Colombia), siete policías son asesinados en medio de una emboscada con artefactos explosivos, perpetrada por las disidencias de las FARC.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (2 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/2_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "2024-muere-rodolfo-hernandez-suarez-empresario-y",
+    "fecha": {
+      "dia": 2,
+      "mes": 9
+    },
+    "anio": 2024,
+    "tipo": "fallecimiento",
+    "texto": "Muere Rodolfo Hernández Suárez, empresario y político colombiano (n. 1945).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Rodolfo Hernández Suárez)",
+        "url": "https://es.wikipedia.org/wiki/Rodolfo_Hern%C3%A1ndez_Su%C3%A1rez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "401ac-en-cunaxa-aldea-a-unos-70",
     "fecha": {
       "dia": 3,
@@ -625,6 +853,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1816-muere-liborio-mejia-lider-de-la",
+    "fecha": {
+      "dia": 3,
+      "mes": 9
+    },
+    "anio": 1816,
+    "tipo": "fallecimiento",
+    "texto": "Muere Liborio Mejía, líder de la independencia colombiano (n. 1792).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Liborio Mejía)",
+        "url": "https://es.wikipedia.org/wiki/Liborio_Mej%C3%ADa",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1826-el-libertador-simon-bolivar-se-embarca",
+    "fecha": {
+      "dia": 3,
+      "mes": 9
+    },
+    "anio": 1826,
+    "tipo": "acontecimiento",
+    "texto": "El Libertador Simón Bolívar se embarca en El Callao hacia Colombia.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (3 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/3_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1854-en-buenos-aires-argentina-bartolome-mitre",
@@ -836,6 +1102,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "2012-muere-griselda-blanco-narcotraficante-y-criminal",
+    "fecha": {
+      "dia": 3,
+      "mes": 9
+    },
+    "anio": 2012,
+    "tipo": "fallecimiento",
+    "texto": "Muere Griselda Blanco, narcotraficante y criminal colombiana (n. 1943).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Griselda Blanco)",
+        "url": "https://es.wikipedia.org/wiki/Griselda_Blanco",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "2024-muere-selva-aleman-actriz-argentina-n",
     "fecha": {
       "dia": 3,
@@ -891,6 +1176,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1822-nace-manuel-uribe-angel-medico-geografo",
+    "fecha": {
+      "dia": 4,
+      "mes": 9
+    },
+    "anio": 1822,
+    "tipo": "nacimiento",
+    "texto": "Nace Manuel Uribe Ángel, médico, geógrafo, escritor e historiador colombiano (f. 1904).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Manuel Uribe Ángel)",
+        "url": "https://es.wikipedia.org/wiki/Manuel_Uribe_%C3%81ngel",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1902-en-buenos-aires-argentina-durante-la",
@@ -1121,6 +1425,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "2006-muere-jaime-osorio-productor-y-cineasta",
+    "fecha": {
+      "dia": 4,
+      "mes": 9
+    },
+    "anio": 2006,
+    "tipo": "fallecimiento",
+    "texto": "Muere Jaime Osorio, productor y cineasta colombiano (n. 1947).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Jaime Osorio Gómez)",
+        "url": "https://es.wikipedia.org/wiki/Jaime_Osorio_G%C3%B3mez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "2010-en-nueva-zelanda-un-terremoto-de",
     "fecha": {
       "dia": 4,
@@ -1273,6 +1596,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1941-nace-jairo-anibal-nino-escritor-colombiano",
+    "fecha": {
+      "dia": 5,
+      "mes": 9
+    },
+    "anio": 1941,
+    "tipo": "nacimiento",
+    "texto": "Nace Jairo Aníbal Niño, escritor colombiano (f. 2010).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Jairo Aníbal Niño)",
+        "url": "https://es.wikipedia.org/wiki/Jairo_An%C3%ADbal_Ni%C3%B1o",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1946-nace-freddie-mercury-cantante-pianista-y",
     "fecha": {
       "dia": 5,
@@ -1290,6 +1632,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1956-muere-guillermo-chaves-chaves-fue-un",
+    "fecha": {
+      "dia": 5,
+      "mes": 9
+    },
+    "anio": 1956,
+    "tipo": "fallecimiento",
+    "texto": "Muere Guillermo Chaves Chaves, fue un abogado, congresista, académico y jurisconsulto colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Guillermo Chaves Chaves)",
+        "url": "https://es.wikipedia.org/wiki/Guillermo_Chaves_Chaves",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1965-nace-cesar-rincon-torero-colombiano",
+    "fecha": {
+      "dia": 5,
+      "mes": 9
+    },
+    "anio": 1965,
+    "tipo": "nacimiento",
+    "texto": "Nace César Rincón, torero colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (César Rincón)",
+        "url": "https://es.wikipedia.org/wiki/C%C3%A9sar_Rinc%C3%B3n",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1972-llega-al-aerodromo-militar-mariano-moreno",
@@ -1444,6 +1824,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1993-nace-paula-jimenez-garcia-modelo-colombiana",
+    "fecha": {
+      "dia": 5,
+      "mes": 9
+    },
+    "anio": 1993,
+    "tipo": "nacimiento",
+    "texto": "Nace Paula Jiménez García, modelo colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Paula Jiménez García)",
+        "url": "https://es.wikipedia.org/wiki/Paula_Jim%C3%A9nez_Garc%C3%ADa",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1997-muere-teresa-de-calcuta-monja-catolica",
     "fecha": {
       "dia": 5,
@@ -1461,6 +1860,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2011-muere-jose-name-teran-politico-y",
+    "fecha": {
+      "dia": 5,
+      "mes": 9
+    },
+    "anio": 2011,
+    "tipo": "fallecimiento",
+    "texto": "Muere José Name Terán, político y abogado colombiano (n. 1936).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (José Name Terán)",
+        "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Name_Ter%C3%A1n",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "394-en-el-rio-frigido-al-oeste",
@@ -1615,6 +2033,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1952-serie-de-incendios-de-origen-criminal",
+    "fecha": {
+      "dia": 6,
+      "mes": 9
+    },
+    "anio": 1952,
+    "tipo": "acontecimiento",
+    "texto": "Serie de incendios de origen criminal perpetrados por manifestantes contrarios al Partido Liberal Colombiano en el contexto del periodo conocido como La Violencia.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (6 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/6_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1954-en-manila-filipinas-representantes-de-australia",
     "fecha": {
       "dia": 6,
@@ -1672,6 +2109,44 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1980-nace-lina-angarita-modelo-y-actriz",
+    "fecha": {
+      "dia": 6,
+      "mes": 9
+    },
+    "anio": 1980,
+    "tipo": "nacimiento",
+    "texto": "Nace Lina Angarita, modelo y actriz colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Lina Angarita)",
+        "url": "https://es.wikipedia.org/wiki/Lina_Angarita",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1980-muere-heraldo-romero-sanchez-politico-colombiano",
+    "fecha": {
+      "dia": 6,
+      "mes": 9
+    },
+    "anio": 1980,
+    "tipo": "fallecimiento",
+    "texto": "Muere Heraldo Romero Sánchez, político colombiano (n. 1948).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Heraldo Romero Sánchez)",
+        "url": "https://es.wikipedia.org/wiki/Heraldo_Romero_S%C3%A1nchez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1981-muere-lucas-demare-cineasta-argentino-n",
     "fecha": {
       "dia": 6,
@@ -1710,6 +2185,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1984-nace-diana-neira-actriz-colombiana",
+    "fecha": {
+      "dia": 6,
+      "mes": 9
+    },
+    "anio": 1984,
+    "tipo": "nacimiento",
+    "texto": "Nace Diana Neira, actriz colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Diana Neira)",
+        "url": "https://es.wikipedia.org/wiki/Diana_Neira",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1998-muere-akira-kurosawa-cineasta-japones-n",
     "fecha": {
       "dia": 6,
@@ -1727,6 +2221,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2017-visita-del-papa-francisco-a-colombia",
+    "fecha": {
+      "dia": 6,
+      "mes": 9
+    },
+    "anio": 2017,
+    "tipo": "acontecimiento",
+    "texto": "Visita del papa Francisco a Colombia entre el 6 y el 10 de septiembre.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (6 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/6_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "2019-los-colombianos-juan-sebastian-cabal-y",
+    "fecha": {
+      "dia": 6,
+      "mes": 9
+    },
+    "anio": 2019,
+    "tipo": "acontecimiento",
+    "texto": "Los colombianos Juan Sebastián Cabal y Robert Farah se coronaron campeones del Grand Slam celebrado en Estados Unidos.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (6 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/6_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1499-en-espana-diego-de-lucero-el",
@@ -1900,6 +2432,44 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1939-nace-albalucia-angel-escritora-colombiana",
+    "fecha": {
+      "dia": 7,
+      "mes": 9
+    },
+    "anio": 1939,
+    "tipo": "nacimiento",
+    "texto": "Nace Albalucía Ángel, escritora colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Albalucía Ángel)",
+        "url": "https://es.wikipedia.org/wiki/Albaluc%C3%ADa_%C3%81ngel",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1946-en-colombia-el-conservador-mariano-ospina",
+    "fecha": {
+      "dia": 7,
+      "mes": 9
+    },
+    "anio": 1946,
+    "tipo": "acontecimiento",
+    "texto": "En Colombia, el conservador Mariano Ospina Pérez toma posesión de la presidencia.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (7 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/7_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1947-en-argentina-se-sanciona-la-ley",
     "fecha": {
       "dia": 7,
@@ -2033,6 +2603,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "2026-muere-jorge-enrique-bermudez-78-futbolista",
+    "fecha": {
+      "dia": 7,
+      "mes": 9
+    },
+    "anio": 2026,
+    "tipo": "fallecimiento",
+    "texto": "Muere Jorge Enrique Bermúdez (78), futbolista colombiano (n. 1947).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Jorge Enrique Bermúdez)",
+        "url": "https://es.wikipedia.org/wiki/Jorge_Enrique_Berm%C3%BAdez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "70-en-judea-el-ejercito-romano-liderado",
     "fecha": {
       "dia": 8,
@@ -2088,6 +2677,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1799-nace-jose-maria-cordova-militar-colombiano",
+    "fecha": {
+      "dia": 8,
+      "mes": 9
+    },
+    "anio": 1799,
+    "tipo": "nacimiento",
+    "texto": "Nace José María Córdova, militar colombiano (f. 1829).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (José María Córdova)",
+        "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_C%C3%B3rdova",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1832-nace-jose-maria-campo-serrano-politico",
+    "fecha": {
+      "dia": 8,
+      "mes": 9
+    },
+    "anio": 1832,
+    "tipo": "nacimiento",
+    "texto": "Nace José María Campo Serrano, político colombiano (f. 1915).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (José María Campo Serrano)",
+        "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Campo_Serrano",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1841-nace-antonin-dvorjak-compositor-checo-f",
@@ -2240,6 +2867,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1986-nace-carlos-bacca-futbolista-colombiano",
+    "fecha": {
+      "dia": 8,
+      "mes": 9
+    },
+    "anio": 1986,
+    "tipo": "nacimiento",
+    "texto": "Nace Carlos Bacca, futbolista colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Carlos Bacca)",
+        "url": "https://es.wikipedia.org/wiki/Carlos_Bacca",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1987-nace-silvina-moreno-cantante-instrumentista-y",
@@ -2413,6 +3059,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1793-nace-jose-ignacio-de-marquez-fue",
+    "fecha": {
+      "dia": 9,
+      "mes": 9
+    },
+    "anio": 1793,
+    "tipo": "nacimiento",
+    "texto": "Nace José Ignacio de Márquez, fue un abogado y político colombiano. presidente de la Nueva Granada del 1 de abril de 1837-1 de abril de 1841 (f. 1880).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (José Ignacio de Márquez)",
+        "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Ignacio_de_M%C3%A1rquez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1807-en-el-marco-de-las-invasiones",
     "fecha": {
       "dia": 9,
@@ -2468,6 +3133,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1888-nace-miguel-angel-builes-obispo-misionero",
+    "fecha": {
+      "dia": 9,
+      "mes": 9
+    },
+    "anio": 1888,
+    "tipo": "nacimiento",
+    "texto": "Nace Miguel Ángel Builes, obispo misionero colombiano (f. 1971).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Miguel Ángel Builes)",
+        "url": "https://es.wikipedia.org/wiki/Miguel_%C3%81ngel_Builes",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1913-en-la-provincia-de-cordoba-argentina",
@@ -2641,6 +3325,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "2020-en-colombia-se-produjeron-masivas-protestas",
+    "fecha": {
+      "dia": 9,
+      "mes": 9
+    },
+    "anio": 2020,
+    "tipo": "acontecimiento",
+    "texto": "En Colombia, se produjeron masivas protestas a nivel nacional tras la muerte de Javier Ordóñez, un ciudadano que falleció debido a un acto de brutalidad policial en Bogotá, donde fue sometido violentamente con una pistola eléctrica (táser).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (9 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/9_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1797-muere-mary-wollstonecraft-escritora-britanica-n",
     "fecha": {
       "dia": 10,
@@ -2696,6 +3399,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1838-en-ecuador-el-colombiano-jose-rodriguez",
+    "fecha": {
+      "dia": 10,
+      "mes": 9
+    },
+    "anio": 1838,
+    "tipo": "acontecimiento",
+    "texto": "En Ecuador, el colombiano José Rodríguez recorre 1 km bajo las aguas del río Guayas dentro de un sumergible creado por él, al que denomina El Hipopótamo.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (10 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/10_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1892-nace-arthur-compton-fisico-estadounidense-premio",
@@ -2755,6 +3477,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1924-en-cucuta-colombia-se-funda-el",
+    "fecha": {
+      "dia": 10,
+      "mes": 9
+    },
+    "anio": 1924,
+    "tipo": "acontecimiento",
+    "texto": "En Cúcuta (Colombia) se funda el equipo de fútbol Cúcuta Foot-ball Club (actual Cúcuta Deportivo).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (10 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/10_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1936-en-el-contexto-de-la-guerra-5",
     "fecha": {
       "dia": 10,
@@ -2812,6 +3553,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1976-nace-alex-campos-musico-y-cantante",
+    "fecha": {
+      "dia": 10,
+      "mes": 9
+    },
+    "anio": 1976,
+    "tipo": "nacimiento",
+    "texto": "Nace Álex Campos, músico y cantante de música cristiana colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Alex Campos)",
+        "url": "https://es.wikipedia.org/wiki/Alex_Campos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1981-nace-german-denis-futbolista-argentino",
     "fecha": {
       "dia": 10,
@@ -2848,6 +3608,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1984-nace-ivonne-guzman-cantante-colombiana",
+    "fecha": {
+      "dia": 10,
+      "mes": 9
+    },
+    "anio": 1984,
+    "tipo": "nacimiento",
+    "texto": "Nace Ivonne Guzmán, cantante colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Ivonne Guzmán)",
+        "url": "https://es.wikipedia.org/wiki/Ivonne_Guzm%C3%A1n",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1985-nace-monica-lopera-actriz-colombiana",
+    "fecha": {
+      "dia": 10,
+      "mes": 9
+    },
+    "anio": 1985,
+    "tipo": "nacimiento",
+    "texto": "Nace Mónica Lopera, actriz colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Mónica Lopera)",
+        "url": "https://es.wikipedia.org/wiki/M%C3%B3nica_Lopera",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1990-en-argentina-el-principe-felipe-de",
@@ -3154,6 +3952,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1974-nace-orlando-duque-clavadista-colombiano",
+    "fecha": {
+      "dia": 11,
+      "mes": 9
+    },
+    "anio": 1974,
+    "tipo": "nacimiento",
+    "texto": "Nace Orlando Duque, clavadista colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Orlando Duque)",
+        "url": "https://es.wikipedia.org/wiki/Orlando_Duque",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1977-el-tenista-argentino-guillermo-vilas-vence",
     "fecha": {
       "dia": 11,
@@ -3230,6 +4047,44 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "2016-en-madrid-espana-el-ciclista-colombiano",
+    "fecha": {
+      "dia": 11,
+      "mes": 9
+    },
+    "anio": 2016,
+    "tipo": "acontecimiento",
+    "texto": "En Madrid, España, el ciclista colombiano Nairo Quintana se proclama vencedor de la Vuelta a España.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (11 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/11_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "2025-llega-a-bogota-el-primer-tren",
+    "fecha": {
+      "dia": 11,
+      "mes": 9
+    },
+    "anio": 2025,
+    "tipo": "acontecimiento",
+    "texto": "Llega a Bogotá el primer tren del Metro de Bogotá.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (11 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/11_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1297-en-la-provincia-de-zamora-se",
     "fecha": {
       "dia": 12,
@@ -3287,6 +4142,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1867-nace-carlos-e-restrepo-presidente-colombiano",
+    "fecha": {
+      "dia": 12,
+      "mes": 9
+    },
+    "anio": 1867,
+    "tipo": "nacimiento",
+    "texto": "Nace Carlos E. Restrepo, presidente colombiano (f. 1937).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Carlos Eugenio Restrepo)",
+        "url": "https://es.wikipedia.org/wiki/Carlos_Eugenio_Restrepo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1897-nace-irene-joliot-curie-quimica-francesa",
     "fecha": {
       "dia": 12,
@@ -3342,6 +4216,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1953-en-colombia-la-guerrilla-liberal-colombiana",
+    "fecha": {
+      "dia": 12,
+      "mes": 9
+    },
+    "anio": 1953,
+    "tipo": "acontecimiento",
+    "texto": "En Colombia, la guerrilla liberal colombiana acepta la amnistía propuesta por el gobierno militar, tras cuatro años de lucha.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (12 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/12_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1959-la-union-sovietica-lanza-la-luna",
@@ -3477,6 +4370,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1986-nace-sergio-mendoza-locutor-y-productor",
+    "fecha": {
+      "dia": 12,
+      "mes": 9
+    },
+    "anio": 1986,
+    "tipo": "nacimiento",
+    "texto": "Nace Sergio Mendoza, locutor y productor de multimedia colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Sergio Mendoza)",
+        "url": "https://es.wikipedia.org/wiki/Sergio_Mendoza",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1994-nace-nicolas-orsini-futbolista-argentino",
     "fecha": {
       "dia": 12,
@@ -3494,6 +4406,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1998-nace-juan-portilla-futbolista-colombiano",
+    "fecha": {
+      "dia": 12,
+      "mes": 9
+    },
+    "anio": 1998,
+    "tipo": "nacimiento",
+    "texto": "Nace Juan Portilla, futbolista colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Juan Portilla)",
+        "url": "https://es.wikipedia.org/wiki/Juan_Portilla",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "2005-muere-pablo-ramon-ayala-cantante-y",
@@ -3667,6 +4598,44 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1932-nace-fernando-gonzalez-pacheco-presentador-colombiano",
+    "fecha": {
+      "dia": 13,
+      "mes": 9
+    },
+    "anio": 1932,
+    "tipo": "nacimiento",
+    "texto": "Nace Fernando González Pacheco, presentador colombiano de origen español (f. 2014).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Fernando González Pacheco)",
+        "url": "https://es.wikipedia.org/wiki/Fernando_Gonz%C3%A1lez_Pacheco",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1965-nace-andrea-echeverri-cantautora-colombiana-de",
+    "fecha": {
+      "dia": 13,
+      "mes": 9
+    },
+    "anio": 1965,
+    "tipo": "nacimiento",
+    "texto": "Nace Andrea Echeverri, cantautora colombiana, de la banda Aterciopelados.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Andrea Echeverri)",
+        "url": "https://es.wikipedia.org/wiki/Andrea_Echeverri",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1966-la-delegacion-de-cordoba-de-la",
     "fecha": {
       "dia": 13,
@@ -3684,6 +4653,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1967-nace-herbin-hoyos-periodista-y-activista",
+    "fecha": {
+      "dia": 13,
+      "mes": 9
+    },
+    "anio": 1967,
+    "tipo": "nacimiento",
+    "texto": "Nace Herbin Hoyos, periodista y activista colombiano (f. 2021).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Herbin Hoyos)",
+        "url": "https://es.wikipedia.org/wiki/Herbin_Hoyos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1970-nace-martin-herrera-futbolista-argentino",
@@ -3722,6 +4710,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1979-muere-carlos-vieco-ortiz-fue-un",
+    "fecha": {
+      "dia": 13,
+      "mes": 9
+    },
+    "anio": 1979,
+    "tipo": "fallecimiento",
+    "texto": "Muere Carlos Vieco Ortiz, fue un prolífico compositor folclorísta Colombiano (n. 1900).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Carlos Vieco Ortiz)",
+        "url": "https://es.wikipedia.org/wiki/Carlos_Vieco_Ortiz",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1987-muere-anibal-gordon-criminal-argentino",
@@ -3798,6 +4805,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2005-muere-julio-cesar-turbay-ayala-presidente",
+    "fecha": {
+      "dia": 13,
+      "mes": 9
+    },
+    "anio": 2005,
+    "tipo": "fallecimiento",
+    "texto": "Muere Julio César Turbay Ayala, presidente colombiano (n. 1916).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Julio César Turbay)",
+        "url": "https://es.wikipedia.org/wiki/Julio_C%C3%A9sar_Turbay",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "2013-muere-delfor-dicasolo-actor-guionista-y",
@@ -3971,6 +4997,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1954-nace-otto-serge-cantante-colombiano-del",
+    "fecha": {
+      "dia": 14,
+      "mes": 9
+    },
+    "anio": 1954,
+    "tipo": "nacimiento",
+    "texto": "Nace Otto Serge, cantante colombiano del vallenato.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Otto Serge)",
+        "url": "https://es.wikipedia.org/wiki/Otto_Serge",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1955-nace-leon-xiv-teologo-y-matematico",
     "fecha": {
       "dia": 14,
@@ -4026,6 +5071,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1977-paro-civico-colombiano-con-manifestaciones-y",
+    "fecha": {
+      "dia": 14,
+      "mes": 9
+    },
+    "anio": 1977,
+    "tipo": "acontecimiento",
+    "texto": "Paro Cívico Colombiano, con manifestaciones y huelgas en las carreteras del territorio junto a las principales ciudades del país, dejando un saldo de 33 muertos, cerca de 3000 heridos y miles de detenidos.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (14 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/14_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1983-nace-cristina-hurtado-modelo-presentadora-y",
+    "fecha": {
+      "dia": 14,
+      "mes": 9
+    },
+    "anio": 1983,
+    "tipo": "nacimiento",
+    "texto": "Nace Cristina Hurtado, modelo, presentadora y empresaria colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Cristina Hurtado)",
+        "url": "https://es.wikipedia.org/wiki/Cristina_Hurtado",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1984-en-buenos-aires-argentina-tres-jovenes",
@@ -4256,6 +5339,44 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1929-nace-nena-jimenez-humorista-colombiana-f",
+    "fecha": {
+      "dia": 15,
+      "mes": 9
+    },
+    "anio": 1929,
+    "tipo": "nacimiento",
+    "texto": "Nace Nena Jiménez, humorista colombiana (f. 2011).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Rosa Helena Jiménez)",
+        "url": "https://es.wikipedia.org/wiki/Rosa_Helena_Jim%C3%A9nez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1936-en-medellin-colombia-se-funda-la",
+    "fecha": {
+      "dia": 15,
+      "mes": 9
+    },
+    "anio": 1936,
+    "tipo": "acontecimiento",
+    "texto": "En Medellín (Colombia) se funda la Universidad Católica Bolivariana, que en 1945 tomó el nombre de Universidad Pontificia Bolivariana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (15 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/15_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1937-nace-fernando-de-la-rua-politico",
     "fecha": {
       "dia": 15,
@@ -4273,6 +5394,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1950-en-colombia-sale-al-aire-la",
+    "fecha": {
+      "dia": 15,
+      "mes": 9
+    },
+    "anio": 1950,
+    "tipo": "acontecimiento",
+    "texto": "En Colombia sale al aire la emisora cultural HJCK.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (15 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/15_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1971-nace-dairo-antonio-usuga-david-narcotraficante",
+    "fecha": {
+      "dia": 15,
+      "mes": 9
+    },
+    "anio": 1971,
+    "tipo": "nacimiento",
+    "texto": "Nace Dairo Antonio Úsuga David, narcotraficante colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Dairo Antonio Úsuga David)",
+        "url": "https://es.wikipedia.org/wiki/Dairo_Antonio_%C3%9Asuga_David",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1983-en-estados-unidos-se-realiza-la",
@@ -4294,6 +5453,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1995-nace-rafael-santos-borre-futbolista-colombiano",
+    "fecha": {
+      "dia": 15,
+      "mes": 9
+    },
+    "anio": 1995,
+    "tipo": "nacimiento",
+    "texto": "Nace Rafael Santos Borré, futbolista colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Rafael Santos Borré)",
+        "url": "https://es.wikipedia.org/wiki/Rafael_Santos_Borr%C3%A9",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "2006-muere-oriana-fallaci-escritora-y-periodista",
     "fecha": {
       "dia": 15,
@@ -4311,6 +5489,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2017-muere-maria-cristina-arango-de-pastrana",
+    "fecha": {
+      "dia": 15,
+      "mes": 9
+    },
+    "anio": 2017,
+    "tipo": "fallecimiento",
+    "texto": "Muere María Cristina Arango de Pastrana, primera dama de Colombia 1970-1974 (n. 1928).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (María Cristina Arango)",
+        "url": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Cristina_Arango",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "2018-muere-jose-manuel-de-la-sota",
@@ -4359,7 +5556,8 @@
     "anio": 2023,
     "tipo": "fallecimiento",
     "texto": "Muere Fernando Botero Ángulo (91), Famoso artista Colombiano, reconocido mundialmente (n. 1932)",
-    "alcance": "internacional",
+    "alcance": "colombia",
+    "tambienInternacional": true,
     "fuentes": [
       {
         "nombre": "Wikipedia (Fernando Botero)",
@@ -4465,6 +5663,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1902-muere-manuel-maria-paz-fue-un",
+    "fecha": {
+      "dia": 16,
+      "mes": 9
+    },
+    "anio": 1902,
+    "tipo": "fallecimiento",
+    "texto": "Muere Manuel María Paz, fue un militar, cartógrafo, dibujante y pintor colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Manuel María Paz)",
+        "url": "https://es.wikipedia.org/wiki/Manuel_Mar%C3%ADa_Paz",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1923-nace-lee-kuan-yew-primer-jefe",
     "fecha": {
       "dia": 16,
@@ -4541,6 +5758,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1946-nace-oscar-golden-cantante-colombiano-f",
+    "fecha": {
+      "dia": 16,
+      "mes": 9
+    },
+    "anio": 1946,
+    "tipo": "nacimiento",
+    "texto": "Nace Óscar Golden, cantante colombiano (f. 2008).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Óscar Golden)",
+        "url": "https://es.wikipedia.org/wiki/%C3%93scar_Golden",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1955-en-argentina-los-militares-derrocan-al",
     "fecha": {
       "dia": 16,
@@ -4596,6 +5832,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1986-nace-farina-pao-actriz-y-cantante",
+    "fecha": {
+      "dia": 16,
+      "mes": 9
+    },
+    "anio": 1986,
+    "tipo": "nacimiento",
+    "texto": "Nace Farina Pao, actriz y cantante colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Fariana)",
+        "url": "https://es.wikipedia.org/wiki/Fariana",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1993-nace-laura-rodriguez-actriz-es-una",
+    "fecha": {
+      "dia": 16,
+      "mes": 9
+    },
+    "anio": 1993,
+    "tipo": "nacimiento",
+    "texto": "Nace Laura Rodríguez (actriz), es una actriz y modelo colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Laura Rodríguez (actriz))",
+        "url": "https://es.wikipedia.org/wiki/Laura_Rodr%C3%ADguez_(actriz)",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "2010-muere-silo-mario-rodriguez-escritor-argentino",
@@ -4769,6 +6043,44 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1921-nace-virgilio-barco-vargas-presidente-colombiano",
+    "fecha": {
+      "dia": 17,
+      "mes": 9
+    },
+    "anio": 1921,
+    "tipo": "nacimiento",
+    "texto": "Nace Virgilio Barco Vargas, presidente colombiano entre 1986 y 1990 (f. 1997).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Virgilio Barco)",
+        "url": "https://es.wikipedia.org/wiki/Virgilio_Barco",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1924-muere-luis-tejada-cano-fue-un",
+    "fecha": {
+      "dia": 17,
+      "mes": 9
+    },
+    "anio": 1924,
+    "tipo": "fallecimiento",
+    "texto": "Muere Luis Tejada Cano, fue un periodista y cronista colombiano (n. 1898).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Luis Tejada Cano)",
+        "url": "https://es.wikipedia.org/wiki/Luis_Tejada_Cano",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1929-nace-eliseo-prado-futbolista-argentino-f",
     "fecha": {
       "dia": 17,
@@ -4807,6 +6119,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1949-nace-chela-arias-actriz-colombiana",
+    "fecha": {
+      "dia": 17,
+      "mes": 9
+    },
+    "anio": 1949,
+    "tipo": "nacimiento",
+    "texto": "Nace Chela Arias, actriz colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Chela Arias)",
+        "url": "https://es.wikipedia.org/wiki/Chela_Arias",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1950-nace-narendra-modi-primer-ministro-indio",
     "fecha": {
       "dia": 17,
@@ -4843,6 +6174,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1973-nace-bernardo-duque-locutor-actor-de",
+    "fecha": {
+      "dia": 17,
+      "mes": 9
+    },
+    "anio": 1973,
+    "tipo": "nacimiento",
+    "texto": "Nace Bernardo Duque, locutor, actor de doblaje, presentador de televisión y arreglista colombiano (f. 2013).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Bernardo Duque)",
+        "url": "https://es.wikipedia.org/wiki/Bernardo_Duque",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1978-en-los-estados-unidos-el-presidente",
@@ -4959,6 +6309,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "2021-muere-rey-vasquez-actor-colombiano-n",
+    "fecha": {
+      "dia": 17,
+      "mes": 9
+    },
+    "anio": 2021,
+    "tipo": "fallecimiento",
+    "texto": "Muere Rey Vásquez, actor colombiano (n. 1938).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Rey Vásquez)",
+        "url": "https://es.wikipedia.org/wiki/Rey_V%C3%A1squez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1709-nace-samuel-johnson-escritor-y-lexicografo",
     "fecha": {
       "dia": 18,
@@ -5016,6 +6385,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1858-nace-pedro-nel-ospina-militar-y",
+    "fecha": {
+      "dia": 18,
+      "mes": 9
+    },
+    "anio": 1858,
+    "tipo": "nacimiento",
+    "texto": "Nace Pedro Nel Ospina, militar y político colombiano (f. 1927).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Pedro Nel Ospina)",
+        "url": "https://es.wikipedia.org/wiki/Pedro_Nel_Ospina",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1882-el-comandante-argentino-luis-jorge-fontana",
     "fecha": {
       "dia": 18,
@@ -5052,6 +6440,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1894-muere-rafael-nunez-presidente-colombiano-n",
+    "fecha": {
+      "dia": 18,
+      "mes": 9
+    },
+    "anio": 1894,
+    "tipo": "fallecimiento",
+    "texto": "Muere Rafael Núñez, presidente colombiano (n. 1825).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Rafael Núñez)",
+        "url": "https://es.wikipedia.org/wiki/Rafael_N%C3%BA%C3%B1ez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1897-en-uruguay-se-produce-el-pacto",
@@ -5206,6 +6613,63 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1975-muere-luis-concha-cordoba-cardenal-colombiano",
+    "fecha": {
+      "dia": 18,
+      "mes": 9
+    },
+    "anio": 1975,
+    "tipo": "fallecimiento",
+    "texto": "Muere Luis Concha Córdoba, cardenal colombiano (n. 1891).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Luis Concha Córdoba)",
+        "url": "https://es.wikipedia.org/wiki/Luis_Concha_C%C3%B3rdoba",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1977-nace-andres-parra-actor-colombiano",
+    "fecha": {
+      "dia": 18,
+      "mes": 9
+    },
+    "anio": 1977,
+    "tipo": "nacimiento",
+    "texto": "Nace Andrés Parra, actor colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Andrés Parra)",
+        "url": "https://es.wikipedia.org/wiki/Andr%C3%A9s_Parra",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1987-nace-margarita-munoz-modelo-y-actriz",
+    "fecha": {
+      "dia": 18,
+      "mes": 9
+    },
+    "anio": 1987,
+    "tipo": "nacimiento",
+    "texto": "Nace Margarita Muñoz, modelo y actriz colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Margarita Muñoz)",
+        "url": "https://es.wikipedia.org/wiki/Margarita_Mu%C3%B1oz",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "2006-en-buenos-aires-argentina-desaparece-jorge",
     "fecha": {
       "dia": 18,
@@ -5282,6 +6746,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1844-nace-rufino-jose-cuervo-filologo-colombiano",
+    "fecha": {
+      "dia": 19,
+      "mes": 9
+    },
+    "anio": 1844,
+    "tipo": "nacimiento",
+    "texto": "Nace Rufino José Cuervo, filólogo colombiano (f. 1911 ).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Rufino José Cuervo)",
+        "url": "https://es.wikipedia.org/wiki/Rufino_Jos%C3%A9_Cuervo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1853-nace-florentino-ameghino-naturalista-paleontologo-antropologo",
     "fecha": {
       "dia": 19,
@@ -5318,6 +6801,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1908-muere-jose-manuel-marroquin-expresidente-escritor",
+    "fecha": {
+      "dia": 19,
+      "mes": 9
+    },
+    "anio": 1908,
+    "tipo": "fallecimiento",
+    "texto": "Muere José Manuel Marroquín, expresidente, escritor y estadista colombiano (n. 1827).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (José Manuel Marroquín)",
+        "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Manuel_Marroqu%C3%ADn",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1911-nace-william-golding-novelista-poeta-y",
@@ -5377,6 +6879,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1956-nace-amparo-grisales-actriz-presentadora-y",
+    "fecha": {
+      "dia": 19,
+      "mes": 9
+    },
+    "anio": 1956,
+    "tipo": "nacimiento",
+    "texto": "Nace Amparo Grisales, actriz, presentadora y modelo colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Amparo Grisales)",
+        "url": "https://es.wikipedia.org/wiki/Amparo_Grisales",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1978-nace-mariano-puerta-tenista-argentino",
     "fecha": {
       "dia": 19,
@@ -5415,6 +6936,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1993-nace-javier-ramirez-actor-youtuber-y",
+    "fecha": {
+      "dia": 19,
+      "mes": 9
+    },
+    "anio": 1993,
+    "tipo": "nacimiento",
+    "texto": "Nace Javier Ramírez, actor, youtuber y cantante colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Javier Ramírez (youtuber))",
+        "url": "https://es.wikipedia.org/wiki/Javier_Ram%C3%ADrez_(youtuber)",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1994-muere-alberto-closas-actor-argentino-nacido",
     "fecha": {
       "dia": 19,
@@ -5432,6 +6972,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2024-muere-fabiola-posada-actriz-y-humorista",
+    "fecha": {
+      "dia": 19,
+      "mes": 9
+    },
+    "anio": 2024,
+    "tipo": "fallecimiento",
+    "texto": "Muere Fabiola Posada, actriz y humorista colombiana (n. 1963).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Fabiola Posada)",
+        "url": "https://es.wikipedia.org/wiki/Fabiola_Posada",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "451-algunos-historiadores-datan-en-esta-jornada",
@@ -5662,6 +7221,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1975-nace-juan-pablo-montoya-piloto-de",
+    "fecha": {
+      "dia": 20,
+      "mes": 9
+    },
+    "anio": 1975,
+    "tipo": "nacimiento",
+    "texto": "Nace Juan Pablo Montoya, piloto de automovilismo colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Juan Pablo Montoya)",
+        "url": "https://es.wikipedia.org/wiki/Juan_Pablo_Montoya",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1984-en-argentina-la-conadep-entrega-su",
     "fecha": {
       "dia": 20,
@@ -5679,6 +7257,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1988-nace-carlos-torres-actor-de-television",
+    "fecha": {
+      "dia": 20,
+      "mes": 9
+    },
+    "anio": 1988,
+    "tipo": "nacimiento",
+    "texto": "Nace Carlos Torres, actor de televisión colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Carlos Torres (actor colombiano))",
+        "url": "https://es.wikipedia.org/wiki/Carlos_Torres_(actor_colombiano)",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1992-muere-david-stivel-escritor-de-guiones",
@@ -5700,6 +7297,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1996-nace-marlos-moreno-futbolista-colombiano",
+    "fecha": {
+      "dia": 20,
+      "mes": 9
+    },
+    "anio": 1996,
+    "tipo": "nacimiento",
+    "texto": "Nace Marlos Moreno, futbolista colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Marlos Moreno)",
+        "url": "https://es.wikipedia.org/wiki/Marlos_Moreno",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1997-en-buenos-aires-ante-mas-de",
     "fecha": {
       "dia": 20,
@@ -5717,6 +7333,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2000-la-pesista-maria-isabel-urrutia-de",
+    "fecha": {
+      "dia": 20,
+      "mes": 9
+    },
+    "anio": 2000,
+    "tipo": "acontecimiento",
+    "texto": "La pesista María Isabel Urrutia de Candelaria (Valle del Cauca) Colombia ganó la medalla de Oro en Halterofilia femenino en la categoría de 75 Kg logrando, de esta manera, el primer oro olímpico de la historia para Colombia.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (20 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/20_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "2009-en-la-habana-cuba-se-celebra",
@@ -5852,6 +7487,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1901-muere-tulio-varon-guerrillero-colombiano-uno",
+    "fecha": {
+      "dia": 21,
+      "mes": 9
+    },
+    "anio": 1901,
+    "tipo": "fallecimiento",
+    "texto": "Muere Tulio Varón, guerrillero colombiano, uno de los líderes liberales de la guerra de los Mil Días en Colombia (n. 1860).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Tulio Varón)",
+        "url": "https://es.wikipedia.org/wiki/Tulio_Var%C3%B3n",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1919-nace-mario-bunge-fisico-y-filosofo",
     "fecha": {
       "dia": 21,
@@ -5888,6 +7542,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1934-nace-augusto-ramirez-ocampo-fue-un",
+    "fecha": {
+      "dia": 21,
+      "mes": 9
+    },
+    "anio": 1934,
+    "tipo": "nacimiento",
+    "texto": "Nace Augusto Ramírez Ocampo, fue un abogado, economista, diplomático y político colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Augusto Ramírez Ocampo)",
+        "url": "https://es.wikipedia.org/wiki/Augusto_Ram%C3%ADrez_Ocampo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1954-nace-shinzo-abe-politico-japones-primer",
@@ -6023,6 +7696,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1997-nace-jhon-arias-futbolista-colombiano",
+    "fecha": {
+      "dia": 21,
+      "mes": 9
+    },
+    "anio": 1997,
+    "tipo": "nacimiento",
+    "texto": "Nace Jhon Arias, futbolista colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Jhon Arias)",
+        "url": "https://es.wikipedia.org/wiki/Jhon_Arias",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "2014-muere-cecilia-cenci-actriz-argentina-n",
     "fecha": {
       "dia": 21,
@@ -6118,6 +7810,44 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1829-en-guayaquil-ecuador-se-firma-el",
+    "fecha": {
+      "dia": 22,
+      "mes": 9
+    },
+    "anio": 1829,
+    "tipo": "acontecimiento",
+    "texto": "En Guayaquil (Ecuador) se firma el tratado de paz que fija los límites entre Colombia y Perú.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (22 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/22_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1830-aprobacion-de-la-constitucion-de-venezuela",
+    "fecha": {
+      "dia": 22,
+      "mes": 9
+    },
+    "anio": 1830,
+    "tipo": "acontecimiento",
+    "texto": "Aprobación de la constitución de Venezuela del Congreso de Valencia en donde se declara la separación de la Gran Colombia.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (22 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/22_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1866-en-paraguay-en-el-marco-de",
     "fecha": {
       "dia": 22,
@@ -6135,6 +7865,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1867-en-bogota-colombia-se-funda-la",
+    "fecha": {
+      "dia": 22,
+      "mes": 9
+    },
+    "anio": 1867,
+    "tipo": "acontecimiento",
+    "texto": "En Bogotá (Colombia) se funda la Universidad Nacional de Colombia.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (22 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/22_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1875-en-argentina-se-inaugura-la-comunicacion",
@@ -6270,6 +8019,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1966-nace-martin-de-francisco-presentador-locutor",
+    "fecha": {
+      "dia": 22,
+      "mes": 9
+    },
+    "anio": 1966,
+    "tipo": "nacimiento",
+    "texto": "Nace Martín de Francisco, presentador, locutor, actor y periodista deportivo colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Martín de Francisco)",
+        "url": "https://es.wikipedia.org/wiki/Mart%C3%ADn_de_Francisco",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1972-en-argentina-el-destituido-presidente-juan",
     "fecha": {
       "dia": 22,
@@ -6287,6 +8055,63 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1978-muere-jose-alejandro-morales-compositor-colombiano",
+    "fecha": {
+      "dia": 22,
+      "mes": 9
+    },
+    "anio": 1978,
+    "tipo": "fallecimiento",
+    "texto": "Muere José Alejandro Morales, compositor colombiano (n. 1913).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (José A. Morales)",
+        "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_A._Morales",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "2008-nace-alanna-de-la-rossa-actriz",
+    "fecha": {
+      "dia": 22,
+      "mes": 9
+    },
+    "anio": 2008,
+    "tipo": "nacimiento",
+    "texto": "Nace Alanna de la Rossa, actriz, cantante y modelo colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Alanna de la Rossa)",
+        "url": "https://es.wikipedia.org/wiki/Alanna_de_la_Rossa",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "2013-muere-alvaro-mutis-escritor-colombiano-n",
+    "fecha": {
+      "dia": 22,
+      "mes": 9
+    },
+    "anio": 2013,
+    "tipo": "fallecimiento",
+    "texto": "Muere Álvaro Mutis, escritor colombiano (n. 1923).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Álvaro Mutis)",
+        "url": "https://es.wikipedia.org/wiki/%C3%81lvaro_Mutis",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "2022-muere-carlitos-bala-humorista-actor-musico",
@@ -6403,6 +8228,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1826-el-libertador-simon-bolivar-se-embarca-2",
+    "fecha": {
+      "dia": 23,
+      "mes": 9
+    },
+    "anio": 1826,
+    "tipo": "acontecimiento",
+    "texto": "El Libertador Simón Bolívar se embarca en El Callao hacia Colombia.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (23 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/23_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1877-nace-leon-see-esgrimista-frances-f",
     "fecha": {
       "dia": 23,
@@ -6517,6 +8361,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1951-nace-carlos-holmes-trujillo-abogado-y",
+    "fecha": {
+      "dia": 23,
+      "mes": 9
+    },
+    "anio": 1951,
+    "tipo": "nacimiento",
+    "texto": "Nace Carlos Holmes Trujillo, abogado y político colombiano (f. 2021).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Carlos Holmes Trujillo)",
+        "url": "https://es.wikipedia.org/wiki/Carlos_Holmes_Trujillo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1955-en-buenos-aires-argentina-eduardo-lonardi",
     "fecha": {
       "dia": 23,
@@ -6612,6 +8475,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1985-nace-samper-cantante-colombiano",
+    "fecha": {
+      "dia": 23,
+      "mes": 9
+    },
+    "anio": 1985,
+    "tipo": "nacimiento",
+    "texto": "Nace Samper, cantante colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Samper (cantante))",
+        "url": "https://es.wikipedia.org/wiki/Samper_(cantante)",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1988-nace-juan-martin-del-potro-tenista",
     "fecha": {
       "dia": 23,
@@ -6648,6 +8530,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1994-nace-yerry-mina-futbolista-colombiano",
+    "fecha": {
+      "dia": 23,
+      "mes": 9
+    },
+    "anio": 1994,
+    "tipo": "nacimiento",
+    "texto": "Nace Yerry Mina, futbolista colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Yerry Mina)",
+        "url": "https://es.wikipedia.org/wiki/Yerry_Mina",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1541-muere-paracelso-medico-y-quimico-suizo",
@@ -6745,6 +8646,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1890-muere-ezequiel-hurtado-militar-y-presidente",
+    "fecha": {
+      "dia": 24,
+      "mes": 9
+    },
+    "anio": 1890,
+    "tipo": "fallecimiento",
+    "texto": "Muere Ezequiel Hurtado, militar y presidente colombiano (n. 1825).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Ezequiel Hurtado)",
+        "url": "https://es.wikipedia.org/wiki/Ezequiel_Hurtado",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1896-nace-f-scott-fitzgerald-escritor-estadounidense",
     "fecha": {
       "dia": 24,
@@ -6821,6 +8741,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1923-muere-manuel-maria-sanclemente-militar-empresario",
+    "fecha": {
+      "dia": 24,
+      "mes": 9
+    },
+    "anio": 1923,
+    "tipo": "fallecimiento",
+    "texto": "Muere Manuel María Sanclemente, militar, empresario y político colombiano (n. 1848).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Manuel María Sanclemente)",
+        "url": "https://es.wikipedia.org/wiki/Manuel_Mar%C3%ADa_Sanclemente",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1928-en-buenos-aires-argentina-se-crean",
     "fecha": {
       "dia": 24,
@@ -6838,6 +8777,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1941-nace-rodolfo-gonzalez-garcia-escritor-periodista",
+    "fecha": {
+      "dia": 24,
+      "mes": 9
+    },
+    "anio": 1941,
+    "tipo": "nacimiento",
+    "texto": "Nace Rodolfo González García, escritor, periodista, economista y político colombiano (f. 2003).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Rodolfo González García)",
+        "url": "https://es.wikipedia.org/wiki/Rodolfo_Gonz%C3%A1lez_Garc%C3%ADa",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1982-nace-cristian-daniel-ledesma-futbolista-argentino",
@@ -6876,6 +8834,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1992-nace-yuriko-londono-actriz-y-modelo",
+    "fecha": {
+      "dia": 24,
+      "mes": 9
+    },
+    "anio": 1992,
+    "tipo": "nacimiento",
+    "texto": "Nace Yuriko Londoño, actriz y modelo colombiana de ascendencia japonesa.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Yuriko Londoño)",
+        "url": "https://es.wikipedia.org/wiki/Yuriko_Londo%C3%B1o",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1997-nace-maria-alejandra-camargo-arquitecta-modelo",
+    "fecha": {
+      "dia": 24,
+      "mes": 9
+    },
+    "anio": 1997,
+    "tipo": "nacimiento",
+    "texto": "Nace María Alejandra Camargo, arquitecta, modelo y reina de belleza colombiana.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (María Alejandra Camargo)",
+        "url": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Alejandra_Camargo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "2004-muere-francoise-sagan-escritora-francesa-n",
@@ -6943,7 +8939,8 @@
     "anio": 1828,
     "tipo": "acontecimiento",
     "texto": "La Conspiración Septembrina atenta contra la vida de Simón Bolívar, lo cual influye en su renuncia como primer mandatario de la República de Colombia (o Gran Colombia). Resultan sospechosos Francisco de Paula Santander y Mariano Ospina Rodríguez.",
-    "alcance": "internacional",
+    "alcance": "colombia",
+    "tambienInternacional": true,
     "fuentes": [
       {
         "nombre": "Wikipedia (25 de septiembre)",
@@ -7106,6 +9103,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1976-muere-gonzalo-arango-escritor-y-poeta",
+    "fecha": {
+      "dia": 25,
+      "mes": 9
+    },
+    "anio": 1976,
+    "tipo": "fallecimiento",
+    "texto": "Muere Gonzalo Arango, escritor y poeta colombiano (n. 1931).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Gonzalo Arango)",
+        "url": "https://es.wikipedia.org/wiki/Gonzalo_Arango",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1979-en-broadway-se-estrena-la-opera",
     "fecha": {
       "dia": 25,
@@ -7220,6 +9236,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1798-nace-tomas-cipriano-de-mosquera-fue",
+    "fecha": {
+      "dia": 26,
+      "mes": 9
+    },
+    "anio": 1798,
+    "tipo": "nacimiento",
+    "texto": "Nace Tomás Cipriano de Mosquera, fue un militar, diplomático y estadista colombiano, adepto al Partido Liberal Colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Tomás Cipriano de Mosquera)",
+        "url": "https://es.wikipedia.org/wiki/Tom%C3%A1s_Cipriano_de_Mosquera",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1812-150-km-al-oeste-de-la",
     "fecha": {
       "dia": 26,
@@ -7315,6 +9350,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1892-en-colombia-el-gobierno-impone-una",
+    "fecha": {
+      "dia": 26,
+      "mes": 9
+    },
+    "anio": 1892,
+    "tipo": "acontecimiento",
+    "texto": "En Colombia, el gobierno impone una multa de 200 000 pesos a El Espectador, por ese entonces el mayor medio de oposición, porque consideró subversivo uno de sus artículos.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (26 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/26_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1900-nace-vito-dumas-navegante-argentino-f",
     "fecha": {
       "dia": 26,
@@ -7332,6 +9386,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1937-nace-lisandro-meza-cantante-compositor-y",
+    "fecha": {
+      "dia": 26,
+      "mes": 9
+    },
+    "anio": 1937,
+    "tipo": "nacimiento",
+    "texto": "Nace Lisandro Meza, cantante, compositor y músico colombiano (f. 2023).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Lisandro Meza)",
+        "url": "https://es.wikipedia.org/wiki/Lisandro_Meza",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1959-nace-deborah-warren-actriz-argentina-f",
@@ -7370,6 +9443,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1986-nace-eileen-roca-modelo-ex-reina",
+    "fecha": {
+      "dia": 26,
+      "mes": 9
+    },
+    "anio": 1986,
+    "tipo": "nacimiento",
+    "texto": "Nace Eileen Roca, modelo, ex reina de belleza, actriz y cantante colombiano-brasileña.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Eileen Roca)",
+        "url": "https://es.wikipedia.org/wiki/Eileen_Roca",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1988-nace-guillermo-burdisso-futbolista-argentino",
@@ -7448,6 +9540,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "2016-firma-del-acuerdo-de-paz-entre",
+    "fecha": {
+      "dia": 26,
+      "mes": 9
+    },
+    "anio": 2016,
+    "tipo": "acontecimiento",
+    "texto": "Firma del acuerdo de paz entre el gobierno de Juan Manuel Santos y las FARC-EP, después de más de cincuenta años de conflicto en Colombia.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (26 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/26_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "2019-muere-jacques-chirac-politico-frances-presidente",
     "fecha": {
       "dia": 26,
@@ -7465,6 +9576,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1604-en-la-ciudad-de-santafe-de",
+    "fecha": {
+      "dia": 27,
+      "mes": 9
+    },
+    "anio": 1604,
+    "tipo": "acontecimiento",
+    "texto": "En la ciudad de Santafe de Bogotá (en la actual Colombia), el arzobispo Bartolomé Lobo Guerrero funda el Colegio Mayor de San Bartolomé, dándole dicha administración a los padres jesuitas, quienes lo administran hasta el día de hoy.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (27 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/27_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1669-en-heraclion-creta-los-invasores-venecianos",
@@ -7581,6 +9711,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1933-nace-julio-cesar-guerra-tulena-medico",
+    "fecha": {
+      "dia": 27,
+      "mes": 9
+    },
+    "anio": 1933,
+    "tipo": "nacimiento",
+    "texto": "Nace Julio César Guerra Tulena, médico y político colombiano (f. 2022).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Julio César Guerra Tulena)",
+        "url": "https://es.wikipedia.org/wiki/Julio_C%C3%A9sar_Guerra_Tulena",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1950-nace-vanessa-show-actriz-cantante-transformista",
     "fecha": {
       "dia": 27,
@@ -7657,6 +9806,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1977-nace-adriana-tono-presentadora-periodista-y",
+    "fecha": {
+      "dia": 27,
+      "mes": 9
+    },
+    "anio": 1977,
+    "tipo": "nacimiento",
+    "texto": "Nace Adriana Tono, presentadora, periodista y modelo colombiana, que además ha incursionado como cantante.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Adriana Tono)",
+        "url": "https://es.wikipedia.org/wiki/Adriana_Tono",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1984-nace-avril-lavigne-cantante-y-actriz",
     "fecha": {
       "dia": 27,
@@ -7693,6 +9861,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1994-muere-carlos-lleras-restrepo-politico-y",
+    "fecha": {
+      "dia": 27,
+      "mes": 9
+    },
+    "anio": 1994,
+    "tipo": "fallecimiento",
+    "texto": "Muere Carlos Lleras Restrepo, político y gobernante colombiano (n. 1908).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Carlos Lleras Restrepo)",
+        "url": "https://es.wikipedia.org/wiki/Carlos_Lleras_Restrepo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "2000-muere-cuchi-leguizamon-compositor-argentino-n",
@@ -7733,6 +9920,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "2019-muere-luis-ospina-director-guionista-y",
+    "fecha": {
+      "dia": 27,
+      "mes": 9
+    },
+    "anio": 2019,
+    "tipo": "fallecimiento",
+    "texto": "Muere Luis Ospina, director, guionista y productor de cine colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Luis Ospina)",
+        "url": "https://es.wikipedia.org/wiki/Luis_Ospina",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "2020-segunda-guerra-del-alto-karabaj-azerbaiyan",
     "fecha": {
       "dia": 27,
@@ -7769,6 +9975,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1825-nace-rafael-nunez-escritor-y-politico",
+    "fecha": {
+      "dia": 28,
+      "mes": 9
+    },
+    "anio": 1825,
+    "tipo": "nacimiento",
+    "texto": "Nace Rafael Núñez, escritor y político colombiano (f. 1894).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Rafael Núñez)",
+        "url": "https://es.wikipedia.org/wiki/Rafael_N%C3%BA%C3%B1ez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1870-en-argentina-se-crea-el-departamento",
@@ -7883,6 +10108,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1936-nace-agustin-bedoya-cantante-y-compositor",
+    "fecha": {
+      "dia": 28,
+      "mes": 9
+    },
+    "anio": 1936,
+    "tipo": "nacimiento",
+    "texto": "Nace Agustín Bedoya cantante y compositor colombiano (f. 2000).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (28 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/28_de_septiembre#Nacimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1951-golpe-de-estado-en-argentina-contra",
@@ -8018,6 +10262,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "2004-juanes-cantautor-colombiano-publica-su-album",
+    "fecha": {
+      "dia": 28,
+      "mes": 9
+    },
+    "anio": 2004,
+    "tipo": "acontecimiento",
+    "texto": "Juanes, cantautor Colombiano publica su álbum \"Mi sangre\", donde aparece el sencillo \" La camisa negra\" hit musical.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (28 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/28_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "2008-spacex-se-convierte-en-la-primera",
     "fecha": {
       "dia": 28,
@@ -8092,6 +10355,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1551-en-el-departamento-de-cundinamarca-colombia",
+    "fecha": {
+      "dia": 29,
+      "mes": 9
+    },
+    "anio": 1551,
+    "tipo": "acontecimiento",
+    "texto": "En el departamento de Cundinamarca (Colombia), Alonso de Olalla y Hernando de Alcocer fundan la Villeta de San Miguel, municipio colombiano conocido hoy como Villeta.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (29 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/29_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1820-en-el-noreste-de-la-actual",
@@ -8208,6 +10490,44 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1943-nace-luis-carlos-galan-politico-colombiano",
+    "fecha": {
+      "dia": 29,
+      "mes": 9
+    },
+    "anio": 1943,
+    "tipo": "nacimiento",
+    "texto": "Nace Luis Carlos Galán, político colombiano (f. 1989).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Luis Carlos Galán)",
+        "url": "https://es.wikipedia.org/wiki/Luis_Carlos_Gal%C3%A1n",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1951-nace-andres-caicedo-escritor-colombiano-f",
+    "fecha": {
+      "dia": 29,
+      "mes": 9
+    },
+    "anio": 1951,
+    "tipo": "nacimiento",
+    "texto": "Nace Andrés Caicedo, escritor colombiano (f. 1977).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Andrés Caicedo)",
+        "url": "https://es.wikipedia.org/wiki/Andr%C3%A9s_Caicedo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1958-en-el-area-7b-del-sitio",
     "fecha": {
       "dia": 29,
@@ -8265,6 +10585,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1971-muere-miguel-angel-builes-obispo-colombiano",
+    "fecha": {
+      "dia": 29,
+      "mes": 9
+    },
+    "anio": 1971,
+    "tipo": "fallecimiento",
+    "texto": "Muere Miguel Ángel Builes, obispo colombiano (n. 1888).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Miguel Ángel Builes)",
+        "url": "https://es.wikipedia.org/wiki/Miguel_%C3%81ngel_Builes",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1973-muere-w-h-auden-poeta-britanico",
     "fecha": {
       "dia": 29,
@@ -8301,6 +10640,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1998-la-cantante-colombiana-shakira-lanza-su",
+    "fecha": {
+      "dia": 29,
+      "mes": 9
+    },
+    "anio": 1998,
+    "tipo": "acontecimiento",
+    "texto": "La cantante colombiana Shakira lanza su álbum ¿Dónde están los ladrones?, logrando importantes ventas en Estados Unidos.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (29 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/29_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "2000-nace-kevin-castano-futbolista-colombiano",
+    "fecha": {
+      "dia": 29,
+      "mes": 9
+    },
+    "anio": 2000,
+    "tipo": "nacimiento",
+    "texto": "Nace Kevin Castaño, futbolista colombiano.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Kevin Castaño)",
+        "url": "https://es.wikipedia.org/wiki/Kevin_Casta%C3%B1o",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "2012-muere-carlos-busser-militar-argentino-n",
@@ -8358,6 +10735,63 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2024-cerca-de-la-villa-colombiana-de",
+    "fecha": {
+      "dia": 29,
+      "mes": 9
+    },
+    "anio": 2024,
+    "tipo": "acontecimiento",
+    "texto": "Cerca de la villa colombiana de San Francisco (departamento de Antioquia), hombres de la policía colombiana matan al exmilitar y criminal Juan Carlos Rodríguez Agudelo, alias Zeus, junto con varios miembros del Clan del Golfo.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (29 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/29_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "2024-en-el-departamento-de-vichada-colombia",
+    "fecha": {
+      "dia": 29,
+      "mes": 9
+    },
+    "anio": 2024,
+    "tipo": "acontecimiento",
+    "texto": "En el departamento de Vichada (Colombia) cae un helicóptero Bell Huey II de la Fuerza Aérea Colombiana cuando realizaba una misión humanitaria: fallecen sus ocho ocupantes.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (29 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/29_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "2024-muere-juan-carlos-rodriguez-agudelo-militar",
+    "fecha": {
+      "dia": 29,
+      "mes": 9
+    },
+    "anio": 2024,
+    "tipo": "fallecimiento",
+    "texto": "Muere Juan Carlos Rodríguez Agudelo, militar, criminal y paramilitar colombiano (n. 1969).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Juan Carlos Rodríguez Agudelo)",
+        "url": "https://es.wikipedia.org/wiki/Juan_Carlos_Rodr%C3%ADguez_Agudelo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "420-muere-jeronimo-de-estridon-monje-y",
@@ -8436,6 +10870,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1813-muere-atanasio-girardot-militar-colombiano-n",
+    "fecha": {
+      "dia": 30,
+      "mes": 9
+    },
+    "anio": 1813,
+    "tipo": "fallecimiento",
+    "texto": "Muere Atanasio Girardot, militar colombiano (n. 1791).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Atanasio Girardot)",
+        "url": "https://es.wikipedia.org/wiki/Atanasio_Girardot",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
     "id": "1907-en-chile-se-crea-la-reserva",
     "fecha": {
       "dia": 30,
@@ -8472,6 +10925,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1948-nace-raul-reyes-guerrillero-colombiano-miembro",
+    "fecha": {
+      "dia": 30,
+      "mes": 9
+    },
+    "anio": 1948,
+    "tipo": "nacimiento",
+    "texto": "Nace Raúl Reyes, guerrillero colombiano, miembro del secretariado de las FARC (f. 2008).",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Raúl Reyes)",
+        "url": "https://es.wikipedia.org/wiki/Ra%C3%BAl_Reyes",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1950-nace-jorge-luis-ochoa-narcotraficante-empresario",
+    "fecha": {
+      "dia": 30,
+      "mes": 9
+    },
+    "anio": 1950,
+    "tipo": "nacimiento",
+    "texto": "Nace Jorge Luis Ochoa, narcotraficante, empresario, ganadero y asesino colombiano, fundador del Cartel de Medellín.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Jorge Luis Ochoa)",
+        "url": "https://es.wikipedia.org/wiki/Jorge_Luis_Ochoa",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   },
   {
     "id": "1955-muere-james-dean-actor-estadounidense-n",
@@ -8662,5 +11153,24 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2020-en-colombia-se-disuelve-la-empresa",
+    "fecha": {
+      "dia": 30,
+      "mes": 9
+    },
+    "anio": 2020,
+    "tipo": "acontecimiento",
+    "texto": "En Colombia se disuelve la empresa Electricaribe, y pasa a ser Afinia.",
+    "alcance": "colombia",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (30 de septiembre)",
+        "url": "https://es.wikipedia.org/wiki/30_de_septiembre#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-09-30"
   }
 ]

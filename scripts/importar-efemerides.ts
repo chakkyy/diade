@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { archivoEfemeridesSchema } from "../src/lib/schema";
 import { MESES, diasDelMes, hoyEn } from "../src/lib/fechas";
+import { alcanceDeTexto, fusionarPais } from "../src/lib/efemerides-importacion";
 import type { Efemeride, TipoEfemeride } from "../src/types/efemeride";
 
 const API = "https://api.wikimedia.org/feed/v1/wikipedia/es/onthisday";
@@ -14,14 +15,12 @@ const LARGO_MAXIMO_TEXTO = 300;
 const LARGO_MINIMO_TEXTO = 12;
 const SEPARADOR_ORACIONES = /(?<=[a-záéíóúñ0-9)»"][.!?])\s+(?=[A-ZÁÉÍÓÚÑ¿¡«"(])/;
 
-type AlcanceImportado = Exclude<Efemeride["alcance"], "colombia">;
-
-const CUPOS: Record<AlcanceImportado, Record<TipoEfemeride, number>> = {
+const CUPOS: Record<Efemeride["alcance"], Record<TipoEfemeride, number>> = {
   argentina: { acontecimiento: 4, nacimiento: 3, fallecimiento: 2 },
+  colombia: { acontecimiento: 4, nacimiento: 3, fallecimiento: 2 },
   internacional: { acontecimiento: 3, nacimiento: 2, fallecimiento: 2 },
 };
 
-const ARGENTINA = /\bargentin[oa]s?\b|\bArgentina\b|Buenos Aires|bonaerense|porteñ[oa]s?\b/i;
 const DEPORTISTA =
   /futbolist|baloncestist|basquetbolist|ciclist|piloto|jugador|luchador|tenist|nadador|atleta|boxeador|golfist|voleibolist|balonmanist|rugbist|beisbolist|hockey|patinador|esgrimist|remero|gimnast|judoca|yudoca|surfist|esquiador|corredor|velocist|maratonist|clavadist|halterófil|pesist|karateca|taekwondist|arquero|delantero|defensor|centrocampist|entrenador/i;
 const ANIO_TOPE_NACIMIENTO_INTERNACIONAL = 1990;
@@ -52,7 +51,7 @@ interface Candidato {
   tipo: TipoEfemeride;
   anio: number;
   texto: string;
-  alcance: AlcanceImportado;
+  alcance: Efemeride["alcance"];
   puntaje: number;
   deportista: boolean;
   qid: string | null;
@@ -176,7 +175,7 @@ function candidatosDe(feed: Feed, mes: number, dia: number, anioActual: number):
   for (const [tipo, items] of grupos) {
     for (const item of items ?? []) {
       if (typeof item.year !== "number" || item.year > anioActual) continue;
-      const alcance = ARGENTINA.test(item.text) ? "argentina" : "internacional";
+      const alcance = alcanceDeTexto(item.text);
       const esPersona = tipo !== "acontecimiento";
       if (tipo === "nacimiento" && alcance === "internacional" && item.year > ANIO_TOPE_NACIMIENTO_INTERNACIONAL) continue;
       const texto = normalizarTexto(tipo, item.text);
@@ -203,9 +202,9 @@ function pasaFiltroPersona(c: Candidato, ediciones: number): boolean {
   return true;
 }
 
-function seleccionar(candidatos: Candidato[]): Candidato[] {
+function seleccionar(candidatos: Candidato[], alcances: readonly Efemeride["alcance"][]): Candidato[] {
   const elegidos: Candidato[] = [];
-  for (const alcance of ["argentina", "internacional"] as const) {
+  for (const alcance of alcances) {
     for (const tipo of ["acontecimiento", "nacimiento", "fallecimiento"] as const) {
       const cupo = CUPOS[alcance][tipo];
       const bucket = candidatos
@@ -238,7 +237,13 @@ function idUnico(base: string, usados: Set<string>): string {
   return id;
 }
 
-async function importarMes(mes: number, hoy: string, anioActual: number, usados: Set<string>): Promise<Efemeride[]> {
+async function importarMes(
+  mes: number,
+  hoy: string,
+  anioActual: number,
+  usados: Set<string>,
+  alcances: readonly Efemeride["alcance"][],
+): Promise<Efemeride[]> {
   const dias = diasDelMes(mes, ANIO_BISIESTO_REFERENCIA);
   const porDia = new Map<number, Candidato[]>();
   let cursor = 1;
@@ -259,7 +264,7 @@ async function importarMes(mes: number, hoy: string, anioActual: number, usados:
     for (const c of filtrados) {
       if (c.tipo !== "acontecimiento") c.puntaje = c.qid ? (ediciones.get(c.qid) ?? 0) : 0;
     }
-    porDia.set(dia, seleccionar(filtrados));
+    porDia.set(dia, seleccionar(filtrados, alcances));
   }
 
   const efemerides: Efemeride[] = [];
@@ -282,12 +287,48 @@ async function importarMes(mes: number, hoy: string, anioActual: number, usados:
   return efemerides;
 }
 
-async function main() {
-  const soloMes = process.argv[2] ? Number(process.argv[2]) : null;
+const ALCANCES_COMPLETOS: readonly Efemeride["alcance"][] = ["argentina", "colombia", "internacional"];
+const USO = "uso: pnpm data:efemerides [MM] [--solo colombia]";
+
+function leerArgumentos(): { soloMes: number | null; soloColombia: boolean } {
+  const args = process.argv.slice(2);
+  let soloColombia = false;
+  const posicionales: string[] = [];
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === "--solo") {
+      if (args[i + 1] !== "colombia") {
+        console.error(USO);
+        process.exit(1);
+      }
+      soloColombia = true;
+      i++;
+    } else if (args[i].startsWith("--")) {
+      console.error(USO);
+      process.exit(1);
+    } else {
+      posicionales.push(args[i]);
+    }
+  }
+  const soloMes = posicionales[0] ? Number(posicionales[0]) : null;
   if (soloMes !== null && (!Number.isInteger(soloMes) || soloMes < 1 || soloMes > 12)) {
-    console.error("uso: pnpm data:efemerides [MM]");
+    console.error(USO);
     process.exit(1);
   }
+  return { soloMes, soloColombia };
+}
+
+function nombreArchivo(mes: number): string {
+  return `${String(mes).padStart(2, "0")}.json`;
+}
+
+function leerMes(dir: string, mes: number): Efemeride[] {
+  const archivo = path.join(dir, nombreArchivo(mes));
+  if (!fs.existsSync(archivo)) return [];
+  return archivoEfemeridesSchema.parse(JSON.parse(fs.readFileSync(archivo, "utf8")));
+}
+
+async function main() {
+  const { soloMes, soloColombia } = leerArgumentos();
   const meses = soloMes ? [soloMes] : Array.from({ length: 12 }, (_, i) => i + 1);
   const dir = path.join(process.cwd(), "data", "efemerides");
   fs.mkdirSync(dir, { recursive: true });
@@ -296,21 +337,42 @@ async function main() {
   const usados = new Set<string>();
   let total = 0;
 
+  if (soloColombia) {
+    for (let mes = 1; mes <= 12; mes++) for (const e of leerMes(dir, mes)) usados.add(e.id);
+  }
+
   for (const mes of meses) {
-    const efemerides = await importarMes(mes, hoy, hoyArg.anio, usados);
+    const archivo = path.join(dir, nombreArchivo(mes));
+    if (soloColombia) {
+      const existentes = leerMes(dir, mes);
+      const nuevas = await importarMes(mes, hoy, hoyArg.anio, usados, ["colombia"]);
+      const fusionadas = fusionarPais(existentes, nuevas, "colombia");
+      const parsed = archivoEfemeridesSchema.safeParse(fusionadas);
+      if (!parsed.success) {
+        console.error(`✗ mes ${mes}: ${parsed.error.issues.map((i) => `${i.path.join(".")}: ${i.message}`).join("; ")}`);
+        process.exit(1);
+      }
+      fs.writeFileSync(archivo, `${JSON.stringify(fusionadas, null, 2)}\n`);
+      const reclasificadas = fusionadas.filter((e) => e.tambienInternacional).length;
+      const agregadas = fusionadas.length - existentes.length;
+      total += agregadas;
+      console.log(`✓ ${nombreArchivo(mes)}: +${agregadas} colombianas, ${reclasificadas} reclasificadas`);
+      continue;
+    }
+    const efemerides = await importarMes(mes, hoy, hoyArg.anio, usados, ALCANCES_COMPLETOS);
     const parsed = archivoEfemeridesSchema.safeParse(efemerides);
     if (!parsed.success) {
       console.error(`✗ mes ${mes}: ${parsed.error.issues.map((i) => `${i.path.join(".")}: ${i.message}`).join("; ")}`);
       process.exit(1);
     }
-    const archivo = path.join(dir, `${String(mes).padStart(2, "0")}.json`);
     fs.writeFileSync(archivo, `${JSON.stringify(efemerides, null, 2)}\n`);
     const argentinas = efemerides.filter((e) => e.alcance === "argentina").length;
+    const colombianas = efemerides.filter((e) => e.alcance === "colombia").length;
     const diasConDatos = new Set(efemerides.map((e) => e.fecha.dia)).size;
     total += efemerides.length;
-    console.log(`✓ ${path.basename(archivo)}: ${efemerides.length} efemérides (${argentinas} argentinas), ${diasConDatos}/${diasDelMes(mes, ANIO_BISIESTO_REFERENCIA)} días con datos`);
+    console.log(`✓ ${nombreArchivo(mes)}: ${efemerides.length} efemérides (${argentinas} argentinas, ${colombianas} colombianas), ${diasConDatos}/${diasDelMes(mes, ANIO_BISIESTO_REFERENCIA)} días con datos`);
   }
-  console.log(`${total} efemérides escritas en ${meses.length} archivos`);
+  console.log(soloColombia ? `${total} colombianas agregadas en ${meses.length} archivos` : `${total} efemérides escritas en ${meses.length} archivos`);
 }
 
 void main().catch((e) => {

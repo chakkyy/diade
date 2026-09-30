@@ -48,4 +48,11 @@ describe("datos reales de efemérides", () => {
     expect(e?.tipo).toBe("nacimiento");
     expect(e?.alcance).toBe("argentina");
   });
+
+  it("hay efemérides colombianas y ninguna repite el texto de otra del mismo día", () => {
+    const colombianas = todas.filter((e) => e.alcance === "colombia");
+    expect(colombianas.length).toBeGreaterThan(300);
+    const claves = colombianas.map((e) => `${e.fecha.mes}-${e.fecha.dia}-${e.anio}-${e.tipo}-${e.texto}`);
+    expect(new Set(claves).size).toBe(claves.length);
+  });
 });
