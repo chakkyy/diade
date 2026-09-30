@@ -42,7 +42,7 @@ pnpm start
 | `pnpm data:validate` | valida todos los `data/celebraciones/MM.json` contra el schema, revisa ids duplicados y que `fecha.mes` coincida con el archivo |
 | `pnpm data:links` | hace HEAD/GET (y fallback con `curl`) a cada URL de fuente de todos los meses, o de uno solo con `pnpm data:links 09` |
 | `pnpm data:add` | CLI interactiva para agregar una celebración nueva (ver más abajo) |
-| `pnpm data:efemerides` | importa las efemérides de todo el año desde Wikipedia a `data/efemerides/MM.json`, o de un mes con `pnpm data:efemerides 9`; con `--solo colombia` sólo agrega las colombianas y deja el resto como está (ver [Efemérides](#efemérides)) |
+| `pnpm data:efemerides` | importa las efemérides de todo el año desde Wikipedia a `data/efemerides/MM.json`, o de un mes con `pnpm data:efemerides 9`; con `--solo colombia` agrega las colombianas que todavía no están, conserva las que ya están y pasa a `colombia` (con `tambienInternacional`) las internacionales que coinciden con una colombiana; el resto queda igual (ver [Efemérides](#efemérides)) |
 
 `pnpm data:validate` valida también `data/efemerides/`; `pnpm data:links efemerides` (o `pnpm data:links efemerides 09`) chequea las URLs de las efemérides.
 
@@ -178,7 +178,7 @@ Toda celebración necesita al menos una fuente `institucional`, `asociacion` o `
 
 ## Efemérides
 
-Las efemérides viven en `data/efemerides/MM.json` y las genera `pnpm data:efemerides` a partir del feed "On this day" de Wikimedia para Wikipedia en español (`api.wikimedia.org/feed/v1/wikipedia/es/onthisday`). Es una carga de todo el año de una sola vez (unos 12 minutos); no hay que volver a correrla cada mes. Se vuelve a correr sólo para refrescar el contenido con lo que Wikipedia haya agregado, y reemplaza los doce archivos. Para sumar o refrescar sólo las colombianas sin tocar el resto, `pnpm data:efemerides --solo colombia` (o `pnpm data:efemerides 7 --solo colombia` para un mes).
+Las efemérides viven en `data/efemerides/MM.json` y las genera `pnpm data:efemerides` a partir del feed "On this day" de Wikimedia para Wikipedia en español (`api.wikimedia.org/feed/v1/wikipedia/es/onthisday`). Es una carga de todo el año de una sola vez (unos 12 minutos); no hay que volver a correrla cada mes. Se vuelve a correr sólo para refrescar el contenido con lo que Wikipedia haya agregado, y reemplaza los doce archivos. Para sumar sólo las colombianas, `pnpm data:efemerides --solo colombia` (o `pnpm data:efemerides 7 --solo colombia` para un mes). Ese modo no regenera nada: agrega las colombianas que todavía no están, conserva las que ya están y convierte las efemérides internacionales que coinciden con una colombiana en `colombia` con `tambienInternacional`, para que sigan viéndose en Argentina. Todo lo demás queda como está.
 
 Cada efeméride tiene esta forma:
 
@@ -226,7 +226,7 @@ Producción en Vercel: https://diadehoy.vercel.app (proyecto `diade`, scope `cha
 - 7255 efemérides: 2954 argentinas, 1777 colombianas y 2524 internacionales (35 de las colombianas también se muestran en Argentina, por ser hechos de alcance mundial).
 - Efemérides argentinas e internacionales para los 366 días, con al menos una argentina por día (`pnpm test` lo verifica). Las colombianas cubren 365 días; el 29 de febrero no tiene.
 - Los 366 días del año tienen al menos una celebración. Cuando Argentina y los organismos internacionales no tienen nada para una fecha, entra un "Día de X" de otro país con fuente oficial de ese país, marcado con `alcance: "otro-pais"` y su `pais`.
-- Las 79 celebraciones colombianas son las que se pudieron confirmar con fuente oficial, y caen en 62 días fijos más 9 fechas móviles; los otros días de `/co` muestran sólo lo internacional y lo de otros países, más las efemérides.
+- Las 79 celebraciones colombianas son las que se pudieron confirmar con fuente oficial, y son 70 de fecha fija, repartidas en 62 días distintos porque varias comparten día, más 9 de fecha móvil; los otros días de `/co` muestran sólo lo internacional y lo de otros países, más las efemérides.
 - Todas las fuentes se verifican con `pnpm data:links` (HTTP 200 al momento de la carga). Algunas leyes colombianas de `secretariasenado.gov.co` están cargadas con `http://` porque el `https` de ese sitio no conecta.
 
 Celebraciones de Colombia por mes:
