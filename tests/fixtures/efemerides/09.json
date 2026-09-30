@@ -38,5 +38,26 @@
     "alcance": "argentina",
     "fuentes": [{ "nombre": "Wikipedia (Domingo Faustino Sarmiento)", "url": "https://es.wikipedia.org/wiki/Domingo_Faustino_Sarmiento", "tipo": "secundaria" }],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1950-nace-persona-colombiana-ficticia",
+    "fecha": { "dia": 16, "mes": 9 },
+    "anio": 1950,
+    "tipo": "nacimiento",
+    "texto": "Nace Persona Ficticia, escritora colombiana.",
+    "alcance": "colombia",
+    "fuentes": [{ "nombre": "Wikipedia (ficticia)", "url": "https://es.wikipedia.org/wiki/Colombia", "tipo": "secundaria" }],
+    "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1900-hecho-colombiano-conocido",
+    "fecha": { "dia": 16, "mes": 9 },
+    "anio": 1900,
+    "tipo": "acontecimiento",
+    "texto": "Hecho ficticio ocurrido en Bogotá y conocido en todo el mundo.",
+    "alcance": "colombia",
+    "tambienInternacional": true,
+    "fuentes": [{ "nombre": "Wikipedia (16 de septiembre)", "url": "https://es.wikipedia.org/wiki/16_de_septiembre", "tipo": "secundaria" }],
+    "verificadoEn": "2026-09-30"
   }
 ]

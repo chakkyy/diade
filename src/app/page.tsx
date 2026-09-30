@@ -45,7 +45,7 @@ export default async function Home() {
   const fecha = { dia: hoy.dia, mes: hoy.mes };
   const celebraciones = celebracionesDeFecha(fecha, hoy.anio, "ar");
   const proximos = proximosDestacados(fecha, hoy.anio, 3, cargarTodas(), "ar");
-  const efemerides = efemeridesDeFecha(fecha, cargarEfemerides());
+  const efemerides = efemeridesDeFecha(fecha, "ar", cargarEfemerides());
 
   return (
     <NavegacionDia
@@ -54,7 +54,7 @@ export default async function Home() {
     >
       <DiaHeader fecha={fecha} anio={hoy.anio} esHoy />
       <ListaCelebraciones celebraciones={celebraciones} />
-      <EfemeridesDelDia efemerides={efemerides} />
+      <EfemeridesDelDia efemerides={efemerides} pais="ar" />
       <ProximosDestacados proximos={proximos} />
     </NavegacionDia>
   );

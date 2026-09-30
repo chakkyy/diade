@@ -71,6 +71,7 @@ export const efemerideSchema = z
     tipo: z.enum(TIPOS_EFEMERIDE),
     texto: z.string().min(10).max(400).regex(/[.!?»")]$/, "texto termina en punto"),
     alcance: z.enum(ALCANCES_EFEMERIDE),
+    tambienInternacional: z.literal(true).optional(),
     fuentes: z.array(fuenteSchema).min(1),
     verificadoEn: z.iso.date("verificadoEn debe ser una fecha YYYY-MM-DD válida"),
   })
@@ -78,6 +79,10 @@ export const efemerideSchema = z
   .refine((e) => e.fecha.dia <= DIAS_POR_MES[e.fecha.mes - 1], {
     message: "dia fuera de rango para el mes",
     path: ["fecha", "dia"],
+  })
+  .refine((e) => e.alcance !== "internacional" || e.tambienInternacional === undefined, {
+    message: "tambienInternacional solo aplica a efemérides de un país",
+    path: ["tambienInternacional"],
   });
 
 export const archivoEfemeridesSchema = z.array(efemerideSchema);

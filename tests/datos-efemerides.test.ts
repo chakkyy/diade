@@ -18,7 +18,7 @@ describe("datos reales de efemérides", () => {
     const vacios: string[] = [];
     for (let mes = 1; mes <= 12; mes++) {
       for (let dia = 1; dia <= diasDelMes(mes, 2024); dia++) {
-        if (efemeridesDeFecha({ dia, mes }, todas).length === 0) vacios.push(`${dia}/${mes}`);
+        if (efemeridesDeFecha({ dia, mes }, "ar", todas).length === 0) vacios.push(`${dia}/${mes}`);
       }
     }
     expect(vacios).toEqual([]);
@@ -28,21 +28,21 @@ describe("datos reales de efemérides", () => {
     const vacios: string[] = [];
     for (let mes = 1; mes <= 12; mes++) {
       for (let dia = 1; dia <= diasDelMes(mes, 2024); dia++) {
-        if (!efemeridesDeFecha({ dia, mes }, todas).some((e) => e.alcance === "argentina")) vacios.push(`${dia}/${mes}`);
+        if (!efemeridesDeFecha({ dia, mes }, "ar", todas).some((e) => e.alcance === "argentina")) vacios.push(`${dia}/${mes}`);
       }
     }
     expect(vacios).toEqual([]);
   });
 
   it("Argentina va antes que internacional el 16 de septiembre", () => {
-    const lista = efemeridesDeFecha({ dia: 16, mes: 9 }, todas);
+    const lista = efemeridesDeFecha({ dia: 16, mes: 9 }, "ar", todas);
     const primerInternacional = lista.findIndex((e) => e.alcance === "internacional");
     const ultimaArgentina = lista.map((e) => e.alcance).lastIndexOf("argentina");
     expect(ultimaArgentina).toBeLessThan(primerInternacional);
   });
 
   it("16 de septiembre incluye el nacimiento de Tanguito en 1945", () => {
-    const e = efemeridesDeFecha({ dia: 16, mes: 9 }, todas).find((x) => /Tanguito/.test(x.texto));
+    const e = efemeridesDeFecha({ dia: 16, mes: 9 }, "ar", todas).find((x) => /Tanguito/.test(x.texto));
     expect(e).toBeDefined();
     expect(e?.anio).toBe(1945);
     expect(e?.tipo).toBe("nacimiento");

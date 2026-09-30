@@ -14,7 +14,9 @@ const LARGO_MAXIMO_TEXTO = 300;
 const LARGO_MINIMO_TEXTO = 12;
 const SEPARADOR_ORACIONES = /(?<=[a-záéíóúñ0-9)»"][.!?])\s+(?=[A-ZÁÉÍÓÚÑ¿¡«"(])/;
 
-const CUPOS: Record<Efemeride["alcance"], Record<TipoEfemeride, number>> = {
+type AlcanceImportado = Exclude<Efemeride["alcance"], "colombia">;
+
+const CUPOS: Record<AlcanceImportado, Record<TipoEfemeride, number>> = {
   argentina: { acontecimiento: 4, nacimiento: 3, fallecimiento: 2 },
   internacional: { acontecimiento: 3, nacimiento: 2, fallecimiento: 2 },
 };
@@ -50,7 +52,7 @@ interface Candidato {
   tipo: TipoEfemeride;
   anio: number;
   texto: string;
-  alcance: Efemeride["alcance"];
+  alcance: AlcanceImportado;
   puntaje: number;
   deportista: boolean;
   qid: string | null;

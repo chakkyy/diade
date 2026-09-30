@@ -3,6 +3,7 @@ import path from "node:path";
 import type { Efemeride } from "@/types/efemeride";
 import { archivoEfemeridesSchema } from "@/lib/schema";
 import type { FechaDia } from "@/lib/fechas";
+import { PAISES, type CodigoPais } from "@/lib/paises";
 
 const cache = new Map<string, Efemeride[]>();
 
@@ -28,21 +29,42 @@ export function cargarEfemerides(dir: string = path.join(process.cwd(), "data", 
   return todas;
 }
 
-const ORDEN_ALCANCE: Record<Efemeride["alcance"], number> = { argentina: 0, internacional: 1 };
+type GrupoEfemeride = "local" | "internacional";
 
-export function efemeridesDeFecha(f: FechaDia, todas: Efemeride[] = cargarEfemerides()): Efemeride[] {
-  return todas
-    .filter((e) => e.fecha.dia === f.dia && e.fecha.mes === f.mes)
-    .sort(
-      (a, b) =>
-        ORDEN_ALCANCE[a.alcance] - ORDEN_ALCANCE[b.alcance] ||
-        a.anio - b.anio ||
-        a.texto.localeCompare(b.texto, "es"),
-    );
+function grupoDeEfemeride(e: Efemeride, pais: CodigoPais): GrupoEfemeride | null {
+  if (e.alcance === PAISES[pais].alcance) return "local";
+  if (e.alcance === "internacional") return "internacional";
+  return e.tambienInternacional ? "internacional" : null;
 }
 
-export function agruparEfemerides(lista: Efemeride[]): { argentina: Efemeride[]; internacional: Efemeride[] } {
-  const grupos = { argentina: [] as Efemeride[], internacional: [] as Efemeride[] };
-  for (const e of lista) grupos[e.alcance].push(e);
+const ORDEN_GRUPO: Record<GrupoEfemeride, number> = { local: 0, internacional: 1 };
+
+export function efemeridesDeFecha(
+  f: FechaDia,
+  pais: CodigoPais,
+  todas: Efemeride[] = cargarEfemerides(),
+): Efemeride[] {
+  return todas
+    .filter((e) => e.fecha.dia === f.dia && e.fecha.mes === f.mes)
+    .map((e) => ({ e, grupo: grupoDeEfemeride(e, pais) }))
+    .filter((x): x is { e: Efemeride; grupo: GrupoEfemeride } => x.grupo !== null)
+    .sort(
+      (a, b) =>
+        ORDEN_GRUPO[a.grupo] - ORDEN_GRUPO[b.grupo] ||
+        a.e.anio - b.e.anio ||
+        a.e.texto.localeCompare(b.e.texto, "es"),
+    )
+    .map((x) => x.e);
+}
+
+export function agruparEfemerides(
+  lista: Efemeride[],
+  pais: CodigoPais,
+): { local: Efemeride[]; internacional: Efemeride[] } {
+  const grupos = { local: [] as Efemeride[], internacional: [] as Efemeride[] };
+  for (const e of lista) {
+    const grupo = grupoDeEfemeride(e, pais);
+    if (grupo !== null) grupos[grupo].push(e);
+  }
   return grupos;
 }

@@ -74,7 +74,7 @@ export default async function PaginaFecha(props: PageProps<"/fecha/[slug]">) {
   const anio = anioDeReferencia(fecha, hoyEn("ar").anio);
   const celebraciones = celebracionesDeFecha(fecha, anio, "ar");
   const proximos = proximosDestacados(fecha, anio, 3, cargarTodas(), "ar");
-  const efemerides = efemeridesDeFecha(fecha, cargarEfemerides());
+  const efemerides = efemeridesDeFecha(fecha, "ar", cargarEfemerides());
 
   return (
     <NavegacionDia
@@ -83,7 +83,7 @@ export default async function PaginaFecha(props: PageProps<"/fecha/[slug]">) {
     >
       <DiaHeader fecha={fecha} anio={anio} esHoy="auto" />
       <ListaCelebraciones celebraciones={celebraciones} />
-      <EfemeridesDelDia efemerides={efemerides} />
+      <EfemeridesDelDia efemerides={efemerides} pais="ar" />
       <ProximosDestacados proximos={proximos} />
     </NavegacionDia>
   );

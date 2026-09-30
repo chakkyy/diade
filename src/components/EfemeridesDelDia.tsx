@@ -1,19 +1,25 @@
 import { agruparEfemerides } from "@/lib/efemerides";
 import { nombreCortoFuente } from "@/lib/fuentes";
+import { PAISES, type CodigoPais } from "@/lib/paises";
 import type { Efemeride } from "@/types/efemeride";
 
 function formatearAnio(anio: number): string {
   return anio < 0 ? `${-anio} a. C.` : String(anio);
 }
 
-const TITULOS_BLOQUE: Record<Efemeride["alcance"], { emoji: string; texto: string; clase: string }> = {
-  argentina: { emoji: "🇦🇷", texto: "Argentina", clase: "text-acento-texto" },
-  internacional: { emoji: "🌎", texto: "Internacional", clase: "text-internacional-texto" },
-};
+type Grupo = "local" | "internacional";
 
-function Bloque({ alcance, efemerides }: { alcance: Efemeride["alcance"]; efemerides: Efemeride[] }) {
+function tituloDeBloque(grupo: Grupo, pais: CodigoPais): { emoji: string; texto: string; clase: string } {
+  if (grupo === "local") {
+    return { emoji: PAISES[pais].bandera, texto: PAISES[pais].nombre, clase: "text-acento-texto" };
+  }
+  return { emoji: "🌎", texto: "Internacional", clase: "text-internacional-texto" };
+}
+
+function Bloque({ grupo, pais, efemerides }: { grupo: Grupo; pais: CodigoPais; efemerides: Efemeride[] }) {
   if (efemerides.length === 0) return null;
-  const { emoji, texto, clase } = TITULOS_BLOQUE[alcance];
+  const { emoji, texto, clase } = tituloDeBloque(grupo, pais);
+  const esLocal = grupo === "local";
 
   return (
     <div className="mt-4 first:mt-0">
@@ -26,14 +32,13 @@ function Bloque({ alcance, efemerides }: { alcance: Efemeride["alcance"]; efemer
       </div>
       <ul className="overflow-hidden rounded-caja border border-borde bg-superficie">
         {efemerides.map((e) => {
-          const esArgentina = e.alcance === "argentina";
           const fuente = e.fuentes[0];
           return (
             <li key={e.id} className="border-b border-borde last:border-b-0">
               <div className="flex gap-3 px-3.5 py-2.5">
                 <span
                   className={`flex min-w-11 shrink-0 items-baseline gap-1 text-[13px] leading-5 font-semibold tabular-nums ${
-                    esArgentina ? "text-acento-texto" : "text-texto-secundario"
+                    esLocal ? "text-acento-texto" : "text-texto-secundario"
                   }`}
                 >
                   {formatearAnio(e.anio)}
@@ -76,17 +81,17 @@ function Bloque({ alcance, efemerides }: { alcance: Efemeride["alcance"]; efemer
   );
 }
 
-export default function EfemeridesDelDia({ efemerides }: { efemerides: Efemeride[] }) {
+export default function EfemeridesDelDia({ efemerides, pais }: { efemerides: Efemeride[]; pais: CodigoPais }) {
   if (efemerides.length === 0) return null;
-  const { argentina, internacional } = agruparEfemerides(efemerides);
+  const { local, internacional } = agruparEfemerides(efemerides, pais);
 
   return (
     <section className="mt-8">
       <h2 className="px-1 pb-2 text-[11px] font-semibold tracking-[0.08em] text-texto-secundario uppercase">
         Efemérides del día
       </h2>
-      <Bloque alcance="argentina" efemerides={argentina} />
-      <Bloque alcance="internacional" efemerides={internacional} />
+      <Bloque grupo="local" pais={pais} efemerides={local} />
+      <Bloque grupo="internacional" pais={pais} efemerides={internacional} />
     </section>
   );
 }
