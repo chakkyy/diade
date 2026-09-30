@@ -109,7 +109,7 @@ export default function VistaCalendarioMes({ pais, slug }: { pais: CodigoPais; s
               </span>
               <EmojiTile emoji={c.emoji} tono={tonoDeAlcance(c.alcance, pais)} tamanio="sm" />
               <Link
-                href={`/celebracion/${c.id}`}
+                href={rutaDePais(pais, `/celebracion/${c.id}`)}
                 className="min-w-0 flex-1 truncate text-[14px] leading-5 font-medium underline-offset-2 hover:underline hover:decoration-acento active:opacity-70"
               >
                 {c.nombre}
