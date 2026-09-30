@@ -93,7 +93,7 @@ Helper `etiquetaDeAlcance(celebracion)` → `{ bandera, texto }` para argentina,
 
 ## 7. Datos: efemérides de Colombia
 
-- `scripts/importar-efemerides.ts` suma un detector de Colombia (`colombian[oa]s`, `Colombia`, `Bogotá`, `Medellín`, `Cali`, `Cartagena de Indias`, `Barranquilla`, `Nueva Granada`) y cupos iguales a los de Argentina (4/3/2).
+- `scripts/importar-efemerides.ts` suma un detector de Colombia (`colombian[oa]s`, `Colombia`, `Bogotá`, `Cali`, `Cartagena de Indias`, `Barranquilla`, `Nueva Granada`; un `Medellín` suelto no es término porque coincide con un pueblo español y con un apellido, y "Medellín, Colombia" ya se detecta por el nombre del país) y cupos iguales a los de Argentina (4/3/2).
 - Un texto que menciona los dos países se clasifica como argentina (no cambia lo ya importado).
 - Modo nuevo `--solo colombia`: trae el feed, conserva tal cual las efemérides existentes de cada archivo y agrega solo las colombianas. Las que hoy están como `internacional` y el detector marca como colombianas se reclasifican a `colombia` con `tambienInternacional: true`, así la vista de Argentina las sigue mostrando en Internacional y no pierde nada de lo que muestra hoy; el resto no se toca.
 - Sin `--solo`, el script sigue regenerando todo como hoy.

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import EnlaceHoy from "@/components/EnlaceHoy";
 
 export const metadata: Metadata = {
   title: "Página no encontrada",
@@ -18,12 +18,7 @@ export default function NoEncontrada() {
         La fecha que buscabas no está en el calendario. Puede ser un día que no existe, como el 31 de
         septiembre.
       </p>
-      <Link
-        href="/"
-        className="mt-5 inline-flex h-9 items-center rounded-[10px] border border-borde bg-superficie px-3 text-[13px] font-medium text-acento-texto transition-colors duration-150 hover:bg-superficie-suave"
-      >
-        Ver qué se celebra hoy
-      </Link>
+      <EnlaceHoy />
     </div>
   );
 }
