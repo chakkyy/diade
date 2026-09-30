@@ -1,5 +1,6 @@
-import type { FechaMovil, TipoFuente } from "@/types/celebracion";
+import type { Alcance, FechaMovil, TipoFuente } from "@/types/celebracion";
 import { DIAS_SEMANA, MESES, formatearFechaCorta, resolverFechaMovil } from "@/lib/fechas";
+import { paisDeAlcance } from "@/lib/paises";
 
 const ORDINAL_PALABRA: Record<1 | 2 | 3 | 4, string> = {
   1: "primer",
@@ -21,9 +22,11 @@ export function describirFechaMovilEsteAnio(regla: FechaMovil, anio: number): st
 }
 
 const BANDERAS_PAIS: Record<string, string> = {
+  Argentina: "🇦🇷",
   Bolivia: "🇧🇴",
   Brasil: "🇧🇷",
   Chile: "🇨🇱",
+  Colombia: "🇨🇴",
   España: "🇪🇸",
   "Estados Unidos": "🇺🇸",
   México: "🇲🇽",
@@ -32,6 +35,14 @@ const BANDERAS_PAIS: Record<string, string> = {
 
 export function banderaDePais(pais: string): string {
   return BANDERAS_PAIS[pais] ?? "🌐";
+}
+
+export function etiquetaDeAlcance(c: { alcance: Alcance; pais?: string }): { bandera: string; texto: string } {
+  if (c.alcance === "internacional") return { bandera: "🌎", texto: "Internacional" };
+  const propio = paisDeAlcance(c.alcance);
+  if (propio) return { bandera: propio.bandera, texto: propio.nombre };
+  const pais = c.pais ?? "otro país";
+  return { bandera: banderaDePais(pais), texto: pais };
 }
 
 export const ETIQUETAS_TIPO_FUENTE: Record<TipoFuente, string> = {

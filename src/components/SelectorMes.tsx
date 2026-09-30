@@ -3,8 +3,9 @@
 import { useRouter } from "next/navigation";
 import { useId } from "react";
 import { MESES, slugDeMes } from "@/lib/fechas";
+import { rutaDePais, type CodigoPais } from "@/lib/paises";
 
-export default function SelectorMes({ mes }: { mes: number }) {
+export default function SelectorMes({ mes, pais }: { mes: number; pais: CodigoPais }) {
   const router = useRouter();
   const id = useId();
 
@@ -19,7 +20,7 @@ export default function SelectorMes({ mes }: { mes: number }) {
         onChange={(evento) => {
           const elegido = Number(evento.target.value);
           if (!elegido) return;
-          router.push(`/calendario/${slugDeMes(elegido)}`);
+          router.push(rutaDePais(pais, `/calendario/${slugDeMes(elegido)}`));
         }}
         className="h-9 rounded-[10px] border border-borde bg-superficie px-2.5 text-[13px] text-texto-secundario capitalize transition-colors duration-150 hover:text-texto"
       >

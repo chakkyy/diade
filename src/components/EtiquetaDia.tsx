@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { rutaDePais, type CodigoPais } from "@/lib/paises";
 
-export default function EtiquetaDia({ esHoy, anio }: { esHoy: boolean; anio: number }) {
+export default function EtiquetaDia({ esHoy, anio, pais }: { esHoy: boolean; anio: number; pais: CodigoPais }) {
   return (
     <div className="flex items-center justify-between gap-3">
       {esHoy ? (
@@ -14,7 +15,7 @@ export default function EtiquetaDia({ esHoy, anio }: { esHoy: boolean; anio: num
       )}
       {esHoy ? null : (
         <Link
-          href="/"
+          href={rutaDePais(pais, "/")}
           className="text-[13px] text-acento-texto underline-offset-2 hover:underline active:opacity-70"
         >
           Ir a hoy

@@ -5,6 +5,7 @@ import { useSyncExternalStore } from "react";
 import type { ConteoDia } from "@/lib/celebraciones";
 import { celdasDelMes } from "@/lib/calendario";
 import { MESES, hoyEn, slugDeFecha } from "@/lib/fechas";
+import { PAISES, rutaDePais, type CodigoPais } from "@/lib/paises";
 
 const DIAS_SEMANA_ABREVIADOS: { corto: string; completo: string }[] = [
   { corto: "lun", completo: "lunes" },
@@ -24,23 +25,27 @@ function leerHoyClaveServidor(): string {
   return "";
 }
 
-function leerHoyClaveCliente(): string {
-  const hoy = hoyEn("ar");
-  return `${hoy.dia}-${hoy.mes}-${hoy.anio}`;
-}
-
 export default function CalendarioMes({
   mes,
   anio,
   conteosEntradas,
+  pais,
 }: {
   mes: number;
   anio: number;
   conteosEntradas: [number, ConteoDia][];
+  pais: CodigoPais;
 }) {
   const conteos = new Map(conteosEntradas);
   const celdas = celdasDelMes(mes, anio);
-  const hoyClave = useSyncExternalStore(sinSuscripcion, leerHoyClaveCliente, leerHoyClaveServidor);
+  const hoyClave = useSyncExternalStore(
+    sinSuscripcion,
+    () => {
+      const hoy = hoyEn(pais);
+      return `${hoy.dia}-${hoy.mes}-${hoy.anio}`;
+    },
+    leerHoyClaveServidor,
+  );
 
   return (
     <div className="mt-6">
@@ -68,7 +73,7 @@ export default function CalendarioMes({
           return (
             <li key={dia}>
               <Link
-                href={`/fecha/${slugDeFecha({ dia, mes })}`}
+                href={rutaDePais(pais, `/fecha/${slugDeFecha({ dia, mes })}`)}
                 aria-label={label}
                 className={`flex aspect-square min-h-11 flex-col items-center justify-center gap-0.5 rounded-[10px] border transition-[color,background-color,border-color,transform] duration-150 active:scale-[0.94] ${
                   esHoy
@@ -109,7 +114,7 @@ export default function CalendarioMes({
       <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-texto-secundario">
         <li className="flex items-center gap-1.5">
           <span aria-hidden="true" className="size-[5px] rounded-full bg-acento" />
-          Argentina
+          {PAISES[pais].nombre}
         </li>
         <li className="flex items-center gap-1.5">
           <span aria-hidden="true" className="size-[5px] rounded-full bg-internacional-texto" />

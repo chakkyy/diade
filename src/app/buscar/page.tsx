@@ -19,5 +19,5 @@ export default async function PaginaBuscar(props: PageProps<"/buscar">) {
   const indice = indiceBusqueda();
   const anio = hoyEn("ar").anio;
 
-  return <Buscador indice={indice} inicial={inicial} anio={anio} />;
+  return <Buscador indice={indice} inicial={inicial} anio={anio} pais="ar" />;
 }

@@ -8,21 +8,18 @@ import Chip from "@/components/Chip";
 import EmojiTile, { tonoDeAlcance } from "@/components/EmojiTile";
 import Filtros from "@/components/Filtros";
 import { escribirFiltros, type FiltrosUrl } from "@/lib/buscar-url";
-import { buscar, ETIQUETAS_ALCANCE } from "@/lib/buscar";
+import { buscar } from "@/lib/buscar";
+import { etiquetaDeAlcance } from "@/lib/celebracion-detalle";
 import { describirFecha } from "@/lib/fechas-texto";
 import { resolverFechaMovil, slugDeFecha } from "@/lib/fechas";
+import { rutaDePais, type CodigoPais } from "@/lib/paises";
 import { esFechaMovil } from "@/types/celebracion";
 import type { Alcance, Categoria, ItemIndice } from "@/types/celebracion";
 
 const TAMANIO_PAGINA = 30;
 const DEMORA_TEXTO_MS = 250;
 
-function etiquetaAlcance(item: ItemIndice): string {
-  if (item.alcance === "otro-pais" && item.pais) return item.pais;
-  return ETIQUETAS_ALCANCE[item.alcance];
-}
-
-function ResultadoFila({ item, anio }: { item: ItemIndice; anio: number }) {
+function ResultadoFila({ item, anio, pais }: { item: ItemIndice; anio: number; pais: CodigoPais }) {
   const fechaResuelta = esFechaMovil(item.fecha) ? resolverFechaMovil(item.fecha, anio) : item.fecha;
   const slug = slugDeFecha(fechaResuelta);
   const fechaTexto = describirFecha(item.fecha, anio);
@@ -30,17 +27,17 @@ function ResultadoFila({ item, anio }: { item: ItemIndice; anio: number }) {
   return (
     <li className="border-b border-borde transition-colors duration-150 last:border-b-0 active:bg-superficie-suave">
       <div className="flex items-start gap-3 px-3.5 py-3">
-        <EmojiTile emoji={item.emoji} tono={tonoDeAlcance(item.alcance, "ar")} />
+        <EmojiTile emoji={item.emoji} tono={tonoDeAlcance(item.alcance, pais)} />
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-1.5">
             <Link
-              href={`/celebracion/${item.id}`}
+              href={rutaDePais(pais, `/celebracion/${item.id}`)}
               className="text-[15px] leading-6 font-medium tracking-tight underline-offset-2 hover:underline hover:decoration-acento active:opacity-70"
             >
               {item.nombre}
             </Link>
             <Link
-              href={`/fecha/${slug}`}
+              href={rutaDePais(pais, `/fecha/${slug}`)}
               className="shrink-0 text-[12px] leading-6 text-texto-secundario underline-offset-2 transition-colors duration-150 hover:text-acento-texto hover:underline active:opacity-70"
             >
               {fechaTexto}
@@ -48,7 +45,7 @@ function ResultadoFila({ item, anio }: { item: ItemIndice; anio: number }) {
           </div>
           <div className="mt-1 flex flex-wrap items-center gap-1.5">
             <CategoriaChip categoria={item.categoria} />
-            <Chip>{etiquetaAlcance(item)}</Chip>
+            <Chip>{etiquetaDeAlcance(item).texto}</Chip>
           </div>
           <p className="mt-1.5 text-[13px] leading-[1.5] text-texto-secundario">{item.descripcion}</p>
         </div>
@@ -61,10 +58,12 @@ export default function Buscador({
   indice,
   inicial,
   anio,
+  pais,
 }: {
   indice: ItemIndice[];
   inicial: FiltrosUrl;
   anio: number;
+  pais: CodigoPais;
 }) {
   const router = useRouter();
   const inputId = useId();
@@ -108,7 +107,8 @@ export default function Buscador({
     if (debounceRef.current) clearTimeout(debounceRef.current);
     const escribir = () => {
       const qs = escribirFiltros(filtros);
-      router.replace(qs === "" ? "/buscar" : `/buscar?${qs}`, { scroll: false });
+      const base = rutaDePais(pais, "/buscar");
+      router.replace(qs === "" ? base : `${base}?${qs}`, { scroll: false });
     };
     if (inmediato) escribir();
     else debounceRef.current = setTimeout(escribir, DEMORA_TEXTO_MS);
@@ -140,11 +140,11 @@ export default function Buscador({
   const resultados = useMemo(
     () =>
       buscar(indice, q, {
-        pais: "ar",
+        pais,
         alcance: alcance.length > 0 ? alcance : undefined,
         categoria: categoria.length > 0 ? categoria : undefined,
       }),
-    [indice, q, alcance, categoria],
+    [indice, q, alcance, categoria, pais],
   );
 
   const sinFiltros = q.trim() === "" && alcance.length === 0 && categoria.length === 0;
@@ -189,6 +189,7 @@ export default function Buscador({
         categoria={categoria}
         onToggleAlcance={alternarAlcance}
         onToggleCategoria={alternarCategoria}
+        pais={pais}
       />
 
       <p aria-live="polite" className="mt-5 text-[13px] text-texto-secundario">
@@ -210,7 +211,7 @@ export default function Buscador({
         <>
           <ul className="mt-3 overflow-hidden rounded-caja border border-borde bg-superficie">
             {visibles_.map((item) => (
-              <ResultadoFila key={item.id} item={item} anio={anio} />
+              <ResultadoFila key={item.id} item={item} anio={anio} pais={pais} />
             ))}
           </ul>
           {quedanMas ? (

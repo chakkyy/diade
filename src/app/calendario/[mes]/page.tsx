@@ -7,6 +7,7 @@ import Chip from "@/components/Chip";
 import EmojiTile, { tonoDeAlcance } from "@/components/EmojiTile";
 import SelectorMes from "@/components/SelectorMes";
 import { IconoFlecha } from "@/components/iconos";
+import { etiquetaDeAlcance } from "@/lib/celebracion-detalle";
 import { cargarTodas, contarPorDia, fechaResuelta } from "@/lib/celebraciones";
 import { mesAnterior, mesSiguiente } from "@/lib/calendario";
 import { MESES, hoyEn, mesDeSlug, slugDeMes } from "@/lib/fechas";
@@ -95,10 +96,10 @@ export default async function PaginaCalendarioMes(props: PageProps<"/calendario/
           >
             <IconoFlecha direccion="siguiente" />
           </Link>
-          <SelectorMes mes={mes} />
+          <SelectorMes mes={mes} pais="ar" />
         </div>
       </div>
-      <CalendarioMes mes={mes} anio={anio} conteosEntradas={Array.from(conteos.entries())} />
+      <CalendarioMes mes={mes} anio={anio} conteosEntradas={Array.from(conteos.entries())} pais="ar" />
       <div className="mt-8">
         <h2 className="text-[13px] font-semibold tracking-[-0.01em]">
           Este mes ({celebracionesDelMes.length})
@@ -120,13 +121,9 @@ export default async function PaginaCalendarioMes(props: PageProps<"/calendario/
                 {c.nombre}
               </Link>
               <CategoriaChip categoria={c.categoria} />
-              {c.alcance === "argentina" ? (
-                <Chip titulo="Alcance: Argentina">🇦🇷</Chip>
-              ) : c.alcance === "internacional" ? (
-                <Chip titulo="Alcance: Internacional">🌎</Chip>
-              ) : (
-                <Chip titulo={`Alcance: ${c.pais ?? "otro país"}`}>{c.pais ?? "otro país"}</Chip>
-              )}
+              <Chip titulo={`Alcance: ${etiquetaDeAlcance(c).texto}`}>
+                {c.alcance === "otro-pais" ? etiquetaDeAlcance(c).texto : etiquetaDeAlcance(c).bandera}
+              </Chip>
             </li>
           ))}
         </ul>

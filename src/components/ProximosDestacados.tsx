@@ -2,8 +2,15 @@ import Link from "next/link";
 import EmojiTile, { tonoDeAlcance } from "@/components/EmojiTile";
 import { textoEnDias, type ProximoDestacado } from "@/lib/proximos";
 import { formatearFechaCorta, slugDeFecha } from "@/lib/fechas";
+import { rutaDePais, type CodigoPais } from "@/lib/paises";
 
-export default function ProximosDestacados({ proximos }: { proximos: ProximoDestacado[] }) {
+export default function ProximosDestacados({
+  proximos,
+  pais,
+}: {
+  proximos: ProximoDestacado[];
+  pais: CodigoPais;
+}) {
   if (proximos.length === 0) return null;
 
   return (
@@ -15,12 +22,12 @@ export default function ProximosDestacados({ proximos }: { proximos: ProximoDest
         {proximos.map(({ celebracion, fecha, enDias }) => (
           <li key={celebracion.id} className="border-b border-borde last:border-b-0">
             <Link
-              href={`/fecha/${slugDeFecha(fecha)}`}
+              href={rutaDePais(pais, `/fecha/${slugDeFecha(fecha)}`)}
               className="flex items-center gap-3 px-3.5 py-2.5 transition-colors duration-150 active:bg-superficie-suave"
             >
               <EmojiTile
                 emoji={celebracion.emoji}
-                tono={tonoDeAlcance(celebracion.alcance, "ar")}
+                tono={tonoDeAlcance(celebracion.alcance, pais)}
                 tamanio="sm"
               />
               <span className="min-w-0 flex-1">

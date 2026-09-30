@@ -8,7 +8,7 @@ import CompartirBoton from "@/components/CompartirBoton";
 import EmojiTile, { tonoDeAlcance } from "@/components/EmojiTile";
 import { cargarTodas, celebracionesDeFecha, celebracionPorId } from "@/lib/celebraciones";
 import {
-  banderaDePais,
+  etiquetaDeAlcance,
   describirFechaMovilEsteAnio,
   dominioDeUrl,
   ETIQUETAS_TIPO_FUENTE,
@@ -43,12 +43,10 @@ export async function generateMetadata(props: PageProps<"/celebracion/[id]">): P
 }
 
 function ChipAlcance({ celebracion }: { celebracion: Celebracion }) {
-  if (celebracion.alcance === "argentina") return <Chip variante="accent">🇦🇷 Argentina</Chip>;
-  if (celebracion.alcance === "internacional") return <Chip variante="accent">🌎 Internacional</Chip>;
-  const pais = celebracion.pais ?? "";
+  const { bandera, texto } = etiquetaDeAlcance(celebracion);
   return (
     <Chip variante="accent">
-      {banderaDePais(pais)} {pais}
+      {bandera} {texto}
     </Chip>
   );
 }
@@ -153,7 +151,7 @@ export default async function PaginaCelebracion(props: PageProps<"/celebracion/[
           </h2>
           <ul className="overflow-hidden rounded-caja border border-borde bg-superficie">
             {otrasCelebraciones.map((c, i) => (
-              <CelebracionItem key={c.id} celebracion={c} indice={i} />
+              <CelebracionItem key={c.id} celebracion={c} indice={i} pais="ar" />
             ))}
           </ul>
         </section>

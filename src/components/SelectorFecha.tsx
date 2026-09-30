@@ -3,15 +3,18 @@
 import { useRouter } from "next/navigation";
 import { useId } from "react";
 import { slugDeFecha } from "@/lib/fechas";
+import { rutaDePais, type CodigoPais } from "@/lib/paises";
 
 export default function SelectorFecha({
   dia,
   mes,
   anio,
+  pais,
 }: {
   dia: number;
   mes: number;
   anio: number;
+  pais: CodigoPais;
 }) {
   const router = useRouter();
   const id = useId();
@@ -33,7 +36,7 @@ export default function SelectorFecha({
           if (partes.length !== 3) return;
           const elegido = { dia: Number(partes[2]), mes: Number(partes[1]) };
           if (!elegido.dia || !elegido.mes) return;
-          router.push(`/fecha/${slugDeFecha(elegido)}`);
+          router.push(rutaDePais(pais, `/fecha/${slugDeFecha(elegido)}`));
         }}
         className="h-9 rounded-[10px] border border-borde bg-superficie px-2.5 text-[13px] text-texto-secundario transition-colors duration-150 hover:text-texto"
       />

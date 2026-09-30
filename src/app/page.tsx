@@ -52,10 +52,10 @@ export default async function Home() {
       hrefAnterior={`/fecha/${slugDeFecha(fechaAnterior(fecha, hoy.anio))}`}
       hrefSiguiente={`/fecha/${slugDeFecha(fechaSiguiente(fecha, hoy.anio))}`}
     >
-      <DiaHeader fecha={fecha} anio={hoy.anio} esHoy />
-      <ListaCelebraciones celebraciones={celebraciones} />
+      <DiaHeader fecha={fecha} anio={hoy.anio} esHoy pais="ar" />
+      <ListaCelebraciones celebraciones={celebraciones} pais="ar" />
       <EfemeridesDelDia efemerides={efemerides} pais="ar" />
-      <ProximosDestacados proximos={proximos} />
+      <ProximosDestacados proximos={proximos} pais="ar" />
     </NavegacionDia>
   );
 }

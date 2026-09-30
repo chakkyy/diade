@@ -81,10 +81,10 @@ export default async function PaginaFecha(props: PageProps<"/fecha/[slug]">) {
       hrefAnterior={`/fecha/${slugDeFecha(fechaAnterior(fecha, anio))}`}
       hrefSiguiente={`/fecha/${slugDeFecha(fechaSiguiente(fecha, anio))}`}
     >
-      <DiaHeader fecha={fecha} anio={anio} esHoy="auto" />
-      <ListaCelebraciones celebraciones={celebraciones} />
+      <DiaHeader fecha={fecha} anio={anio} esHoy="auto" pais="ar" />
+      <ListaCelebraciones celebraciones={celebraciones} pais="ar" />
       <EfemeridesDelDia efemerides={efemerides} pais="ar" />
-      <ProximosDestacados proximos={proximos} />
+      <ProximosDestacados proximos={proximos} pais="ar" />
     </NavegacionDia>
   );
 }

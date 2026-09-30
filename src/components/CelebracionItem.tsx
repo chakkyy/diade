@@ -3,7 +3,9 @@ import type { CSSProperties } from "react";
 import CategoriaChip from "@/components/CategoriaChip";
 import Chip from "@/components/Chip";
 import EmojiTile, { tonoDeAlcance, type TonoBloque } from "@/components/EmojiTile";
+import { etiquetaDeAlcance } from "@/lib/celebracion-detalle";
 import { nombreCortoFuente } from "@/lib/fuentes";
+import { paisDeAlcance, rutaDePais, type CodigoPais } from "@/lib/paises";
 import type { Celebracion, Fuente } from "@/types/celebracion";
 
 const BORDES_DESTACADO: Record<TonoBloque, string> = {
@@ -19,12 +21,15 @@ function fuentePrincipal(fuentes: Fuente[]): Fuente | undefined {
 export default function CelebracionItem({
   celebracion,
   indice = 0,
+  pais,
 }: {
   celebracion: Celebracion;
   indice?: number;
+  pais: CodigoPais;
 }) {
   const fuente = fuentePrincipal(celebracion.fuentes);
-  const tono = tonoDeAlcance(celebracion.alcance, "ar");
+  const tono = tonoDeAlcance(celebracion.alcance, pais);
+  const etiqueta = etiquetaDeAlcance(celebracion);
   const borde = celebracion.destacado ? BORDES_DESTACADO[tono] : "border-l-transparent";
 
   return (
@@ -37,15 +42,17 @@ export default function CelebracionItem({
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-x-2 gap-y-1.5">
             <Link
-              href={`/celebracion/${celebracion.id}`}
+              href={rutaDePais(pais, `/celebracion/${celebracion.id}`)}
               className="text-[15px] leading-6 font-medium tracking-tight underline-offset-2 hover:underline hover:decoration-acento active:opacity-70"
             >
               {celebracion.destacado ? <span className="sr-only">Destacado: </span> : null}
               {celebracion.nombre}
             </Link>
             <CategoriaChip categoria={celebracion.categoria} />
-            {celebracion.alcance === "otro-pais" && celebracion.pais ? (
-              <Chip titulo={`País: ${celebracion.pais}`}>{celebracion.pais}</Chip>
+            {tono === "otros" ? (
+              <Chip titulo={`País: ${etiqueta.texto}`}>
+                {paisDeAlcance(celebracion.alcance) ? `${etiqueta.bandera} ${etiqueta.texto}` : etiqueta.texto}
+              </Chip>
             ) : null}
           </div>
           <p className="mt-1 line-clamp-2 text-[13px] leading-[1.5] text-texto-secundario">

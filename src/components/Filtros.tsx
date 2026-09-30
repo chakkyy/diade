@@ -1,4 +1,5 @@
 import { ETIQUETAS_ALCANCE, ETIQUETAS_CATEGORIA, alcancesDeFiltro } from "@/lib/buscar";
+import type { CodigoPais } from "@/lib/paises";
 import { CATEGORIAS } from "@/types/celebracion";
 import type { Alcance, Categoria } from "@/types/celebracion";
 
@@ -32,16 +33,18 @@ export default function Filtros({
   categoria,
   onToggleAlcance,
   onToggleCategoria,
+  pais,
 }: {
   alcance: Alcance[];
   categoria: Categoria[];
   onToggleAlcance: (valor: Alcance) => void;
   onToggleCategoria: (valor: Categoria) => void;
+  pais: CodigoPais;
 }) {
   return (
     <div className="mt-4 flex flex-col gap-3">
       <div role="group" aria-label="Filtrar por alcance" className="flex flex-wrap gap-2">
-        {alcancesDeFiltro("ar").map((valor) => (
+        {alcancesDeFiltro(pais).map((valor) => (
           <ChipToggle key={valor} activo={alcance.includes(valor)} onClick={() => onToggleAlcance(valor)}>
             {ETIQUETAS_ALCANCE[valor]}
           </ChipToggle>

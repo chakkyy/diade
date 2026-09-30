@@ -13,6 +13,7 @@ import {
   slugDeFecha,
   type FechaDia,
 } from "@/lib/fechas";
+import { rutaDePais, type CodigoPais } from "@/lib/paises";
 
 const ESTILO_BOTON =
   "grid size-9 place-items-center rounded-[10px] border border-borde bg-superficie text-texto-secundario transition-[color,transform] duration-150 hover:text-texto active:scale-[0.94]";
@@ -21,22 +22,24 @@ export default function DiaHeader({
   fecha,
   anio,
   esHoy,
+  pais,
 }: {
   fecha: FechaDia;
   anio: number;
   esHoy: boolean | "auto";
+  pais: CodigoPais;
 }) {
   const titulo = formatearFechaLarga(fecha, anio);
-  const url = `/fecha/${slugDeFecha(fecha)}`;
-  const anterior = slugDeFecha(fechaAnterior(fecha, anio));
-  const siguiente = slugDeFecha(fechaSiguiente(fecha, anio));
+  const url = rutaDePais(pais, `/fecha/${slugDeFecha(fecha)}`);
+  const anterior = rutaDePais(pais, `/fecha/${slugDeFecha(fechaAnterior(fecha, anio))}`);
+  const siguiente = rutaDePais(pais, `/fecha/${slugDeFecha(fechaSiguiente(fecha, anio))}`);
 
   return (
     <div className="pt-6">
       {esHoy === "auto" ? (
-        <EstadoHoy dia={fecha.dia} mes={fecha.mes} anio={anio} />
+        <EstadoHoy dia={fecha.dia} mes={fecha.mes} anio={anio} pais={pais} />
       ) : (
-        <EtiquetaDia esHoy={esHoy} anio={anio} />
+        <EtiquetaDia esHoy={esHoy} anio={anio} pais={pais} />
       )}
       <p className="mt-3 text-[13px] leading-4 font-medium text-texto-secundario">
         {nombreDiaSemana(fecha, anio)}
@@ -51,7 +54,7 @@ export default function DiaHeader({
       </h1>
       <div className="mt-5 flex flex-wrap items-center gap-2">
         <Link
-          href={`/fecha/${anterior}`}
+          href={anterior}
           aria-label="Día anterior"
           title="Día anterior (flecha izquierda)"
           className={ESTILO_BOTON}
@@ -59,14 +62,14 @@ export default function DiaHeader({
           <IconoFlecha direccion="anterior" />
         </Link>
         <Link
-          href={`/fecha/${siguiente}`}
+          href={siguiente}
           aria-label="Día siguiente"
           title="Día siguiente (flecha derecha)"
           className={ESTILO_BOTON}
         >
           <IconoFlecha direccion="siguiente" />
         </Link>
-        <SelectorFecha dia={fecha.dia} mes={fecha.mes} anio={anio} />
+        <SelectorFecha dia={fecha.dia} mes={fecha.mes} anio={anio} pais={pais} />
         <div className="ml-auto">
           <CompartirBoton titulo={`${titulo} · ¿Qué se celebra hoy?`} url={url} />
         </div>
