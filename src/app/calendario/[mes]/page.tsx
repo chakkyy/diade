@@ -9,7 +9,7 @@ import SelectorMes from "@/components/SelectorMes";
 import { IconoFlecha } from "@/components/iconos";
 import { cargarTodas, contarPorDia, fechaResuelta } from "@/lib/celebraciones";
 import { mesAnterior, mesSiguiente } from "@/lib/calendario";
-import { MESES, hoyEnArgentina, mesDeSlug, slugDeMes } from "@/lib/fechas";
+import { MESES, hoyEn, mesDeSlug, slugDeMes } from "@/lib/fechas";
 
 export const revalidate = 3600;
 export const dynamicParams = false;
@@ -34,7 +34,7 @@ export async function generateMetadata(props: PageProps<"/calendario/[mes]">): P
   const mes = mesDeSlug(slug);
   if (!mes) return { title: "Mes no encontrado" };
 
-  const anio = hoyEnArgentina().anio;
+  const anio = hoyEn("ar").anio;
   const { argentina, internacional } = totales(mes, anio);
   const nombreMes = MESES[mes - 1];
 
@@ -57,7 +57,7 @@ export default async function PaginaCalendarioMes(props: PageProps<"/calendario/
   const mes = mesDeSlug(slug);
   if (!mes) notFound();
 
-  const anio = hoyEnArgentina().anio;
+  const anio = hoyEn("ar").anio;
   const { conteos } = totales(mes, anio);
   const nombreMes = MESES[mes - 1];
 

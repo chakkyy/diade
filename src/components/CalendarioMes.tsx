@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useSyncExternalStore } from "react";
 import { celdasDelMes } from "@/lib/calendario";
-import { MESES, hoyEnArgentina, slugDeFecha } from "@/lib/fechas";
+import { MESES, hoyEn, slugDeFecha } from "@/lib/fechas";
 
 interface ConteoDia {
   total: number;
@@ -31,7 +31,7 @@ function leerHoyClaveServidor(): string {
 }
 
 function leerHoyClaveCliente(): string {
-  const hoy = hoyEnArgentina();
+  const hoy = hoyEn("ar");
   return `${hoy.dia}-${hoy.mes}-${hoy.anio}`;
 }
 

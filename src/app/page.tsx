@@ -11,7 +11,7 @@ import {
   fechaAnterior,
   fechaSiguiente,
   formatearFechaLarga,
-  hoyEnArgentina,
+  hoyEn,
   slugDeFecha,
 } from "@/lib/fechas";
 import { proximosDestacados } from "@/lib/proximos";
@@ -19,7 +19,7 @@ import { descripcionDeHoy } from "@/lib/seo";
 
 export async function generateMetadata(): Promise<Metadata> {
   await connection();
-  const hoy = hoyEnArgentina();
+  const hoy = hoyEn("ar");
   const fecha = { dia: hoy.dia, mes: hoy.mes };
   const larga = formatearFechaLarga(fecha, hoy.anio);
   const titulo = `Hoy, ${larga}`;
@@ -41,7 +41,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function Home() {
   await connection();
-  const hoy = hoyEnArgentina();
+  const hoy = hoyEn("ar");
   const fecha = { dia: hoy.dia, mes: hoy.mes };
   const celebraciones = celebracionesDeFecha(fecha, hoy.anio);
   const proximos = proximosDestacados(fecha, hoy.anio, 3, cargarTodas());

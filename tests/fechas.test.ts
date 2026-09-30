@@ -4,7 +4,7 @@ import {
   DIAS_SEMANA,
   esBisiesto,
   diasDelMes,
-  hoyEnArgentina,
+  hoyEn,
   slugDeFecha,
   fechaDeSlug,
   slugDeMes,
@@ -48,14 +48,24 @@ describe("diasDelMes", () => {
   });
 });
 
-describe("hoyEnArgentina", () => {
+describe("hoyEn", () => {
   it("2026-09-12T01:30:00Z sigue siendo 11/9 viernes en Buenos Aires", () => {
-    const r = hoyEnArgentina(new Date("2026-09-12T01:30:00Z"));
+    const r = hoyEn("ar", new Date("2026-09-12T01:30:00Z"));
     expect(r).toEqual({ dia: 11, mes: 9, anio: 2026, diaSemana: 5 });
   });
   it("2026-09-12T03:30:00Z ya es 12/9 sábado en Buenos Aires", () => {
-    const r = hoyEnArgentina(new Date("2026-09-12T03:30:00Z"));
+    const r = hoyEn("ar", new Date("2026-09-12T03:30:00Z"));
     expect(r).toEqual({ dia: 12, mes: 9, anio: 2026, diaSemana: 6 });
+  });
+  it("Bogotá va dos horas detrás de Buenos Aires", () => {
+    const instante = new Date("2026-09-12T03:30:00Z");
+    expect(hoyEn("ar", instante)).toMatchObject({ dia: 12, mes: 9, anio: 2026 });
+    expect(hoyEn("co", instante)).toMatchObject({ dia: 11, mes: 9, anio: 2026 });
+  });
+  it("cambia de año según la zona", () => {
+    const instante = new Date("2027-01-01T04:00:00Z");
+    expect(hoyEn("ar", instante)).toMatchObject({ dia: 1, mes: 1, anio: 2027 });
+    expect(hoyEn("co", instante)).toMatchObject({ dia: 31, mes: 12, anio: 2026 });
   });
 });
 

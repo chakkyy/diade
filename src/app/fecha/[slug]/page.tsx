@@ -13,7 +13,7 @@ import {
   fechaAnterior,
   fechaDeSlug,
   fechaSiguiente,
-  hoyEnArgentina,
+  hoyEn,
   slugDeFecha,
   type FechaDia,
 } from "@/lib/fechas";
@@ -46,7 +46,7 @@ export async function generateMetadata(props: PageProps<"/fecha/[slug]">): Promi
   const fecha = fechaDeSlug(slug);
   if (!fecha) return { title: "Fecha no encontrada" };
 
-  const anio = anioDeReferencia(fecha, hoyEnArgentina().anio);
+  const anio = anioDeReferencia(fecha, hoyEn("ar").anio);
   const celebraciones = celebracionesDeFecha(fecha, anio);
   const titulo = tituloDeFecha(celebraciones, fecha);
   const descripcion = descripcionDeFecha(celebraciones, fecha);
@@ -71,7 +71,7 @@ export default async function PaginaFecha(props: PageProps<"/fecha/[slug]">) {
   const fecha = fechaDeSlug(slug);
   if (!fecha) notFound();
 
-  const anio = anioDeReferencia(fecha, hoyEnArgentina().anio);
+  const anio = anioDeReferencia(fecha, hoyEn("ar").anio);
   const celebraciones = celebracionesDeFecha(fecha, anio);
   const proximos = proximosDestacados(fecha, anio, 3, cargarTodas());
   const efemerides = efemeridesDeFecha(fecha, cargarEfemerides());

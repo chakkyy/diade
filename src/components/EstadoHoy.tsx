@@ -2,7 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 import EtiquetaDia from "@/components/EtiquetaDia";
-import { hoyEnArgentina } from "@/lib/fechas";
+import { hoyEn } from "@/lib/fechas";
 
 function sinSuscripcion(): () => void {
   return () => {};
@@ -16,7 +16,7 @@ export default function EstadoHoy({ dia, mes, anio }: { dia: number; mes: number
   const esHoy = useSyncExternalStore(
     sinSuscripcion,
     () => {
-      const hoy = hoyEnArgentina();
+      const hoy = hoyEn("ar");
       return hoy.dia === dia && hoy.mes === mes;
     },
     leerEsHoyServidor,

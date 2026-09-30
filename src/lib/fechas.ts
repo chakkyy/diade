@@ -1,3 +1,4 @@
+import { PAISES, type CodigoPais } from "@/lib/paises";
 import type { FechaMovil } from "@/types/celebracion";
 
 export const MESES = [
@@ -33,14 +34,17 @@ export function diasDelMes(mes: number, anio: number): number {
   return DIAS_POR_MES_NO_BISIESTO[mes - 1];
 }
 
-export function hoyEnArgentina(ahora: Date = new Date()): {
+export function hoyEn(
+  pais: CodigoPais,
+  ahora: Date = new Date(),
+): {
   dia: number;
   mes: number;
   anio: number;
   diaSemana: number;
 } {
   const formateador = new Intl.DateTimeFormat("es-AR", {
-    timeZone: "America/Argentina/Buenos_Aires",
+    timeZone: PAISES[pais].zona,
     year: "numeric",
     month: "2-digit",
     day: "2-digit",

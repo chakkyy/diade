@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { archivoEfemeridesSchema } from "../src/lib/schema";
-import { MESES, diasDelMes, hoyEnArgentina } from "../src/lib/fechas";
+import { MESES, diasDelMes, hoyEn } from "../src/lib/fechas";
 import type { Efemeride, TipoEfemeride } from "../src/types/efemeride";
 
 const API = "https://api.wikimedia.org/feed/v1/wikipedia/es/onthisday";
@@ -289,7 +289,7 @@ async function main() {
   const meses = soloMes ? [soloMes] : Array.from({ length: 12 }, (_, i) => i + 1);
   const dir = path.join(process.cwd(), "data", "efemerides");
   fs.mkdirSync(dir, { recursive: true });
-  const hoyArg = hoyEnArgentina();
+  const hoyArg = hoyEn("ar");
   const hoy = `${hoyArg.anio}-${String(hoyArg.mes).padStart(2, "0")}-${String(hoyArg.dia).padStart(2, "0")}`;
   const usados = new Set<string>();
   let total = 0;

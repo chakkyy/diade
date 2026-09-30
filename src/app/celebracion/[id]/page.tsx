@@ -13,7 +13,7 @@ import {
   dominioDeUrl,
   ETIQUETAS_TIPO_FUENTE,
 } from "@/lib/celebracion-detalle";
-import { formatearFechaCorta, hoyEnArgentina, resolverFechaMovil, slugDeFecha } from "@/lib/fechas";
+import { formatearFechaCorta, hoyEn, resolverFechaMovil, slugDeFecha } from "@/lib/fechas";
 import { esFechaMovil, type Celebracion } from "@/types/celebracion";
 
 export const revalidate = 3600;
@@ -63,7 +63,7 @@ export default async function PaginaCelebracion(props: PageProps<"/celebracion/[
   const celebracion = celebracionPorId(id);
   if (!celebracion) notFound();
 
-  const anioActual = hoyEnArgentina().anio;
+  const anioActual = hoyEn("ar").anio;
   const fechaResuelta = esFechaMovil(celebracion.fecha)
     ? resolverFechaMovil(celebracion.fecha, anioActual)
     : celebracion.fecha;
