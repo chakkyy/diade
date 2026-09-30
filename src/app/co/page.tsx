@@ -4,10 +4,10 @@ import VistaHoy, { metadataDeHoy } from "@/vistas/VistaHoy";
 
 export async function generateMetadata(): Promise<Metadata> {
   await connection();
-  return metadataDeHoy("ar");
+  return metadataDeHoy("co");
 }
 
-export default async function Home() {
+export default async function HomeColombia() {
   await connection();
-  return <VistaHoy pais="ar" />;
+  return <VistaHoy pais="co" />;
 }

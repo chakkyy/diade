@@ -9,12 +9,12 @@ export function generateStaticParams() {
   return MESES.map((mes) => ({ mes }));
 }
 
-export async function generateMetadata(props: PageProps<"/calendario/[mes]">): Promise<Metadata> {
+export async function generateMetadata(props: PageProps<"/co/calendario/[mes]">): Promise<Metadata> {
   const { mes } = await props.params;
-  return metadataDeCalendarioMes("ar", mes);
+  return metadataDeCalendarioMes("co", mes);
 }
 
-export default async function PaginaCalendarioMes(props: PageProps<"/calendario/[mes]">) {
+export default async function PaginaCalendarioMesColombia(props: PageProps<"/co/calendario/[mes]">) {
   const { mes } = await props.params;
-  return <VistaCalendarioMes pais="ar" slug={mes} />;
+  return <VistaCalendarioMes pais="co" slug={mes} />;
 }

@@ -9,12 +9,12 @@ export function generateStaticParams() {
   return cargarTodas().map((c) => ({ id: c.id }));
 }
 
-export async function generateMetadata(props: PageProps<"/celebracion/[id]">): Promise<Metadata> {
+export async function generateMetadata(props: PageProps<"/co/celebracion/[id]">): Promise<Metadata> {
   const { id } = await props.params;
-  return metadataDeCelebracion("ar", id);
+  return metadataDeCelebracion("co", id);
 }
 
-export default async function PaginaCelebracion(props: PageProps<"/celebracion/[id]">) {
+export default async function PaginaCelebracionColombia(props: PageProps<"/co/celebracion/[id]">) {
   const { id } = await props.params;
-  return <VistaCelebracion pais="ar" id={id} />;
+  return <VistaCelebracion pais="co" id={id} />;
 }

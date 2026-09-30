@@ -8,12 +8,12 @@ export function generateStaticParams() {
   return paramsDeFechas();
 }
 
-export async function generateMetadata(props: PageProps<"/fecha/[slug]">): Promise<Metadata> {
+export async function generateMetadata(props: PageProps<"/co/fecha/[slug]">): Promise<Metadata> {
   const { slug } = await props.params;
-  return metadataDeFecha("ar", slug);
+  return metadataDeFecha("co", slug);
 }
 
-export default async function PaginaFecha(props: PageProps<"/fecha/[slug]">) {
+export default async function PaginaFechaColombia(props: PageProps<"/co/fecha/[slug]">) {
   const { slug } = await props.params;
-  return <VistaFecha pais="ar" slug={slug} />;
+  return <VistaFecha pais="co" slug={slug} />;
 }
