@@ -11,12 +11,17 @@ export default function SelectorPais() {
   const router = useRouter();
   const idMenu = useId();
   const actual = paisDeRuta(pathname);
-  const [abierto, setAbierto] = useState(false);
+  const [abiertoEn, setAbiertoEn] = useState<string | null>(null);
+  const abierto = abiertoEn === pathname;
   const raiz = useRef<HTMLDivElement>(null);
   const disparador = useRef<HTMLButtonElement>(null);
   const items = useRef<(HTMLAnchorElement | null)[]>([]);
   const foco = useRef<number | "ninguno">("ninguno");
   const [porTeclado, setPorTeclado] = useState(false);
+
+  function setAbierto(valor: boolean) {
+    setAbiertoEn(valor ? pathname : null);
+  }
 
   function abrir(indice: number | "ninguno", teclado: boolean) {
     foco.current = indice;
@@ -33,7 +38,7 @@ export default function SelectorPais() {
     if (!abierto) return;
     if (foco.current !== "ninguno") items.current[foco.current]?.focus();
     function alPresionar(evento: PointerEvent) {
-      if (!raiz.current?.contains(evento.target as Node)) setAbierto(false);
+      if (!raiz.current?.contains(evento.target as Node)) setAbiertoEn(null);
     }
     document.addEventListener("pointerdown", alPresionar);
     return () => document.removeEventListener("pointerdown", alPresionar);
@@ -42,8 +47,18 @@ export default function SelectorPais() {
   function alTeclearDisparador(evento: KeyboardEvent<HTMLButtonElement>) {
     if (evento.key === "ArrowDown" || evento.key === "ArrowUp") {
       evento.preventDefault();
+      if (abierto) {
+        items.current[evento.key === "ArrowUp" ? CODIGOS_PAIS.length - 1 : 0]?.focus();
+        return;
+      }
       abrir(evento.key === "ArrowUp" ? CODIGOS_PAIS.length - 1 : CODIGOS_PAIS.indexOf(actual), true);
     }
+  }
+
+  function alTeclearRaiz(evento: KeyboardEvent<HTMLDivElement>) {
+    if (evento.key !== "Escape" || !abierto) return;
+    evento.preventDefault();
+    cerrar(true);
   }
 
   function alTeclearMenu(evento: KeyboardEvent<HTMLDivElement>) {
@@ -54,11 +69,7 @@ export default function SelectorPais() {
     else if (evento.key === "ArrowUp") destino = (indice - 1 + total) % total;
     else if (evento.key === "Home") destino = 0;
     else if (evento.key === "End") destino = total - 1;
-    else if (evento.key === "Escape") {
-      evento.preventDefault();
-      cerrar(true);
-      return;
-    } else if (evento.key === "Tab") {
+    else if (evento.key === "Tab") {
       setAbierto(false);
       return;
     }
@@ -70,7 +81,7 @@ export default function SelectorPais() {
   const { bandera, nombre, codigo } = PAISES[actual];
 
   return (
-    <div ref={raiz} className="relative shrink-0">
+    <div ref={raiz} onKeyDown={alTeclearRaiz} className="relative shrink-0">
       <button
         ref={disparador}
         type="button"
@@ -121,7 +132,7 @@ export default function SelectorPais() {
               tabIndex={-1}
               onClick={(evento) => {
                 if (!esClicSimple(evento)) return;
-                setAbierto(false);
+                cerrar(codigoItem === actual);
                 const busqueda = busquedaParaPais(window.location.search, codigoItem);
                 if (busqueda === "") return;
                 evento.preventDefault();

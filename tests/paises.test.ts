@@ -47,19 +47,25 @@ describe("PAISES", () => {
 });
 
 describe("paisDeParametro", () => {
-  it("acepta los países con prefijo", () => {
-    expect(paisDeParametro("co")).toBe("co");
-    expect(paisDeParametro("ve")).toBe("ve");
+  it("acepta todos los países con prefijo y devuelve su código", () => {
+    for (const codigo of CODIGOS_PAIS) {
+      const prefijo = PAISES[codigo].prefijo;
+      if (prefijo === "") continue;
+      expect(paisDeParametro(prefijo.slice(1))).toBe(codigo);
+    }
   });
   it("rechaza Argentina, que no tiene prefijo, y cualquier otro valor", () => {
-    expect(paisDeParametro("ar")).toBeNull();
+    expect(PAISES.ar.prefijo).toBe("");
+    expect(paisDeParametro(PAISES.ar.codigo)).toBeNull();
     expect(paisDeParametro("xx")).toBeNull();
     expect(paisDeParametro("comida")).toBeNull();
     expect(paisDeParametro("")).toBeNull();
     expect(paisDeParametro("CO")).toBeNull();
   });
   it("PARAMETROS_PAIS lista los países con prefijo", () => {
-    expect(PARAMETROS_PAIS).toEqual(["co", "ve"]);
+    const conPrefijo = CODIGOS_PAIS.filter((codigo) => PAISES[codigo].prefijo !== "");
+    expect(PARAMETROS_PAIS).toHaveLength(conPrefijo.length);
+    for (const parametro of PARAMETROS_PAIS) expect(paisDeParametro(parametro)).not.toBeNull();
   });
 });
 

@@ -1,6 +1,6 @@
 import type { Alcance, Categoria, ItemIndice } from "@/types/celebracion";
 import { esFechaMovil } from "@/types/celebracion";
-import { CODIGOS_PAIS, PAISES, grupoDeAlcance, prioridadDeAlcance, type CodigoPais } from "@/lib/paises";
+import { CODIGOS_PAIS, PAISES, grupoDeAlcance, paisDeAlcance, prioridadDeAlcance, type CodigoPais } from "@/lib/paises";
 
 export function normalizar(texto: string): string {
   return texto
@@ -37,6 +37,8 @@ function cumpleFiltros(item: ItemIndice, filtros: FiltrosBusqueda): boolean {
 function camposBuscables(item: ItemIndice): string[] {
   const campos = [normalizar(item.nombre), normalizar(item.descripcion)];
   if (item.pais) campos.push(normalizar(item.pais));
+  const propio = paisDeAlcance(item.alcance);
+  if (propio) campos.push(normalizar(propio.nombre));
   if (item.tags) campos.push(...item.tags.map(normalizar));
   return campos;
 }

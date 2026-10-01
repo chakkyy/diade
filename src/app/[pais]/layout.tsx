@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PAISES, PARAMETROS_PAIS, paisDeParametro } from "@/lib/paises";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return PARAMETROS_PAIS.map((pais) => ({ pais }));
 }

@@ -294,12 +294,11 @@ async function importarMes(
 }
 
 const ALCANCES_COMPLETOS: readonly Efemeride["alcance"][] = [...CODIGOS_PAIS.map((codigo) => PAISES[codigo].alcance), "internacional"];
-const PAISES_SOLO = CODIGOS_PAIS.filter((codigo) => codigo !== "ar");
-const USO = `uso: pnpm data:efemerides [MM] [--solo ${PAISES_SOLO.map((codigo) => PAISES[codigo].alcance).join("|")}]`;
+const USO = `uso: pnpm data:efemerides [MM] [--solo ${CODIGOS_PAIS.map((codigo) => PAISES[codigo].alcance).join("|")}]`;
 
 function paisDeArgumento(valor: string | undefined): CodigoPais | null {
   if (valor === undefined) return null;
-  return PAISES_SOLO.find((codigo) => codigo === valor || PAISES[codigo].alcance === valor) ?? null;
+  return CODIGOS_PAIS.find((codigo) => codigo === valor || PAISES[codigo].alcance === valor) ?? null;
 }
 
 function leerArgumentos(): { soloMes: number | null; soloPais: CodigoPais | null } {

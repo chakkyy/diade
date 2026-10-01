@@ -122,6 +122,10 @@ describe("buscar por país", () => {
     expect(co).toContain("dia-del-maestro");
     expect(co).not.toContain("dia-del-maestro-colombia");
   });
+  it("el nombre del país del alcance es buscable", () => {
+    expect(buscar(indice, "maestro colombia", { pais: "ar" }).map((i) => i.id)).toEqual(["dia-del-maestro-colombia"]);
+    expect(buscar(indice, "fotografo argentina", { pais: "ar" }).map((i) => i.id)).toEqual(["dia-del-fotografo"]);
+  });
   it("alcancesDeFiltro ofrece local, internacional y otros", () => {
     expect(alcancesDeFiltro("co")).toEqual(["colombia", "internacional", "otro-pais"]);
     expect(alcancesDeFiltro("ar")).toEqual(["argentina", "internacional", "otro-pais"]);
