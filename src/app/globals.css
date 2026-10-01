@@ -107,6 +107,37 @@
   }
 }
 
+.menu-pais {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.96);
+  transition:
+    opacity 100ms ease-out,
+    transform 100ms ease-out,
+    visibility 0s linear 100ms;
+}
+
+.menu-pais[data-abierto="true"] {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition:
+    opacity 160ms cubic-bezier(0.23, 1, 0.32, 1),
+    transform 160ms cubic-bezier(0.23, 1, 0.32, 1),
+    visibility 0s;
+}
+
+.menu-pais[data-teclado="true"],
+.menu-pais[data-teclado="true"][data-abierto="true"] {
+  transition-duration: 0s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menu-pais {
+    transform: none;
+  }
+}
+
 @keyframes aparecer-fila {
   from {
     opacity: 0;
