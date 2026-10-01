@@ -401,8 +401,7 @@
       "dia": 15,
       "mes": 1
     },
-    "alcance": "otro-pais",
-    "pais": "Venezuela",
+    "alcance": "venezuela",
     "categoria": "educacion",
     "descripcion": "Homenaje venezolano a los docentes por la fundación en 1932 de la Sociedad de Maestros de Instrucción Primaria.",
     "fuentes": [
@@ -814,8 +813,7 @@
       "dia": 29,
       "mes": 1
     },
-    "alcance": "otro-pais",
-    "pais": "Venezuela",
+    "alcance": "venezuela",
     "categoria": "profesion",
     "descripcion": "Homenaje venezolano a los trabajadores sociales por la graduación de la primera promoción en 1942.",
     "fuentes": [
