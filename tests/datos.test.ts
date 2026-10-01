@@ -71,3 +71,23 @@ describe("datos de Colombia", () => {
     expect(lista[0]?.alcance).toBe("colombia");
   });
 });
+
+describe("datos de Venezuela", () => {
+  const venezolanas = todas.filter((c) => c.alcance === "venezuela");
+
+  it("hay al menos 70 celebraciones venezolanas", () => {
+    expect(venezolanas.length).toBeGreaterThanOrEqual(70);
+  });
+  it("hay celebraciones venezolanas en los doce meses", () => {
+    const meses = new Set(venezolanas.map((c) => fechaResuelta(c, 2026).mes));
+    expect(meses.size).toBe(12);
+  });
+  it("ninguna lleva pais y ninguna entrada otro-pais es de Venezuela", () => {
+    expect(venezolanas.filter((c) => c.pais !== undefined).map((c) => c.id)).toEqual([]);
+    expect(todas.filter((c) => c.alcance === "otro-pais" && c.pais === "Venezuela").map((c) => c.id)).toEqual([]);
+  });
+  it("Venezuela va primero en /ve el 5 de julio", () => {
+    const lista = celebracionesDeFecha({ dia: 5, mes: 7 }, 2026, "ve", todas);
+    expect(lista[0]?.alcance).toBe("venezuela");
+  });
+});
