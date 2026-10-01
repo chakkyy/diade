@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import CategoriaChip from "@/components/CategoriaChip";
 import Chip from "@/components/Chip";
@@ -65,7 +64,6 @@ export default function Buscador({
   anio: number;
   pais: CodigoPais;
 }) {
-  const router = useRouter();
   const inputId = useId();
   const inputRef = useRef<HTMLInputElement | null>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -74,14 +72,17 @@ export default function Buscador({
   const [alcance, setAlcance] = useState<Alcance[]>(inicial.alcance);
   const [categoria, setCategoria] = useState<Categoria[]>(inicial.categoria);
   const [visibles, setVisibles] = useState(TAMANIO_PAGINA);
+  const [ultimaUrlEscrita, setUltimaUrlEscrita] = useState<string | null>(null);
 
   const [claveInicialAplicada, setClaveInicialAplicada] = useState(() => escribirFiltros(inicial));
   const claveInicialActual = escribirFiltros(inicial);
   if (claveInicialActual !== claveInicialAplicada) {
     setClaveInicialAplicada(claveInicialActual);
-    setQ(inicial.q);
-    setAlcance(inicial.alcance);
-    setCategoria(inicial.categoria);
+    if (claveInicialActual !== ultimaUrlEscrita) {
+      setQ(inicial.q);
+      setAlcance(inicial.alcance);
+      setCategoria(inicial.categoria);
+    }
   }
 
   const claveFiltros = `${q}|${alcance.join(",")}|${categoria.join(",")}`;
@@ -108,7 +109,8 @@ export default function Buscador({
     const escribir = () => {
       const qs = escribirFiltros(filtros);
       const base = rutaDePais(pais, "/buscar");
-      router.replace(qs === "" ? base : `${base}?${qs}`, { scroll: false });
+      setUltimaUrlEscrita(qs);
+      window.history.replaceState(null, "", qs === "" ? base : `${base}?${qs}`);
     };
     if (inmediato) escribir();
     else debounceRef.current = setTimeout(escribir, DEMORA_TEXTO_MS);
