@@ -9,6 +9,7 @@ export interface Pais {
   locale: string;
   prefijo: string;
   ciudad: string;
+  deteccion: { gentilicio: RegExp; lugares: RegExp };
 }
 
 export const PAISES = {
@@ -21,6 +22,10 @@ export const PAISES = {
     locale: "es_AR",
     prefijo: "",
     ciudad: "Buenos Aires",
+    deteccion: {
+      gentilicio: /\bargentin[oa]s?\b|\bArgentina\b/i,
+      lugares: /Buenos Aires|bonaerense|porteñ[oa]s?\b/i,
+    },
   },
   co: {
     codigo: "co",
@@ -31,6 +36,24 @@ export const PAISES = {
     locale: "es_CO",
     prefijo: "/co",
     ciudad: "Bogotá",
+    deteccion: {
+      gentilicio: /\bcolombian[oa]s?\b|\bColombia\b/i,
+      lugares: /Bogotá|(?<!\p{L})Cali(?!\p{L})|Cartagena de Indias|Barranquilla|Nueva Granada/u,
+    },
+  },
+  ve: {
+    codigo: "ve",
+    alcance: "venezuela",
+    nombre: "Venezuela",
+    bandera: "🇻🇪",
+    zona: "America/Caracas",
+    locale: "es_VE",
+    prefijo: "/ve",
+    ciudad: "Caracas",
+    deteccion: {
+      gentilicio: /\bvenezolan[oa]s?\b|\bVenezuela\b/i,
+      lugares: /\bCaracas\b|\bMaracaibo\b|\bValencia, Venezuela\b|\bBarquisimeto\b|\bCapitanía General de Venezuela\b/,
+    },
   },
 } as const satisfies Record<string, Pais>;
 
@@ -57,6 +80,18 @@ export function paisDeAlcance(alcance: Alcance): (typeof PAISES)[CodigoPais] | n
   }
   return null;
 }
+
+export function paisDeParametro(valor: string): CodigoPais | null {
+  for (const codigo of CODIGOS_PAIS) {
+    const prefijo = PAISES[codigo].prefijo;
+    if (prefijo !== "" && prefijo === `/${valor}`) return codigo;
+  }
+  return null;
+}
+
+export const PARAMETROS_PAIS = CODIGOS_PAIS.filter((codigo) => PAISES[codigo].prefijo !== "").map((codigo) =>
+  PAISES[codigo].prefijo.slice(1),
+);
 
 export function rutaDePais(pais: CodigoPais, ruta: string): string {
   const prefijo = PAISES[pais].prefijo;

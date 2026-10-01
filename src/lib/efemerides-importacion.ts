@@ -1,12 +1,13 @@
 import type { Efemeride } from "@/types/efemeride";
+import { CODIGOS_PAIS, PAISES } from "@/lib/paises";
 
-const ARGENTINA = /\bargentin[oa]s?\b|\bArgentina\b|Buenos Aires|bonaerense|porteñ[oa]s?\b/i;
-const COLOMBIA_GENTILICIO = /\bcolombian[oa]s?\b|\bColombia\b/i;
-const COLOMBIA_LUGAR = /Bogotá|(?<!\p{L})Cali(?!\p{L})|Cartagena de Indias|Barranquilla|Nueva Granada/u;
+export type AlcancePais = Exclude<Efemeride["alcance"], "internacional">;
 
 export function alcanceDeTexto(texto: string): Efemeride["alcance"] {
-  if (ARGENTINA.test(texto)) return "argentina";
-  if (COLOMBIA_GENTILICIO.test(texto) || COLOMBIA_LUGAR.test(texto)) return "colombia";
+  for (const codigo of CODIGOS_PAIS) {
+    const { deteccion, alcance } = PAISES[codigo];
+    if (deteccion.gentilicio.test(texto) || deteccion.lugares.test(texto)) return alcance;
+  }
   return "internacional";
 }
 
@@ -14,7 +15,7 @@ function clave(e: Efemeride): string {
   return `${e.fecha.dia}|${e.anio}|${e.tipo}|${e.texto}`;
 }
 
-export function fusionarPais(existentes: Efemeride[], nuevas: Efemeride[], alcance: "colombia"): Efemeride[] {
+export function fusionarPais(existentes: Efemeride[], nuevas: Efemeride[], alcance: AlcancePais): Efemeride[] {
   const clavesNuevas = new Set(nuevas.map(clave));
   const clavesExistentes = new Set(existentes.map(clave));
 

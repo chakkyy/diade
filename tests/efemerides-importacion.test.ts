@@ -28,6 +28,21 @@ describe("alcanceDeTexto", () => {
   });
 });
 
+describe("alcanceDeTexto con Venezuela", () => {
+  it("detecta Venezuela por gentilicio y ciudades", () => {
+    expect(alcanceDeTexto("Nace Simón Díaz, cantautor venezolano.")).toBe("venezuela");
+    expect(alcanceDeTexto("Terremoto en Caracas.")).toBe("venezuela");
+    expect(alcanceDeTexto("Se funda Maracaibo.")).toBe("venezuela");
+  });
+  it("no confunde la Valencia española", () => {
+    expect(alcanceDeTexto("Valencia, España")).toBe("internacional");
+    expect(alcanceDeTexto("Se funda Valencia, Venezuela.")).toBe("venezuela");
+  });
+  it("Argentina gana si el texto nombra a Argentina y Venezuela", () => {
+    expect(alcanceDeTexto("Un argentino viaja a Venezuela.")).toBe("argentina");
+  });
+});
+
 function efemeride(id: string, anio: number, texto: string, alcance: Efemeride["alcance"], dia = 5): Efemeride {
   return {
     id,
@@ -75,5 +90,29 @@ describe("fusionarPais", () => {
     const repetida = efemeride("1810-grito-ficticio-2", 1810, "Hecho ocurrido en Bogotá.", "colombia");
     const conRepetida = fusionarPais(existentes, [...nuevas, repetida], "colombia");
     expect(conRepetida.filter((e) => e.texto === "Hecho ocurrido en Bogotá.")).toHaveLength(1);
+  });
+});
+
+describe("fusionarPais con Venezuela", () => {
+  const existentes = [
+    efemeride("1950-hecho-mundial", 1950, "Hecho mundial.", "internacional"),
+    efemeride("1911-nace-persona", 1911, "Nace Persona Ficticia, pintor venezolano.", "internacional"),
+  ];
+  const nuevas = [
+    efemeride("1911-nace-persona-2", 1911, "Nace Persona Ficticia, pintor venezolano.", "venezuela"),
+    efemeride("1830-hecho-caracas", 1830, "Hecho ocurrido en Caracas.", "venezuela"),
+  ];
+  const resultado = fusionarPais(existentes, nuevas, "venezuela");
+
+  it("reclasifica la coincidencia y agrega la nueva", () => {
+    expect(resultado.find((e) => e.id === "1911-nace-persona")).toMatchObject({
+      alcance: "venezuela",
+      tambienInternacional: true,
+    });
+    expect(resultado.find((e) => e.id === "1830-hecho-caracas")?.alcance).toBe("venezuela");
+    expect(resultado.find((e) => e.id === "1950-hecho-mundial")).toEqual(existentes[0]);
+  });
+  it("es idempotente", () => {
+    expect(fusionarPais(resultado, nuevas, "venezuela")).toEqual(resultado);
   });
 });

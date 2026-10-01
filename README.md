@@ -1,6 +1,6 @@
 # ¿Qué se celebra hoy?
 
-Calendario de "Días de X" para Argentina y Colombia: días nacionales, días profesionales, conmemoraciones internacionales (ONU, UNESCO, OMS, FAO, OIT) y fechas populares como el Día de la Madre o el Día del Estudiante. Cada celebración lleva al menos una fuente verificable.
+Calendario de "Días de X" para Argentina, Colombia y Venezuela: días nacionales, días profesionales, conmemoraciones internacionales (ONU, UNESCO, OMS, FAO, OIT) y fechas populares como el Día de la Madre o el Día del Estudiante. Cada celebración lleva al menos una fuente verificable.
 
 Debajo de las celebraciones, cada día muestra además sus **efemérides**: acontecimientos, nacimientos y fallecimientos de ese día en la historia ("1945 – Nace Tanguito, músico y compositor argentino"), con foco en cada país. Se importan de Wikipedia con un script y no se editan a mano.
 
@@ -8,13 +8,13 @@ No es una página de feriados (salvo que se llamen "Día de/del X", como el Día
 
 ## Países
 
-El sitio tiene una vista por país. Argentina vive en la raíz (`/`, `/fecha/...`, `/calendario/...`, `/buscar`) y Colombia bajo el prefijo `/co` (`/co`, `/co/fecha/...`, `/co/calendario/...`, `/co/buscar`). En el header, el selector 🇦🇷 | 🇨🇴 pasa de un país al otro conservando la página, y el menú, la barra inferior y los links de cada vista se quedan dentro del país que se está mirando.
+El sitio tiene una vista por país. Argentina vive en la raíz (`/`, `/fecha/...`, `/calendario/...`, `/buscar`) , Colombia bajo el prefijo `/co` (`/co`, `/co/fecha/...`, `/co/calendario/...`, `/co/buscar`) y Venezuela bajo `/ve` (`/ve`, `/ve/fecha/...`, `/ve/calendario/...`, `/ve/buscar`). En el header, el selector 🇦🇷 | 🇨🇴 | 🇻🇪 pasa de un país a otro conservando la página, y el menú, la barra inferior y los links de cada vista se quedan dentro del país que se está mirando.
 
-En cada vista el orden del día es: primero lo del país, después lo internacional y al final "Otros países", que incluye lo del otro país del sitio (una celebración colombiana aparece en Argentina, con su bandera, dentro de "Otros países", y al revés). Las celebraciones tienen una sola página de detalle por id, que se abre con o sin el prefijo (`/celebracion/<id>` y `/co/celebracion/<id>`).
+En cada vista el orden del día es: primero lo del país, después lo internacional y al final "Otros países", que incluye lo de los demás países del sitio (una celebración colombiana aparece en Argentina o en Venezuela, con su bandera, dentro de "Otros países", y al revés). Las celebraciones tienen una sola página de detalle por id, que se abre con o sin el prefijo (`/celebracion/<id>`, `/co/celebracion/<id>` y `/ve/celebracion/<id>`).
 
-La configuración de cada país (alcance, zona horaria, prefijo, bandera) está en `src/lib/paises.ts`. Los cuerpos de las páginas están en `src/vistas/` y los comparten los dos países; `src/app/` y `src/app/co/` sólo los enchufan a cada ruta.
+La configuración de cada país (alcance, zona horaria, prefijo, bandera, detección de efemérides) está en `PAISES`, en `src/lib/paises.ts`. Los cuerpos de las páginas están en `src/vistas/` y los comparten todos los países; `src/app/` (Argentina) y `src/app/[pais]/` (los países con prefijo) sólo los enchufan a cada ruta. Para sumar un país, ver [Cómo agregar un país](docs/diseno.md#cómo-agregar-un-país).
 
-Colombia no tiene la cobertura de Argentina: sus celebraciones son las que se pudieron confirmar con fuente oficial, así que muchos días de `/co` muestran sólo lo internacional y lo de otros países (ver [Cobertura de datos](#cobertura-de-datos)).
+Colombia y Venezuela no tienen la cobertura de Argentina: sus celebraciones son las que se pudieron confirmar con fuente oficial, así que muchos días de `/co` y `/ve` muestran sólo lo internacional y lo de otros países (ver [Cobertura de datos](#cobertura-de-datos)).
 
 ## Cómo correr
 
@@ -42,7 +42,7 @@ pnpm start
 | `pnpm data:validate` | valida todos los `data/celebraciones/MM.json` contra el schema, revisa ids duplicados y que `fecha.mes` coincida con el archivo |
 | `pnpm data:links` | hace HEAD/GET (y fallback con `curl`) a cada URL de fuente de todos los meses, o de uno solo con `pnpm data:links 09` |
 | `pnpm data:add` | CLI interactiva para agregar una celebración nueva (ver más abajo) |
-| `pnpm data:efemerides` | importa las efemérides de todo el año desde Wikipedia a `data/efemerides/MM.json`, o de un mes con `pnpm data:efemerides 9`; con `--solo colombia` agrega las colombianas que todavía no están, conserva las que ya están y pasa a `colombia` (con `tambienInternacional`) las internacionales que coinciden con una colombiana; el resto queda igual (ver [Efemérides](#efemérides)) |
+| `pnpm data:efemerides` | importa las efemérides de todo el año desde Wikipedia a `data/efemerides/MM.json`, o de un mes con `pnpm data:efemerides 9`; con `--solo <país>` (`colombia` o `venezuela`, cualquier país que no sea Argentina) agrega las de ese país que todavía no están, conserva las que ya están y pasa al país (con `tambienInternacional`) las internacionales que coinciden; el resto queda igual (ver [Efemérides](#efemérides)) |
 
 `pnpm data:validate` valida también `data/efemerides/`; `pnpm data:links efemerides` (o `pnpm data:links efemerides 09`) chequea las URLs de las efemérides.
 
@@ -62,9 +62,9 @@ src/lib/celebraciones.ts     carga y consulta de los JSON (cacheado)
 src/lib/efemerides.ts        carga y consulta de las efemérides (cacheado)
 src/lib/buscar.ts            normalización y búsqueda client-side
 src/lib/datos-edicion.ts     funciones puras que usa el CLI de alta
-src/vistas/                  cuerpo de cada página, compartido por Argentina y Colombia
+src/vistas/                  cuerpo de cada página, compartido por todos los países
 src/app/                     rutas de Argentina (App Router)
-src/app/co/                  rutas de Colombia, bajo el prefijo /co
+src/app/[pais]/              rutas de los países con prefijo (/co, /ve)
 src/components/              componentes de UI
 scripts/                     CLI y validadores
 ```
@@ -75,12 +75,13 @@ Rutas principales:
 |---|---|
 | `/` | qué se celebra hoy, calculado en el momento (hora de Argentina), y las efemérides del día |
 | `/co` | lo mismo para Colombia (hora de Bogotá) |
+| `/ve` | lo mismo para Venezuela (hora de Caracas) |
 | `/fecha/11-septiembre` | todo lo que se celebra ese día del año, y sus efemérides |
 | `/celebracion/dia-del-maestro` | el detalle de una celebración: descripción, fuentes, fecha en palabras si es móvil |
 | `/calendario/septiembre` | el mes completo, día por día |
 | `/buscar?q=perro` | búsqueda por nombre, descripción, tags o país |
 
-Colombia tiene las mismas rutas bajo `/co`: `/co/fecha/20-julio`, `/co/calendario/julio`, `/co/buscar?q=maestro` y `/co/celebracion/<id>`.
+Colombia y Venezuela tienen las mismas rutas bajo `/co` y `/ve`: `/co/fecha/20-julio`, `/ve/calendario/julio`, `/ve/buscar?q=maestro` y `/ve/celebracion/<id>`.
 
 ## Modelo de datos
 
@@ -115,8 +116,8 @@ Cada archivo `data/celebraciones/MM.json` es un array de celebraciones de ese me
 | `id` | string | sí | slug kebab-case sin tildes, único en todo el sitio |
 | `nombre` | string | sí | 3 a 140 caracteres |
 | `fecha` | fija o móvil | sí | ver abajo |
-| `alcance` | `"argentina"` \| `"colombia"` \| `"internacional"` \| `"otro-pais"` | sí | `otro-pais` es para los países que no tienen vista propia |
-| `pais` | string | sólo si `alcance = "otro-pais"` | ej. "Chile"; no puede ser Argentina ni Colombia, que usan su propio alcance |
+| `alcance` | `"argentina"` \| `"colombia"` \| `"venezuela"` \| `"internacional"` \| `"otro-pais"` | sí | `otro-pais` es para los países que no tienen vista propia |
+| `pais` | string | sólo si `alcance = "otro-pais"` | ej. "Chile"; no puede ser Argentina, Colombia ni Venezuela, que usan su propio alcance |
 | `categoria` | una de 15 categorías | sí | `profesion`, `salud`, `ambiente`, `educacion`, `cultura`, `animales`, `comida`, `religion`, `historia`, `deporte`, `tecnologia`, `ciencia`, `sociedad`, `derechos`, `familia` |
 | `descripcion` | string | sí | una línea, 10 a 220 caracteres, termina en punto |
 | `fuentes` | array de fuentes | sí, ≥1 | al menos una no debe ser `secundaria` |
@@ -195,11 +196,11 @@ Cada efeméride tiene esta forma:
 }
 ```
 
-`tipo` es `acontecimiento`, `nacimiento` o `fallecimiento`; `alcance` es `argentina` (el texto menciona Argentina, Buenos Aires o un gentilicio argentino), `colombia` (lo mismo para Colombia) o `internacional`. Una efeméride colombiana que además es un hecho de alcance mundial lleva `"tambienInternacional": true`, y entonces también se muestra en la vista de Argentina, dentro del bloque internacional; las demás colombianas sólo se ven en `/co`, y las argentinas sólo en `/`. A diferencia de las celebraciones, acá Wikipedia alcanza como única fuente. Los nacimientos y fallecimientos enlazan al artículo de la persona; los acontecimientos enlazan a la página del día en Wikipedia (por ejemplo `16_de_septiembre#Acontecimientos`), que es de donde sale el texto. `verificadoEn` es la fecha de la importación.
+`tipo` es `acontecimiento`, `nacimiento` o `fallecimiento`; `alcance` es `argentina` (el texto menciona Argentina, Buenos Aires o un gentilicio argentino), `colombia` o `venezuela` (lo mismo para cada país, según la detección de su entrada en `PAISES`; si un texto nombra a dos países gana el primero de la config) o `internacional`. Una efeméride de un país que además es un hecho de alcance mundial lleva `"tambienInternacional": true`, y entonces también se muestra en las vistas de los demás países, dentro del bloque internacional; las demás sólo se ven en la vista de su país (`/`, `/co`, `/ve`). A diferencia de las celebraciones, acá Wikipedia alcanza como única fuente. Los nacimientos y fallecimientos enlazan al artículo de la persona; los acontecimientos enlazan a la página del día en Wikipedia (por ejemplo `16_de_septiembre#Acontecimientos`), que es de donde sale el texto. `verificadoEn` es la fecha de la importación.
 
 Qué elige el script por día (cupos en `scripts/importar-efemerides.ts`):
 
-- Argentina y Colombia: hasta 4 acontecimientos, 3 nacimientos y 2 fallecimientos cada una.
+- Cada país (Argentina, Colombia, Venezuela): hasta 4 acontecimientos, 3 nacimientos y 2 fallecimientos cada uno.
 - Internacional: hasta 3 acontecimientos, 2 nacimientos (anteriores a 1990) y 2 fallecimientos.
 - Los acontecimientos se ordenan por cuántos artículos de Wikipedia enlazan. Las personas, por la cantidad de ediciones de Wikipedia en las que existe su artículo (Wikidata); las personas internacionales necesitan al menos 8 y los deportistas al menos 15, para que no entren cientos de futbolistas.
 - El texto es la primera oración del feed, con "Nace" o "Muere" adelante para personas. Los acontecimientos se cortan en la última oración completa antes de los 300 caracteres.
@@ -210,7 +211,7 @@ Dominios de referencia para buscar fuentes nuevas: `argentina.gob.ar`, `funcionp
 
 ## Zona horaria
 
-"Hoy" se calcula por país: `America/Argentina/Buenos_Aires` para `/` y `America/Bogota` para `/co`. Las dos homes se renderizan por request, así que siempre están actualizadas. Las páginas de `/fecha/[slug]` y `/co/fecha/[slug]` son estáticas pero se revalidan cada hora, y el rótulo "Hoy" se corrige además en el navegador para no depender de cuándo se generó la página. El pie de página dice "Zona horaria Argentina" o "Zona horaria Colombia" según la vista.
+"Hoy" se calcula por país: `America/Argentina/Buenos_Aires` para `/` `America/Bogota` para `/co` y `America/Caracas` para `/ve`. Las homes se renderizan por request, así que siempre están actualizadas. Las páginas de `/fecha/[slug]` y `/[pais]/fecha/[slug]` son estáticas pero se revalidan cada hora, y el rótulo "Hoy" se corrige además en el navegador para no depender de cuándo se generó la página. El pie de página dice "Zona horaria Argentina" "Zona horaria Colombia" o "Zona horaria Venezuela" según la vista.
 
 ## Variables de entorno
 

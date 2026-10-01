@@ -41,6 +41,10 @@ describe("efemerideSchema", () => {
     expect(efemerideSchema.safeParse({ ...base, alcance: "colombia", tambienInternacional: true }).success).toBe(true);
   });
 
+  it("acepta alcance venezuela y la marca tambienInternacional", () => {
+    expect(efemerideSchema.safeParse({ ...base, alcance: "venezuela", tambienInternacional: true }).success).toBe(true);
+  });
+
   it("rechaza tambienInternacional en una efeméride internacional", () => {
     expect(efemerideSchema.safeParse({ ...base, alcance: "internacional", tambienInternacional: true }).success).toBe(false);
   });
@@ -50,7 +54,7 @@ describe("cargarEfemerides y efemeridesDeFecha", () => {
   const todas = cargarEfemerides(FIXTURES);
 
   it("carga todas las efemérides del directorio", () => {
-    expect(todas).toHaveLength(6);
+    expect(todas).toHaveLength(7);
   });
 
   it("en Argentina: argentinas primero; la colombiana marcada entra como internacional y la otra no", () => {
@@ -68,6 +72,21 @@ describe("cargarEfemerides y efemeridesDeFecha", () => {
     expect(local.map((e) => e.anio)).toEqual([1900, 1950]);
     expect(internacional.map((e) => e.anio)).toEqual([1810]);
     expect(lista.some((e) => e.alcance === "argentina")).toBe(false);
+  });
+
+  it("en Venezuela: venezolanas primero, la colombiana marcada como internacional y ninguna argentina", () => {
+    const lista = efemeridesDeFecha({ dia: 16, mes: 9 }, "ve", todas);
+    expect(lista.map((e) => e.anio)).toEqual([1970, 1810, 1900]);
+    const { local, internacional } = agruparEfemerides(lista, "ve");
+    expect(local.map((e) => e.anio)).toEqual([1970]);
+    expect(internacional.map((e) => e.anio)).toEqual([1810, 1900]);
+    expect(lista.some((e) => e.alcance === "argentina")).toBe(false);
+  });
+
+  it("los vecinos sin marca no aparecen: Colombia y Argentina no ven la venezolana", () => {
+    for (const pais of ["ar", "co"] as const) {
+      expect(efemeridesDeFecha({ dia: 16, mes: 9 }, pais, todas).some((e) => e.alcance === "venezuela")).toBe(false);
+    }
   });
 
   it("incluye a Tanguito el 16 de septiembre", () => {

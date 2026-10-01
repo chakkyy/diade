@@ -16,7 +16,7 @@ const dirFixturasInvalidas = path.join(process.cwd(), "tests", "fixtures", "cele
 describe("cargarTodas", () => {
   it("carga y valida las celebraciones del directorio de fixtures", () => {
     const todas = cargarTodas(dirFixtures);
-    expect(todas).toHaveLength(5);
+    expect(todas).toHaveLength(6);
     expect(todas.map((c) => c.id)).toContain("dia-de-prueba-uno");
   });
   it("cachea el resultado por directorio", () => {
@@ -34,11 +34,20 @@ describe("celebracionesDeFecha", () => {
 
   it("en Argentina: argentina, internacional y después el vecino", () => {
     const r = celebracionesDeFecha({ dia: 10, mes: 9 }, 2026, "ar", todas);
-    expect(r.map((c) => c.id)).toEqual(["dia-de-prueba-uno", "dia-de-prueba-dos", "dia-de-prueba-colombia"]);
+    expect(r.map((c) => c.id)).toEqual(["dia-de-prueba-uno", "dia-de-prueba-dos", "dia-de-prueba-colombia", "dia-de-prueba-venezuela"]);
   });
   it("en Colombia: colombia, internacional y después el vecino", () => {
     const r = celebracionesDeFecha({ dia: 10, mes: 9 }, 2026, "co", todas);
-    expect(r.map((c) => c.id)).toEqual(["dia-de-prueba-colombia", "dia-de-prueba-dos", "dia-de-prueba-uno"]);
+    expect(r.map((c) => c.id)).toEqual(["dia-de-prueba-colombia", "dia-de-prueba-dos", "dia-de-prueba-uno", "dia-de-prueba-venezuela"]);
+  });
+  it("en Venezuela: venezuela, internacional y después los vecinos", () => {
+    const r = celebracionesDeFecha({ dia: 10, mes: 9 }, 2026, "ve", todas);
+    expect(r.map((c) => c.id)).toEqual([
+      "dia-de-prueba-venezuela",
+      "dia-de-prueba-dos",
+      "dia-de-prueba-colombia",
+      "dia-de-prueba-uno",
+    ]);
   });
   it("incluye móviles cuya resolución cae ese día", () => {
     const r = celebracionesDeFecha({ dia: 20, mes: 9 }, 2026, "ar", todas);
@@ -56,12 +65,27 @@ describe("agruparPorAlcance", () => {
     const grupos = agruparPorAlcance(todas, "ar");
     expect(grupos.local.map((c) => c.id).sort()).toEqual(["dia-de-prueba-uno", "dia-movil-de-prueba"]);
     expect(grupos.internacional.map((c) => c.id)).toEqual(["dia-de-prueba-dos"]);
-    expect(grupos.otros.map((c) => c.id).sort()).toEqual(["dia-de-prueba-colombia", "dia-de-prueba-tres"]);
+    expect(grupos.otros.map((c) => c.id).sort()).toEqual([
+      "dia-de-prueba-colombia",
+      "dia-de-prueba-tres",
+      "dia-de-prueba-venezuela",
+    ]);
   });
   it("en Colombia, Argentina cae en otros", () => {
     const grupos = agruparPorAlcance(todas, "co");
     expect(grupos.local.map((c) => c.id)).toEqual(["dia-de-prueba-colombia"]);
     expect(grupos.otros.map((c) => c.id).sort()).toEqual([
+      "dia-de-prueba-tres",
+      "dia-de-prueba-uno",
+      "dia-de-prueba-venezuela",
+      "dia-movil-de-prueba",
+    ]);
+  });
+  it("en Venezuela, Argentina y Colombia caen en otros", () => {
+    const grupos = agruparPorAlcance(todas, "ve");
+    expect(grupos.local.map((c) => c.id)).toEqual(["dia-de-prueba-venezuela"]);
+    expect(grupos.otros.map((c) => c.id).sort()).toEqual([
+      "dia-de-prueba-colombia",
       "dia-de-prueba-tres",
       "dia-de-prueba-uno",
       "dia-movil-de-prueba",
@@ -98,13 +122,15 @@ describe("contarPorDia", () => {
 
   it("cuenta por día según el país que mira", () => {
     const ar = contarPorDia(9, 2026, "ar", todas);
-    expect(ar.get(10)).toEqual({ total: 3, local: 1, internacional: 1, otros: 1 });
+    expect(ar.get(10)).toEqual({ total: 4, local: 1, internacional: 1, otros: 2 });
     expect(ar.get(15)).toEqual({ total: 1, local: 0, internacional: 0, otros: 1 });
     expect(ar.get(20)).toEqual({ total: 1, local: 1, internacional: 0, otros: 0 });
     expect(ar.get(1)).toBeUndefined();
     const co = contarPorDia(9, 2026, "co", todas);
-    expect(co.get(10)).toEqual({ total: 3, local: 1, internacional: 1, otros: 1 });
+    expect(co.get(10)).toEqual({ total: 4, local: 1, internacional: 1, otros: 2 });
     expect(co.get(20)).toEqual({ total: 1, local: 0, internacional: 0, otros: 1 });
+    const ve = contarPorDia(9, 2026, "ve", todas);
+    expect(ve.get(10)).toEqual({ total: 4, local: 1, internacional: 1, otros: 2 });
   });
 });
 
@@ -121,6 +147,6 @@ describe("indiceBusqueda", () => {
       categoria: "profesion",
       fecha: { dia: 10, mes: 9 },
     });
-    expect(indice).toHaveLength(5);
+    expect(indice).toHaveLength(6);
   });
 });

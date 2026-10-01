@@ -1,6 +1,6 @@
 import type { Alcance, FechaMovil, TipoFuente } from "@/types/celebracion";
 import { DIAS_SEMANA, MESES, formatearFechaCorta, resolverFechaMovil } from "@/lib/fechas";
-import { paisDeAlcance } from "@/lib/paises";
+import { CODIGOS_PAIS, PAISES, paisDeAlcance } from "@/lib/paises";
 
 const ORDINAL_PALABRA: Record<1 | 2 | 3 | 4, string> = {
   1: "primer",
@@ -22,15 +22,14 @@ export function describirFechaMovilEsteAnio(regla: FechaMovil, anio: number): st
 }
 
 const BANDERAS_PAIS: Record<string, string> = {
-  Argentina: "🇦🇷",
   Bolivia: "🇧🇴",
   Brasil: "🇧🇷",
   Chile: "🇨🇱",
-  Colombia: "🇨🇴",
   España: "🇪🇸",
   "Estados Unidos": "🇺🇸",
   México: "🇲🇽",
   Uruguay: "🇺🇾",
+  ...Object.fromEntries(CODIGOS_PAIS.map((codigo) => [PAISES[codigo].nombre, PAISES[codigo].bandera])),
 };
 
 export function banderaDePais(pais: string): string {

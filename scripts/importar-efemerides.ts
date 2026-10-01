@@ -2,7 +2,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { archivoEfemeridesSchema } from "../src/lib/schema";
 import { MESES, diasDelMes, hoyEn } from "../src/lib/fechas";
-import { alcanceDeTexto, fusionarPais } from "../src/lib/efemerides-importacion";
+import { alcanceDeTexto, fusionarPais, type AlcancePais } from "../src/lib/efemerides-importacion";
+import { CODIGOS_PAIS, PAISES, type CodigoPais } from "../src/lib/paises";
 import type { Efemeride, TipoEfemeride } from "../src/types/efemeride";
 
 const API = "https://api.wikimedia.org/feed/v1/wikipedia/es/onthisday";
@@ -15,11 +16,16 @@ const LARGO_MAXIMO_TEXTO = 300;
 const LARGO_MINIMO_TEXTO = 12;
 const SEPARADOR_ORACIONES = /(?<=[a-záéíóúñ0-9)»"][.!?])\s+(?=[A-ZÁÉÍÓÚÑ¿¡«"(])/;
 
-const CUPOS: Record<Efemeride["alcance"], Record<TipoEfemeride, number>> = {
-  argentina: { acontecimiento: 4, nacimiento: 3, fallecimiento: 2 },
-  colombia: { acontecimiento: 4, nacimiento: 3, fallecimiento: 2 },
-  internacional: { acontecimiento: 3, nacimiento: 2, fallecimiento: 2 },
-};
+const CUPO_PAIS: Record<TipoEfemeride, number> = { acontecimiento: 4, nacimiento: 3, fallecimiento: 2 };
+const CUPO_INTERNACIONAL: Record<TipoEfemeride, number> = { acontecimiento: 3, nacimiento: 2, fallecimiento: 2 };
+
+const CUPOS = {
+  ...(Object.fromEntries(CODIGOS_PAIS.map((codigo) => [PAISES[codigo].alcance, CUPO_PAIS])) as Record<
+    AlcancePais,
+    Record<TipoEfemeride, number>
+  >),
+  internacional: CUPO_INTERNACIONAL,
+} satisfies Record<Efemeride["alcance"], Record<TipoEfemeride, number>>;
 
 const DEPORTISTA =
   /futbolist|baloncestist|basquetbolist|ciclist|piloto|jugador|luchador|tenist|nadador|atleta|boxeador|golfist|voleibolist|balonmanist|rugbist|beisbolist|hockey|patinador|esgrimist|remero|gimnast|judoca|yudoca|surfist|esquiador|corredor|velocist|maratonist|clavadist|halterófil|pesist|karateca|taekwondist|arquero|delantero|defensor|centrocampist|entrenador/i;
@@ -287,20 +293,26 @@ async function importarMes(
   return efemerides;
 }
 
-const ALCANCES_COMPLETOS: readonly Efemeride["alcance"][] = ["argentina", "colombia", "internacional"];
-const USO = "uso: pnpm data:efemerides [MM] [--solo colombia]";
+const ALCANCES_COMPLETOS: readonly Efemeride["alcance"][] = [...CODIGOS_PAIS.map((codigo) => PAISES[codigo].alcance), "internacional"];
+const PAISES_SOLO = CODIGOS_PAIS.filter((codigo) => codigo !== "ar");
+const USO = `uso: pnpm data:efemerides [MM] [--solo ${PAISES_SOLO.map((codigo) => PAISES[codigo].alcance).join("|")}]`;
 
-function leerArgumentos(): { soloMes: number | null; soloColombia: boolean } {
+function paisDeArgumento(valor: string | undefined): CodigoPais | null {
+  if (valor === undefined) return null;
+  return PAISES_SOLO.find((codigo) => codigo === valor || PAISES[codigo].alcance === valor) ?? null;
+}
+
+function leerArgumentos(): { soloMes: number | null; soloPais: CodigoPais | null } {
   const args = process.argv.slice(2);
-  let soloColombia = false;
+  let soloPais: CodigoPais | null = null;
   const posicionales: string[] = [];
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--solo") {
-      if (args[i + 1] !== "colombia") {
+      soloPais = paisDeArgumento(args[i + 1]);
+      if (soloPais === null) {
         console.error(USO);
         process.exit(1);
       }
-      soloColombia = true;
       i++;
     } else if (args[i].startsWith("--")) {
       console.error(USO);
@@ -314,7 +326,7 @@ function leerArgumentos(): { soloMes: number | null; soloColombia: boolean } {
     console.error(USO);
     process.exit(1);
   }
-  return { soloMes, soloColombia };
+  return { soloMes, soloPais };
 }
 
 function nombreArchivo(mes: number): string {
@@ -328,7 +340,7 @@ function leerMes(dir: string, mes: number): Efemeride[] {
 }
 
 async function main() {
-  const { soloMes, soloColombia } = leerArgumentos();
+  const { soloMes, soloPais } = leerArgumentos();
   const meses = soloMes ? [soloMes] : Array.from({ length: 12 }, (_, i) => i + 1);
   const dir = path.join(process.cwd(), "data", "efemerides");
   fs.mkdirSync(dir, { recursive: true });
@@ -337,26 +349,27 @@ async function main() {
   const usados = new Set<string>();
   let total = 0;
 
-  if (soloColombia) {
+  if (soloPais) {
     for (let mes = 1; mes <= 12; mes++) for (const e of leerMes(dir, mes)) usados.add(e.id);
   }
 
   for (const mes of meses) {
     const archivo = path.join(dir, nombreArchivo(mes));
-    if (soloColombia) {
+    if (soloPais) {
+      const { alcance, nombre } = PAISES[soloPais];
       const existentes = leerMes(dir, mes);
-      const nuevas = await importarMes(mes, hoy, hoyArg.anio, usados, ["colombia"]);
-      const fusionadas = fusionarPais(existentes, nuevas, "colombia");
+      const nuevas = await importarMes(mes, hoy, hoyArg.anio, usados, [alcance]);
+      const fusionadas = fusionarPais(existentes, nuevas, alcance as AlcancePais);
       const parsed = archivoEfemeridesSchema.safeParse(fusionadas);
       if (!parsed.success) {
         console.error(`✗ mes ${mes}: ${parsed.error.issues.map((i) => `${i.path.join(".")}: ${i.message}`).join("; ")}`);
         process.exit(1);
       }
       fs.writeFileSync(archivo, `${JSON.stringify(fusionadas, null, 2)}\n`);
-      const reclasificadas = fusionadas.filter((e) => e.tambienInternacional).length;
+      const reclasificadas = fusionadas.filter((e) => e.alcance === alcance && e.tambienInternacional).length;
       const agregadas = fusionadas.length - existentes.length;
       total += agregadas;
-      console.log(`✓ ${nombreArchivo(mes)}: +${agregadas} colombianas, ${reclasificadas} reclasificadas`);
+      console.log(`✓ ${nombreArchivo(mes)}: +${agregadas} de ${nombre}, ${reclasificadas} reclasificadas`);
       continue;
     }
     const efemerides = await importarMes(mes, hoy, hoyArg.anio, usados, ALCANCES_COMPLETOS);
@@ -366,13 +379,14 @@ async function main() {
       process.exit(1);
     }
     fs.writeFileSync(archivo, `${JSON.stringify(efemerides, null, 2)}\n`);
-    const argentinas = efemerides.filter((e) => e.alcance === "argentina").length;
-    const colombianas = efemerides.filter((e) => e.alcance === "colombia").length;
+    const porPais = CODIGOS_PAIS.map(
+      (codigo) => `${efemerides.filter((e) => e.alcance === PAISES[codigo].alcance).length} de ${PAISES[codigo].nombre}`,
+    ).join(", ");
     const diasConDatos = new Set(efemerides.map((e) => e.fecha.dia)).size;
     total += efemerides.length;
-    console.log(`✓ ${nombreArchivo(mes)}: ${efemerides.length} efemérides (${argentinas} argentinas, ${colombianas} colombianas), ${diasConDatos}/${diasDelMes(mes, ANIO_BISIESTO_REFERENCIA)} días con datos`);
+    console.log(`✓ ${nombreArchivo(mes)}: ${efemerides.length} efemérides (${porPais}), ${diasConDatos}/${diasDelMes(mes, ANIO_BISIESTO_REFERENCIA)} días con datos`);
   }
-  console.log(soloColombia ? `${total} colombianas agregadas en ${meses.length} archivos` : `${total} efemérides escritas en ${meses.length} archivos`);
+  console.log(soloPais ? `${total} de ${PAISES[soloPais].nombre} agregadas en ${meses.length} archivos` : `${total} efemérides escritas en ${meses.length} archivos`);
 }
 
 void main().catch((e) => {

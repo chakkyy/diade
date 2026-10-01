@@ -1,10 +1,15 @@
 import { describe, expect, it } from "vitest";
+import { ALCANCES } from "@/types/celebracion";
+import { ALCANCES_EFEMERIDE } from "@/types/efemeride";
 import {
   PAISES,
   busquedaParaPais,
   esClicSimple,
   grupoDeAlcance,
   paisDeAlcance,
+  paisDeParametro,
+  CODIGOS_PAIS,
+  PARAMETROS_PAIS,
   paisDeRuta,
   prioridadDeAlcance,
   rutaDePais,
@@ -17,6 +22,44 @@ describe("PAISES", () => {
     expect(PAISES.co.prefijo).toBe("/co");
     expect(PAISES.co.zona).toBe("America/Bogota");
     expect(PAISES.co.alcance).toBe("colombia");
+  });
+  it("define Venezuela en /ve con hora de Caracas", () => {
+    expect(PAISES.ve).toMatchObject({
+      alcance: "venezuela",
+      nombre: "Venezuela",
+      bandera: "🇻🇪",
+      zona: "America/Caracas",
+      locale: "es_VE",
+      prefijo: "/ve",
+      ciudad: "Caracas",
+    });
+  });
+  it("cada país tiene su alcance en ALCANCES y ALCANCES_EFEMERIDE", () => {
+    for (const codigo of CODIGOS_PAIS) {
+      expect(ALCANCES).toContain(PAISES[codigo].alcance);
+      expect(ALCANCES_EFEMERIDE).toContain(PAISES[codigo].alcance);
+    }
+  });
+  it("cada país tiene un código igual a su clave y un prefijo propio", () => {
+    expect(new Set(CODIGOS_PAIS.map((c) => PAISES[c].prefijo)).size).toBe(CODIGOS_PAIS.length);
+    for (const codigo of CODIGOS_PAIS) expect(PAISES[codigo].codigo).toBe(codigo);
+  });
+});
+
+describe("paisDeParametro", () => {
+  it("acepta los países con prefijo", () => {
+    expect(paisDeParametro("co")).toBe("co");
+    expect(paisDeParametro("ve")).toBe("ve");
+  });
+  it("rechaza Argentina, que no tiene prefijo, y cualquier otro valor", () => {
+    expect(paisDeParametro("ar")).toBeNull();
+    expect(paisDeParametro("xx")).toBeNull();
+    expect(paisDeParametro("comida")).toBeNull();
+    expect(paisDeParametro("")).toBeNull();
+    expect(paisDeParametro("CO")).toBeNull();
+  });
+  it("PARAMETROS_PAIS lista los países con prefijo", () => {
+    expect(PARAMETROS_PAIS).toEqual(["co", "ve"]);
   });
 });
 
@@ -36,6 +79,11 @@ describe("paisDeRuta", () => {
     expect(paisDeRuta("/co")).toBe("co");
     expect(paisDeRuta("/co/")).toBe("co");
     expect(paisDeRuta("/co/buscar")).toBe("co");
+  });
+  it("reconoce /ve exacto y sus subrutas", () => {
+    expect(paisDeRuta("/ve")).toBe("ve");
+    expect(paisDeRuta("/ve/fecha/20-julio")).toBe("ve");
+    expect(paisDeRuta("/venezuela")).toBe("ar");
   });
   it("no confunde rutas que empiezan con co", () => {
     expect(paisDeRuta("/comida")).toBe("ar");
@@ -59,6 +107,18 @@ describe("rutaEnOtroPais", () => {
   });
 });
 
+describe("rutas de Venezuela", () => {
+  it("rutaDePais y rutaEnOtroPais usan /ve", () => {
+    expect(rutaDePais("ve", "/")).toBe("/ve");
+    expect(rutaDePais("ve", "/buscar")).toBe("/ve/buscar");
+    expect(rutaEnOtroPais("/co/calendario/mayo", "ve")).toBe("/ve/calendario/mayo");
+    expect(rutaEnOtroPais("/ve", "ar")).toBe("/");
+  });
+  it("busquedaParaPais descarta el alcance de los vecinos", () => {
+    expect(busquedaParaPais("?alcance=colombia&alcance=venezuela", "ve")).toBe("?alcance=venezuela");
+  });
+});
+
 describe("grupoDeAlcance y prioridadDeAlcance", () => {
   it("el alcance del país que mira es local", () => {
     expect(grupoDeAlcance("argentina", "ar")).toBe("local");
@@ -76,6 +136,11 @@ describe("grupoDeAlcance y prioridadDeAlcance", () => {
 });
 
 describe("paisDeAlcance", () => {
+  it("devuelve Venezuela para su alcance", () => {
+    expect(paisDeAlcance("venezuela")?.codigo).toBe("ve");
+    expect(grupoDeAlcance("venezuela", "ve")).toBe("local");
+    expect(grupoDeAlcance("venezuela", "co")).toBe("otros");
+  });
   it("devuelve el país de un alcance propio y null para el resto", () => {
     expect(paisDeAlcance("colombia")?.codigo).toBe("co");
     expect(paisDeAlcance("argentina")?.codigo).toBe("ar");

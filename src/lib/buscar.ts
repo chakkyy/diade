@@ -1,6 +1,6 @@
 import type { Alcance, Categoria, ItemIndice } from "@/types/celebracion";
 import { esFechaMovil } from "@/types/celebracion";
-import { PAISES, grupoDeAlcance, prioridadDeAlcance, type CodigoPais } from "@/lib/paises";
+import { CODIGOS_PAIS, PAISES, grupoDeAlcance, prioridadDeAlcance, type CodigoPais } from "@/lib/paises";
 
 export function normalizar(texto: string): string {
   return texto
@@ -99,8 +99,10 @@ export const ETIQUETAS_CATEGORIA: Record<Categoria, string> = {
 };
 
 export const ETIQUETAS_ALCANCE: Record<Alcance, string> = {
-  argentina: "Argentina",
-  colombia: "Colombia",
+  ...(Object.fromEntries(CODIGOS_PAIS.map((codigo) => [PAISES[codigo].alcance, PAISES[codigo].nombre])) as Record<
+    (typeof PAISES)[CodigoPais]["alcance"],
+    string
+  >),
   internacional: "Internacional",
   "otro-pais": "Otros países",
 };

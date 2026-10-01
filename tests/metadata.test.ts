@@ -11,6 +11,7 @@ describe("canonical de celebración", () => {
   it.each([ID_ARGENTINA, ID_COLOMBIA])("no lleva prefijo de país para %s", (id) => {
     expect(metadataDeCelebracion("co", id).alternates?.canonical).toBe(`/celebracion/${id}`);
     expect(metadataDeCelebracion("ar", id).alternates?.canonical).toBe(`/celebracion/${id}`);
+    expect(metadataDeCelebracion("ve", id).alternates?.canonical).toBe(`/celebracion/${id}`);
   });
 });
 
@@ -18,10 +19,12 @@ describe("locale de openGraph", () => {
   it("fecha", () => {
     expect(metadataDeFecha("co", "20-julio").openGraph).toMatchObject({ locale: "es_CO" });
     expect(metadataDeFecha("ar", "20-julio").openGraph).toMatchObject({ locale: "es_AR" });
+    expect(metadataDeFecha("ve", "20-julio").openGraph).toMatchObject({ locale: "es_VE" });
   });
   it("calendario del mes", () => {
     expect(metadataDeCalendarioMes("co", "julio").openGraph).toMatchObject({ locale: "es_CO" });
     expect(metadataDeCalendarioMes("ar", "julio").openGraph).toMatchObject({ locale: "es_AR" });
+    expect(metadataDeCalendarioMes("ve", "julio").openGraph).toMatchObject({ locale: "es_VE" });
   });
 });
 
@@ -29,6 +32,7 @@ describe("canonical por país", () => {
   it("fecha", () => {
     expect(metadataDeFecha("co", "20-julio").alternates?.canonical).toBe("/co/fecha/20-julio");
     expect(metadataDeFecha("ar", "20-julio").alternates?.canonical).toBe("/fecha/20-julio");
+    expect(metadataDeFecha("ve", "20-julio").alternates?.canonical).toBe("/ve/fecha/20-julio");
   });
   it("calendario del mes", () => {
     const co = metadataDeCalendarioMes("co", "julio");
@@ -37,10 +41,14 @@ describe("canonical por país", () => {
     expect(co.description).toContain("Colombia");
     expect(ar.alternates?.canonical).toBe("/calendario/julio");
     expect(ar.description).toContain("Argentina");
+    const ve = metadataDeCalendarioMes("ve", "julio");
+    expect(ve.alternates?.canonical).toBe("/ve/calendario/julio");
+    expect(ve.description).toContain("Venezuela");
   });
   it("buscar", () => {
     expect(metadataDeBuscar("co", {}).alternates?.canonical).toBe("/co/buscar");
     expect(metadataDeBuscar("ar", {}).alternates?.canonical).toBe("/buscar");
+    expect(metadataDeBuscar("ve", {}).alternates?.canonical).toBe("/ve/buscar");
   });
 });
 

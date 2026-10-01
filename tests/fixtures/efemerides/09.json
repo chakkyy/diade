@@ -59,5 +59,15 @@
     "tambienInternacional": true,
     "fuentes": [{ "nombre": "Wikipedia (16 de septiembre)", "url": "https://es.wikipedia.org/wiki/16_de_septiembre", "tipo": "secundaria" }],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1970-nace-persona-venezolana-ficticia",
+    "fecha": { "dia": 16, "mes": 9 },
+    "anio": 1970,
+    "tipo": "nacimiento",
+    "texto": "Nace Persona Ficticia, cantautora venezolana.",
+    "alcance": "venezuela",
+    "fuentes": [{ "nombre": "Wikipedia (ficticia)", "url": "https://es.wikipedia.org/wiki/Venezuela", "tipo": "secundaria" }],
+    "verificadoEn": "2026-10-01"
   }
 ]

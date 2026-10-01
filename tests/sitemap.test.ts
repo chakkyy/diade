@@ -17,6 +17,14 @@ describe("sitemap", () => {
     expect(urls).toContain("/co/fecha/29-febrero");
     expect(urls.filter((u) => u.startsWith("/co/fecha/"))).toHaveLength(366);
   });
+  it("suma las rutas de Venezuela", () => {
+    expect(urls).toContain("/ve");
+    expect(urls).toContain("/ve/buscar");
+    expect(urls).toContain("/ve/calendario/septiembre");
+    expect(urls).toContain("/ve/fecha/29-febrero");
+    expect(urls.filter((u) => u.startsWith("/ve/fecha/"))).toHaveLength(366);
+    expect(urls.some((u) => u.startsWith("/ve/celebracion/"))).toBe(false);
+  });
   it("cada celebración figura una sola vez, sin prefijo de país", () => {
     expect(urls.some((u) => u.startsWith("/co/celebracion/"))).toBe(false);
     const celebraciones = urls.filter((u) => u.startsWith("/celebracion/"));
