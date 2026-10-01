@@ -179,7 +179,7 @@ Toda celebración necesita al menos una fuente `institucional`, `asociacion` o `
 
 ## Efemérides
 
-Las efemérides viven en `data/efemerides/MM.json` y las genera `pnpm data:efemerides` a partir del feed "On this day" de Wikimedia para Wikipedia en español (`api.wikimedia.org/feed/v1/wikipedia/es/onthisday`). Es una carga de todo el año de una sola vez (unos 12 minutos); no hay que volver a correrla cada mes. Se vuelve a correr sólo para refrescar el contenido con lo que Wikipedia haya agregado, y reemplaza los doce archivos. Para sumar sólo las colombianas, `pnpm data:efemerides --solo colombia` (o `pnpm data:efemerides 7 --solo colombia` para un mes). Ese modo no regenera nada: agrega las colombianas que todavía no están, conserva las que ya están y convierte las efemérides internacionales que coinciden con una colombiana en `colombia` con `tambienInternacional`, para que sigan viéndose en Argentina. Todo lo demás queda como está.
+Las efemérides viven en `data/efemerides/MM.json` y las genera `pnpm data:efemerides` a partir del feed "On this day" de Wikimedia para Wikipedia en español (`api.wikimedia.org/feed/v1/wikipedia/es/onthisday`). Es una carga de todo el año de una sola vez (unos 12 minutos); no hay que volver a correrla cada mes. Se vuelve a correr sólo para refrescar el contenido con lo que Wikipedia haya agregado, y reemplaza los doce archivos. Para sumar sólo las de un país, `pnpm data:efemerides --solo colombia` o `pnpm data:efemerides --solo venezuela` (o `pnpm data:efemerides 7 --solo venezuela` para un mes). Ese modo no regenera nada: agrega las de ese país que todavía no están, conserva las que ya están y convierte las efemérides internacionales que coinciden con una del país en `colombia` o `venezuela` con `tambienInternacional`, para que sigan viéndose en los demás países. Todo lo demás queda como está.
 
 Cada efeméride tiene esta forma:
 
@@ -223,9 +223,9 @@ Producción en Vercel: https://diadehoy.vercel.app (proyecto `diade`, scope `cha
 
 ## Cobertura de datos
 
-- 629 celebraciones: 208 de Argentina, 79 de Colombia, 269 internacionales y 73 de otros países.
-- 7255 efemérides: 2954 argentinas, 1777 colombianas y 2524 internacionales (35 de las colombianas también se muestran en Argentina, por ser hechos de alcance mundial).
-- Efemérides argentinas e internacionales para los 366 días, con al menos una argentina por día (`pnpm test` lo verifica). Las colombianas cubren 365 días; el 29 de febrero no tiene.
+- 698 celebraciones: 208 de Argentina, 79 de Colombia, 72 de Venezuela, 269 internacionales y 70 de otros países.
+- 8422 efemérides: 2954 argentinas, 1777 colombianas, 1189 venezolanas y 2502 internacionales (35 de las colombianas y 22 de las venezolanas también se muestran en los demás países, por ser hechos de alcance mundial).
+- Efemérides argentinas e internacionales para los 366 días, con al menos una argentina por día (`pnpm test` lo verifica). Las colombianas cubren 365 días; el 29 de febrero no tiene. Las venezolanas cubren 355 días.
 - Los 366 días del año tienen al menos una celebración. Cuando Argentina y los organismos internacionales no tienen nada para una fecha, entra un "Día de X" de otro país con fuente oficial de ese país, marcado con `alcance: "otro-pais"` y su `pais`.
 - Las 79 celebraciones colombianas son las que se pudieron confirmar con fuente oficial, y son 70 de fecha fija, repartidas en 62 días distintos porque varias comparten día, más 9 de fecha móvil; los otros días de `/co` muestran sólo lo internacional y lo de otros países, más las efemérides.
 - Todas las fuentes se verifican con `pnpm data:links` (HTTP 200 al momento de la carga). Algunas leyes colombianas de `secretariasenado.gov.co` están cargadas con `http://` porque el `https` de ese sitio no conecta.

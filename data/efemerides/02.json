@@ -19,6 +19,63 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1724-en-guarico-venezuela-se-funda-la",
+    "fecha": {
+      "dia": 1,
+      "mes": 2
+    },
+    "anio": 1724,
+    "tipo": "acontecimiento",
+    "texto": "En Guárico (Venezuela) se funda la aldea de Calabozo.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (1 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/1_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1815-llega-a-venezuela-un-ejercito-espanol",
+    "fecha": {
+      "dia": 1,
+      "mes": 2
+    },
+    "anio": 1815,
+    "tipo": "acontecimiento",
+    "texto": "Llega a Venezuela un ejército español de 10 000 hombres al mando del general Pablo Morillo.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (1 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/1_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1817-nace-ezequiel-zamora-militar-y-politico",
+    "fecha": {
+      "dia": 1,
+      "mes": 2
+    },
+    "anio": 1817,
+    "tipo": "nacimiento",
+    "texto": "Nace Ezequiel Zamora, militar y político venezolano, participante de la Guerra Federal (f. 1860).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Ezequiel Zamora)",
+        "url": "https://es.wikipedia.org/wiki/Ezequiel_Zamora",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1820-en-el-norte-de-la-provincia",
     "fecha": {
       "dia": 1,
@@ -209,6 +266,25 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "1946-nace-pompeyo-torrealba-militar-venezolano",
+    "fecha": {
+      "dia": 1,
+      "mes": 2
+    },
+    "anio": 1946,
+    "tipo": "nacimiento",
+    "texto": "Nace Pompeyo Torrealba, militar venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Pompeyo Torrealba)",
+        "url": "https://es.wikipedia.org/wiki/Pompeyo_Torrealba",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1955-en-bogota-colombia-se-fundo-la",
     "fecha": {
       "dia": 1,
@@ -378,6 +454,25 @@
       }
     ],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1986-muere-melchor-centeno-vallenilla-inventor-venezolano",
+    "fecha": {
+      "dia": 1,
+      "mes": 2
+    },
+    "anio": 1986,
+    "tipo": "fallecimiento",
+    "texto": "Muere Melchor Centeno Vallenilla, inventor venezolano (n. 1905).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Melchor Centeno Vallenilla)",
+        "url": "https://es.wikipedia.org/wiki/Melchor_Centeno_Vallenilla",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "2004-en-colombia-finalizo-la-transmision-de",
@@ -627,6 +722,44 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1959-en-venezuela-romulo-betancourt-toma-posesion",
+    "fecha": {
+      "dia": 2,
+      "mes": 2
+    },
+    "anio": 1959,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela, Rómulo Betancourt toma posesión como presidente.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (2 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/2_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1969-nace-mara-croatto-actriz-de-television",
+    "fecha": {
+      "dia": 2,
+      "mes": 2
+    },
+    "anio": 1969,
+    "tipo": "nacimiento",
+    "texto": "Nace Mara Croatto, actriz de televisión y de teatro venezolana.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Mara Croatto)",
+        "url": "https://es.wikipedia.org/wiki/Mara_Croatto",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1970-muere-bertrand-russell-matematico-y-filosofo",
     "fecha": {
       "dia": 2,
@@ -644,6 +777,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1972-nace-carlos-arraiz-actor-actor-de",
+    "fecha": {
+      "dia": 2,
+      "mes": 2
+    },
+    "anio": 1972,
+    "tipo": "nacimiento",
+    "texto": "Nace Carlos Arraiz, actor, actor de doblaje, locutor y cantante venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (2 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/2_de_febrero#Nacimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1977-nace-shakira-cantautora-colombiana-de-pop",
@@ -666,6 +818,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1984-en-venezuela-jaime-lusinchi-toma-posesion",
+    "fecha": {
+      "dia": 2,
+      "mes": 2
+    },
+    "anio": 1984,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela, Jaime Lusinchi toma posesión como presidente.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (2 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/2_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1990-nace-maria-clara-alonso-actriz-actriz",
     "fecha": {
       "dia": 2,
@@ -685,6 +856,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1994-en-venezuela-finaliza-el-mandato-provisional",
+    "fecha": {
+      "dia": 2,
+      "mes": 2
+    },
+    "anio": 1994,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela finaliza el mandato provisional de Ramón J. Velásquez y toma posesión Rafael Caldera.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (2 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/2_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1997-muere-erich-eliskases-ajedrecista-argentino-de",
     "fecha": {
       "dia": 2,
@@ -702,6 +892,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1999-en-el-congreso-nacional-en-caracas",
+    "fecha": {
+      "dia": 2,
+      "mes": 2
+    },
+    "anio": 1999,
+    "tipo": "acontecimiento",
+    "texto": "En el Congreso Nacional, en Caracas (Venezuela), se celebra la toma de posesión del presidente electo, Hugo Chávez.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (2 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/2_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "2002-en-amsterdam-paises-bajos-contraen-matrimonio",
@@ -816,6 +1025,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1795-nace-antonio-jose-de-sucre-politico",
+    "fecha": {
+      "dia": 3,
+      "mes": 2
+    },
+    "anio": 1795,
+    "tipo": "nacimiento",
+    "texto": "Nace Antonio José de Sucre, político, estadista y militar venezolano y presidente boliviano entre 1825 y 1828 (f. 1830).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Antonio José de Sucre)",
+        "url": "https://es.wikipedia.org/wiki/Antonio_Jos%C3%A9_de_Sucre",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1809-nace-felix-mendelssohn-compositor-aleman-f",
@@ -1065,6 +1293,25 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "1975-nace-gustavo-duque-politico-venezolano",
+    "fecha": {
+      "dia": 3,
+      "mes": 2
+    },
+    "anio": 1975,
+    "tipo": "nacimiento",
+    "texto": "Nace Gustavo Duque, político venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Gustavo Duque)",
+        "url": "https://es.wikipedia.org/wiki/Gustavo_Duque",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1977-muere-jorge-di-pascuale-sindicalista-peronista",
     "fecha": {
       "dia": 3,
@@ -1111,7 +1358,8 @@
     "anio": 1984,
     "tipo": "acontecimiento",
     "texto": "En Caracas (Venezuela), seis países democráticos hispanoamericanos y España ―después de sufrir décadas de dictaduras militares de derechas― firman la Declaración de Caracas, en la que se califica la democracia como el mejor sistema político para Hispanoamérica.",
-    "alcance": "internacional",
+    "alcance": "venezuela",
+    "tambienInternacional": true,
     "fuentes": [
       {
         "nombre": "Wikipedia (3 de febrero)",
@@ -1139,6 +1387,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2003-en-venezuela-concluye-el-paro-petrolero",
+    "fecha": {
+      "dia": 3,
+      "mes": 2
+    },
+    "anio": 2003,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela concluye el paro petrolero iniciado en diciembre anterior.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (3 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/3_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "2006-muere-pedro-ortega-diaz-abogado-y",
+    "fecha": {
+      "dia": 3,
+      "mes": 2
+    },
+    "anio": 2006,
+    "tipo": "fallecimiento",
+    "texto": "Muere Pedro Ortega Díaz, abogado y político comunista venezolano (n. 1914).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Pedro Ortega Díaz)",
+        "url": "https://es.wikipedia.org/wiki/Pedro_Ortega_D%C3%ADaz",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "2007-muere-carlos-mayolo-cineasta-colombiano-n",
@@ -1491,7 +1777,8 @@
     "anio": 1992,
     "tipo": "acontecimiento",
     "texto": "En Venezuela tiene lugar el fallido golpe de Estado de febrero de 1992, encabezado por los oficiales del ejército Hugo Chávez, Francisco Arias Cárdenas, Yoel Acosta Chirinos, Jesús Urdaneta y José Miguel Ortiz Contreras, integrantes del Movimiento Bolivariano Revolucionario - 200.",
-    "alcance": "internacional",
+    "alcance": "venezuela",
+    "tambienInternacional": true,
     "fuentes": [
       {
         "nombre": "Wikipedia (4 de febrero)",
@@ -1787,6 +2074,25 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "1971-muere-armando-molero-cantautor-guitarrista-y",
+    "fecha": {
+      "dia": 5,
+      "mes": 2
+    },
+    "anio": 1971,
+    "tipo": "fallecimiento",
+    "texto": "Muere Armando Molero, cantautor, guitarrista y cuatrista venezolano exponente de la música típica del Estado Zulia como vals, bambuco y gaita zuliana (n. 1900).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Armando Molero)",
+        "url": "https://es.wikipedia.org/wiki/Armando_Molero",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1972-en-colombia-el-programa-de-television",
     "fecha": {
       "dia": 5,
@@ -1901,6 +2207,44 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "1997-nace-marcy-avila-actriz-musico-y",
+    "fecha": {
+      "dia": 5,
+      "mes": 2
+    },
+    "anio": 1997,
+    "tipo": "nacimiento",
+    "texto": "Nace Marcy Ávila, actriz, músico y activista LGBT venezolana.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Marcy Ávila)",
+        "url": "https://es.wikipedia.org/wiki/Marcy_%C3%81vila",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1998-en-la-nueva-zona-financiera-de",
+    "fecha": {
+      "dia": 5,
+      "mes": 2
+    },
+    "anio": 1998,
+    "tipo": "acontecimiento",
+    "texto": "En la nueva zona financiera de Caracas, un incendio destruye la torre Europa, de 14 pisos de altura.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (5 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/5_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "2002-en-buenos-aires-argentina-el-presidente",
     "fecha": {
       "dia": 5,
@@ -1975,6 +2319,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1846-nace-raimundo-andueza-palacio-24-presidente",
+    "fecha": {
+      "dia": 6,
+      "mes": 2
+    },
+    "anio": 1846,
+    "tipo": "nacimiento",
+    "texto": "Nace Raimundo Andueza Palacio, 24.º presidente de Venezuela (f. 1900).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Raimundo Andueza Palacio)",
+        "url": "https://es.wikipedia.org/wiki/Raimundo_Andueza_Palacio",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1866-muere-juan-gregorio-de-las-heras",
@@ -2604,6 +2967,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1976-nace-felipe-pelaez-cantautor-colombo-venezolano",
+    "fecha": {
+      "dia": 7,
+      "mes": 2
+    },
+    "anio": 1976,
+    "tipo": "nacimiento",
+    "texto": "Nace Felipe Peláez, cantautor colombo-venezolano de vallenato y otros géneros musicales.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Felipe Peláez)",
+        "url": "https://es.wikipedia.org/wiki/Felipe_Pel%C3%A1ez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1980-nace-cecilia-navia-actriz-colombiana",
     "fecha": {
       "dia": 7,
@@ -2889,6 +3271,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1829-muere-cristobal-mendoza-politico-y-abogado",
+    "fecha": {
+      "dia": 8,
+      "mes": 2
+    },
+    "anio": 1829,
+    "tipo": "fallecimiento",
+    "texto": "Muere Cristóbal Mendoza, político y abogado venezolano, 1.° presidente de Venezuela (n. 1772).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Cristóbal Mendoza)",
+        "url": "https://es.wikipedia.org/wiki/Crist%C3%B3bal_Mendoza",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1834-nace-dimitri-mendeleyev-quimico-ruso-f",
     "fecha": {
       "dia": 8,
@@ -2982,6 +3383,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1926-nace-guillermo-moron-escritor-venezolano-f",
+    "fecha": {
+      "dia": 8,
+      "mes": 2
+    },
+    "anio": 1926,
+    "tipo": "nacimiento",
+    "texto": "Nace Guillermo Morón, escritor venezolano (f. 2021).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Guillermo Morón)",
+        "url": "https://es.wikipedia.org/wiki/Guillermo_Mor%C3%B3n",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1932-nace-humberto-martinez-salcedo-actor-periodista",
@@ -3098,6 +3518,25 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "1977-nace-yucef-merhi-artista-venezolano",
+    "fecha": {
+      "dia": 8,
+      "mes": 2
+    },
+    "anio": 1977,
+    "tipo": "nacimiento",
+    "texto": "Nace Yucef Merhi, artista venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Yucef Merhi)",
+        "url": "https://es.wikipedia.org/wiki/Yucef_Merhi",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1997-nace-guido-vadala-futbolista-argentino",
     "fecha": {
       "dia": 8,
@@ -3153,6 +3592,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2001-muere-luis-pinerua-ordaz-politico-venezolano",
+    "fecha": {
+      "dia": 8,
+      "mes": 2
+    },
+    "anio": 2001,
+    "tipo": "fallecimiento",
+    "texto": "Muere Luis Piñerúa Ordaz, político venezolano (n. 1924).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Luis Piñerúa Ordaz)",
+        "url": "https://es.wikipedia.org/wiki/Luis_Pi%C3%B1er%C3%BAa_Ordaz",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "2012-muere-luis-alberto-spinetta-musico-y",
@@ -3440,6 +3898,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1955-nace-marlene-cantante-venezolana-f-2023",
+    "fecha": {
+      "dia": 9,
+      "mes": 2
+    },
+    "anio": 1955,
+    "tipo": "nacimiento",
+    "texto": "Nace Marlene, cantante venezolana (f. 2023).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Marlene (cantante venezolana))",
+        "url": "https://es.wikipedia.org/wiki/Marlene_(cantante_venezolana)",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1956-nace-carlos-gaviria-director-colombiano-de",
     "fecha": {
       "dia": 9,
@@ -3649,6 +4126,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1827-nace-martin-tovar-y-tovar-pintor",
+    "fecha": {
+      "dia": 10,
+      "mes": 2
+    },
+    "anio": 1827,
+    "tipo": "nacimiento",
+    "texto": "Nace Martín Tovar y Tovar, pintor y retratista venezolano (f. 1902).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Martín Tovar y Tovar)",
+        "url": "https://es.wikipedia.org/wiki/Mart%C3%ADn_Tovar_y_Tovar",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1837-muere-aleksandr-pushkin-poeta-y-escritor",
     "fecha": {
       "dia": 10,
@@ -3666,6 +4162,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1856-muere-juan-manuel-cagigal-y-odoardo",
+    "fecha": {
+      "dia": 10,
+      "mes": 2
+    },
+    "anio": 1856,
+    "tipo": "fallecimiento",
+    "texto": "Muere Juan Manuel Cagigal y Odoardo, matemático venezolano (n. 1803).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Juan Manuel Cagigal y Odoardo)",
+        "url": "https://es.wikipedia.org/wiki/Juan_Manuel_Cagigal_y_Odoardo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1862-francia-espana-y-el-reino-unido",
@@ -3934,6 +4449,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1989-nace-scarlet-gruber-actriz-y-modelo",
+    "fecha": {
+      "dia": 10,
+      "mes": 2
+    },
+    "anio": 1989,
+    "tipo": "nacimiento",
+    "texto": "Nace Scarlet Gruber, actriz y modelo venezolana.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Scarlet Gruber)",
+        "url": "https://es.wikipedia.org/wiki/Scarlet_Gruber",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1998-en-argentina-el-presidente-carlos-menem",
     "fecha": {
       "dia": 10,
@@ -4067,6 +4601,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1870-muere-carlos-soublette-militar-politico-y",
+    "fecha": {
+      "dia": 11,
+      "mes": 2
+    },
+    "anio": 1870,
+    "tipo": "fallecimiento",
+    "texto": "Muere Carlos Soublette, militar, político y presidente venezolano (n. 1789).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Carlos Soublette)",
+        "url": "https://es.wikipedia.org/wiki/Carlos_Soublette",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1915-nace-pepe-iglesias-actor-argentino-f",
     "fecha": {
       "dia": 11,
@@ -4162,6 +4715,25 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "1947-nace-juan-maria-leonardi-villasmil-obispo",
+    "fecha": {
+      "dia": 11,
+      "mes": 2
+    },
+    "anio": 1947,
+    "tipo": "nacimiento",
+    "texto": "Nace Juan María Leonardi Villasmil, obispo venezolano (f. 2014).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Juan María Leonardi Villasmil)",
+        "url": "https://es.wikipedia.org/wiki/Juan_Mar%C3%ADa_Leonardi_Villasmil",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1948-muere-serguei-eisenstein-director-ruso-de",
     "fecha": {
       "dia": 11,
@@ -4198,6 +4770,25 @@
       }
     ],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1950-nace-floria-marquez-cantante-venezolana-f",
+    "fecha": {
+      "dia": 11,
+      "mes": 2
+    },
+    "anio": 1950,
+    "tipo": "nacimiento",
+    "texto": "Nace Floria Márquez, cantante venezolana (f. 2025).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Floria Márquez)",
+        "url": "https://es.wikipedia.org/wiki/Floria_M%C3%A1rquez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1953-en-chile-el-pico-de-san",
@@ -4295,6 +4886,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1985-nace-mariana-vega-cantante-venezolana",
+    "fecha": {
+      "dia": 11,
+      "mes": 2
+    },
+    "anio": 1985,
+    "tipo": "nacimiento",
+    "texto": "Nace Mariana Vega, cantante venezolana.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Mariana Vega)",
+        "url": "https://es.wikipedia.org/wiki/Mariana_Vega",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "2000-nace-agustin-almendra-futbolista-argentino",
     "fecha": {
       "dia": 11,
@@ -4350,6 +4960,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2005-en-el-estado-de-vargas-venezuela",
+    "fecha": {
+      "dia": 11,
+      "mes": 2
+    },
+    "anio": 2005,
+    "tipo": "acontecimiento",
+    "texto": "En el estado de Vargas (Venezuela), un temporal de lluvias torrenciales deja 16 muertos y miles de damnificados.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (11 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/11_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "2009-muere-francis-smith-musico-y-compositor",
@@ -4770,6 +5399,63 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "2005-en-la-ciudad-de-caracas-venezuela",
+    "fecha": {
+      "dia": 12,
+      "mes": 2
+    },
+    "anio": 2005,
+    "tipo": "acontecimiento",
+    "texto": "En la ciudad de Caracas (Venezuela), el nadador venezolano Rafael Vidal, medallista de bronce en los Juegos Olímpicos de Los Ángeles 1984, muere al ser impactado su vehículo.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (12 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/12_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "2012-en-venezuela-se-llevan-a-cabo",
+    "fecha": {
+      "dia": 12,
+      "mes": 2
+    },
+    "anio": 2012,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela se llevan a cabo las primarias de la Mesa de la Unidad Democrática (MUD).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (12 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/12_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "2014-en-venezuela-en-el-marco-del",
+    "fecha": {
+      "dia": 12,
+      "mes": 2
+    },
+    "anio": 2014,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela, en el marco del bicentenario del Día de la Juventud, se llevan a cabo protestas estudiantiles.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (12 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/12_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "863-la-ciudad-de-dvin-armenia-de",
     "fecha": {
       "dia": 13,
@@ -4958,6 +5644,25 @@
       }
     ],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1929-en-venezuela-se-produce-un-atentado",
+    "fecha": {
+      "dia": 13,
+      "mes": 2
+    },
+    "anio": 1929,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela se produce un atentado contra el presidente Juan Vicente Gómez.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (13 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/13_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1937-nace-aldo-barbero-actor-argentino-f",
@@ -5245,6 +5950,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1903-en-caracas-venezuela-las-tres-potencias",
+    "fecha": {
+      "dia": 14,
+      "mes": 2
+    },
+    "anio": 1903,
+    "tipo": "acontecimiento",
+    "texto": "En Caracas (Venezuela), las tres potencias aliadas Alemania, Italia y el Reino Unido suspenden el bloqueo de los puertos venezolanos ―lo que estaba destrozando la economía del pueblo venezolano― firman un protocolo con el Gobierno venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (14 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/14_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1904-nace-carlos-vieco-ortiz-compositor-colombiano",
     "fecha": {
       "dia": 14,
@@ -5302,6 +6026,25 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "1936-en-caracas-se-produce-una-manifestacion",
+    "fecha": {
+      "dia": 14,
+      "mes": 2
+    },
+    "anio": 1936,
+    "tipo": "acontecimiento",
+    "texto": "En Caracas, se produce una manifestación contra el gomecismo y la censura, que será reprimida violentamente.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (14 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/14_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1943-muere-david-hilbert-matematico-aleman-n",
     "fecha": {
       "dia": 14,
@@ -5319,6 +6062,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1946-nace-hanni-ossott-poeta-ensayista-profesora",
+    "fecha": {
+      "dia": 14,
+      "mes": 2
+    },
+    "anio": 1946,
+    "tipo": "nacimiento",
+    "texto": "Nace Hanni Ossott, poeta, ensayista, profesora universitaria, traductora y crítica de arte venezolana.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Hanni Ossott)",
+        "url": "https://es.wikipedia.org/wiki/Hanni_Ossott",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1948-argentina-y-venezuela-firman-un-tratado",
@@ -5395,6 +6157,25 @@
       }
     ],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1971-nace-gabriela-fleritt-actriz-locutora-y",
+    "fecha": {
+      "dia": 14,
+      "mes": 2
+    },
+    "anio": 1971,
+    "tipo": "nacimiento",
+    "texto": "Nace Gabriela Fleritt, actriz, locutora y humorista venezolana (f. 2026).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Gabriela Fleritt)",
+        "url": "https://es.wikipedia.org/wiki/Gabriela_Fleritt",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1988-nace-angel-di-maria-futbolista-argentino",
@@ -5625,6 +6406,63 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1819-en-angostura-venezuela-se-celebra-el",
+    "fecha": {
+      "dia": 15,
+      "mes": 2
+    },
+    "anio": 1819,
+    "tipo": "acontecimiento",
+    "texto": "En Angostura (Venezuela) se celebra el segundo congreso constituyente, donde Simón Bolívar pronuncia su célebre discurso de Angostura.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (15 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/15_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1820-en-el-estado-trujillo-venezuela-se",
+    "fecha": {
+      "dia": 15,
+      "mes": 2
+    },
+    "anio": 1820,
+    "tipo": "acontecimiento",
+    "texto": "En el estado Trujillo (Venezuela) se funda la villa de Valera.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (15 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/15_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1883-en-el-estado-tachira-venezuela-se",
+    "fecha": {
+      "dia": 15,
+      "mes": 2
+    },
+    "anio": 1883,
+    "tipo": "acontecimiento",
+    "texto": "En el Estado Táchira (Venezuela) se funda el pueblo de San José de Bolívar.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (15 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/15_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1886-en-santafe-de-bogota-colombia-se",
     "fecha": {
       "dia": 15,
@@ -5680,6 +6518,25 @@
       }
     ],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1944-nace-florinda-donner-regina-thal-antropologa",
+    "fecha": {
+      "dia": 15,
+      "mes": 2
+    },
+    "anio": 1944,
+    "tipo": "nacimiento",
+    "texto": "Nace Florinda Donner (Regina Thal), antropóloga y gurú venezolana (desaparecida en 1998 tras la muerte de su gurú Carlos Castaneda).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Florinda Donner)",
+        "url": "https://es.wikipedia.org/wiki/Florinda_Donner",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1945-muere-posiblemente-ana-frank-nina-alemana",
@@ -5928,6 +6785,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1998-nace-wuilker-farinez-futbolista-venezolano",
+    "fecha": {
+      "dia": 15,
+      "mes": 2
+    },
+    "anio": 1998,
+    "tipo": "nacimiento",
+    "texto": "Nace Wuilker Faríñez, futbolista venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Wuilker Faríñez)",
+        "url": "https://es.wikipedia.org/wiki/Wuilker_Far%C3%AD%C3%B1ez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "2009-en-venezuela-fue-aprobada-mediante-referendum",
+    "fecha": {
+      "dia": 15,
+      "mes": 2
+    },
+    "anio": 2009,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela fue aprobada mediante referéndum popular la enmienda de 5 artículos de la Constitución de Venezuela de 1999 que permite la reelección continua de todos los cargos de elección popular.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (15 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/15_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "2021-muere-leopoldo-jacinto-luque-futbolista-y",
@@ -6196,6 +7091,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1985-muere-ali-primera-cantante-musico-y",
+    "fecha": {
+      "dia": 16,
+      "mes": 2
+    },
+    "anio": 1985,
+    "tipo": "fallecimiento",
+    "texto": "Muere Alí Primera, cantante, músico y compositor venezolano (n. 1942).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Alí Primera)",
+        "url": "https://es.wikipedia.org/wiki/Al%C3%AD_Primera",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1986-nace-walter-acevedo-futbolista-argentino",
     "fecha": {
       "dia": 16,
@@ -6213,6 +7127,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1989-en-venezuela-el-presidente-carlos-andres",
+    "fecha": {
+      "dia": 16,
+      "mes": 2
+    },
+    "anio": 1989,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela, el presidente Carlos Andrés Pérez decreta el llamado «paquete económico» que desembocaría en los sucesos del Caracazo.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (16 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/16_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1993-muere-pascual-vuotto-89-obrero-argentino",
@@ -6367,6 +7300,25 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "1947-nace-asdrubal-baptista-politico-venezolano-f",
+    "fecha": {
+      "dia": 17,
+      "mes": 2
+    },
+    "anio": 1947,
+    "tipo": "nacimiento",
+    "texto": "Nace Asdrúbal Baptista, político venezolano (f. 2020).José José.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Asdrúbal Baptista)",
+        "url": "https://es.wikipedia.org/wiki/Asdr%C3%BAbal_Baptista",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1948-en-tucuman-argentina-se-funda-el",
     "fecha": {
       "dia": 17,
@@ -6384,6 +7336,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1954-en-venezuela-el-gobierno-del-general",
+    "fecha": {
+      "dia": 17,
+      "mes": 2
+    },
+    "anio": 1954,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela el gobierno del general Marcos Pérez Jiménez aprueba una nueva \"Ley de Bandera, Escudo e Himno Nacional\" que deroga la anterior ley establecida.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (17 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/17_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1955-nace-marcelo-trobbiani-futbolista-y-entrenador",
@@ -6576,6 +7547,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "2001-muere-juan-liscano-escritor-venezolano-n",
+    "fecha": {
+      "dia": 17,
+      "mes": 2
+    },
+    "anio": 2001,
+    "tipo": "fallecimiento",
+    "texto": "Muere Juan Liscano, escritor venezolano (n. 1914).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Juan Liscano)",
+        "url": "https://es.wikipedia.org/wiki/Juan_Liscano",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "2005-muere-omar-sivori-futbolista-italo-argentino",
     "fecha": {
       "dia": 17,
@@ -6709,6 +7699,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1797-la-isla-espanola-de-trinidad-actual",
+    "fecha": {
+      "dia": 18,
+      "mes": 2
+    },
+    "anio": 1797,
+    "tipo": "acontecimiento",
+    "texto": "La isla española de Trinidad (actual Trinidad y Tobago), frente a las costas de Venezuela, se rinde ante una flota británica comandada por sir Ralph Abercromby durante la Invasión de Trinidad.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (18 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/18_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1798-nace-jose-hilario-lopez-militar-y",
     "fecha": {
       "dia": 18,
@@ -6823,6 +7832,25 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "1924-nace-humberto-fernandez-moran-cientifico-venezolano",
+    "fecha": {
+      "dia": 18,
+      "mes": 2
+    },
+    "anio": 1924,
+    "tipo": "nacimiento",
+    "texto": "Nace Humberto Fernández Morán, científico venezolano, inventor del bisturí de diamante (f. 1999).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Humberto Fernández-Morán)",
+        "url": "https://es.wikipedia.org/wiki/Humberto_Fern%C3%A1ndez-Mor%C3%A1n",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1927-nace-osvaldo-bayer-historiador-escritor-y",
     "fecha": {
       "dia": 18,
@@ -6918,6 +7946,44 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1983-en-venezuela-se-produce-el-famoso",
+    "fecha": {
+      "dia": 18,
+      "mes": 2
+    },
+    "anio": 1983,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela se produce el famoso «Viernes Negro», caracterizado por una devaluación de la moneda (el bolívar) el cual pasó de costar 0,23 a 0,06 dólares.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (18 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/18_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1988-nace-lasso-actor-y-cantante-venezolano",
+    "fecha": {
+      "dia": 18,
+      "mes": 2
+    },
+    "anio": 1988,
+    "tipo": "nacimiento",
+    "texto": "Nace Lasso, actor y cantante venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Lasso (cantante))",
+        "url": "https://es.wikipedia.org/wiki/Lasso_(cantante)",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1989-en-marrakech-marruecos-se-crea-la",
     "fecha": {
       "dia": 18,
@@ -6954,6 +8020,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2013-en-caracas-venezuela-el-presidente-hugo",
+    "fecha": {
+      "dia": 18,
+      "mes": 2
+    },
+    "anio": 2013,
+    "tipo": "acontecimiento",
+    "texto": "En Caracas (Venezuela), el presidente Hugo Chávez, retorna al país después de estar dos meses y siete días en Cuba, recuperándose de una operación por el cáncer que lo afectaba.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (18 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/18_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "2017-en-la-provincia-de-mendoza-argentina",
@@ -7222,6 +8307,25 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "1973-nace-eva-golinger-abogada-escritora-e",
+    "fecha": {
+      "dia": 19,
+      "mes": 2
+    },
+    "anio": 1973,
+    "tipo": "nacimiento",
+    "texto": "Nace Eva Golinger, abogada, escritora e investigadora venezolano-estadounidense.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Eva Golinger)",
+        "url": "https://es.wikipedia.org/wiki/Eva_Golinger",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1981-en-espana-la-banda-terrorista-eta",
     "fecha": {
       "dia": 19,
@@ -7450,6 +8554,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1859-en-venezuela-la-toma-del-cuartel",
+    "fecha": {
+      "dia": 20,
+      "mes": 2
+    },
+    "anio": 1859,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela, la Toma del Cuartel de Coro por el comandante Tirso Salaverría desencadena la Guerra Federal.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (20 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/20_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1889-nace-laureano-gomez-politico-conservador-anticomunista",
     "fecha": {
       "dia": 20,
@@ -7505,6 +8628,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1917-nace-juan-vicente-torrealba-musico-y",
+    "fecha": {
+      "dia": 20,
+      "mes": 2
+    },
+    "anio": 1917,
+    "tipo": "nacimiento",
+    "texto": "Nace Juan Vicente Torrealba, músico y compositor venezolano (f. 2019).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Juan Vicente Torrealba)",
+        "url": "https://es.wikipedia.org/wiki/Juan_Vicente_Torrealba",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1927-nace-lucho-argain-cantante-colombiano-f",
@@ -7621,6 +8763,25 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "1954-muere-vicente-lecuna-historiador-y-banquero",
+    "fecha": {
+      "dia": 20,
+      "mes": 2
+    },
+    "anio": 1954,
+    "tipo": "fallecimiento",
+    "texto": "Muere Vicente Lecuna, historiador y banquero venezolano (n. 1870).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Vicente Lecuna)",
+        "url": "https://es.wikipedia.org/wiki/Vicente_Lecuna",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1972-muere-maria-goeppert-mayer-fisica-alemana",
     "fecha": {
       "dia": 20,
@@ -7638,6 +8799,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1972-nace-roxana-diaz-actriz-y-modelo",
+    "fecha": {
+      "dia": 20,
+      "mes": 2
+    },
+    "anio": 1972,
+    "tipo": "nacimiento",
+    "texto": "Nace Roxana Díaz, actriz y modelo venezolana.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Roxana Díaz)",
+        "url": "https://es.wikipedia.org/wiki/Roxana_D%C3%ADaz",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1983-nace-nicolas-spolli-futbolista-argentino",
@@ -7735,6 +8915,25 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "2003-un-juez-ordena-la-detencion-de",
+    "fecha": {
+      "dia": 20,
+      "mes": 2
+    },
+    "anio": 2003,
+    "tipo": "acontecimiento",
+    "texto": "Un juez ordena la detención de Carlos Fernández, presidente de la mayor organización empresarial de Venezuela (Fedecámaras), por su actuación como instigador de la huelga general contra el Gobierno de Hugo Chávez.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (20 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/20_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "2005-elecciones-primarias-en-honduras-estableciendo-los",
     "fecha": {
       "dia": 20,
@@ -7792,6 +8991,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "2017-muere-sofia-imber-periodista-y-promotora",
+    "fecha": {
+      "dia": 20,
+      "mes": 2
+    },
+    "anio": 2017,
+    "tipo": "fallecimiento",
+    "texto": "Muere Sofía Imber, periodista y promotora de arte rumano-venezolana (n. 1924)",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Sofía Ímber)",
+        "url": "https://es.wikipedia.org/wiki/Sof%C3%ADa_%C3%8Dmber",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1677-muere-baruch-spinoza-filosofo-neerlandes-n",
     "fecha": {
       "dia": 21,
@@ -7809,6 +9027,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1866-muere-manuel-felipe-de-tovar-el",
+    "fecha": {
+      "dia": 21,
+      "mes": 2
+    },
+    "anio": 1866,
+    "tipo": "fallecimiento",
+    "texto": "Muere Manuel Felipe de Tovar, el 15° presidente de Venezuela (n.1803).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Manuel Felipe de Tovar)",
+        "url": "https://es.wikipedia.org/wiki/Manuel_Felipe_de_Tovar",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1893-en-argentina-se-funda-la-argentine",
@@ -8210,6 +9447,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1908-nace-romulo-betancourt-politico-y-periodista",
+    "fecha": {
+      "dia": 22,
+      "mes": 2
+    },
+    "anio": 1908,
+    "tipo": "nacimiento",
+    "texto": "Nace Rómulo Betancourt, político y periodista venezolano, presidente de Venezuela entre 1959 y 1964 (f. 1981).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Rómulo Betancourt)",
+        "url": "https://es.wikipedia.org/wiki/R%C3%B3mulo_Betancourt",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1922-nace-jesus-iglesias-piloto-argentino-de",
     "fecha": {
       "dia": 22,
@@ -8227,6 +9483,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1929-en-venezuela-el-general-arevalo-cedeno",
+    "fecha": {
+      "dia": 22,
+      "mes": 2
+    },
+    "anio": 1929,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela, el general Arévalo Cedeno desencadena una revolución.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (22 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/22_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1930-nace-alfredo-sadel-cantante-venezolano-f",
+    "fecha": {
+      "dia": 22,
+      "mes": 2
+    },
+    "anio": 1930,
+    "tipo": "nacimiento",
+    "texto": "Nace Alfredo Sadel, cantante venezolano (f. 1989).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Alfredo Sadel)",
+        "url": "https://es.wikipedia.org/wiki/Alfredo_Sadel",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1931-en-nueva-pompeya-argentina-se-funda",
@@ -8693,7 +9987,8 @@
     "anio": 1918,
     "tipo": "acontecimiento",
     "texto": "En Venezuela, el caroreño Rafael Perera Zubillaga, crea en la ciudad de Carora la cadena de mercado mixto de farmacias y tienda de conveniencias, Farmatodo, en ese entonces conocida con el nombre de Droguería Lara, como \"una compañía caroreña familiar\".",
-    "alcance": "internacional",
+    "alcance": "venezuela",
+    "tambienInternacional": true,
     "fuentes": [
       {
         "nombre": "Wikipedia (23 de febrero)",
@@ -8797,6 +10092,44 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1962-nace-miguel-de-leon-actor-venezolano",
+    "fecha": {
+      "dia": 23,
+      "mes": 2
+    },
+    "anio": 1962,
+    "tipo": "nacimiento",
+    "texto": "Nace Miguel de León, actor venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Miguel de León)",
+        "url": "https://es.wikipedia.org/wiki/Miguel_de_Le%C3%B3n",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1965-nace-mikel-erentxun-cantante-vasco-de",
+    "fecha": {
+      "dia": 23,
+      "mes": 2
+    },
+    "anio": 1965,
+    "tipo": "nacimiento",
+    "texto": "Nace Mikel Erentxun, cantante vasco de origen venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Mikel Erentxun)",
+        "url": "https://es.wikipedia.org/wiki/Mikel_Erentxun",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1967-muere-pepe-arias-actor-comico-argentino",
@@ -8940,7 +10273,8 @@
     "anio": 2006,
     "tipo": "acontecimiento",
     "texto": "Los hermanos Faddoul, tres jóvenes venezolanos hijos de un empresario de origen libanés, son secuestrados en Caracas junto con su chofer Miguel Rivas.",
-    "alcance": "internacional",
+    "alcance": "venezuela",
+    "tambienInternacional": true,
     "fuentes": [
       {
         "nombre": "Wikipedia (23 de febrero)",
@@ -9101,6 +10435,25 @@
       }
     ],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1943-nace-gilberto-correa-locutor-periodista-y",
+    "fecha": {
+      "dia": 24,
+      "mes": 2
+    },
+    "anio": 1943,
+    "tipo": "nacimiento",
+    "texto": "Nace Gilberto Correa, locutor, periodista y presentador venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Gilberto Correa)",
+        "url": "https://es.wikipedia.org/wiki/Gilberto_Correa",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1946-en-argentina-juan-domingo-peron-es",
@@ -9654,6 +11007,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1990-nace-rafael-romo-futbolista-venezolano",
+    "fecha": {
+      "dia": 25,
+      "mes": 2
+    },
+    "anio": 1990,
+    "tipo": "nacimiento",
+    "texto": "Nace Rafael Romo, futbolista venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Rafael Romo)",
+        "url": "https://es.wikipedia.org/wiki/Rafael_Romo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1993-nace-brayan-perea-futbolista-colombiano",
     "fecha": {
       "dia": 25,
@@ -9709,6 +11081,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2012-muere-raul-abzueta-musico-director-de",
+    "fecha": {
+      "dia": 25,
+      "mes": 2
+    },
+    "anio": 2012,
+    "tipo": "fallecimiento",
+    "texto": "Muere Raúl Abzueta, músico, director de orquesta, compositor, escritor y promotor musical venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (25 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/25_de_febrero#Fallecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "2020-muere-hosni-mubarak-general-y-politico",
@@ -9958,6 +11349,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1984-muere-manuel-cabre-pintor-hispano-venezolano",
+    "fecha": {
+      "dia": 26,
+      "mes": 2
+    },
+    "anio": 1984,
+    "tipo": "fallecimiento",
+    "texto": "Muere Manuel Cabré, pintor hispano-venezolano (n. 1890).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Manuel Cabré)",
+        "url": "https://es.wikipedia.org/wiki/Manuel_Cabr%C3%A9",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1990-nace-guido-pizarro-futbolista-argentino",
     "fecha": {
       "dia": 26,
@@ -10032,6 +11442,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2001-muere-arturo-uslar-pietri-escritor-venezolano",
+    "fecha": {
+      "dia": 26,
+      "mes": 2
+    },
+    "anio": 2001,
+    "tipo": "fallecimiento",
+    "texto": "Muere Arturo Uslar Pietri, escritor venezolano (n. 1906).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Arturo Uslar Pietri)",
+        "url": "https://es.wikipedia.org/wiki/Arturo_Uslar_Pietri",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "2002-acnur-y-la-ong-save-the",
@@ -10300,6 +11729,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1929-nace-pedro-leon-zapata-pintor-escritor",
+    "fecha": {
+      "dia": 27,
+      "mes": 2
+    },
+    "anio": 1929,
+    "tipo": "nacimiento",
+    "texto": "Nace Pedro León Zapata, pintor, escritor, caricaturista y humorista venezolano (f. 2015).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Pedro León Zapata)",
+        "url": "https://es.wikipedia.org/wiki/Pedro_Le%C3%B3n_Zapata",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1936-muere-ivan-pavlov-fisiologo-ruso-premio",
     "fecha": {
       "dia": 27,
@@ -10357,6 +11805,44 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1942-inglaterra-devuelve-a-venezuela-la-isla",
+    "fecha": {
+      "dia": 27,
+      "mes": 2
+    },
+    "anio": 1942,
+    "tipo": "acontecimiento",
+    "texto": "Inglaterra devuelve a Venezuela la Isla de Patos, reconociendo la jurisdicción del golfo de Paria.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (27 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/27_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1960-muere-ettore-chimeri-piloto-de-automovilismo",
+    "fecha": {
+      "dia": 27,
+      "mes": 2
+    },
+    "anio": 1960,
+    "tipo": "fallecimiento",
+    "texto": "Muere Ettore Chimeri, piloto de automovilismo venezolano (n. 1921).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Ettore Chimeri)",
+        "url": "https://es.wikipedia.org/wiki/Ettore_Chimeri",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1963-nace-pablo-de-santis-escritor-argentino",
     "fecha": {
       "dia": 27,
@@ -10393,6 +11879,25 @@
       }
     ],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1974-en-venezuela-las-tetas-de-maria",
+    "fecha": {
+      "dia": 27,
+      "mes": 2
+    },
+    "anio": 1974,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela, Las Tetas de María Guevara (en la isla Margarita) son declaradas parque nacional.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (27 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/27_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1977-nace-leider-preciado-futbolista-colombiano-2",
@@ -10471,6 +11976,25 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "1984-nace-daniela-navarro-actriz-y-modelo",
+    "fecha": {
+      "dia": 27,
+      "mes": 2
+    },
+    "anio": 1984,
+    "tipo": "nacimiento",
+    "texto": "Nace Daniela Navarro, actriz y modelo venezolana.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Daniella Navarro)",
+        "url": "https://es.wikipedia.org/wiki/Daniella_Navarro",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1987-nace-maximiliano-moralez-futbolista-argentino",
     "fecha": {
       "dia": 27,
@@ -10498,7 +12022,8 @@
     "anio": 1989,
     "tipo": "acontecimiento",
     "texto": "En Caracas (Venezuela) se inician una serie de manifestaciones y saqueos ―conocidos como el Caracazo―, luego de la implantación de un paquete de medidas económicas por el Gobierno del socialdemócrata Carlos Andrés Pérez con supervisión del FMI (Fondo Monetario Internacional).",
-    "alcance": "internacional",
+    "alcance": "venezuela",
+    "tambienInternacional": true,
     "fuentes": [
       {
         "nombre": "Wikipedia (27 de febrero)",
@@ -10545,6 +12070,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "2003-muere-wolfgang-larrazabal-militar-venezolano-n",
+    "fecha": {
+      "dia": 27,
+      "mes": 2
+    },
+    "anio": 2003,
+    "tipo": "fallecimiento",
+    "texto": "Muere Wolfgang Larrazábal, militar venezolano (n. 1911).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Wolfgang Larrazábal)",
+        "url": "https://es.wikipedia.org/wiki/Wolfgang_Larraz%C3%A1bal",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "2010-en-argentina-un-sismo-de-una",
@@ -10642,6 +12186,82 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1788-en-venezuela-se-funda-la-aldea",
+    "fecha": {
+      "dia": 28,
+      "mes": 2
+    },
+    "anio": 1788,
+    "tipo": "acontecimiento",
+    "texto": "En Venezuela se funda la aldea de San Fernando de Apure.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (28 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/28_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1829-nace-antonio-guzman-blanco-politico-y",
+    "fecha": {
+      "dia": 28,
+      "mes": 2
+    },
+    "anio": 1829,
+    "tipo": "nacimiento",
+    "texto": "Nace Antonio Guzmán Blanco, político y presidente venezolano (f. 1899).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Antonio Guzmán Blanco)",
+        "url": "https://es.wikipedia.org/wiki/Antonio_Guzm%C3%A1n_Blanco",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1854-en-la-aldea-de-amotape-en",
+    "fecha": {
+      "dia": 28,
+      "mes": 2
+    },
+    "anio": 1854,
+    "tipo": "acontecimiento",
+    "texto": "En la aldea de Amotape (en el extremo norte del Perú) muere exiliado el educador venezolano Simón Rodríguez, quien fuera maestro del Libertador Simón Bolívar.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (28 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/28_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "1854-muere-simon-rodriguez-filosofo-y-educador",
+    "fecha": {
+      "dia": 28,
+      "mes": 2
+    },
+    "anio": 1854,
+    "tipo": "fallecimiento",
+    "texto": "Muere Simón Rodríguez, filósofo y educador venezolano (n. 1769).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Simón Rodríguez)",
+        "url": "https://es.wikipedia.org/wiki/Sim%C3%B3n_Rodr%C3%ADguez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1869-muere-alphonse-de-lamartine-escritor-poeta",
     "fecha": {
       "dia": 28,
@@ -10659,6 +12279,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1871-nace-manuel-diaz-rodriguez-escritor-modernista",
+    "fecha": {
+      "dia": 28,
+      "mes": 2
+    },
+    "anio": 1871,
+    "tipo": "nacimiento",
+    "texto": "Nace Manuel Díaz Rodríguez, escritor modernista venezolano (f. 1927).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Manuel Díaz Rodríguez)",
+        "url": "https://es.wikipedia.org/wiki/Manuel_D%C3%ADaz_Rodr%C3%ADguez",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1901-nace-linus-pauling-bioquimico-estadounidense-premio",
@@ -10756,6 +12395,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1960-nace-tulio-ramirez-padilla-obispo-venezolano",
+    "fecha": {
+      "dia": 28,
+      "mes": 2
+    },
+    "anio": 1960,
+    "tipo": "nacimiento",
+    "texto": "Nace Tulio Ramírez Padilla, obispo venezolano (f. 2026).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Tulio Ramírez Padilla)",
+        "url": "https://es.wikipedia.org/wiki/Tulio_Ram%C3%ADrez_Padilla",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1962-nace-carlos-mario-hoyos-futbolista-y",
     "fecha": {
       "dia": 28,
@@ -10811,6 +12469,25 @@
       }
     ],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "1971-en-caracas-venezuela-se-crea-el",
+    "fecha": {
+      "dia": 28,
+      "mes": 2
+    },
+    "anio": 1971,
+    "tipo": "acontecimiento",
+    "texto": "En Caracas, Venezuela se crea el Grupo Teatral Rajatabla.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (28 de febrero)",
+        "url": "https://es.wikipedia.org/wiki/28_de_febrero#Acontecimientos",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "1978-nace-mariano-zabaleta-tenista-argentino",
@@ -11079,6 +12756,25 @@
     "verificadoEn": "2026-09-16"
   },
   {
+    "id": "1916-nace-olga-luzardo-periodista-venezolana-f",
+    "fecha": {
+      "dia": 29,
+      "mes": 2
+    },
+    "anio": 1916,
+    "tipo": "nacimiento",
+    "texto": "Nace Olga Luzardo, periodista venezolana (f. 2016).",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Olga Luzardo)",
+        "url": "https://es.wikipedia.org/wiki/Olga_Luzardo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "1960-nace-roberto-pumar-empresario-argentino",
     "fecha": {
       "dia": 29,
@@ -11153,6 +12849,25 @@
       }
     ],
     "verificadoEn": "2026-09-16"
+  },
+  {
+    "id": "1996-nace-jesus-limardo-esgrimidor-venezolano",
+    "fecha": {
+      "dia": 29,
+      "mes": 2
+    },
+    "anio": 1996,
+    "tipo": "nacimiento",
+    "texto": "Nace Jesús Limardo, esgrimidor venezolano.",
+    "alcance": "venezuela",
+    "fuentes": [
+      {
+        "nombre": "Wikipedia (Jesús Limardo)",
+        "url": "https://es.wikipedia.org/wiki/Jes%C3%BAs_Limardo",
+        "tipo": "secundaria"
+      }
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "2020-firma-del-acuerdo-de-paz-entre",

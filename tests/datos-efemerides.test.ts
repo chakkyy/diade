@@ -60,4 +60,15 @@ describe("datos reales de efemérides", () => {
     expect(colombianas.filter((e) => (enTodas.get(clave(e)) ?? 0) > 1).map((e) => e.id)).toEqual([]);
   });
 
+  it("hay efemérides venezolanas y ninguna repite el texto de otra del mismo día", () => {
+    const venezolanas = todas.filter((e) => e.alcance === "venezuela");
+    expect(venezolanas.length).toBeGreaterThan(1150);
+    const clave = (e: (typeof todas)[number]) => `${e.fecha.mes}-${e.fecha.dia}-${e.anio}-${e.tipo}-${e.texto}`;
+    const claves = venezolanas.map(clave);
+    expect(new Set(claves).size).toBe(claves.length);
+    const enTodas = new Map<string, number>();
+    for (const e of todas) enTodas.set(clave(e), (enTodas.get(clave(e)) ?? 0) + 1);
+    expect(venezolanas.filter((e) => (enTodas.get(clave(e)) ?? 0) > 1).map((e) => e.id)).toEqual([]);
+  });
+
 });
