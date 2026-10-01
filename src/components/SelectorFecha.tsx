@@ -38,7 +38,7 @@ export default function SelectorFecha({
           if (!elegido.dia || !elegido.mes) return;
           router.push(rutaDePais(pais, `/fecha/${slugDeFecha(elegido)}`));
         }}
-        className="h-9 rounded-[10px] border border-borde bg-superficie px-2.5 text-[13px] text-texto-secundario transition-colors duration-150 hover:text-texto"
+        className="h-10 rounded-[10px] border border-borde bg-superficie px-2.5 text-[13px] text-texto-secundario transition-colors duration-150 hover:text-texto"
       />
     </div>
   );

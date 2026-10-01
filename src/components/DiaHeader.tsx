@@ -16,7 +16,7 @@ import {
 import { rutaDePais, type CodigoPais } from "@/lib/paises";
 
 const ESTILO_BOTON =
-  "grid size-9 place-items-center rounded-[10px] border border-borde bg-superficie text-texto-secundario transition-[color,transform] duration-150 hover:text-texto active:scale-[0.94]";
+  "grid size-10 place-items-center rounded-[10px] border border-borde bg-superficie text-texto-secundario transition-[color,transform] duration-150 hover:text-texto active:scale-[0.96]";
 
 export default function DiaHeader({
   fecha,

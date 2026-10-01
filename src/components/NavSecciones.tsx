@@ -19,14 +19,14 @@ export default function NavSecciones() {
       <nav aria-label="Secciones" className="hidden items-center gap-1 sm:flex">
         <Link
           href={rutaDePais(pais, "/calendario")}
-          className="flex items-center gap-1.5 rounded-[10px] px-2 py-1.5 text-[13px] text-texto-secundario transition-colors duration-150 hover:bg-superficie-suave hover:text-texto"
+          className="flex items-center gap-1.5 rounded-[10px] px-2 py-1.5 text-[13px] text-texto-secundario transition-[color,background-color,transform] duration-150 hover:bg-superficie-suave hover:text-texto active:scale-[0.96]"
         >
           <IconoCalendario />
           <span>Calendario</span>
         </Link>
         <Link
           href={rutaDePais(pais, "/buscar")}
-          className="flex items-center gap-1.5 rounded-[10px] px-2 py-1.5 text-[13px] text-texto-secundario transition-colors duration-150 hover:bg-superficie-suave hover:text-texto"
+          className="flex items-center gap-1.5 rounded-[10px] px-2 py-1.5 text-[13px] text-texto-secundario transition-[color,background-color,transform] duration-150 hover:bg-superficie-suave hover:text-texto active:scale-[0.96]"
         >
           <IconoBuscar />
           <span>Buscar</span>

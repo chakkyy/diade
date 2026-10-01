@@ -30,7 +30,7 @@ export default function TabBar() {
               <Link
                 href={href}
                 aria-current={activa ? "page" : undefined}
-                className={`flex h-[58px] flex-col items-center justify-center gap-1 text-[11px] font-medium transition-transform duration-150 active:scale-[0.93] ${
+                className={`flex h-[58px] flex-col items-center justify-center gap-1 text-[11px] font-medium transition-transform duration-150 active:scale-[0.96] ${
                   activa ? "text-acento-texto" : "text-texto-secundario"
                 }`}
               >
