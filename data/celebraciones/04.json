@@ -126,6 +126,36 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-cuatro",
+    "nombre": "Día Nacional del Cuatro",
+    "fecha": {
+      "dia": 4,
+      "mes": 4
+    },
+    "alcance": "venezuela",
+    "categoria": "cultura",
+    "descripcion": "Cada 4 de abril se celebra el cuatro venezolano, instrumento declarado Patrimonio Cultural de la Nación en 2013, mediante decreto emitido en 2024.",
+    "fuentes": [
+      {
+        "nombre": "Prensa Presidencial de Venezuela - Actos por el Día Nacional del Cuatro",
+        "url": "https://prensapresidencialvenezuela.gob.ve/index.php/2026/04/17/presidenta-e-delcy-rodriguez-encabeza-actos-conmemorativos-por-el-dia-nacional-del-cuatro/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "MinCultura - Venezuela celebra el Día Nacional del Cuatro",
+        "url": "https://www.mincultura.gob.ve/noticias/venezuela-celebra-el-dia-nacional-del-cuatro-como-bandera-de-soberania/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎸",
+    "tags": [
+      "cuatro",
+      "musica venezolana",
+      "instrumento"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-internacional-de-la-conciencia",
     "nombre": "Día Internacional de la Conciencia",
     "fecha": {
@@ -403,6 +433,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-medico-obstetra",
+    "nombre": "Día Nacional del Médico Obstetra",
+    "fecha": {
+      "dia": 12,
+      "mes": 4
+    },
+    "alcance": "venezuela",
+    "categoria": "salud",
+    "descripcion": "Cada 12 de abril se celebra a los médicos obstetras, en honor al doctor Oscar Agüero, maestro de la ginecología y obstetricia venezolana.",
+    "fuentes": [
+      {
+        "nombre": "MPPS - Día del Médico Obstetra",
+        "url": "https://mpps.gob.ve/dia-del-medico-obstetra/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🩺",
+    "tags": [
+      "obstetra",
+      "ginecologo",
+      "medico"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-del-kinesiologo",
     "nombre": "Día del Kinesiólogo",
     "fecha": {
@@ -425,6 +480,31 @@
       "rehabilitación"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-dignidad-venezolana",
+    "nombre": "Día Nacional de la Dignidad Venezolana",
+    "fecha": {
+      "dia": 13,
+      "mes": 4
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "El 13 de abril figura en las efemérides del Ministerio de Educación como Día Nacional de la Dignidad Venezolana.",
+    "fuentes": [
+      {
+        "nombre": "MPPE - Efemérides del mes de abril",
+        "url": "https://www.mppe.gob.ve/efemerides-04/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇻🇪",
+    "tags": [
+      "dignidad nacional",
+      "13 de abril",
+      "milicia bolivariana"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-mundial-enfermedad-chagas",
@@ -966,6 +1046,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-caficultor-venezolano",
+    "nombre": "Día del Caficultor Venezolano",
+    "fecha": {
+      "dia": 24,
+      "mes": 4
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Cada 24 de abril se rinde homenaje a los trabajadores del campo que producen café, según acuerdo de la Asamblea Nacional firmado el 25 de abril de 2024.",
+    "fuentes": [
+      {
+        "nombre": "Asamblea Nacional - Acuerdo para conmemorar el Día del Caficultor Venezolano",
+        "url": "https://www.asambleanacional.gob.ve/actos/detalle/acuerdo-para-conmemorar-el-dia-del-caficultor-venezolano",
+        "tipo": "normativa"
+      }
+    ],
+    "emoji": "☕",
+    "tags": [
+      "cafe",
+      "caficultor",
+      "cafetalero"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-internacional-del-delegado",
     "nombre": "Día Internacional del Delegado",
     "fecha": {
@@ -1013,6 +1118,56 @@
       "malaria"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-bioanalista",
+    "nombre": "Día Nacional del Bioanalista",
+    "fecha": {
+      "dia": 25,
+      "mes": 4
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Cada 25 de abril se celebra a los bioanalistas, fecha que recuerda el natalicio del científico trujillano Rafael Rangel.",
+    "fuentes": [
+      {
+        "nombre": "FECOBIOVE - Día Nacional del Bioanalista 2026",
+        "url": "https://www.fecobiove.org/comunicados/dia-nacional-del-bioanalista-2026/",
+        "tipo": "asociacion"
+      }
+    ],
+    "emoji": "🔬",
+    "tags": [
+      "bioanalista",
+      "laboratorio clinico",
+      "rafael rangel"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "dia-nacional-del-ajedrez-escolar",
+    "nombre": "Día Nacional del Ajedrez Escolar",
+    "fecha": {
+      "dia": 25,
+      "mes": 4
+    },
+    "alcance": "venezuela",
+    "categoria": "deporte",
+    "descripcion": "El 25 de abril figura en las efemérides del Ministerio de Educación como Día Nacional del Ajedrez Escolar.",
+    "fuentes": [
+      {
+        "nombre": "MPPE - Efemérides del mes de abril",
+        "url": "https://www.mppe.gob.ve/efemerides-04/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "♟️",
+    "tags": [
+      "ajedrez",
+      "escuelas",
+      "educacion"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-internacional-recordacion-chernobyl",

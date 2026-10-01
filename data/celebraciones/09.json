@@ -99,6 +99,36 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-empleado-publico-venezuela",
+    "nombre": "Día del Empleado Público",
+    "fecha": {
+      "dia": 4,
+      "mes": 9
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Se celebra el 4 de septiembre, por la promulgación de la Ley de Carrera Administrativa en 1970, para reconocer la labor del personal de la administración pública.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de Cultura - Día del Empleado Público",
+        "url": "https://www.mincultura.gob.ve/eventos/dia-del-empleado-publico/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "MPPEF - Día del Empleado Público",
+        "url": "https://www.mppef.gob.ve/dia-del-empleado-publico-fecha-que-honra-a-las-mujeres-y-hombres-que-con-vocacion-de-servicio-contribuyen-al-desarrollo-del-pais/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🏛️",
+    "tags": [
+      "funcionario publico",
+      "administracion publica",
+      "servidor publico"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-internacional-de-la-beneficencia",
     "nombre": "Día Internacional de la Beneficencia",
     "fecha": {
@@ -365,6 +395,31 @@
       "ley 95"
     ],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-del-agricultor-y-productor-agrario-venezuela",
+    "nombre": "Día del Agricultor y Productor Agrario",
+    "fecha": {
+      "dia": 9,
+      "mes": 9
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Venezuela celebra el 9 de septiembre el Día del Agricultor y Productor Agrario.",
+    "fuentes": [
+      {
+        "nombre": "MPPE - Efemérides del mes de septiembre",
+        "url": "https://www.mppe.gob.ve/efemerides-09/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🌾",
+    "tags": [
+      "agricultor",
+      "productor agrario",
+      "campesino"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-del-terapista-ocupacional",
@@ -1001,6 +1056,30 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-electricista-venezuela",
+    "nombre": "Día Nacional del Electricista",
+    "fecha": {
+      "dia": 22,
+      "mes": 9
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Venezuela celebra cada 22 de septiembre a los electricistas.",
+    "fuentes": [
+      {
+        "nombre": "Efemérides - Gobernación del Estado Anzoátegui",
+        "url": "https://anzoategui.gob.ve/anzoategui/efemerides/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "💡",
+    "tags": [
+      "electricista",
+      "electricidad"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-internacional-lenguas-de-senas",
     "nombre": "Día Internacional de las Lenguas de Señas",
     "fecha": {
@@ -1289,6 +1368,31 @@
       "inventiva"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-aviacion-civil-venezolana",
+    "nombre": "Día de la Aviación Civil Venezolana",
+    "fecha": {
+      "dia": 29,
+      "mes": 9
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Venezuela celebra el 29 de septiembre el Día de la Aviación Civil Venezolana.",
+    "fuentes": [
+      {
+        "nombre": "Efemérides - Gobernación del Estado Anzoátegui",
+        "url": "https://anzoategui.gob.ve/anzoategui/efemerides/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "✈️",
+    "tags": [
+      "aviacion civil",
+      "primer vuelo",
+      "inac"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-internacional-de-la-traduccion",

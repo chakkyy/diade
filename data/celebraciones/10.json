@@ -153,6 +153,31 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "dia-del-odontologo-venezuela",
+    "nombre": "Día del Odontólogo",
+    "fecha": {
+      "dia": 3,
+      "mes": 10
+    },
+    "alcance": "venezuela",
+    "categoria": "salud",
+    "descripcion": "En Venezuela se rinde homenaje a los odontólogos cada 3 de octubre, en recuerdo de la fundación de la Federación Odontológica Latinoamericana en 1917.",
+    "fuentes": [
+      {
+        "nombre": "Vicerrectorado Académico UC - Día del Odontólogo en Venezuela",
+        "url": "https://viceacademico.uc.edu.ve/efemerides/odontologia",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🦷",
+    "tags": [
+      "odontologia",
+      "dentista",
+      "odontologos"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-mundial-de-los-animales",
     "nombre": "Día Mundial de los Animales",
     "fecha": {
@@ -251,6 +276,31 @@
       "transito"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-salsa-venezuela",
+    "nombre": "Día Nacional de la Salsa en Venezuela",
+    "fecha": {
+      "dia": 5,
+      "mes": 10
+    },
+    "alcance": "venezuela",
+    "categoria": "cultura",
+    "descripcion": "En 2004 el Ministerio de Cultura decretó esta fecha como Día Nacional de la Salsa, en honor a Phidias Danilo Escalona.",
+    "fuentes": [
+      {
+        "nombre": "MinCultura - Día Nacional de la Salsa en Venezuela",
+        "url": "https://www.mincultura.gob.ve/eventos/dia-nacional-de-la-salsa-en-venezuela/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎶",
+    "tags": [
+      "salsa",
+      "musica",
+      "baile"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-nacional-del-circo",
@@ -377,6 +427,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-medico-integral-comunitario",
+    "nombre": "Día del Médico Integral Comunitario",
+    "fecha": {
+      "dia": 8,
+      "mes": 10
+    },
+    "alcance": "venezuela",
+    "categoria": "salud",
+    "descripcion": "Fecha decretada en 2009 por Hugo Chávez para honrar a Ernesto Che Guevara y reconocer la labor de los médicos integrales comunitarios.",
+    "fuentes": [
+      {
+        "nombre": "MPPS - Día del Médico Integral Comunitario",
+        "url": "https://mpps.gob.ve/8-de-octubre-dia-del-medico-integral-comunitario/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🩺",
+    "tags": [
+      "medico comunitario",
+      "mic",
+      "medicina integral"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-mundial-correo",
     "nombre": "Día Mundial del Correo",
     "fecha": {
@@ -480,6 +555,31 @@
       "colombianos en el exterior"
     ],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-del-oftalmologo-venezuela",
+    "nombre": "Día del Oftalmólogo",
+    "fecha": {
+      "dia": 10,
+      "mes": 10
+    },
+    "alcance": "venezuela",
+    "categoria": "salud",
+    "descripcion": "En Venezuela se celebra el 10 de octubre a los oftalmólogos, en recuerdo de la fundación de la Sociedad Venezolana de Oftalmología en 1953.",
+    "fuentes": [
+      {
+        "nombre": "MPPS - Día del Oftalmólogo",
+        "url": "https://mpps.gob.ve/dia-del-oftalmologo/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "👁️",
+    "tags": [
+      "oftalmologia",
+      "vista",
+      "oculista"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-internacional-nina",
@@ -662,6 +762,37 @@
       "diversidad cultural"
     ],
     "verificadoEn": "2026-09-30",
+    "destacado": true
+  },
+  {
+    "id": "dia-de-la-resistencia-indigena",
+    "nombre": "Día de la Resistencia Indígena",
+    "fecha": {
+      "dia": 12,
+      "mes": 10
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Desde el Decreto Presidencial N° 2.028 del 10 de octubre de 2002 se conmemora cada 12 de octubre este día, que derogó el decreto de 1921 que lo llamaba Día de la Raza.",
+    "fuentes": [
+      {
+        "nombre": "Asamblea Nacional - Acuerdo 12 de octubre Día de la Resistencia Indígena",
+        "url": "https://www.asambleanacional.gob.ve/actos/detalle/acuerdo-con-motivo-de-conmemorarse-el-12-de-octubre-532-anos-del-dia-de-la-resistencia-indigena",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "MinCultura - Día de la Resistencia Indígena",
+        "url": "https://www.mincultura.gob.ve/eventos/12-de-octubre-de-1492-dia-de-la-resistencia-indigena/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🪶",
+    "tags": [
+      "pueblos indigenas",
+      "dia de la raza",
+      "descolonizacion"
+    ],
+    "verificadoEn": "2026-10-01",
     "destacado": true
   },
   {
@@ -1275,6 +1406,31 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "dia-del-ingeniero-venezuela",
+    "nombre": "Día del Ingeniero",
+    "fecha": {
+      "dia": 28,
+      "mes": 10
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Se conmemora la fundación del colegio de ingenieros del país, creado el 28 de octubre de 1861.",
+    "fuentes": [
+      {
+        "nombre": "SUSCERTE - Día del Ingeniero en Venezuela",
+        "url": "https://www.suscerte.gob.ve/?p=9168",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "👷",
+    "tags": [
+      "ingenieria",
+      "ingenieros",
+      "colegio de ingenieros"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-internacional-de-los-cuidados-y-el-apoyo",
     "nombre": "Día Internacional de los Cuidados y el Apoyo",
     "fecha": {
@@ -1322,6 +1478,56 @@
       "fuerzas de seguridad"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-la-semilla-campesina",
+    "nombre": "Día Nacional de la Semilla Campesina",
+    "fecha": {
+      "dia": 29,
+      "mes": 10
+    },
+    "alcance": "venezuela",
+    "categoria": "ambiente",
+    "descripcion": "El 29 de octubre figura en las efemérides del Ministerio de Educación como Día Nacional de la Semilla Campesina.",
+    "fuentes": [
+      {
+        "nombre": "MPPE - Efemérides del mes de octubre",
+        "url": "https://www.mppe.gob.ve/efemerides-10/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🌱",
+    "tags": [
+      "semillas",
+      "campesino",
+      "agricultura"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "dia-nacional-prevencion-embarazo-adolescente-venezuela",
+    "nombre": "Día Nacional de la Prevención del Embarazo en Adolescentes",
+    "fecha": {
+      "dia": 29,
+      "mes": 10
+    },
+    "alcance": "venezuela",
+    "categoria": "salud",
+    "descripcion": "Efeméride del calendario educativo venezolano dedicada a la prevención del embarazo en adolescentes.",
+    "fuentes": [
+      {
+        "nombre": "MPPE - Efemérides del mes de octubre",
+        "url": "https://www.mppe.gob.ve/efemerides-10/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎗️",
+    "tags": [
+      "embarazo adolescente",
+      "prevencion",
+      "adolescentes"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-de-la-educacion-fisica-argentina",

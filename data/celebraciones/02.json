@@ -121,6 +121,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-de-la-dignidad-nacional",
+    "nombre": "Día de la Dignidad Nacional",
+    "fecha": {
+      "dia": 4,
+      "mes": 2
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Se conmemora la rebelión cívico-militar del 4 de febrero de 1992.",
+    "fuentes": [
+      {
+        "nombre": "Asamblea Nacional - Poder Legislativo conmemora 31 años de la Rebelión del 4F",
+        "url": "https://www.asambleanacional.gob.ve/noticias/poder-legislativo-conmemora-31-anos-de-rebelion-del-4f",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇻🇪",
+    "tags": [
+      "4f",
+      "dignidad",
+      "rebelion civico militar"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-trabajador-deportivo",
     "nombre": "Día del Trabajador Deportivo",
     "fecha": {
@@ -364,6 +389,32 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-de-la-juventud-venezuela",
+    "nombre": "Día Nacional de la Juventud",
+    "fecha": {
+      "dia": 12,
+      "mes": 2
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Homenaje a los jóvenes estudiantes y seminaristas que triunfaron en la Batalla de La Victoria en 1814; se celebra desde 1947.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio del Poder Popular para la Educación - Efemérides de febrero",
+        "url": "https://www.mppe.gob.ve/efemerides-02/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎓",
+    "tags": [
+      "juventud",
+      "12f",
+      "batalla de la victoria"
+    ],
+    "verificadoEn": "2026-10-01",
+    "destacado": true
+  },
+  {
     "id": "dia-mundial-radio",
     "nombre": "Día Mundial de la Radio",
     "fecha": {
@@ -437,6 +488,32 @@
     ],
     "destacado": true,
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-amor-y-la-amistad-venezuela",
+    "nombre": "Día del Amor y la Amistad",
+    "fecha": {
+      "dia": 14,
+      "mes": 2
+    },
+    "alcance": "venezuela",
+    "categoria": "sociedad",
+    "descripcion": "Fecha en que se celebran el amor y la amistad como valores; el calendario escolar 2025-2026 la registra el 14 de febrero.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio del Poder Popular para la Educación - Calendario Escolar 2025-2026",
+        "url": "https://www.mppe.gob.ve/media/filer_public/ac/b1/acb10dbd-8e86-4cab-9f41-eb59d31734dd/calendario_escolar_2025-2026.pdf",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "💝",
+    "tags": [
+      "san valentin",
+      "enamorados",
+      "amistad"
+    ],
+    "verificadoEn": "2026-10-01",
+    "destacado": true
   },
   {
     "id": "dia-nacional-lucha-cancer-infantil",
@@ -612,6 +689,31 @@
       "reportero grafico"
     ],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-de-la-federacion",
+    "nombre": "Día de la Federación",
+    "fecha": {
+      "dia": 20,
+      "mes": 2
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Conmemora el estallido de la Guerra Federal, iniciada el 20 de febrero de 1859 con la toma del cuartel de Coro.",
+    "fuentes": [
+      {
+        "nombre": "Espromed Bio - Efemérides: Día de la Federación",
+        "url": "https://www.espromedbio.gob.ve/inicio/efemerides-este-martes-se-conmemora-el-dia-de-la-federacion/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "⚔️",
+    "tags": [
+      "guerra federal",
+      "grito de la federacion",
+      "20 de febrero"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-internacional-lengua-materna",
@@ -907,6 +1009,36 @@
     ],
     "destacado": true,
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-de-los-derechos-humanos-venezuela",
+    "nombre": "Día Nacional de los Derechos Humanos",
+    "fecha": {
+      "dia": 27,
+      "mes": 2
+    },
+    "alcance": "venezuela",
+    "categoria": "derechos",
+    "descripcion": "Establecido por decreto presidencial en 2019 para reconstruir la memoria de los sucesos del 27 de febrero de 1989 y promover una cultura de paz.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio del Poder Popular para la Educación - Efemérides de febrero",
+        "url": "https://www.mppe.gob.ve/efemerides-02/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Legis - Decreto N° 3775, G.O. N° 41594 del 26/02/2019",
+        "url": "http://www.legis.com.ve/BancoConocimiento/N/nota_06-03-19-1/nota_06-03-19-1.asp?Miga=1&CodSeccion=25",
+        "tipo": "secundaria"
+      }
+    ],
+    "emoji": "⚖️",
+    "tags": [
+      "derechos humanos",
+      "caracazo",
+      "27f"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-mundial-enfermedades-poco-frecuentes",

@@ -119,6 +119,36 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-de-la-bandera-nacional-venezuela",
+    "nombre": "Día de la Bandera Nacional",
+    "fecha": {
+      "dia": 3,
+      "mes": 8
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Se celebra desde 2006, por el Decreto N° 4.754, en recuerdo de la izada de la bandera tricolor por Francisco de Miranda en La Vela de Coro en 1806.",
+    "fuentes": [
+      {
+        "nombre": "Gaceta Oficial N° 38.504 - Decreto N° 4.754 de 2006 (Pandectas Digital)",
+        "url": "https://pandectasdigital.blogspot.com/2016/08/decreto-mediante-el-cual-se-instituye.html",
+        "tipo": "secundaria"
+      },
+      {
+        "nombre": "MPPS - Efeméride: Día de la Bandera Nacional",
+        "url": "https://mpps.gob.ve/efemeride-dia-de-la-bandera-nacional/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🇻🇪",
+    "tags": [
+      "bandera",
+      "tricolor",
+      "miranda"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-del-panadero",
     "nombre": "Día del Panadero",
     "fecha": {
@@ -137,6 +167,36 @@
     ],
     "emoji": "🥖",
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-guardia-nacional-bolivariana",
+    "nombre": "Día de la Guardia Nacional Bolivariana",
+    "fecha": {
+      "dia": 4,
+      "mes": 8
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Se conmemora la creación de la Guardia Nacional el 4 de agosto de 1937, mediante el Decreto Presidencial N° 19.330.",
+    "fuentes": [
+      {
+        "nombre": "Efemérides - Gobernación del Estado Anzoátegui",
+        "url": "https://anzoategui.gob.ve/anzoategui/efemerides/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "MPPEF - Guardia Nacional Bolivariana celebra 84 años",
+        "url": "https://www.mppef.gob.ve/guardia-nacional-bolivariana-celebra-84-anos-garantizando-la-paz-del-pueblo-y-el-resguardo-a-la-soberania/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎖️",
+    "tags": [
+      "gnb",
+      "guardia nacional",
+      "fanb"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-del-montanista",
@@ -720,6 +780,36 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-bombero-venezuela",
+    "nombre": "Día Nacional del Bombero",
+    "fecha": {
+      "dia": 20,
+      "mes": 8
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Cada 20 de agosto Venezuela rinde honor a los bomberos y bomberas que arriesgan su vida para salvar a los demás.",
+    "fuentes": [
+      {
+        "nombre": "MPPS - Día Nacional del Bombero",
+        "url": "https://mpps.gob.ve/dia-nacional-del-bombero-valientes-guardianes-de-la-salud/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Efemérides - Gobernación del Estado Anzoátegui",
+        "url": "https://anzoategui.gob.ve/anzoategui/efemerides/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🚒",
+    "tags": [
+      "bombero",
+      "bomberos",
+      "cuerpo de bomberos"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-internacional-victimas-terrorismo",
     "nombre": "Día Internacional de Conmemoración y Homenaje a las Víctimas del Terrorismo",
     "fecha": {
@@ -1056,6 +1146,31 @@
     ],
     "emoji": "✊",
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-perro-mucuchies",
+    "nombre": "Día Nacional del Perro Mucuchíes",
+    "fecha": {
+      "dia": 31,
+      "mes": 8
+    },
+    "alcance": "venezuela",
+    "categoria": "animales",
+    "descripcion": "Venezuela dedica el 31 de agosto al perro Mucuchíes.",
+    "fuentes": [
+      {
+        "nombre": "Efemérides - Gobernación del Estado Anzoátegui",
+        "url": "https://anzoategui.gob.ve/anzoategui/efemerides/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🐕",
+    "tags": [
+      "mucuchies",
+      "perro",
+      "raza canina"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-del-nino",

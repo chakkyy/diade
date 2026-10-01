@@ -207,6 +207,30 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "dia-nacional-del-deporte-venezuela",
+    "nombre": "Día Nacional del Deporte",
+    "fecha": {
+      "dia": 6,
+      "mes": 1
+    },
+    "alcance": "venezuela",
+    "categoria": "deporte",
+    "descripcion": "El Ministerio de Educación incluye el Día Nacional del Deporte, el 6 de enero, entre las efemérides de su calendario.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio del Poder Popular para la Educación - Efemérides de enero",
+        "url": "https://www.mppe.gob.ve/efemerides-01/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🏅",
+    "tags": [
+      "deporte nacional",
+      "deportistas"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "navidad-copta-egipto",
     "nombre": "Navidad Copta",
     "fecha": {
@@ -348,6 +372,36 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-titere",
+    "nombre": "Día Nacional del Títere",
+    "fecha": {
+      "dia": 12,
+      "mes": 1
+    },
+    "alcance": "venezuela",
+    "categoria": "cultura",
+    "descripcion": "Día dedicado al arte de los títeres, que el Ministerio de Educación recoge en sus efemérides de enero.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio del Poder Popular para la Educación - Efemérides de enero",
+        "url": "https://www.mppe.gob.ve/efemerides-01/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "VTV - Día Nacional del Títere",
+        "url": "https://vtv.com.ve/dia-nacional-titere-celebra-artesanos-titiriteros-venezolanos/",
+        "tipo": "secundaria"
+      }
+    ],
+    "emoji": "🎭",
+    "tags": [
+      "titeres",
+      "titiriteros",
+      "marionetas"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-coreano-americano-eeuu",
     "nombre": "Korean American Day",
     "fecha": {
@@ -367,6 +421,31 @@
     ],
     "emoji": "🇰🇷",
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-artista-nacional",
+    "nombre": "Día del Artista Nacional",
+    "fecha": {
+      "dia": 13,
+      "mes": 1
+    },
+    "alcance": "venezuela",
+    "categoria": "cultura",
+    "descripcion": "Día que destaca la labor de artistas, cultores, escritores, pintores, creadores y músicos, vivos y fallecidos, según el Ministerio de Cultura.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio del Poder Popular para la Cultura - 13 de enero: Día del Artista Nacional",
+        "url": "https://www.mincultura.gob.ve/noticias/13-de-enero-dia-del-artista-nacional/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎨",
+    "tags": [
+      "artistas",
+      "cultores",
+      "artes"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-defensores-patria-uzbekistan",
@@ -537,6 +616,31 @@
       "roto chileno"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-pediatra-venezuela",
+    "nombre": "Día del Pediatra",
+    "fecha": {
+      "dia": 20,
+      "mes": 1
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Homenaje a los pediatras; la fecha fue escogida en 1939 por el Dr. Gustavo Machado, primer presidente de la Sociedad Venezolana de Pediatría.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio del Poder Popular para la Salud - Día Nacional del Pediatra",
+        "url": "https://mpps.gob.ve/dia-nacional-del-pediatra/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "👶",
+    "tags": [
+      "pediatras",
+      "pediatria",
+      "medicos"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-de-la-altagracia-republica-dominicana",
@@ -805,6 +909,30 @@
       "tolerancia"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-cine-venezuela",
+    "nombre": "Día Nacional del Cine",
+    "fecha": {
+      "dia": 28,
+      "mes": 1
+    },
+    "alcance": "venezuela",
+    "categoria": "cultura",
+    "descripcion": "Se conmemora la primera proyección fílmica en Venezuela, realizada el 28 de enero en el Teatro Baralt de Maracaibo.",
+    "fuentes": [
+      {
+        "nombre": "Asamblea Nacional - Acuerdo con motivo del Día Nacional del Cine",
+        "url": "https://www.asambleanacional.gob.ve/storage/documentos/acto/acuerdo-dia-cine-20210521182313.pdf",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎬",
+    "tags": [
+      "cine venezolano",
+      "cinematografia"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-del-trabajador-social-venezuela",

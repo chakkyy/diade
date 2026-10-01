@@ -305,6 +305,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-obrero-educacional",
+    "nombre": "Día del Obrero Educacional",
+    "fecha": {
+      "dia": 7,
+      "mes": 11
+    },
+    "alcance": "venezuela",
+    "categoria": "educacion",
+    "descripcion": "Efeméride del calendario educativo venezolano que reconoce al personal obrero de las instituciones educativas.",
+    "fuentes": [
+      {
+        "nombre": "MPPE - Efemérides del mes de noviembre",
+        "url": "https://www.mppe.gob.ve/efemerides-11/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🧹",
+    "tags": [
+      "obrero",
+      "personal obrero",
+      "escuela"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-mundial-urbanismo",
     "nombre": "Día Mundial del Urbanismo",
     "fecha": {
@@ -631,6 +656,36 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-del-teatro-venezuela",
+    "nombre": "Día Nacional del Teatro",
+    "fecha": {
+      "dia": 13,
+      "mes": 11
+    },
+    "alcance": "venezuela",
+    "categoria": "cultura",
+    "descripcion": "En 2019 el presidente Nicolás Maduro decretó el 13 de noviembre como Día Nacional del Teatro, por el decreto de Bolívar de 1828 sobre un teatro en Caracas.",
+    "fuentes": [
+      {
+        "nombre": "MPPEF - Venezuela celebra el Día Nacional del Teatro",
+        "url": "https://www.mppef.gob.ve/venezuela-celebra-el-dia-nacional-del-teatro-reivindicando-la-identidad-patriotica/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "MinCultura - Artistas del teatro venezolano celebran su día",
+        "url": "https://www.mincultura.gob.ve/noticias/artistas-del-teatro-venezolano-celebran-su-dia-con-actividades-en-todo-el-pais/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎭",
+    "tags": [
+      "teatro",
+      "artes escenicas",
+      "actores"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-mundial-diabetes",
     "nombre": "Día Mundial de la Diabetes",
     "fecha": {
@@ -809,6 +864,31 @@
       "protección"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-alimentacion-venezuela",
+    "nombre": "Día de la Alimentación",
+    "fecha": {
+      "dia": 18,
+      "mes": 11
+    },
+    "alcance": "venezuela",
+    "categoria": "salud",
+    "descripcion": "Se celebra en Venezuela el 18 de noviembre en conmemoración de la creación del Instituto Nacional de Nutrición en 1951.",
+    "fuentes": [
+      {
+        "nombre": "MPPS - Día de la Alimentación en Venezuela",
+        "url": "https://mpps.gob.ve/dia-de-la-alimentacion-en-venezuela/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🍽️",
+    "tags": [
+      "alimentacion",
+      "nutricion",
+      "instituto nacional de nutricion"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-mundial-del-retrete",
@@ -1012,6 +1092,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-estudiante-universitario",
+    "nombre": "Día del Estudiante Universitario",
+    "fecha": {
+      "dia": 21,
+      "mes": 11
+    },
+    "alcance": "venezuela",
+    "categoria": "educacion",
+    "descripcion": "Se celebra en Venezuela desde el 21 de noviembre de 1958, en recuerdo del alzamiento estudiantil contra la dictadura de Marcos Pérez Jiménez.",
+    "fuentes": [
+      {
+        "nombre": "MPPS - Día del Estudiante Universitario",
+        "url": "https://mpps.gob.ve/dia-del-estudiante-universitario/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎓",
+    "tags": [
+      "universitarios",
+      "estudiantes",
+      "ucv"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-nacional-kimchi-argentina",
     "nombre": "Día Nacional del Kimchi en la Argentina",
     "fecha": {
@@ -1088,6 +1193,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-psicologo-venezuela",
+    "nombre": "Día Nacional del Psicólogo",
+    "fecha": {
+      "dia": 22,
+      "mes": 11
+    },
+    "alcance": "venezuela",
+    "categoria": "salud",
+    "descripcion": "Se celebra en homenaje a los primeros graduados en psicología de la UCV y la UCAB en 1960 y 1961.",
+    "fuentes": [
+      {
+        "nombre": "MPPS - Día Nacional del Psicólogo",
+        "url": "https://mpps.gob.ve/dia-nacional-del-psicologo/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🧠",
+    "tags": [
+      "psicologia",
+      "psicologos",
+      "salud mental"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-nacional-defensa-civil",
     "nombre": "Día Nacional de la Defensa Civil",
     "fecha": {
@@ -1111,6 +1241,31 @@
       "protección"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-transportista",
+    "nombre": "Día Nacional del Transportista",
+    "fecha": {
+      "dia": 23,
+      "mes": 11
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Se celebra cada 23 de noviembre desde 2003, cuando Hugo Chávez realizó el decreto respectivo.",
+    "fuentes": [
+      {
+        "nombre": "MPPS - Día Nacional del Transportista",
+        "url": "https://mpps.gob.ve/dia-nacional-del-transportista/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🚌",
+    "tags": [
+      "transportista",
+      "conductor",
+      "transporte"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-mundial-gemelos-unidos",
@@ -1188,6 +1343,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-de-la-fisioterapia-venezuela",
+    "nombre": "Día Nacional de la Fisioterapia",
+    "fecha": {
+      "dia": 25,
+      "mes": 11
+    },
+    "alcance": "venezuela",
+    "categoria": "salud",
+    "descripcion": "Se conmemora cada 25 de noviembre en Venezuela el Día Nacional de la Fisioterapia.",
+    "fuentes": [
+      {
+        "nombre": "MPPS - Conmemoran Día de la Fisioterapia",
+        "url": "https://mpps.gob.ve/conmemoran-dia-de-la-fisioterapia-con-taller-dirigido-a-pacientes-de-guarico/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🦴",
+    "tags": [
+      "fisioterapeuta",
+      "fisioterapia",
+      "rehabilitacion"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-mundial-transporte-sostenible",
     "nombre": "Día Mundial del Transporte Sostenible",
     "fecha": {
@@ -1263,6 +1443,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-de-la-aviacion-militar-bolivariana",
+    "nombre": "Día de la Aviación Militar Bolivariana",
+    "fecha": {
+      "dia": 27,
+      "mes": 11
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Cada 27 de noviembre se rinde homenaje a quienes defienden el espacio aéreo; desde 2010, por decreto de Hugo Chávez, reemplazó la fecha del 10 de diciembre.",
+    "fuentes": [
+      {
+        "nombre": "Alcaldía de Girardot - Día de la Aviación Militar Bolivariana",
+        "url": "https://www.alcaldiagirardot.gob.ve/index.php?option=com_k2&view=item&id=1887%3Adia-de-la-aviacion-militar-bolivariana&Itemid=559",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "✈️",
+    "tags": [
+      "aviacion militar",
+      "fuerza aerea",
+      "fanb"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-independencia-panama",
     "nombre": "Día de la Independencia de Panamá",
     "fecha": {
@@ -1311,6 +1516,31 @@
       "onu"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-escritor-venezuela",
+    "nombre": "Día del Escritor y de la Escritora",
+    "fecha": {
+      "dia": 29,
+      "mes": 11
+    },
+    "alcance": "venezuela",
+    "categoria": "cultura",
+    "descripcion": "Se celebra en Venezuela el 29 de noviembre, fecha del nacimiento de Andrés Bello en Caracas en 1781.",
+    "fuentes": [
+      {
+        "nombre": "MinCultura - 29 de Noviembre: Día del escritor y de la escritora",
+        "url": "https://www.mincultura.gob.ve/eventos/29-de-noviembre-dia-del-escritor-y-de-la-escritora-en-venezuela/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "✍️",
+    "tags": [
+      "escritores",
+      "literatura",
+      "andres bello"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-nacional-del-mate",

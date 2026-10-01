@@ -575,6 +575,66 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "dia-nacional-del-defensor-publico",
+    "nombre": "Día Nacional del Defensor Público",
+    "fecha": {
+      "dia": 16,
+      "mes": 7
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Venezuela celebra a los defensores públicos; el día fue decretado por el antiguo Consejo de la Judicatura en sesión plenaria del 14 de marzo de 1984.",
+    "fuentes": [
+      {
+        "nombre": "MPPEF - Venezuela celebra el Día del Defensor Público",
+        "url": "https://www.mppef.gob.ve/venezuela-celebra-el-dia-del-defensor-publico-hombres-y-mujeres-que-velan-por-los-derechos-humanos-del-pueblo/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Efemérides - Gobernación del Estado Anzoátegui",
+        "url": "https://anzoategui.gob.ve/anzoategui/efemerides/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "⚖️",
+    "tags": [
+      "defensor publico",
+      "defensoria",
+      "abogados"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "dia-nacional-del-policia-venezuela",
+    "nombre": "Día Nacional del Policía",
+    "fecha": {
+      "dia": 16,
+      "mes": 7
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Venezuela conmemora cada 16 de julio a los funcionarios policiales, en honor a la Virgen del Carmen, patrona de la policía venezolana, desde 1944.",
+    "fuentes": [
+      {
+        "nombre": "MPPEF - Día del Policía",
+        "url": "https://www.mppef.gob.ve/dia-del-policia-heroes-y-heroinas-que-resguardan-y-garantizan-la-seguridad-del-pueblo/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Efemérides - Gobernación del Estado Anzoátegui",
+        "url": "https://anzoategui.gob.ve/anzoategui/efemerides/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "👮",
+    "tags": [
+      "policia",
+      "funcionario policial",
+      "seguridad"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-constitucion-corea-del-sur",
     "nombre": "Día de la Constitución de Corea del Sur",
     "fecha": {
@@ -834,6 +894,36 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-medico-veterinario-venezuela",
+    "nombre": "Día del Médico Veterinario",
+    "fecha": {
+      "dia": 21,
+      "mes": 7
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Venezuela celebra el Día del Médico Veterinario cada 21 de julio.",
+    "fuentes": [
+      {
+        "nombre": "FM UC 104.5 - Colegio de Médicos Veterinarios: 80 años de compromiso con Venezuela",
+        "url": "https://fm.uc.edu.ve/2026/07/23/colegio-de-medicos-veterinarios-80-anos-de-compromiso-con-venezuela/08/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Efemérides - Gobernación del Estado Anzoátegui",
+        "url": "https://anzoategui.gob.ve/anzoategui/efemerides/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🐾",
+    "tags": [
+      "veterinario",
+      "medicina veterinaria",
+      "colegio de medicos veterinarios"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-internacional-del-trabajo-domestico",
     "nombre": "Día Internacional del Trabajo Doméstico",
     "fecha": {
@@ -899,6 +989,36 @@
       "santo"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-armada-venezolana",
+    "nombre": "Día de la Armada Venezolana",
+    "fecha": {
+      "dia": 24,
+      "mes": 7
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Se conmemora la Armada Venezolana el 24 de julio, fecha de la Batalla Naval del Lago de Maracaibo de 1823.",
+    "fuentes": [
+      {
+        "nombre": "MPPPST - Día de la Armada Venezolana",
+        "url": "https://www.mpppst.gob.ve/mpppstweb/index.php/2020/07/24/dia-de-la-armada-venezolana-defensores-de-la-soberania-maritima-de-la-patria/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Efemérides - Gobernación del Estado Anzoátegui",
+        "url": "https://anzoategui.gob.ve/anzoategui/efemerides/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "⚓",
+    "tags": [
+      "armada",
+      "batalla naval del lago",
+      "marina"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-internacional-mujeres-ninas-afrodescendientes",
@@ -1009,6 +1129,37 @@
       "ciencias sociales"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-bibliotecologo-y-archivologo",
+    "nombre": "Día Nacional del Bibliotecólogo y Archivólogo",
+    "fecha": {
+      "dia": 27,
+      "mes": 7
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Venezuela rinde tributo cada 27 de julio a quienes trabajan en bibliotecas y centros de documentación, por el Decreto N° 1.564 de 1982.",
+    "fuentes": [
+      {
+        "nombre": "IDEA - Efemérides de julio 2024",
+        "url": "https://idea.gob.ve/index.php/2024/07/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Efemérides - Gobernación del Estado Anzoátegui",
+        "url": "https://anzoategui.gob.ve/anzoategui/efemerides/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📚",
+    "tags": [
+      "bibliotecologo",
+      "archivologo",
+      "bibliotecas",
+      "archivos"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-mundial-contra-la-hepatitis",
@@ -1158,5 +1309,31 @@
       "economía social"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-nino-venezuela",
+    "nombre": "Día del Niño",
+    "fecha": {
+      "mes": 7,
+      "ordinal": 3,
+      "diaSemana": 0
+    },
+    "alcance": "venezuela",
+    "categoria": "familia",
+    "descripcion": "En Venezuela, cada tercer domingo de julio se celebra el Día del Niño, para reafirmar los derechos de la niñez.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio de Cultura - Día del Niño en Venezuela",
+        "url": "https://www.mincultura.gob.ve/eventos/dia-del-nino-en-venezuela/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🧒",
+    "tags": [
+      "ninos",
+      "ninez",
+      "dia de los ninos"
+    ],
+    "verificadoEn": "2026-10-01"
   }
 ]

@@ -460,6 +460,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-de-guaicaipuro",
+    "nombre": "Día Nacional de Guaicaipuro, Cacicas y Caciques Heroicos",
+    "fecha": {
+      "dia": 8,
+      "mes": 12
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Se recuerda el 8 de diciembre a Guaicaipuro y a las cacicas y caciques heroicos de la resistencia indígena.",
+    "fuentes": [
+      {
+        "nombre": "MPPE - Efemérides del mes de diciembre",
+        "url": "https://www.mppe.gob.ve/efemerides-12/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🏹",
+    "tags": [
+      "guaicaipuro",
+      "caciques",
+      "resistencia indigena"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-internacional-contra-la-corrupcion",
     "nombre": "Día Internacional contra la Corrupción",
     "fecha": {
@@ -857,6 +882,31 @@
       "transporte de cargas"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-poder-popular-constituyente",
+    "nombre": "Día del Poder Popular Constituyente",
+    "fecha": {
+      "dia": 15,
+      "mes": 12
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Se celebra el 15 de diciembre desde 2014, en referencia a la aprobación de la Constitución de 1999.",
+    "fuentes": [
+      {
+        "nombre": "Alcaldía de Independencia - Día del Poder Popular Constituyente",
+        "url": "https://alcaldiadeindependencia.gob.ve/2018/12/18/en-venezuela-se-celebro-el-pasado-15-de-diciembre-el-dia-del-poder-popular-constituyente/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📜",
+    "tags": [
+      "constitucion",
+      "poder popular",
+      "constituyente"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-reconciliacion-sudafrica",

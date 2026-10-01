@@ -128,6 +128,31 @@
     "emoji": "🕊️"
   },
   {
+    "id": "dia-del-optometrista-venezuela",
+    "nombre": "Día del Optometrista",
+    "fecha": {
+      "dia": 4,
+      "mes": 6
+    },
+    "alcance": "venezuela",
+    "categoria": "salud",
+    "descripcion": "Cada 4 de junio se celebra a los optometristas, profesionales de la salud visual.",
+    "fuentes": [
+      {
+        "nombre": "MPPS - Celebrando la labor de los optometristas en Venezuela",
+        "url": "https://mpps.gob.ve/celebrando-la-labor-de-los-optometristas-en-venezuela/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "👓",
+    "tags": [
+      "optometra",
+      "vista",
+      "salud visual"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-internacional-contra-la-pesca-ilegal",
     "nombre": "Día Internacional de la Lucha contra la Pesca Ilegal, No Declarada y No Reglamentada",
     "fecha": {
@@ -673,6 +698,36 @@
     "emoji": "📖"
   },
   {
+    "id": "dia-del-orientador-y-la-orientadora",
+    "nombre": "Día del Orientador y la Orientadora",
+    "fecha": {
+      "dia": 17,
+      "mes": 6
+    },
+    "alcance": "venezuela",
+    "categoria": "educacion",
+    "descripcion": "El 17 de junio figura en las efemérides del Ministerio de Educación como Día del Orientador y la Orientadora de Venezuela.",
+    "fuentes": [
+      {
+        "nombre": "MPPE - Efemérides del mes de junio",
+        "url": "https://www.mppe.gob.ve/efemerides-06/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "MPPPST - 17 de Junio: Día del Orientador y la Orientadora en Venezuela",
+        "url": "https://www.mpppst.gob.ve/mpppstweb/index.php/2025/06/17/17-de-junio-dia-del-orientador-y-la-orientadora-en-venezuela-vocacion-al-servicio-del-desarrollo-productivo-nacional/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🧭",
+    "tags": [
+      "orientador",
+      "orientacion escolar",
+      "docente"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-internacional-para-contrarrestar-el-discurso-de-odio",
     "nombre": "Día Internacional para Contrarrestar el Discurso de Odio",
     "fecha": {
@@ -951,6 +1006,31 @@
     "emoji": "🏛️"
   },
   {
+    "id": "dia-del-abogado-venezuela",
+    "nombre": "Día Nacional del Abogado",
+    "fecha": {
+      "dia": 23,
+      "mes": 6
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Cada 23 de junio se celebra a los abogados; se estableció como Día Nacional del Abogado mediante decreto de 1972 del presidente Rafael Caldera.",
+    "fuentes": [
+      {
+        "nombre": "Universidad de Carabobo - Día del Abogado en Venezuela",
+        "url": "https://viceacademico.uc.edu.ve/efemerides/abogado",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "⚖️",
+    "tags": [
+      "abogado",
+      "derecho",
+      "cristobal mendoza"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-internacional-de-las-mujeres-en-la-diplomacia",
     "nombre": "Día Internacional de las Mujeres en la Diplomacia",
     "fecha": {
@@ -969,6 +1049,31 @@
     ],
     "verificadoEn": "2026-09-11",
     "emoji": "🕊️"
+  },
+  {
+    "id": "dia-del-ejercito-bolivariano",
+    "nombre": "Día del Ejército Bolivariano",
+    "fecha": {
+      "dia": 24,
+      "mes": 6
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Cada 24 de junio se celebra al Ejército, decretado por mandato presidencial desde 1949 como Día del Ejército Nacional en honor a los caídos de Carabobo.",
+    "fuentes": [
+      {
+        "nombre": "Vicepresidencia - 24 de junio: Día del Ejército Bolivariano",
+        "url": "https://vicepresidencia.gob.ve/especial-24-de-junio-dia-del-ejercito-bolivariano-punta-de-lanza-de-la-fuerza-armada-nacional-bolivariana/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🪖",
+    "tags": [
+      "ejercito",
+      "carabobo",
+      "fuerza armada"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-del-marino",
@@ -1101,6 +1206,31 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "dia-nacional-del-periodista-venezuela",
+    "nombre": "Día Nacional del Periodista",
+    "fecha": {
+      "dia": 27,
+      "mes": 6
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Cada 27 de junio se celebra al periodista venezolano en memoria del Correo del Orinoco de 1818, fecha fijada por la Ley de Ejercicio del Periodismo.",
+    "fuentes": [
+      {
+        "nombre": "Colegio Nacional de Periodistas - Historia",
+        "url": "https://cnpven.org/historia/",
+        "tipo": "asociacion"
+      }
+    ],
+    "emoji": "📰",
+    "tags": [
+      "periodista",
+      "prensa",
+      "correo del orinoco"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-internacional-orgullo-lgbtiq",
     "nombre": "Día Internacional del Orgullo LGBTIQ+",
     "fecha": {
@@ -1124,6 +1254,31 @@
       "diversidad"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-telecomunicador",
+    "nombre": "Día del Telecomunicador",
+    "fecha": {
+      "dia": 28,
+      "mes": 6
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Cada 28 de junio se celebra el Día del Telecomunicador, conocido antes como Día del Telefonista.",
+    "fuentes": [
+      {
+        "nombre": "CONATI - 28 de junio: Día del Telecomunicador",
+        "url": "https://www.conati.gob.ve/index.php/28-de-junio-dia-del-telecomunicador-una-fecha-para-celebrar-la-modernizacion/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "📡",
+    "tags": [
+      "telecomunicaciones",
+      "telefonista",
+      "telecomunicador"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-internacional-de-los-tropicos",
@@ -1278,6 +1433,38 @@
       "dia de los padres"
     ],
     "verificadoEn": "2026-09-30",
+    "destacado": true
+  },
+  {
+    "id": "dia-del-padre-venezuela",
+    "nombre": "Día del Padre",
+    "fecha": {
+      "mes": 6,
+      "ordinal": 3,
+      "diaSemana": 0
+    },
+    "alcance": "venezuela",
+    "categoria": "familia",
+    "descripcion": "Se celebra el tercer domingo de junio en honor a los padres venezolanos.",
+    "fuentes": [
+      {
+        "nombre": "MINEC - El Día del Padre en Venezuela",
+        "url": "https://www.minec.gob.ve/el-dia-del-padre-en-venezuela-homenaje-al-amor-la-guia-y-la-evolucion-del-rol-paterno-en-el-hogar/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "MPPPST - Día del Padre",
+        "url": "https://www.mpppst.gob.ve/mpppstweb/index.php/2024/06/16/dia-del-padre/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "👨‍👧",
+    "tags": [
+      "padres",
+      "papa",
+      "dia de los padres"
+    ],
+    "verificadoEn": "2026-10-01",
     "destacado": true
   }
 ]

@@ -459,6 +459,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-medico-venezuela",
+    "nombre": "Día del Médico",
+    "fecha": {
+      "dia": 10,
+      "mes": 3
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "Se celebra en tributo al natalicio del Dr. José María Vargas; la Federación Médica Venezolana estableció la fecha en 1955.",
+    "fuentes": [
+      {
+        "nombre": "Telecom Venezuela - 10 de marzo: Natalicio del Dr. José María Vargas / Día del Médico",
+        "url": "https://telecom.gob.ve/10-de-marzonatalicio-del-dr-jose-maria-vargas-dia-del-medico/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🩺",
+    "tags": [
+      "medicos",
+      "jose maria vargas",
+      "medicina"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-nacional-violencia-genero-medios",
     "nombre": "Día Nacional de la Lucha contra la Violencia de Género en los Medios de Comunicación",
     "fecha": {
@@ -506,6 +531,31 @@
     ],
     "destacado": true,
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-profesor-de-educacion-fisica-venezuela",
+    "nombre": "Día del Profesor de Educación Física",
+    "fecha": {
+      "dia": 12,
+      "mes": 3
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "El calendario escolar 2025-2026 registra el 12 de marzo como Día del Profesor de Educación Física.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio del Poder Popular para la Educación - Calendario Escolar 2025-2026",
+        "url": "https://www.mppe.gob.ve/media/filer_public/ac/b1/acb10dbd-8e86-4cab-9f41-eb59d31734dd/calendario_escolar_2025-2026.pdf",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🤸",
+    "tags": [
+      "educacion fisica",
+      "docentes",
+      "profesores"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-nacional-no-violencia-ninez-guatemala",
@@ -748,6 +798,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-nacional-de-la-nina-y-el-nino-indigena",
+    "nombre": "Día Nacional de la Niña y el Niño Indígena",
+    "fecha": {
+      "dia": 18,
+      "mes": 3
+    },
+    "alcance": "venezuela",
+    "categoria": "sociedad",
+    "descripcion": "Se celebra cada 18 de marzo desde 2006, en reconocimiento a las niñas y los niños de los pueblos indígenas del país.",
+    "fuentes": [
+      {
+        "nombre": "Asamblea Nacional - AN celebra Día Nacional de la Niña y el Niño Indígena",
+        "url": "https://www.asambleanacional.gob.ve/noticias/an-celebra-dia-nacional-de-la-nina-y-el-nino-indigena",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🧒",
+    "tags": [
+      "ninos indigenas",
+      "pueblos indigenas",
+      "infancia"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-del-artesano-y-el-carpintero",
     "nombre": "Día del Artesano y el Carpintero",
     "fecha": {
@@ -826,6 +901,36 @@
       "ley emiliani"
     ],
     "verificadoEn": "2026-09-30"
+  },
+  {
+    "id": "dia-nacional-de-la-llaneridad",
+    "nombre": "Día Nacional de la Llaneridad",
+    "fecha": {
+      "dia": 19,
+      "mes": 3
+    },
+    "alcance": "venezuela",
+    "categoria": "cultura",
+    "descripcion": "Día de la llaneridad reconocido por decreto presidencial N° 2.759 de 2017, por su valor nacionalista e identidad nacional.",
+    "fuentes": [
+      {
+        "nombre": "Asamblea Nacional - Piden a Comisión de Cultura declarar el 19 de marzo como Día de la Llaneridad",
+        "url": "https://www.asambleanacional.gob.ve/noticias/piden-a-comision-de-cultura-declarar-el-19-de-marzo-como-dia-de-la-llaneridad",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "Ministerio del Poder Popular para la Educación - Calendario Escolar 2025-2026",
+        "url": "https://www.mppe.gob.ve/media/filer_public/ac/b1/acb10dbd-8e86-4cab-9f41-eb59d31734dd/calendario_escolar_2025-2026.pdf",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🐎",
+    "tags": [
+      "llanero",
+      "llanos",
+      "elorza"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-internacional-de-la-felicidad",
@@ -1332,6 +1437,30 @@
     ],
     "emoji": "🍎",
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-nacional-del-patrimonio-cultural-venezuela",
+    "nombre": "Día Nacional del Patrimonio Cultural",
+    "fecha": {
+      "dia": 28,
+      "mes": 3
+    },
+    "alcance": "venezuela",
+    "categoria": "cultura",
+    "descripcion": "Instituido en 2004 para honrar cada 28 de marzo el natalicio de Francisco de Miranda.",
+    "fuentes": [
+      {
+        "nombre": "Ministerio del Poder Popular para la Salud - Día Nacional del Patrimonio Cultural",
+        "url": "https://mpps.gob.ve/dia-nacional-del-patrimonio-cultural/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🏛️",
+    "tags": [
+      "patrimonio",
+      "francisco de miranda"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-veteranos-guerra-vietnam",

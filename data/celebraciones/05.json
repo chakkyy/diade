@@ -57,6 +57,36 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "dia-del-trabajador-venezuela",
+    "nombre": "Día del Trabajador y la Trabajadora",
+    "fecha": {
+      "dia": 1,
+      "mes": 5
+    },
+    "alcance": "venezuela",
+    "categoria": "profesion",
+    "descripcion": "El 1 de mayo se celebra en Venezuela el Día del Trabajador y la Trabajadora, con movilizaciones de la clase obrera.",
+    "fuentes": [
+      {
+        "nombre": "Vicepresidencia - Día del Trabajador y la Trabajadora",
+        "url": "https://vicepresidencia.gob.ve/dia-del-trabajador-y-la-trabajadora-venezuela-levanta-las-banderas-de-los-derechos-sociales-y-laborales/",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "MPPS - Día Internacional del Trabajador",
+        "url": "https://mpps.gob.ve/pueblo-bolivariano-conmemora-el-dia-internacional-del-trabajador/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "👷",
+    "tags": [
+      "trabajadores",
+      "primero de mayo",
+      "obreros"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-mundial-del-atun",
     "nombre": "Día Mundial del Atún",
     "fecha": {
@@ -129,6 +159,36 @@
       "libertad de expresión"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-cruz-de-mayo",
+    "nombre": "Día de la Cruz de Mayo",
+    "fecha": {
+      "dia": 3,
+      "mes": 5
+    },
+    "alcance": "venezuela",
+    "categoria": "religion",
+    "descripcion": "Cada 3 de mayo se celebra la Cruz de Mayo, expresión de la espiritualidad venezolana que se festeja en todo el país.",
+    "fuentes": [
+      {
+        "nombre": "Asamblea Nacional - Parlamento Nacional celebra Día de la Cruz de Mayo",
+        "url": "https://www.asambleanacional.gob.ve/noticias/parlamento-nacional-celebra-dia-de-la-cruz-de-mayo",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "MinCultura - 3 de Mayo día de la Cruz de Mayo",
+        "url": "https://www.mincultura.gob.ve/eventos/3-de-mayo-dia-de-la-cruz-de-mayo-en-todos-los-rincones-del-pais/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "✝️",
+    "tags": [
+      "cruz de mayo",
+      "velorio de cruz",
+      "tradicion"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-internacional-del-bombero",
@@ -377,6 +437,61 @@
     "verificadoEn": "2026-09-30"
   },
   {
+    "id": "dia-nacional-de-la-afrovenezolanidad",
+    "nombre": "Día Nacional de la Afrovenezolanidad",
+    "fecha": {
+      "dia": 10,
+      "mes": 5
+    },
+    "alcance": "venezuela",
+    "categoria": "sociedad",
+    "descripcion": "El 10 de mayo se conmemora la afrovenezolanidad; la Asamblea Nacional lo recuerda cada año mediante un acuerdo aprobado por unanimidad.",
+    "fuentes": [
+      {
+        "nombre": "Asamblea Nacional - AN conmemora Día Nacional de la Afrovenezolanidad",
+        "url": "https://www.asambleanacional.gob.ve/noticias/an-conmemora-dia-nacional-de-la-afrovenezolanidad",
+        "tipo": "institucional"
+      },
+      {
+        "nombre": "MPPE - Efemérides del mes de mayo",
+        "url": "https://www.mppe.gob.ve/efemerides-05/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "✊🏿",
+    "tags": [
+      "afrodescendientes",
+      "afrovenezolano",
+      "chirino"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
+    "id": "dia-nacional-del-artista-plastico",
+    "nombre": "Día Nacional del Artista Plástico",
+    "fecha": {
+      "dia": 10,
+      "mes": 5
+    },
+    "alcance": "venezuela",
+    "categoria": "cultura",
+    "descripcion": "El 10 de mayo figura en las efemérides del Ministerio de Educación como Día Nacional del Artista Plástico.",
+    "fuentes": [
+      {
+        "nombre": "MPPE - Efemérides del mes de mayo",
+        "url": "https://www.mppe.gob.ve/efemerides-05/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎨",
+    "tags": [
+      "artista plastico",
+      "artes visuales",
+      "pintor"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-del-himno-nacional-argentino",
     "nombre": "Día del Himno Nacional Argentino",
     "fecha": {
@@ -474,6 +589,31 @@
       "casa de la independencia"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-de-la-dramaturgia-venezolana",
+    "nombre": "Día de la Dramaturgia Venezolana",
+    "fecha": {
+      "dia": 14,
+      "mes": 5
+    },
+    "alcance": "venezuela",
+    "categoria": "cultura",
+    "descripcion": "El 14 de mayo figura en las efemérides del Ministerio de Educación como Día de la Dramaturgia Venezolana.",
+    "fuentes": [
+      {
+        "nombre": "MPPE - Efemérides del mes de mayo",
+        "url": "https://www.mppe.gob.ve/efemerides-05/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎭",
+    "tags": [
+      "dramaturgia",
+      "teatro",
+      "dramaturgo"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-internacional-familias",
@@ -621,6 +761,31 @@
       "óptica"
     ],
     "verificadoEn": "2026-09-11"
+  },
+  {
+    "id": "dia-del-compositor-venezolano",
+    "nombre": "Día del Compositor Venezolano",
+    "fecha": {
+      "dia": 16,
+      "mes": 5
+    },
+    "alcance": "venezuela",
+    "categoria": "cultura",
+    "descripcion": "Cada 16 de mayo se celebra al compositor venezolano, fecha establecida en 1955 con la fundación de la Sociedad de Autores y Compositores de Venezuela.",
+    "fuentes": [
+      {
+        "nombre": "MinCultura - 16 de Mayo de 1955: Se instaura el Día del Compositor Venezolano",
+        "url": "https://www.mincultura.gob.ve/eventos/16-de-mayo-de-1955-se-instaura-el-dia-del-compositor-venezolano/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎼",
+    "tags": [
+      "compositor",
+      "musica",
+      "sacven"
+    ],
+    "verificadoEn": "2026-10-01"
   },
   {
     "id": "dia-mundial-telecomunicaciones",
@@ -998,6 +1163,31 @@
     "verificadoEn": "2026-09-11"
   },
   {
+    "id": "dia-del-himno-nacional-venezuela",
+    "nombre": "Día del Himno Nacional",
+    "fecha": {
+      "dia": 25,
+      "mes": 5
+    },
+    "alcance": "venezuela",
+    "categoria": "historia",
+    "descripcion": "Cada 25 de mayo se recuerda que en 1881 el presidente Guzmán Blanco elevó Gloria al Bravo Pueblo a la categoría de símbolo patrio.",
+    "fuentes": [
+      {
+        "nombre": "MPPPST - Día del Himno Nacional",
+        "url": "https://www.mpppst.gob.ve/mpppstweb/index.php/2025/05/28/dia-del-himno-nacional-un-canto-a-la-identidad-y-la-soberania-venezolana/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "🎶",
+    "tags": [
+      "himno",
+      "gloria al bravo pueblo",
+      "simbolos patrios"
+    ],
+    "verificadoEn": "2026-10-01"
+  },
+  {
     "id": "dia-visitador-medico",
     "nombre": "Día del Visitador Médico",
     "fecha": {
@@ -1286,6 +1476,33 @@
       "madres"
     ],
     "verificadoEn": "2026-09-30",
+    "destacado": true
+  },
+  {
+    "id": "dia-de-la-madre-venezuela",
+    "nombre": "Día de la Madre",
+    "fecha": {
+      "mes": 5,
+      "ordinal": 2,
+      "diaSemana": 0
+    },
+    "alcance": "venezuela",
+    "categoria": "familia",
+    "descripcion": "Se celebra el segundo domingo de mayo en honor a las madres venezolanas.",
+    "fuentes": [
+      {
+        "nombre": "MPPS - Madres venezolanas, insignes luchadoras de la Patria",
+        "url": "https://mpps.gob.ve/madres-venezolanas-insignes-luchadoras-de-la-patria/",
+        "tipo": "institucional"
+      }
+    ],
+    "emoji": "💐",
+    "tags": [
+      "madres",
+      "mama",
+      "dia de las madres"
+    ],
+    "verificadoEn": "2026-10-01",
     "destacado": true
   }
 ]
